@@ -1,0 +1,502 @@
+/*!
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+type IDateTimeFormatPartKeys =
+  | keyof Intl.DateTimeFormatOptions
+  | 'dayperiod' // Chromium bug going to be fixed in Electron 5
+  | 'dayPeriod';
+
+interface ITranslationItem {
+  symbol: string | string[];
+  intl: {
+    options: Intl.DateTimeFormatOptions;
+    part: IDateTimeFormatPartKeys | IDateTimeFormatPartKeys[];
+  };
+}
+
+interface ITranslationMap {
+  [key: string]: ITranslationItem;
+}
+
+interface ITranslationMaps {
+  [os: string]: ITranslationMap;
+}
+
+const windowsTime: ITranslationMap = {
+  hh: {
+    symbol: 'hh',
+    intl: {
+      options: {
+        hour12: true,
+        hour: '2-digit'
+      },
+      part: 'hour'
+    }
+  },
+  h: {
+    symbol: 'h',
+    intl: {
+      options: {
+        hour12: true,
+        hour: 'numeric'
+      },
+      part: 'hour'
+    }
+  },
+  HH: {
+    symbol: 'HH',
+    intl: {
+      options: {
+        hour12: false,
+        hour: '2-digit'
+      },
+      part: 'hour'
+    }
+  },
+  H: {
+    symbol: 'H',
+    intl: {
+      options: {
+        hour12: false,
+        hour: 'numeric'
+      },
+      part: 'hour'
+    }
+  },
+  mm: {
+    symbol: 'mm',
+    intl: {
+      options: {
+        minute: '2-digit'
+      },
+      part: 'minute'
+    }
+  },
+  m: {
+    symbol: 'm',
+    intl: {
+      options: {
+        minute: 'numeric'
+      },
+      part: 'minute'
+    }
+  },
+  ss: {
+    symbol: 'ss',
+    intl: {
+      options: {
+        second: '2-digit'
+      },
+      part: 'second'
+    }
+  },
+  s: {
+    symbol: 's',
+    intl: {
+      options: {
+        second: 'numeric'
+      },
+      part: 'second'
+    }
+  },
+  period: {
+    symbol: ['t', 'tt'],
+    intl: {
+      options: {
+        hour12: true,
+        hour: 'numeric'
+      },
+      part: ['dayPeriod', 'dayperiod']
+    }
+  }
+};
+
+const macTime: ITranslationMap = {
+  a: {
+    symbol: 'a',
+    intl: {
+      options: {
+        hour12: true,
+        hour: 'numeric'
+      },
+      part: ['dayPeriod', 'dayperiod']
+    }
+  },
+  h: {
+    symbol: 'h',
+    intl: {
+      options: {
+        hour12: true,
+        hour: 'numeric'
+      },
+      part: 'hour'
+    }
+  },
+  hh: {
+    symbol: 'hh',
+    intl: {
+      options: {
+        hour12: true,
+        hour: '2-digit'
+      },
+      part: 'hour'
+    }
+  },
+  H: {
+    symbol: 'H',
+    intl: {
+      options: {
+        hour12: false,
+        hour: 'numeric'
+      },
+      part: 'hour'
+    }
+  },
+  HH: {
+    symbol: 'HH',
+    intl: {
+      options: {
+        hour12: false,
+        hour: '2-digit'
+      },
+      part: 'hour'
+    }
+  },
+  m: {
+    symbol: 'm',
+    intl: {
+      options: {
+        minute: 'numeric'
+      },
+      part: 'minute'
+    }
+  },
+  mm: {
+    symbol: 'mm',
+    intl: {
+      options: {
+        minute: '2-digit'
+      },
+      part: 'minute'
+    }
+  },
+  s: {
+    symbol: 's',
+    intl: {
+      options: {
+        second: 'numeric'
+      },
+      part: 'second'
+    }
+  },
+  ss: {
+    symbol: 'ss',
+    intl: {
+      options: {
+        second: '2-digit'
+      },
+      part: 'second'
+    }
+  },
+  'zone-short': {
+    symbol: ['z', 'zz', 'zzz', 'Z', 'ZZ', 'ZZZ', 'ZZZZ', 'ZZZZZ', 'O', 'OOOO'],
+    intl: {
+      options: {
+        timeZoneName: 'short'
+      },
+      part: 'timeZoneName'
+    }
+  },
+  'zone-long': {
+    symbol: ['zzzz', 'v', 'vvvv', 'VV', 'VVV', 'VVVV'],
+    intl: {
+      options: {
+        timeZoneName: 'long'
+      },
+      part: 'timeZoneName'
+    }
+  }
+};
+
+const timeTranslationMaps: ITranslationMaps = {};
+timeTranslationMaps.windows = windowsTime;
+timeTranslationMaps.mac = macTime;
+
+const windowsDate: ITranslationMap = {
+  d: {
+    symbol: 'd',
+    intl: {
+      options: {
+        day: 'numeric'
+      },
+      part: 'day'
+    }
+  },
+  dd: {
+    symbol: 'dd',
+    intl: {
+      options: {
+        day: '2-digit'
+      },
+      part: 'day'
+    }
+  },
+  ddd: {
+    symbol: 'ddd',
+    intl: {
+      options: {
+        weekday: 'short'
+      },
+      part: 'weekday'
+    }
+  },
+  dddd: {
+    symbol: 'dddd',
+    intl: {
+      options: {
+        weekday: 'long'
+      },
+      part: 'weekday'
+    }
+  },
+  M: {
+    symbol: 'M',
+    intl: {
+      options: {
+        month: 'numeric'
+      },
+      part: 'month'
+    }
+  },
+  MM: {
+    symbol: 'MM',
+    intl: {
+      options: {
+        month: '2-digit'
+      },
+      part: 'month'
+    }
+  },
+  MMM: {
+    symbol: 'MMM',
+    intl: {
+      options: {
+        month: 'short'
+      },
+      part: 'month'
+    }
+  },
+  MMMM: {
+    symbol: 'MMMM',
+    intl: {
+      options: {
+        month: 'long'
+      },
+      part: 'month'
+    }
+  },
+  'year-short': {
+    symbol: ['y', 'yy'],
+    intl: {
+      options: {
+        year: '2-digit'
+      },
+      part: 'year'
+    }
+  },
+  'year-long': {
+    symbol: ['yyyy', 'yyyyy'],
+    intl: {
+      options: {
+        year: 'numeric'
+      },
+      part: 'year'
+    }
+  },
+  era: {
+    symbol: ['g', 'gg'],
+    intl: {
+      options: {
+        era: 'narrow'
+      },
+      part: 'era'
+    }
+  }
+};
+
+const macDate: ITranslationMap = {
+  'era-short': {
+    symbol: ['G', 'GG', 'GGG'],
+    intl: {
+      options: {
+        era: 'short'
+      },
+      part: 'era'
+    }
+  },
+  GGGG: {
+    symbol: 'GGGG',
+    intl: {
+      options: {
+        era: 'long'
+      },
+      part: 'era'
+    }
+  },
+  GGGGG: {
+    symbol: 'GGGG',
+    intl: {
+      options: {
+        era: 'narrow'
+      },
+      part: 'era'
+    }
+  },
+  'year-numeric': {
+    symbol: [
+      'y',
+      'yyy',
+      'yyyy',
+      'yyyyy',
+      'Y',
+      'YYY',
+      'YYYY',
+      'YYYYY',
+      'u',
+      'uuu',
+      'uuuu',
+      'uuuuu'
+    ],
+    intl: {
+      options: {
+        year: 'numeric'
+      },
+      part: 'year'
+    }
+  },
+  'year-short': {
+    symbol: ['yy', 'YY', 'uu'],
+    intl: {
+      options: {
+        year: '2-digit'
+      },
+      part: 'year'
+    }
+  },
+  'month-numeric': {
+    symbol: ['M', 'L'],
+    intl: {
+      options: {
+        month: 'numeric'
+      },
+      part: 'month'
+    }
+  },
+  'month-2-digit': {
+    symbol: ['MM', 'LL'],
+    intl: {
+      options: {
+        month: '2-digit'
+      },
+      part: 'month'
+    }
+  },
+  'month-short': {
+    symbol: ['MMM', 'LLL'],
+    intl: {
+      options: {
+        month: 'short'
+      },
+      part: 'month'
+    }
+  },
+  'month-long': {
+    symbol: ['MMMM', 'LLLL'],
+    intl: {
+      options: {
+        month: 'long'
+      },
+      part: 'month'
+    }
+  },
+  'month-narrow': {
+    symbol: ['MMMMM', 'LLLLL'],
+    intl: {
+      options: {
+        month: 'narrow'
+      },
+      part: 'month'
+    }
+  },
+  d: {
+    symbol: 'd',
+    intl: {
+      options: {
+        day: 'numeric'
+      },
+      part: 'day'
+    }
+  },
+  dd: {
+    symbol: 'dd',
+    intl: {
+      options: {
+        day: '2-digit'
+      },
+      part: 'day'
+    }
+  },
+  'weekday-long': {
+    symbol: [
+      'E',
+      'EE',
+      'EEE',
+      'EEEE',
+      'e',
+      'ee',
+      'eee',
+      'eeee',
+      'c',
+      'cc',
+      'ccc',
+      'cccc'
+    ],
+    intl: {
+      options: {
+        weekday: 'long'
+      },
+      part: 'weekday'
+    }
+  },
+  'weekday-narrow': {
+    symbol: ['EEEEE', 'eeeee', 'ccccc'],
+    intl: {
+      options: {
+        weekday: 'narrow'
+      },
+      part: 'weekday'
+    }
+  },
+  'weekday-short': {
+    symbol: ['EEEEEE', 'eeeeee', 'cccccc'],
+    intl: {
+      options: {
+        weekday: 'short'
+      },
+      part: 'weekday'
+    }
+  }
+};
+
+const dateTranslationMaps: ITranslationMaps = {};
+dateTranslationMaps.windows = windowsDate;
+dateTranslationMaps.mac = macDate;
+
+export {
+  timeTranslationMaps,
+  dateTranslationMaps,
+  IDateTimeFormatPartKeys,
+  ITranslationMap
+};
