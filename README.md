@@ -3,6 +3,13 @@
 Provides localization services for Electron and the browser.
 Respects the OS date and time format configuration.
 
+## Installation
+
+`npm i @tomashubelbauer/globe`
+
+Please note that soon this package will be made available under
+the Microsoft NPM scope.
+
 ## Usage
 
 ```typescript
