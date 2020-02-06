@@ -44,12 +44,24 @@ Build the package first: `npm run build`.
 
 `npm test`
 
+## Publish
+
+Currently, the publishing is done manually and to my personal scope:
+
+```sh
+npm publish --access public
+# @tomashubelbauer/globe
+```
+
+In the future this package will be scoped under the Microsoft org.
+
 ## Roadmap
 
 - Set up Jest to run with TypeScript and TSDX and in watch mode
 - Set up automated GitHub and NPM releases
 - Add more docs, especially around formatting based on OS date time settings
 - Set up Azure Pipelines CI
+- Switch to the Microsoft NPM scope publishing
 
 ## Contributing
 
