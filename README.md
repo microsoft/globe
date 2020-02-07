@@ -51,6 +51,9 @@ Build the package first: `npm run build`.
 
 `npm test`
 
+There is a [GitHub Actions workflow](.github/workflows/main.yml) which runs the
+tests on every push to any branch.
+
 ## Publish
 
 Currently, the publishing is done manually and to my personal scope:
@@ -67,7 +70,6 @@ In the future this package will be scoped under the Microsoft org.
 - Set up Jest to run with TypeScript and TSDX and in watch mode
 - Set up automated GitHub and NPM releases
 - Add more docs, especially around formatting based on OS date time settings
-- Set up Azure Pipelines CI
 - Switch to the Microsoft NPM scope publishing
 
 ## Contributing
