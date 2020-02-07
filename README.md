@@ -34,18 +34,14 @@ function formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
 }
 ```
 
-## Build
+## Building
 
 ```sh
 npm install
 npm run build
 ```
 
-## Release
-
-GitHub Releases are made manually at the moment.
-
-## Test
+## Testing
 
 Build the package first: `npm run build`.
 
@@ -54,7 +50,16 @@ Build the package first: `npm run build`.
 There is a [GitHub Actions workflow](.github/workflows/main.yml) which runs the
 tests on every push to any branch.
 
-## Publish
+## GitHub Release Publishing
+
+GitHub Releases are made manually by the maintainers at the moment.
+
+## NPM Release Publishing
+
+This package can only be released by Microsoft employees.
+Please follow the release documentation for instructions:
+
+https://docs.opensource.microsoft.com/content/releasing/npm.html
 
 Currently, the publishing is done manually and to my personal scope:
 
