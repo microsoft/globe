@@ -1,0 +1,13 @@
+name: mail
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run build and test
+      run: |
+        set -x
+        npm install
+        npm run build
+        npm test
