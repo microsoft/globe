@@ -1,4 +1,4 @@
-name: mail
+name: main
 on: push
 jobs:
   main:
