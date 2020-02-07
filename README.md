@@ -16,11 +16,11 @@ the Microsoft NPM scope.
 import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter } from 'globe';
 
 const dateTimeFormatter = new DateTimeFormatter(
-  this.locale,
-  this.isSupportedOsPlatform,
-  this.osLocaleInfo,
-  this.i18nextWrapper.osPlatform,
-  this.osDateTimeLocale
+  // locale: string
+  // isSupportedOsPlatform: boolean
+  // osLocaleInfo: ILocaleInfo
+  // osPlatform: 'windows' | 'mac' | 'linux' | 'chromeos' | 'android' | 'ios' | 'windowsphone' | 'unknown'
+  // osDateTimeLocale: string
 );
 
 /**
