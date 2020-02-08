@@ -5,10 +5,7 @@ Respects the OS date and time format configuration.
 
 ## Installation
 
-`npm i @tomashubelbauer/globe`
-
-Please note that soon this package will be made available under
-the Microsoft NPM scope.
+`npm i @microsoft/globe`
 
 ## Usage
 
@@ -52,30 +49,22 @@ tests on every push to any branch.
 
 ## GitHub Release Publishing
 
-GitHub Releases are made manually by the maintainers at the moment.
+GitHub Releases are made manually by @TomasHubelbauer at the moment.
 
 ## NPM Release Publishing
 
-This package can only be released by Microsoft employees.
-Please follow the release documentation for instructions:
-
-https://docs.opensource.microsoft.com/content/releasing/npm.html
-
-Currently, the publishing is done manually and to my personal scope:
+NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ```sh
 npm publish --access public
-# @tomashubelbauer/globe
+# @microsoft/globe
 ```
-
-In the future this package will be scoped under the Microsoft org.
 
 ## Roadmap
 
 - Set up Jest to run with TypeScript and TSDX and in watch mode
 - Set up automated GitHub and NPM releases
 - Add more docs, especially around formatting based on OS date time settings
-- Switch to the Microsoft NPM scope publishing
 
 ## Contributing
 
