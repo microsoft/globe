@@ -5,7 +5,7 @@
   "author": "Microsoft",
   "license": "MIT",
   "main": "./dist/index.js",
-  "module": "./dist/globe.ems.js",
+  "module": "./dist/globe.esm.js",
   "typings": "./dist/index.d.ts",
   "files": [
     "dist"
