@@ -60,6 +60,19 @@ npm publish --access public
 # @microsoft/globe
 ```
 
+## Release Notes
+
+### `1.0.1` 2020-02-11
+
+- Fixed a typo in the file name in the `module` field of `package.json`
+- Fixed installation instructions to use the current scope - `@microsoft`
+- Fixed the usage sample and clean up the readme a bit
+
+### `1.0.0` 2020-02-06
+
+Initial release of the code pulled out of a larger codebase for
+public consumption.
+
 ## Roadmap
 
 - Set up Jest to run with TypeScript and TSDX and in watch mode
