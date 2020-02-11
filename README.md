@@ -62,6 +62,10 @@ npm publish --access public
 
 ## Release Notes
 
+### `1.0.2` 2020-02-11
+
+Release a version with the release notes in the readme.
+
 ### `1.0.1` 2020-02-11
 
 - Fixed a typo in the file name in the `module` field of `package.json`
