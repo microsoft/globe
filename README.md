@@ -85,7 +85,9 @@ public consumption.
 
 ## Contributing
 
-Contributions are welcome (see the [CONTRIBUTING](./CONTRIBUTING.md) file), though please keep in mind the work-in-progress proof-of-concept state. Might make sense to just observe/discuss until the thing gets stable and well-documented.
+Contributions are welcome (see the [CONTRIBUTING](./CONTRIBUTING.md) file),
+though please keep in mind the work-in-progress proof-of-concept state.
+Might make sense to just observe/discuss until the thing gets stable and well-documented.
 
 ## License
 
