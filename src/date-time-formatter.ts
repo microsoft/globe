@@ -12,6 +12,7 @@ import {
   SHORT_DATE_WITH_YEAR,
   SHORT_TIME
 } from './date-time-format-options';
+import ILocaleInfo from './ILocaleInfo';
 import {
   dateTranslationMaps,
   IDateTimeFormatPartKeys,
@@ -19,35 +20,25 @@ import {
   timeTranslationMaps
 } from './os-date-time-translation-maps';
 
-const two = 2; // to calm down eslint no magic number rule
-
 export class DateTimeFormatter {
-  constructor(
-    private locale: string,
-    private isSupportedOsPlatform: boolean,
-    private osLocaleInfo?: ILocaleInfo,
-    private osPlatform?: 'windows' | 'mac' | 'linux' | 'chromeos' | 'android' | 'ios' | 'windowsphone' | 'unknown',
-    private osDateTimeLocale?: string
-  ) { }
+  /**
+   * Instantiates DateTimeFormatter
+   * @param locale The desired locale to which to format the date and time value (default: en-US)
+   */
+  constructor(private locale: string | ILocaleInfo = 'en-US') { }
 
   /**
-   * Localize the date/time
+   * Localizes the date/time value
    * @param date The date/time to localize
    * @param format The format to be used for the localization
    * @returns The localized date/time string
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
-    if (this.osLocaleInfo && this.isSupportedOsPlatform) {
-      const osFormatted = this.formatOsDateTime(date, format);
-      if (osFormatted) {
-        return osFormatted;
-      }
+    if (typeof this.locale === 'string') {
+      return Intl.DateTimeFormat(this.locale, format).format(date);
     }
 
-    return Intl.DateTimeFormat(
-      this.osDateTimeLocale || this.locale,
-      format
-    ).format(date);
+    return this.formatOsDateTime(date, format, this.locale);
   }
 
   private partsToObject(parts: IElectronDateTimePart[]): IDateTimeFormatParts {
@@ -65,12 +56,11 @@ export class DateTimeFormatter {
     dateTimeOptions: Intl.DateTimeFormatOptions,
     date: number | Date
   ): IDateTimeFormatParts {
-    const locale = this.osDateTimeLocale || this.locale;
-    // Note that this code is executed just in Desktop app - so, the formatToParts method is there for sure
-    const partsArray = (Intl.DateTimeFormat(
-      locale,
-      dateTimeOptions
-    ) as IElectronDateTimeFormat).formatToParts(date);
+    if (typeof this.locale === 'string') {
+      throw new Error('Must be called only when using the OS formatter.');
+    }
+
+    const partsArray = Intl.DateTimeFormat(this.locale.regionalFormat, dateTimeOptions).formatToParts(date);
     return this.partsToObject(partsArray);
   }
 
@@ -125,7 +115,7 @@ export class DateTimeFormatter {
     for (const symbol of ['h', 'H', 'm', 's']) {
       if (
         dateTimeMap[symbol] &&
-        dateTimeMap[symbol].length === two &&
+        dateTimeMap[symbol].length === 2 &&
         dateTimeMap[symbol][0] === '0'
       ) {
         dateTimeMap[symbol] = dateTimeMap[symbol][1];
@@ -196,7 +186,7 @@ export class DateTimeFormatter {
     // Windows "y" = Year represented only by the last digit
     // Intl doesn't support 1-digit year, but it supports 2-digit year -> let create it from it
     dateTimeMap['y'] =
-      dateTimeMap['y'].length === two ? dateTimeMap['y'][1] : dateTimeMap['y'];
+      dateTimeMap['y'].length === 2 ? dateTimeMap['y'][1] : dateTimeMap['y'];
 
     const format = this.sanitizeOsFormat(windowsDateFormat);
     return this.formatDateTimeFromMask(format, dateTimeMap);
@@ -235,59 +225,47 @@ export class DateTimeFormatter {
     return format.replace(/\s+/g, ' ').trim();
   }
 
-  private formatOsTime(date: number | Date, osTimeFormat: string): string {
-    switch (this.osPlatform) {
-      case 'mac':
-        return this.macTimeToString(date, osTimeFormat);
-      default:
-        return this.windowsTimeToString(date, osTimeFormat);
-    }
-  }
-
-  private formatOsDate(date: number | Date, osDateFormat: string): string {
-    switch (this.osPlatform) {
-      case 'mac':
-        return this.macDateToString(date, osDateFormat);
-      default:
-        return this.windowsDateToString(date, osDateFormat);
-    }
-  }
-
-  private formatOsDateTime(
-    date: number | Date,
-    format: DateTimeFormatOptions
-  ): string {
-    if (!this.osLocaleInfo) {
-      return '';
+  private formatOsDateTime(date: number | Date, format: DateTimeFormatOptions, localeInfo: ILocaleInfo): string {
+    if (!localeInfo) {
+      throw new Error('Cannot call the OS date and time formatter without specifying the OS locale info.');
     }
 
     switch (format) {
-      case SHORT_TIME:
-        return this.formatOsTime(date, this.osLocaleInfo.date.shortTime);
+      case SHORT_TIME: {
+        switch (localeInfo.platform) {
+          case 'macos':
+            return this.macTimeToString(date, localeInfo.date.shortTime);
+          default:
+            return this.windowsTimeToString(date, localeInfo.date.shortTime);
+        }
+      }
       case SHORT_DATE:
       case SHORT_DATE_WITH_SHORT_YEAR:
-      case SHORT_DATE_WITH_YEAR:
-        return this.formatOsDate(date, this.osLocaleInfo.date.shortDate);
+      case SHORT_DATE_WITH_YEAR: {
+        switch (localeInfo.platform) {
+          case 'macos':
+            return this.macDateToString(date, localeInfo.date.shortDate);
+          default:
+            return this.windowsDateToString(date, localeInfo.date.shortDate);
+        }
+      }
       case LONG_DATE:
-      case LONG_DATE_WITH_YEAR:
-        return this.formatOsDate(date, this.osLocaleInfo.date.longDate);
+      case LONG_DATE_WITH_YEAR: {
+        switch (localeInfo.platform) {
+          case 'macos':
+            return this.macDateToString(date, localeInfo.date.longDate);
+          default:
+            return this.windowsDateToString(date, localeInfo.date.longDate);
+        }
+      }
     }
 
-    return '';
+    throw new Error('Incorrect OS locale info format specified.');
   }
 }
 
 interface IDateTimeMap {
   [symbol: string]: string;
-}
-
-interface IElectronDateTimeFormat extends Intl.DateTimeFormat {
-  // Use a method overload here to account for the `dayperiod` Chromium bug
-  // These methods both do the same, but the return type which has `dayperiod`
-  // is not valid in terms of the `Intl.DateTimeFormatPart` types so we need
-  // to introduce another overload whose return type does allow it.
-  formatToParts(date: number | Date): IElectronDateTimePart[];
-  formatToParts(date: number | Date): Intl.DateTimeFormatPart[];
 }
 
 interface IDateTimeFormatParts extends Intl.DateTimeFormatOptions {
@@ -301,26 +279,3 @@ export interface IElectronDateTimePart {
   type: ElectronDateTimePartItem;
   value: string;
 }
-
-export interface ILocaleInfo {
-  regionalFormat: string;
-  date: {
-    shortDate: string;
-    longDate: string;
-    shortTime: string;
-    longTime: string;
-    calendar: string;
-    firstDayOfWeek: string;
-  };
-}
-
-// {
-//   Windows = 'windows',
-//   Mac = 'mac',
-//   Linux = 'linux',
-//   ChromeOS = 'chromeos',
-//   Android = 'android',
-//   IOS = 'ios',
-//   WindowsPhone = 'windowsphone',
-//   Unknown = 'unknown'
-// }
