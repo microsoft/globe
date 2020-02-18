@@ -234,9 +234,9 @@ export class DateTimeFormatter {
       case SHORT_TIME: {
         switch (localeInfo.platform) {
           case 'macos':
-            return this.macTimeToString(date, localeInfo.date.shortTime);
+            return this.macTimeToString(date, localeInfo.shortTime);
           default:
-            return this.windowsTimeToString(date, localeInfo.date.shortTime);
+            return this.windowsTimeToString(date, localeInfo.shortTime);
         }
       }
       case SHORT_DATE:
@@ -244,18 +244,18 @@ export class DateTimeFormatter {
       case SHORT_DATE_WITH_YEAR: {
         switch (localeInfo.platform) {
           case 'macos':
-            return this.macDateToString(date, localeInfo.date.shortDate);
+            return this.macDateToString(date, localeInfo.shortDate);
           default:
-            return this.windowsDateToString(date, localeInfo.date.shortDate);
+            return this.windowsDateToString(date, localeInfo.shortDate);
         }
       }
       case LONG_DATE:
       case LONG_DATE_WITH_YEAR: {
         switch (localeInfo.platform) {
           case 'macos':
-            return this.macDateToString(date, localeInfo.date.longDate);
+            return this.macDateToString(date, localeInfo.longDate);
           default:
-            return this.windowsDateToString(date, localeInfo.date.longDate);
+            return this.windowsDateToString(date, localeInfo.longDate);
         }
       }
     }
