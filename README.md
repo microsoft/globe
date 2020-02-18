@@ -5,7 +5,7 @@ Respects the OS date and time format configuration.
 
 ## Installation
 
-`npm i @microsoft/globe`
+`npm i `[`@microsoft/globe`](https://www.npmjs.com/package/@microsoft/globe)
 
 ## Usage
 
@@ -53,21 +53,17 @@ GitHub Releases are made manually by @TomasHubelbauer at the moment.
 
 ## NPM Release Publishing
 
-NPM Releases are made manually by @TomasHubelbauer at the moment.
+Don't forget to build prior to cutting a release!
 
 ```sh
-npm publish --access public
+# --tag=next pro pre-release (also include a pre-release tag in the version code)
+npm publish [--tag=next] --access public
 # @microsoft/globe
 ```
 
-For pre-release packages:
-```sh
-# Patch version in `package.json` to include `-rc#` suffix
-npm pack
-npm publish microsoft-globe-${version}.tgz --tag next
-```
-
 Install the pre-release package using: `npm i @microsoft/globe@next`
+
+NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
