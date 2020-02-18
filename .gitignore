@@ -19,3 +19,6 @@ node_modules
 .DS_STORE
 .idea/*
 .vs
+
+# NPM
+*.tgz

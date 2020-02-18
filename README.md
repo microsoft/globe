@@ -60,6 +60,15 @@ npm publish --access public
 # @microsoft/globe
 ```
 
+For pre-release packages:
+```sh
+# Patch version in `package.json` to include `-rc#` suffix
+npm pack
+npm publish microsoft-globe-${version}.tgz --tag next
+```
+
+Install the pre-release package using: `npm i @microsoft/globe@next`
+
 ## Release Notes
 
 ### `1.0.2` 2020-02-11
