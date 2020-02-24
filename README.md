@@ -24,10 +24,10 @@ type ILocaleInfo = {
   platform: 'windows' | 'macos';
 
   // OS date & time format settings (see below for OS support)
-  regionalFormat: string;
-  shortDate: string;
-  longDate: string;
-  shortTime: string;
+  regionalFormat: string; // e.g.: 'en-US'
+  shortDate: string; // e.g.: 'dd/MM/y'
+  longDate: string; // e.g.: 'd MMMM y'
+  shortTime: string; // e.g.: 'HH:mm'
 };
 ```
 
@@ -66,6 +66,35 @@ import { getLocaleInfoAsync } from '@microsoft/globe';
 const localeInfo = await getLocaleInfoAsync(/* 'windows` | 'macos' */);
 new DateTimeFormatter(localeInfo);
 ```
+
+#### Windows
+
+The values provided can be found in Date & Time this way:
+
+- Click on the date and time in the taskbar
+- Click on Adjust date and time
+- Click on Region & language (here you see the values formatted)
+- Click on Advanced
+- Check the values of short date, long date and short time
+
+![](windows.png)
+
+#### macOS
+
+- Click on the date and time in the menubar
+- Click on Open date and time preferences
+- Click on Date and time
+- Click on Oppen language and region
+- Click on Advanced
+- Click on Dates
+- Check the values of short and long
+
+![](macos-dates.png)
+
+- Click on Times
+- Check the value of 
+
+![](macos-times.png)
 
 ## Building
 

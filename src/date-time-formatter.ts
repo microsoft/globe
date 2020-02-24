@@ -260,7 +260,7 @@ export class DateTimeFormatter {
       }
     }
 
-    throw new Error('Incorrect OS locale info format specified.');
+    throw new Error('Incorrect OS locale info format specified:' + format);
   }
 }
 
