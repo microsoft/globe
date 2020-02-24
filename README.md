@@ -5,7 +5,7 @@ Respects the OS date and time format configuration.
 
 ## Installation
 
-`npm i `[`@microsoft/globe`](https://www.npmjs.com/package/@microsoft/globe)
+`npm i`[`@microsoft/globe`](https://www.npmjs.com/package/@microsoft/globe)
 
 ## Usage
 
