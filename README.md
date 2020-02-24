@@ -77,7 +77,7 @@ The values provided can be found in Date & Time this way:
 - Click on Advanced
 - Check the values of short date, long date and short time
 
-![](windows.png)
+![](./windows.png)
 
 #### macOS
 
@@ -89,12 +89,12 @@ The values provided can be found in Date & Time this way:
 - Click on Dates
 - Check the values of short and long
 
-![](macos-dates.png)
+![](./macos-dates.png)
 
 - Click on Times
 - Check the value of 
 
-![](macos-times.png)
+![](./macos-times.png)
 
 ## Building
 
