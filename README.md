@@ -12,14 +12,28 @@ Respects the OS date and time format configuration.
 ```typescript
 import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter } from 'globe';
 
-const dateTimeFormatter = new DateTimeFormatter(
-  // locale: string
-  // isSupportedOsPlatform: boolean
-  // osLocaleInfo: ILocaleInfo
-  // osPlatform: 'windows' | 'mac' | 'linux' | 'chromeos' | 'android' | 'ios' | 'windowsphone' | 'unknown'
-  // osDateTimeLocale: string
-);
+// Instantiate the formatter
+const dateTimeFormatter = new DateTimeFormatter(locale: string | ILocaleInfo);
+```
 
+`locale` is either a locale string (e.g.: `en-US`) or `ILocaleInfo` instance:
+
+```typescript
+type ILocaleInfo = {
+  // Supported platform
+  platform: 'windows' | 'macos';
+
+  // OS date & time format settings (see below for OS support)
+  regionalFormat: string;
+  shortDate: string;
+  longDate: string;
+  shortTime: string;
+};
+```
+
+To format a date and time value:
+
+```typescript
 /**
  * Localize the date/time
  * @param date The date/time to localize
@@ -29,6 +43,28 @@ const dateTimeFormatter = new DateTimeFormatter(
 function formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
   return dateTimeFormatter.formatDateTime(date, format);
 }
+```
+
+### OS Support
+
+Globe is able to honor OS system date and time formatting settings, but it does
+not do OS detection and date and time settings querying out of the box as these
+features depend on the context you're using Globe in.
+
+If you want to take an advantage of this feature, we recommend you follow this
+pattern:
+
+- Make `window.getLocaleInfoAsync` available (return `Promise<ILocaleInfo>`)
+- Cache the result of that function and provide it in the `DateTimeFormatter`
+  constructor
+- Use the exported `getLocaleInfoAsync` alias function if you prefer, which
+  wraps the `window.getLocaleInfoAsync` function for you:
+
+```typescript
+import { getLocaleInfoAsync } from '@microsoft/globe';
+// Provide the supported platform name and obtain the OS locale settings
+const localeInfo = await getLocaleInfoAsync(/* 'windows` | 'macos' */);
+new DateTimeFormatter(localeInfo);
 ```
 
 ## Building
