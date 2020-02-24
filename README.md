@@ -132,7 +132,7 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
-### `2.1` 2020-02-24
+### `2.1.0` 2020-02-24
 
 Refactored the `DateTimeFormatter` constructor to accept either a locale
 string or an instance of `ILocaleInfo` and added information and support
