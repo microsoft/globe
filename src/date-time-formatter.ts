@@ -5,9 +5,18 @@
 
 import {
   DateTimeFormatOptions,
+  FULL_DATE,
+  FULL_DATE_WITH_YEAR,
   LONG_DATE,
   LONG_DATE_WITH_YEAR,
+  LONG_TIME,
+  MEDIUM,
+  MEDIUM_DATE,
+  MEDIUM_DATE_WITH_YEAR,
+  MEDIUM_TIME,
+  MEDIUM_WITH_YEAR,
   SHORT_DATE,
+  SHORT_DATE_TIME,
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
   SHORT_TIME
@@ -232,30 +241,54 @@ export class DateTimeFormatter {
 
     switch (format) {
       case SHORT_TIME: {
-        switch (localeInfo.platform) {
-          case 'macos':
-            return this.macTimeToString(date, localeInfo.shortTime);
-          default:
-            return this.windowsTimeToString(date, localeInfo.shortTime);
+        if (localeInfo.platform === 'macos') {
+          return this.macTimeToString(date, localeInfo.shortTime);
+        } else {
+          return this.windowsTimeToString(date, localeInfo.shortTime);
         }
       }
       case SHORT_DATE:
       case SHORT_DATE_WITH_SHORT_YEAR:
       case SHORT_DATE_WITH_YEAR: {
-        switch (localeInfo.platform) {
-          case 'macos':
-            return this.macDateToString(date, localeInfo.shortDate);
-          default:
-            return this.windowsDateToString(date, localeInfo.shortDate);
+        if (localeInfo.platform === 'macos') {
+          return this.macDateToString(date, localeInfo.shortDate);
+        } else {
+          return this.windowsDateToString(date, localeInfo.shortDate);
         }
       }
+      case SHORT_DATE_TIME: {
+        if (localeInfo.platform === 'macos') {
+          return `${this.macDateToString(date, localeInfo.shortDate)} ${this.macTimeToString(date, localeInfo.shortTime)}`;
+        } else {
+          return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
+        }
+      }
+      case MEDIUM_TIME:
+      case LONG_TIME: {
+        if (localeInfo.platform === 'macos') {
+          return this.macTimeToString(date, localeInfo.longTime);
+        } else {
+          return this.windowsTimeToString(date, localeInfo.longTime);
+        }
+      }
+      case MEDIUM:
+      case MEDIUM_WITH_YEAR: {
+        if (localeInfo.platform === 'macos') {
+          return `${this.macDateToString(date, localeInfo.longDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
+        } else {
+          return `${this.windowsDateToString(date, localeInfo.longDate)} ${this.windowsTimeToString(date, localeInfo.longTime)}`;
+        }
+      }
+      case MEDIUM_DATE:
       case LONG_DATE:
-      case LONG_DATE_WITH_YEAR: {
-        switch (localeInfo.platform) {
-          case 'macos':
-            return this.macDateToString(date, localeInfo.longDate);
-          default:
-            return this.windowsDateToString(date, localeInfo.longDate);
+      case FULL_DATE:
+      case MEDIUM_DATE_WITH_YEAR:
+      case LONG_DATE_WITH_YEAR:
+      case FULL_DATE_WITH_YEAR: {
+        if (localeInfo.platform === 'macos') {
+          return this.macDateToString(date, localeInfo.longDate);
+        } else {
+          return this.windowsDateToString(date, localeInfo.longDate);
         }
       }
     }
