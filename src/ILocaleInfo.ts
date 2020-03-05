@@ -9,4 +9,5 @@ export default interface ILocaleInfo {
   shortDate: string;
   longDate: string;
   shortTime: string;
+  longTime: string;
 }

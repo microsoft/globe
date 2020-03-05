@@ -41,6 +41,40 @@ type LongTime = Readonly<{
   second: 'numeric';
 }>;
 
+type FullDateWithYear = Readonly<{
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+}>;
+
+type FullDate = Readonly<{
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long'
+}>;
+
+type MediumTime = Readonly<{ 
+  hour: 'numeric', 
+  minute: 'numeric', 
+  second: 'numeric'
+}>;
+
+type MediumDate = Readonly<{ 
+  day: 'numeric', 
+  month: 'short' 
+}>;
+
+type MediumDateWithYear = Readonly<{
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric'
+}>;
+
+type MediumWithYear = MediumDateWithYear & MediumTime;
+
+type Medium = MediumDate & MediumTime;
+
 type LongWeekday = Readonly<{ weekday: 'long' }>;
 
 type ShortWeekday = Readonly<{ weekday: 'short' }>;
@@ -56,6 +90,13 @@ export type DateTimeFormatOptions =
   | LongDate
   | LongDateWithYear
   | LongTime
+  | FullDateWithYear
+  | FullDate
+  | MediumTime
+  | MediumDate
+  | MediumDateWithYear
+  | MediumWithYear
+  | Medium
   | LongWeekday
   | ShortWeekday
   | Readonly<{ hour: 'numeric' | '2-digit' }>
@@ -103,3 +144,43 @@ export const LONG_TIME: LongTime = {
 export const LONG_WEEKDAY: LongWeekday = { weekday: 'long' };
 
 export const SHORT_WEEKDAY: ShortWeekday = { weekday: 'short' };
+
+export const FULL_DATE_WITH_YEAR: FullDateWithYear = {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+};
+
+export const FULL_DATE: FullDate = {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long'
+};
+
+export const MEDIUM_TIME: MediumTime = { 
+  hour: 'numeric', 
+  minute: 'numeric', 
+  second: 'numeric'
+};
+
+export const MEDIUM_DATE: MediumDate = { 
+  day: 'numeric', 
+  month: 'short' 
+};
+
+export const MEDIUM_DATE_WITH_YEAR: MediumDateWithYear = {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric'
+};
+
+export const MEDIUM_WITH_YEAR: MediumWithYear = {
+  ...MEDIUM_DATE_WITH_YEAR,
+  ...MEDIUM_TIME
+};
+
+export const MEDIUM: Medium = {
+  ...MEDIUM_DATE,
+  ...MEDIUM_TIME
+};
