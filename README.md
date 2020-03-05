@@ -132,6 +132,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.2.0` 2020-03-05
+
+Added few more date time formatting patterns, like Medium and Full dates and times.
+
 ### `2.1.0` 2020-02-24
 
 Refactored the `DateTimeFormatter` constructor to accept either a locale
