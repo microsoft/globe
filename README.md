@@ -132,6 +132,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.3.0` 2020-03-09
+
+Added HOUR_ONLY pattern.
+
 ### `2.2.0` 2020-03-05
 
 Added few more date time formatting patterns, like Medium and Full dates and times.

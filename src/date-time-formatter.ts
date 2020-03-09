@@ -7,6 +7,7 @@ import {
   DateTimeFormatOptions,
   FULL_DATE,
   FULL_DATE_WITH_YEAR,
+  HOUR_ONLY,
   LONG_DATE,
   LONG_DATE_WITH_YEAR,
   LONG_TIME,
@@ -263,6 +264,7 @@ export class DateTimeFormatter {
           return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
         }
       }
+      case HOUR_ONLY:
       case MEDIUM_TIME:
       case LONG_TIME: {
         if (localeInfo.platform === 'macos') {

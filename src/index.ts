@@ -20,7 +20,8 @@ export {
   MEDIUM_DATE,
   MEDIUM_DATE_WITH_YEAR,
   MEDIUM_WITH_YEAR,
-  MEDIUM
+  MEDIUM,
+  HOUR_ONLY
 } from './date-time-format-options';
 
 export {
