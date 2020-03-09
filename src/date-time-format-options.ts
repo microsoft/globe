@@ -79,6 +79,8 @@ type LongWeekday = Readonly<{ weekday: 'long' }>;
 
 type ShortWeekday = Readonly<{ weekday: 'short' }>;
 
+type HourOnly = Readonly<{ hour: 'numeric'}>;
+
 export type TimeStringFormat = 'numeric' | '2-digit';
 
 export type DateTimeFormatOptions =
@@ -99,6 +101,7 @@ export type DateTimeFormatOptions =
   | Medium
   | LongWeekday
   | ShortWeekday
+  | HourOnly
   | Readonly<{ hour: 'numeric' | '2-digit' }>
   | Readonly<{ minute: 'numeric' | '2-digit' }>
   | Readonly<{ second: 'numeric' | '2-digit' }>;
@@ -183,4 +186,8 @@ export const MEDIUM_WITH_YEAR: MediumWithYear = {
 export const MEDIUM: Medium = {
   ...MEDIUM_DATE,
   ...MEDIUM_TIME
+};
+
+export const HOUR_ONLY: HourOnly = {
+  hour: 'numeric'
 };
