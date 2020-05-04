@@ -62,7 +62,7 @@ export class DateTimeFormatter {
         dtf = new Intl.DateTimeFormat(this.locale, format);
         formatMap.set(format || this.undefinedFormatKey, dtf);
       } else {
-        let maybeDtf = formatMap.get(format);
+        let maybeDtf = formatMap.get(format || this.undefinedFormatKey);
         if (!maybeDtf) {
           maybeDtf = new Intl.DateTimeFormat(this.locale, format);
           formatMap.set(format || this.undefinedFormatKey, maybeDtf);
