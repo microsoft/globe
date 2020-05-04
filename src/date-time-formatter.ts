@@ -31,6 +31,15 @@ import {
 } from './os-date-time-translation-maps';
 
 export class DateTimeFormatter {
+  private readonly localeFormatCache = new Map<string, WeakMap<DateTimeFormatOptions, Intl.DateTimeFormat>>();
+
+  // Note that this is used as a placeholder for the weak-map key in case the formatter is called without
+  // providing the options object. We want to avoid constructing the Intl.DateTimeFormat so we cache it
+  // and we need a key to be able to cache the one used for when the options are not provided. The value of
+  // this empty object is that it has a stable reference so it is used as a sentinel value, it is not special
+  // in any other way.
+  private readonly undefinedFormatKey = {};
+
   /**
    * Instantiates DateTimeFormatter
    * @param locale The desired locale to which to format the date and time value (default: en-US)
@@ -45,7 +54,24 @@ export class DateTimeFormatter {
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
     if (typeof this.locale === 'string') {
-      return Intl.DateTimeFormat(this.locale, format).format(date);
+      let formatMap = this.localeFormatCache.get(this.locale);
+      let dtf: Intl.DateTimeFormat;
+      if (!formatMap) {
+        formatMap = new WeakMap();
+        this.localeFormatCache.set(this.locale, formatMap);
+        dtf = new Intl.DateTimeFormat(this.locale, format);
+        formatMap.set(format || this.undefinedFormatKey, dtf);
+      } else {
+        let maybeDtf = formatMap.get(format);
+        if (!maybeDtf) {
+          maybeDtf = new Intl.DateTimeFormat(this.locale, format);
+          formatMap.set(format || this.undefinedFormatKey, maybeDtf);
+        }
+
+        dtf = maybeDtf;
+      }
+
+      return dtf.format(date);
     }
 
     return this.formatOsDateTime(date, format, this.locale);

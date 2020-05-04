@@ -132,6 +132,11 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.4.0` 2020-05-04
+
+Caching internal `Intl.DateTimeFormat` instances keyed by the given locale and
+format object.
+
 ### `2.3.0` 2020-03-09
 
 Added HOUR_ONLY pattern.
