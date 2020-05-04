@@ -122,7 +122,7 @@ Don't forget to build prior to cutting a release!
 
 ```sh
 # --tag=next pro pre-release (also include a pre-release tag in the version code)
-npm publish [--tag=next] --access public
+npm publish [--tag=next]
 # @microsoft/globe
 ```
 
