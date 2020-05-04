@@ -2,26 +2,32 @@ const { DateTimeFormatter } = require('./');
 
 const date = new Date(2020, 05, 25);
 const expected = '6/25/2020';
-const runs = 1000;
+const runs = 100;
 
 const dtf = new DateTimeFormatter('en-US');
-const dtfStamp = new Date();
+const dtfStamp = Date.now();
+const dtfLaps = [];
 for (let index = 0; index < runs; index++) {
   const actual = dtf.formatDateTime(date);
+  dtfLaps.push(Date.now());
   if (actual !== expected) {
     throw new Error(`${actual} !== ${expected}`);
   }
 }
 
-console.log(new Date() - dtfStamp);
+console.log(Date.now() - dtfStamp, 'total');
+console.log('non-instant laps', dtfLaps.map((l, i) => l - (i === 0 ? dtfStamp : dtfLaps[i - 1])).filter(l => l));
 
 const intl = new Intl.DateTimeFormat('en-US');
-const intlStamp = new Date();
+const intlStamp = Date.now();
+const intlLaps = [];
 for (let index = 0; index < runs; index++) {
-  const actual = intl.format(date, null);
+  const actual = intl.format(date);
+  intlLaps.push(Date.now());
   if (actual !== expected) {
     throw new Error(`${actual} !== ${expected}`);
   }
 }
 
-console.log(new Date() - intlStamp);
+console.log(Date.now() - intlStamp, 'total');
+console.log('non-instant laps', intlLaps.map((l, i) => l - (i === 0 ? intlStamp : intlLaps[i - 1])).filter(l => l));
