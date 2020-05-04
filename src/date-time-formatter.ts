@@ -31,14 +31,10 @@ import {
 } from './os-date-time-translation-maps';
 
 export class DateTimeFormatter {
-  private readonly localeFormatCache = new Map<string, WeakMap<DateTimeFormatOptions, Intl.DateTimeFormat>>();
-
-  // Note that this is used as a placeholder for the weak-map key in case the formatter is called without
-  // providing the options object. We want to avoid constructing the Intl.DateTimeFormat so we cache it
-  // and we need a key to be able to cache the one used for when the options are not provided. The value of
-  // this empty object is that it has a stable reference so it is used as a sentinel value, it is not special
-  // in any other way.
-  private readonly undefinedFormatKey = {};
+  // We're keying this using JSON.stringify because with a WeakMap we've have a key pair 
+  // (locale - string & options - object) and stringify is native so it is so fars it is
+  // not worth maintaing the two-level cache (map for string and weak map for object)
+  private readonly localeFormatCache = new Map<string, Intl.DateTimeFormat>();
 
   /**
    * Instantiates DateTimeFormatter
@@ -54,21 +50,11 @@ export class DateTimeFormatter {
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
     if (typeof this.locale === 'string') {
-      let formatMap = this.localeFormatCache.get(this.locale);
-      let dtf: Intl.DateTimeFormat;
-      if (!formatMap) {
-        formatMap = new WeakMap();
-        this.localeFormatCache.set(this.locale, formatMap);
+      const key = JSON.stringify({ locale: this.locale, format });
+      let dtf = this.localeFormatCache.get(key);
+      if (!dtf) {
         dtf = new Intl.DateTimeFormat(this.locale, format);
-        formatMap.set(format || this.undefinedFormatKey, dtf);
-      } else {
-        let maybeDtf = formatMap.get(format || this.undefinedFormatKey);
-        if (!maybeDtf) {
-          maybeDtf = new Intl.DateTimeFormat(this.locale, format);
-          formatMap.set(format || this.undefinedFormatKey, maybeDtf);
-        }
-
-        dtf = maybeDtf;
+        this.localeFormatCache.set(key, dtf);
       }
 
       return dtf.format(date);
