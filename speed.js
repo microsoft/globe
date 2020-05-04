@@ -1,9 +1,10 @@
-const { DateTimeFormatter } = require('./');
+const { DateTimeFormatter, SHORT_DATE } = require('./');
 
 const date = new Date(2020, 05, 25);
 const expected = '6/25/2020';
 const runs = 100;
 
+// TODO: Add `SHORT_DATE` to observe keying works even with options provided
 const dtf = new DateTimeFormatter('en-US');
 const dtfStamp = Date.now();
 const dtfLaps = [];
