@@ -132,6 +132,11 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.5.0` 2020-05-04
+
+Add missing key coercion which caused the locale+format cache to have no effect
+in case no format was provided.
+
 ### `2.4.0` 2020-05-04
 
 Caching internal `Intl.DateTimeFormat` instances keyed by the given locale and
