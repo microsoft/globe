@@ -132,6 +132,22 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.6.0` 2020-05-04
+
+We've switched to a single-level cache between the pair made up by the locale
+and the format options stringified and the DateTimeFormat Intl instance.
+
+Previously the cache was two-level, a map for the locale (string) and a weak
+map for the format options (object), which had the same performance, but was
+more complex and needlessly so, because JSON.stringify is so fast being native
+code, the overhead has actually decreased when using it for the cache key.
+
+The access pattern of Globe is now such that the first call to `formatDate`
+given an format options object (or `undefined`) takes about 20ms, which is
+the cost of initializing and caching the Intl.DateTimeFormat instance and
+subsequent calls are practically equivalent in speed to raw Intl, meaning
+they take <1ms.
+
 ### `2.5.0` 2020-05-04
 
 Add missing key coercion which caused the locale+format cache to have no effect
