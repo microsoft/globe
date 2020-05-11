@@ -3,6 +3,13 @@
  * Licensed under the MIT License.
  */
 
+export type TDateTimeFormatOptions = {
+  dateFormat?: 'long' | 'short' | 'none';
+  timeFormat?: 'long' | 'short' | 'hourOnly' | 'none';
+  weekdayFormat?: 'long' | 'short' | 'none';
+  omitYear?: boolean; 
+} 
+
 type ShortTime = Readonly<{ hour: 'numeric'; minute: 'numeric' }>;
 
 type ShortDate = Readonly<{ day: 'numeric'; month: 'numeric' }>;

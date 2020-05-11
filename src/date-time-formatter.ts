@@ -20,7 +20,8 @@ import {
   SHORT_DATE_TIME,
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
-  SHORT_TIME
+  SHORT_TIME,
+  TDateTimeFormatOptions
 } from './date-time-format-options';
 import ILocaleInfo from './ILocaleInfo';
 import {
@@ -29,6 +30,10 @@ import {
   ITranslationMap,
   timeTranslationMaps
 } from './os-date-time-translation-maps';
+import { IFormatter } from './formatters/base-formatter';
+import { IntlFormatter } from './formatters/intl-formatter';
+import { MacFormatter } from './formatters/mac-formatter';
+import { WindowsFormatter } from './formatters/windows-formatter';
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair 
@@ -36,11 +41,29 @@ export class DateTimeFormatter {
   // not worth maintaing the two-level cache (map for string and weak map for object)
   private readonly localeFormatCache = new Map<string, Intl.DateTimeFormat>();
 
+  private readonly formatter: IFormatter;
+
   /**
    * Instantiates DateTimeFormatter
    * @param locale The desired locale to which to format the date and time value (default: en-US)
    */
-  constructor(private locale: string | ILocaleInfo = 'en-US') { }
+  constructor(private locale: string | ILocaleInfo = 'en-US') {
+    if (typeof locale !== 'string') {
+      if (locale.platform === 'macos') {
+        this.formatter = new MacFormatter(locale);
+      }
+
+      if (locale.platform === 'windows') {
+        this.formatter = new WindowsFormatter(locale);
+      }
+    }
+
+    this.formatter = new IntlFormatter(locale);
+   }
+
+  public format(date: Date, options: TDateTimeFormatOptions) {
+    return this.formatter.formatDateTime(date, options);
+  }
 
   /**
    * Localizes the date/time value
