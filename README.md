@@ -132,6 +132,16 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.0` 2020-05-14
+
+We've added preliminary handling for AM/PM (day period) format which
+supports the `HOUR_ONLY` option when using the OS date and time format strings.
+The supported OSs (macOS and Windows) do not expose a dedicated format string
+for an hour-only scenario, so we detect whether the OS format string for
+short date includes the AM/PM format string token and constuct a makeshift
+`HOUR_ONLY` format string for that case which either also includes AM/PM or
+doesn't depending on if the original short time format string did.
+
 ### `2.6.0` 2020-05-04
 
 We've switched to a single-level cache between the pair made up by the locale

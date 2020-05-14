@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 
-const { DateTimeFormatter, LONG_DATE } = require('../dist/globe.cjs.development');
+const { DateTimeFormatter, LONG_DATE, HOUR_ONLY } = require('../dist/globe.cjs.development');
 
 describe('date-time-format-options', () => {
   it('constructs without throwing', () => {
@@ -28,5 +28,19 @@ describe('date-time-format-options', () => {
     const dateTimeFormatter = new DateTimeFormatter(localeInfo);
     const date = new Date(2020, 1, 1, 12, 0, 0);
     expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1 February 2020');
+  });
+
+  it('uses mac 12 hour format', () => {
+    const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'h:mm a' };
+    const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+    const date = new Date(2020, 1, 1, 15, 0, 0);
+    expect(dateTimeFormatter.formatDateTime(date, HOUR_ONLY)).toBe('3 PM');
+  });
+
+  it('uses mac 24 hour format', () => {
+    const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'HH:mm' };
+    const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+    const date = new Date(2020, 1, 1, 15, 0, 0);
+    expect(dateTimeFormatter.formatDateTime(date, HOUR_ONLY)).toBe('15');
   });
 });
