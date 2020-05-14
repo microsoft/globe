@@ -299,7 +299,7 @@ export class DateTimeFormatter {
         } else {
           const includesTTDayPeriod = localeInfo.shortTime.includes('tt');
           const includesTDayPeriod = localeInfo.shortTime.includes('tt');
-          return this.macTimeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
+          return this.windowsTimeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
         }
       }
       case MEDIUM_TIME:

@@ -132,6 +132,11 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.6.2` 2020-05-14
+
+Fixed an issue where Windows OS format string was treated as if it was a
+macOS format string.
+
 ### `2.6.1` 2020-05-14
 
 We've added preliminary handling for AM/PM (day period) format which
