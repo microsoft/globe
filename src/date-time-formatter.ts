@@ -254,6 +254,10 @@ export class DateTimeFormatter {
 
     switch (format) {
       case SHORT_TIME: {
+        if (!localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortTime was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return this.macTimeToString(date, localeInfo.shortTime);
         } else {
@@ -263,6 +267,10 @@ export class DateTimeFormatter {
       case SHORT_DATE:
       case SHORT_DATE_WITH_SHORT_YEAR:
       case SHORT_DATE_WITH_YEAR: {
+        if (!localeInfo.shortDate) {
+          throw new Error(`localeInfo.shortDate was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return this.macDateToString(date, localeInfo.shortDate);
         } else {
@@ -270,15 +278,36 @@ export class DateTimeFormatter {
         }
       }
       case SHORT_DATE_TIME: {
+        if (!localeInfo.shortDate || !localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortDate or localeInfo.shortTime was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return `${this.macDateToString(date, localeInfo.shortDate)} ${this.macTimeToString(date, localeInfo.shortTime)}`;
         } else {
           return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
         }
       }
-      case HOUR_ONLY:
+      case HOUR_ONLY: {
+        if (!localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortTime was not provided!`);
+        }
+
+        if (localeInfo.platform === 'macos') {
+          const includesADayPeriod = localeInfo.shortTime.includes('a');
+          return this.macTimeToString(date, includesADayPeriod ? 'h a' : 'H');
+        } else {
+          const includesTTDayPeriod = localeInfo.shortTime.includes('tt');
+          const includesTDayPeriod = localeInfo.shortTime.includes('tt');
+          return this.macTimeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
+        }
+      }
       case MEDIUM_TIME:
       case LONG_TIME: {
+        if (!localeInfo.longTime) {
+          throw new Error(`localeInfo.longTime was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return this.macTimeToString(date, localeInfo.longTime);
         } else {
@@ -287,6 +316,10 @@ export class DateTimeFormatter {
       }
       case MEDIUM:
       case MEDIUM_WITH_YEAR: {
+        if (!localeInfo.longDate || !localeInfo.longTime) {
+          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return `${this.macDateToString(date, localeInfo.longDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
         } else {
@@ -299,6 +332,10 @@ export class DateTimeFormatter {
       case MEDIUM_DATE_WITH_YEAR:
       case LONG_DATE_WITH_YEAR:
       case FULL_DATE_WITH_YEAR: {
+        if (!localeInfo.longDate) {
+          throw new Error(`localeInfo.longDate was not provided!`);
+        }
+
         if (localeInfo.platform === 'macos') {
           return this.macDateToString(date, localeInfo.longDate);
         } else {

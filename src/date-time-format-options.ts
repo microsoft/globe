@@ -54,15 +54,15 @@ type FullDate = Readonly<{
   month: 'long'
 }>;
 
-type MediumTime = Readonly<{ 
-  hour: 'numeric', 
-  minute: 'numeric', 
+type MediumTime = Readonly<{
+  hour: 'numeric',
+  minute: 'numeric',
   second: 'numeric'
 }>;
 
-type MediumDate = Readonly<{ 
-  day: 'numeric', 
-  month: 'short' 
+type MediumDate = Readonly<{
+  day: 'numeric',
+  month: 'short'
 }>;
 
 type MediumDateWithYear = Readonly<{
@@ -79,7 +79,7 @@ type LongWeekday = Readonly<{ weekday: 'long' }>;
 
 type ShortWeekday = Readonly<{ weekday: 'short' }>;
 
-type HourOnly = Readonly<{ hour: 'numeric'}>;
+type HourOnly = Readonly<{ hour: 'numeric' }>;
 
 export type TimeStringFormat = 'numeric' | '2-digit';
 
@@ -161,15 +161,15 @@ export const FULL_DATE: FullDate = {
   month: 'long'
 };
 
-export const MEDIUM_TIME: MediumTime = { 
-  hour: 'numeric', 
-  minute: 'numeric', 
+export const MEDIUM_TIME: MediumTime = {
+  hour: 'numeric',
+  minute: 'numeric',
   second: 'numeric'
 };
 
-export const MEDIUM_DATE: MediumDate = { 
-  day: 'numeric', 
-  month: 'short' 
+export const MEDIUM_DATE: MediumDate = {
+  day: 'numeric',
+  month: 'short'
 };
 
 export const MEDIUM_DATE_WITH_YEAR: MediumDateWithYear = {
