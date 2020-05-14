@@ -132,7 +132,7 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
-### `2.7.0` 2020-05-14
+### `2.6.1` 2020-05-14
 
 We've added preliminary handling for AM/PM (day period) format which
 supports the `HOUR_ONLY` option when using the OS date and time format strings.
