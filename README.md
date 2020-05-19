@@ -132,6 +132,16 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.0` 2020-05-19
+
+Added formatting rules for:
+
+- Long date and time
+- Long weekday and long time
+- Long weekday and short time
+- Short weekday and long time
+- Short weekday and short time
+
 ### `2.6.2` 2020-05-14
 
 Fixed an issue where Windows OS format string was treated as if it was a

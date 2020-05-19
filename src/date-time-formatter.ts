@@ -11,16 +11,23 @@ import {
   LONG_DATE,
   LONG_DATE_WITH_YEAR,
   LONG_TIME,
+  LONG_WEEKDAY,
+  LONG_WEEKDAY_LONG_TIME,
+  LONG_WEEKDAY_SHORT_TIME,
   MEDIUM,
   MEDIUM_DATE,
   MEDIUM_DATE_WITH_YEAR,
   MEDIUM_TIME,
   MEDIUM_WITH_YEAR,
   SHORT_DATE,
+  SHORT_DATE_LONG_TIME,
   SHORT_DATE_TIME,
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
-  SHORT_TIME
+  SHORT_TIME,
+  SHORT_WEEKDAY,
+  SHORT_WEEKDAY_LONG_TIME,
+  SHORT_WEEKDAY_SHORT_TIME
 } from './date-time-format-options';
 import ILocaleInfo from './ILocaleInfo';
 import {
@@ -277,6 +284,17 @@ export class DateTimeFormatter {
           return this.windowsDateToString(date, localeInfo.shortDate);
         }
       }
+      case SHORT_DATE_LONG_TIME: {
+        if (!localeInfo.shortDate || !localeInfo.longDate) {
+          throw new Error(`localeInfo.shortDate or localeInfo.longTime was not provided!`);
+        }
+
+        if (localeInfo.platform === 'macos') {
+          return `${this.macDateToString(date, localeInfo.shortDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
+        } else {
+          return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.longTime)}`;
+        }
+      }
       case SHORT_DATE_TIME: {
         if (!localeInfo.shortDate || !localeInfo.shortTime) {
           throw new Error(`localeInfo.shortDate or localeInfo.shortTime was not provided!`);
@@ -324,6 +342,52 @@ export class DateTimeFormatter {
           return `${this.macDateToString(date, localeInfo.longDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
         } else {
           return `${this.windowsDateToString(date, localeInfo.longDate)} ${this.windowsTimeToString(date, localeInfo.longTime)}`;
+        }
+      }
+      case LONG_WEEKDAY_LONG_TIME:
+      case SHORT_WEEKDAY_LONG_TIME: {
+        if (!localeInfo.longDate || !localeInfo.longTime) {
+          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+        }
+
+        let loc: string;
+        if (typeof this.locale === 'string') {
+          loc = this.locale;
+        } else {
+          loc = this.locale.regionalFormat;
+        }
+
+        const weekFormat = format === LONG_WEEKDAY_LONG_TIME 
+          ? Intl.DateTimeFormat(loc, LONG_WEEKDAY).format(date) 
+          : Intl.DateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+
+        if (localeInfo.platform === 'macos') {
+          return `${weekFormat}, ${this.macTimeToString(date, localeInfo.longTime)}`;
+        } else {
+          return `${weekFormat}, ${this.windowsTimeToString(date, localeInfo.longTime)}`;
+        }
+      }
+      case LONG_WEEKDAY_SHORT_TIME:
+      case SHORT_WEEKDAY_SHORT_TIME: {
+        if (!localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortTime was not provided!`);
+        }
+
+        let loc: string;
+        if (typeof this.locale === 'string') {
+          loc = this.locale;
+        } else {
+          loc = this.locale.regionalFormat;
+        }
+
+        const weekFormat = format === LONG_WEEKDAY_SHORT_TIME
+          ? Intl.DateTimeFormat(loc, LONG_WEEKDAY).format(date) 
+          : Intl.DateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+
+        if (localeInfo.platform === 'macos') {
+          return `${weekFormat}, ${this.macTimeToString(date, localeInfo.shortTime)}`;
+        } else {
+          return `${weekFormat}, ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
         }
       }
       case MEDIUM_DATE:

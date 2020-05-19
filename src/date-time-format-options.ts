@@ -21,6 +21,15 @@ type ShortDateTime = Readonly<{
   minute: 'numeric';
 }>;
 
+type ShortDateLongTime = Readonly<{
+  day: 'numeric';
+  month: 'numeric';
+  year: 'numeric';
+  hour: 'numeric';
+  minute: 'numeric';
+  seconds: 'numeric';
+}>;
+
 type ShortDateWithShortYear = Readonly<{
   day: 'numeric';
   month: 'numeric';
@@ -81,6 +90,11 @@ type ShortWeekday = Readonly<{ weekday: 'short' }>;
 
 type HourOnly = Readonly<{ hour: 'numeric' }>;
 
+type LongWeekdayShortTime = LongWeekday & ShortTime;
+type LongWeekdayLongTime = LongWeekday & LongTime;
+type ShortWeekdayShortTime = ShortWeekday & ShortTime;
+type ShortWeekdayLongTime = ShortWeekday & LongTime;
+
 export type TimeStringFormat = 'numeric' | '2-digit';
 
 export type DateTimeFormatOptions =
@@ -90,6 +104,7 @@ export type DateTimeFormatOptions =
   | ShortDateTime
   | ShortDateWithShortYear
   | LongDate
+  | ShortDateLongTime
   | LongDateWithYear
   | LongTime
   | FullDateWithYear
@@ -102,6 +117,10 @@ export type DateTimeFormatOptions =
   | LongWeekday
   | ShortWeekday
   | HourOnly
+  | LongWeekdayShortTime
+  | LongWeekdayLongTime
+  | ShortWeekdayShortTime
+  | ShortWeekdayLongTime
   | Readonly<{ hour: 'numeric' | '2-digit' }>
   | Readonly<{ minute: 'numeric' | '2-digit' }>
   | Readonly<{ second: 'numeric' | '2-digit' }>;
@@ -122,6 +141,15 @@ export const SHORT_DATE_TIME: ShortDateTime = {
   year: 'numeric',
   hour: 'numeric',
   minute: 'numeric'
+};
+
+export const SHORT_DATE_LONG_TIME: ShortDateLongTime = {
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  seconds: 'numeric'
 };
 
 export const SHORT_DATE_WITH_SHORT_YEAR: ShortDateWithShortYear = {
@@ -190,4 +218,24 @@ export const MEDIUM: Medium = {
 
 export const HOUR_ONLY: HourOnly = {
   hour: 'numeric'
+};
+
+export const LONG_WEEKDAY_SHORT_TIME: LongWeekdayShortTime = {
+  ...LONG_WEEKDAY,
+  ...SHORT_TIME
+};
+
+export const LONG_WEEKDAY_LONG_TIME: LongWeekdayLongTime = {
+  ...LONG_WEEKDAY,
+  ...LONG_TIME
+};
+
+export const SHORT_WEEKDAY_SHORT_TIME: ShortWeekdayShortTime = {
+  ...SHORT_WEEKDAY,
+  ...SHORT_TIME
+};
+
+export const SHORT_WEEKDAY_LONG_TIME: ShortWeekdayLongTime = {
+  ...SHORT_WEEKDAY,
+  ...LONG_TIME
 };
