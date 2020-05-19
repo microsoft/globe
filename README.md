@@ -132,6 +132,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.1` 2020-05-19
+
+Fixed typo in seconds in long date and time format.
+
 ### `2.7.0` 2020-05-19
 
 Added formatting rules for:
