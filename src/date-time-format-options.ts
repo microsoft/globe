@@ -27,7 +27,7 @@ type ShortDateLongTime = Readonly<{
   year: 'numeric';
   hour: 'numeric';
   minute: 'numeric';
-  seconds: 'numeric';
+  second: 'numeric';
 }>;
 
 type ShortDateWithShortYear = Readonly<{
@@ -149,7 +149,7 @@ export const SHORT_DATE_LONG_TIME: ShortDateLongTime = {
   year: 'numeric',
   hour: 'numeric',
   minute: 'numeric',
-  seconds: 'numeric'
+  second: 'numeric'
 };
 
 export const SHORT_DATE_WITH_SHORT_YEAR: ShortDateWithShortYear = {
