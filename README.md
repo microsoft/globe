@@ -45,6 +45,13 @@ function formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
 }
 ```
 
+**The function throws** in case an unexpected OS date and time format string is
+provided! Most likely this will happen if you feed it the OS strings verbatim and
+the OS is configured with a custom date/time format string. If you don't desire
+this behavior, you can choose your own fallback (and telemetry) by wrapping the
+call to Globe and redoing it without OS-honoring support in case it fails with
+the *Unexpected format string* error.
+
 ### OS Support
 
 Globe is able to honor OS system date and time formatting settings, but it does
