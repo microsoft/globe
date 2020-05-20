@@ -223,11 +223,30 @@ Release a version with the release notes in the readme.
 Initial release of the code pulled out of a larger codebase for
 public consumption.
 
-## Roadmap
+## To-Do
 
-- Set up Jest to run with TypeScript and TSDX and in watch mode
-- Set up automated GitHub and NPM releases
-- Add more docs, especially around formatting based on OS date time settings
+### Set up Jest to run with TypeScript and TSDX and in watch mode
+
+Right now the tests are too rudimentary and are in JavaScript. Doing this will make it
+easier, faster and less error-prone to test the library.
+
+### Set up automated GitHub and NPM releases
+
+We don't cut releases too often, but this will still be useful to make the release
+process reproducible, reliable and consistent.
+
+### Add more docs, especially around formatting based on OS date time settings
+
+We're in a process of redesigning the OS-formatting portion of this library and will
+publish a design documentation first and an implementation PR second when we're ready
+to invest more resources into improving this.
+
+### Throw a custom error when hitting an unexpected OS date and time format string
+
+This will be useful when attempting to catch this exact error. Right now we only throw
+this error so barring programming errors any error that can possibly be caught is this
+one, but it will be better to provide prototype equality (`e instanceof OSDateTimeError`)
+to be able to catch more selectively and confidently.
 
 ## Contributing
 
