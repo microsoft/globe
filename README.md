@@ -139,6 +139,11 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.2` 2020-05-25
+
+Fixed a bug in Windows AM/PM token detection in the OS formatting string.
+Instead for looking for either `t` or `tt`, Globe was only looking for `tt`.
+
 ### `2.7.1` 2020-05-19
 
 Fixed typo in seconds in long date and time format.
