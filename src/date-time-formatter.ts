@@ -316,7 +316,7 @@ export class DateTimeFormatter {
           return this.macTimeToString(date, includesADayPeriod ? 'h a' : 'H');
         } else {
           const includesTTDayPeriod = localeInfo.shortTime.includes('tt');
-          const includesTDayPeriod = localeInfo.shortTime.includes('tt');
+          const includesTDayPeriod = localeInfo.shortTime.includes('t');
           return this.windowsTimeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
         }
       }
