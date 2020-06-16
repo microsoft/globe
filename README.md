@@ -139,6 +139,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.3` 2020-06-16
+
+Improved performance, by adding more caching.
+
 ### `2.7.2` 2020-05-25
 
 Fixed a bug in Windows AM/PM token detection in the OS formatting string.
