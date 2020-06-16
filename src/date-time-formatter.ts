@@ -57,13 +57,7 @@ export class DateTimeFormatter {
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
     if (typeof this.locale === 'string') {
-      const key = JSON.stringify({ locale: this.locale, format });
-      let dtf = this.localeFormatCache.get(key);
-      if (!dtf) {
-        dtf = new Intl.DateTimeFormat(this.locale, format);
-        this.localeFormatCache.set(key, dtf);
-      }
-
+      const dtf = this.cachedDateTimeFormat(this.locale, format);
       return dtf.format(date);
     }
 
@@ -81,6 +75,17 @@ export class DateTimeFormatter {
     return partsObject;
   }
 
+  private cachedDateTimeFormat(locale: string, dateTimeOptions: Intl.DateTimeFormatOptions) {
+    const key = JSON.stringify({ locale, dateTimeOptions });
+    let dtf = this.localeFormatCache.get(key);
+    if (!dtf) {
+      dtf = Intl.DateTimeFormat(locale, dateTimeOptions);
+      this.localeFormatCache.set(key, dtf);
+    }
+
+    return dtf;
+  }
+
   private getDateTimeParts(
     dateTimeOptions: Intl.DateTimeFormatOptions,
     date: number | Date
@@ -89,7 +94,8 @@ export class DateTimeFormatter {
       throw new Error('Must be called only when using the OS formatter.');
     }
 
-    const partsArray = Intl.DateTimeFormat(this.locale.regionalFormat, dateTimeOptions).formatToParts(date);
+    const dtf = this.cachedDateTimeFormat(this.locale.regionalFormat, dateTimeOptions);
+    const partsArray = dtf.formatToParts(date);
     return this.partsToObject(partsArray);
   }
 
@@ -250,8 +256,17 @@ export class DateTimeFormatter {
     return dateTimeMap;
   }
 
+  private sanitizedOsFormats: {[key: string]: string } = {};
+
   private sanitizeOsFormat(format: string): string {
-    return format.replace(/\s+/g, ' ').trim();
+    let sanitized = this.sanitizedOsFormats[format];
+    if (sanitized) {
+      return sanitized;
+    }
+    
+    sanitized = format.replace(/\s+/g, ' ').trim();
+    this.sanitizedOsFormats[format] = sanitized;
+    return sanitized;
   }
 
   private formatOsDateTime(date: number | Date, format: DateTimeFormatOptions, localeInfo: ILocaleInfo): string {
@@ -358,8 +373,8 @@ export class DateTimeFormatter {
         }
 
         const weekFormat = format === LONG_WEEKDAY_LONG_TIME 
-          ? Intl.DateTimeFormat(loc, LONG_WEEKDAY).format(date) 
-          : Intl.DateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+          ? this.cachedDateTimeFormat(loc, LONG_WEEKDAY).format(date) 
+          : this.cachedDateTimeFormat(loc, SHORT_WEEKDAY).format(date);
 
         if (localeInfo.platform === 'macos') {
           return `${weekFormat}, ${this.macTimeToString(date, localeInfo.longTime)}`;
@@ -381,8 +396,8 @@ export class DateTimeFormatter {
         }
 
         const weekFormat = format === LONG_WEEKDAY_SHORT_TIME
-          ? Intl.DateTimeFormat(loc, LONG_WEEKDAY).format(date) 
-          : Intl.DateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+          ? this.cachedDateTimeFormat(loc, LONG_WEEKDAY).format(date) 
+          : this.cachedDateTimeFormat(loc, SHORT_WEEKDAY).format(date);
 
         if (localeInfo.platform === 'macos') {
           return `${weekFormat}, ${this.macTimeToString(date, localeInfo.shortTime)}`;
