@@ -147,4 +147,28 @@ describe('date-time-format-options', () => {
       expect(dateTimeFormatter.formatDateTime(date, SHORT_WEEKDAY_LONG_TIME)).toBe('Sun, 3:40:25 PM');
     });
   });
+
+  xdescribe('performance', () => {
+    const localeInfo = {
+      platform: 'windows',
+      regionalFormat: 'en-US',
+      shortDate: 'M/d/yyyy',
+      longDate: 'dddd, MMMM d, yyyy',
+      shortTime: 'h:mm tt',
+      longTime: 'h:mm:ss tt',
+    };
+
+    it('is fast', () => {      
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      const date = new Date(2020, 5, 28, 15, 40, 25);
+      let result = '';
+      const start = performance.now();
+      for (let i = 0; i < 1000; i++) {
+        result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
+      }
+      const end = performance.now();
+      expect(result).toBe('6/28/2020 3:40 PM');
+      expect(end - start).toBe(0);
+    });
+  });
 });

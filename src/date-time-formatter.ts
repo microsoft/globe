@@ -66,12 +66,13 @@ export class DateTimeFormatter {
 
   private partsToObject(parts: IElectronDateTimePart[]): IDateTimeFormatParts {
     const partsObject: IDateTimeFormatParts = {};
-    for (const part of parts) {
+    parts.every(part => {
       if (part.type !== 'literal') {
         // eslint-disable-next-line msteams/no-explicit-any-with-exceptions
         partsObject[part.type] = part.value as any;
       }
-    }
+      return true;
+    });
     return partsObject;
   }
 
@@ -130,9 +131,14 @@ export class DateTimeFormatter {
     symbols: string | string[],
     value: string | boolean | undefined
   ) {
-    const syms = Array.isArray(symbols) ? symbols : [symbols];
-    for (const symbol of syms) {
-      map[symbol] = value ? value.toString() : symbol;
+
+    if (Array.isArray(symbols)) {
+      symbols.every(symbol => {
+        map[symbol] = value ? value.toString() : symbol;
+        return true;
+      });
+    } else {
+      map[symbols] = value ? value.toString() : symbols;
     }
   }
 
@@ -140,14 +146,15 @@ export class DateTimeFormatter {
     // fix of chromium bug - Chromium Intl.DateTimeFormat ignores numeric/2-digit for hour/min/sec settings
 
     // fix of 2-digit symbols
-    for (const symbol of ['hh', 'HH', 'mm', 'ss']) {
+    ['hh', 'HH', 'mm', 'ss'].every(symbol => {
       if (dateTimeMap[symbol] && dateTimeMap[symbol].length === 1) {
         dateTimeMap[symbol] = `0${dateTimeMap[symbol]}`;
       }
-    }
+      return true;
+    });
 
     // fix of numeric symbols
-    for (const symbol of ['h', 'H', 'm', 's']) {
+    ['h', 'H', 'm', 's'].every(symbol => {
       if (
         dateTimeMap[symbol] &&
         dateTimeMap[symbol].length === 2 &&
@@ -155,7 +162,8 @@ export class DateTimeFormatter {
       ) {
         dateTimeMap[symbol] = dateTimeMap[symbol][1];
       }
-    }
+    });
+    return true;
   }
 
   private macTimeToString(date: number | Date, macTimeFormat: string): string {
@@ -233,24 +241,30 @@ export class DateTimeFormatter {
   ): IDateTimeMap {
     const dateTimeMap: IDateTimeMap = {};
 
-    for (const key of Object.keys(translationMap)) {
+    Object.keys(translationMap).every(key => {
+      const entry = translationMap[key];
       const parts = this.getDateTimeParts(
-        translationMap[key].intl.options,
+        entry.intl.options,
         date
       );
-      const symbolParts = Array.isArray(translationMap[key].intl.part)
-        ? translationMap[key].intl.part
-        : [translationMap[key].intl.part];
       let symbolValue;
-      for (const symbolPart of symbolParts as IDateTimeFormatPartKeys[]) {
-        if (parts[symbolPart]) {
-          symbolValue = parts[symbolPart];
-          break;
-        }
+      const symbolPart = entry.intl.part;
+      if (Array.isArray(symbolPart)) {
+        (symbolPart as IDateTimeFormatPartKeys[]).every(p => {
+          if (parts[p]) {
+            symbolValue = parts[p];
+            return false;
+          } else {
+            return true;
+          }
+        });
+      } else {
+        symbolValue = parts[symbolPart];
       }
 
-      this.addToMap(dateTimeMap, translationMap[key].symbol, symbolValue);
-    }
+      this.addToMap(dateTimeMap, entry.symbol, symbolValue);
+      return true;
+    });
 
     this.fixChromiumDigitBug(dateTimeMap);
     return dateTimeMap;
