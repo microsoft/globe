@@ -139,6 +139,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.7.4` 2020-06-29
+
+Do not use `for...of` because of perf impact.
+
 ### `2.7.3` 2020-06-16
 
 Improved performance, by adding more caching.

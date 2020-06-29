@@ -19,7 +19,8 @@
     "clean": "rimraf dist",
     "tslint": "tslint --project tsconfig.json -r tslint.json -r ./node_modules/tslint-microsoft-contrib --fix || true",
     "prepare": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --watch --runInBand"
   },
   "devDependencies": {
     "@types/jest": "^25.1.1",
