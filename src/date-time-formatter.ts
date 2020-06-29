@@ -77,7 +77,7 @@ export class DateTimeFormatter {
   }
 
   private cachedDateTimeFormat(locale: string, dateTimeOptions: Intl.DateTimeFormatOptions) {
-    const key = JSON.stringify({ locale, dateTimeOptions });
+    const key = `${locale}:${JSON.stringify(dateTimeOptions)}`;
     let dtf = this.localeFormatCache.get(key);
     if (!dtf) {
       dtf = Intl.DateTimeFormat(locale, dateTimeOptions);
