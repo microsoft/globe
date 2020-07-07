@@ -34,4 +34,8 @@ export {
   DateTimeFormatOptions
 } from './date-time-format-options';
 
+export {
+  IElectronDateTimePart
+} from './os-date-time-formatter';
+
 export { DateTimeFormatter } from './date-time-formatter';
