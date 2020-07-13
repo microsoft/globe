@@ -80,6 +80,12 @@ type MediumDateWithYear = Readonly<{
   year: 'numeric'
 }>;
 
+type ShortTimeZoneName = Readonly<{ timeZoneName: 'short' }>;
+
+type LongTimeZoneName = Readonly<{ timeZoneName: 'long' }>;
+
+type LongWithYearTimeZone = LongDateWithYear & ShortTimeZoneName;
+
 type MediumWithYear = MediumDateWithYear & MediumTime;
 
 type Medium = MediumDate & MediumTime;
@@ -92,8 +98,18 @@ type HourOnly = Readonly<{ hour: 'numeric' }>;
 
 type LongWeekdayShortTime = LongWeekday & ShortTime;
 type LongWeekdayLongTime = LongWeekday & LongTime;
+type LongTimeWithTimeZone = LongTime & ShortTimeZoneName;
+type LongWithTimeZone = LongTime & LongDate & ShortTimeZoneName;
+
 type ShortWeekdayShortTime = ShortWeekday & ShortTime;
 type ShortWeekdayLongTime = ShortWeekday & LongTime;
+
+type Full = FullDate & FullTime;
+type FullWithYear = FullDateWithYear & FullTime;
+type FullTime = LongTime & LongTimeZoneName;
+
+type Short = ShortDate & ShortTime;
+type ShortWithYear = ShortDateWithYear & ShortTime;
 
 export type TimeStringFormat = 'numeric' | '2-digit';
 
@@ -103,12 +119,19 @@ export type DateTimeFormatOptions =
   | ShortDateWithYear
   | ShortDateTime
   | ShortDateWithShortYear
-  | LongDate
   | ShortDateLongTime
+  | LongDate
   | LongDateWithYear
+  | LongWithYearTimeZone
+  | LongWithTimeZone
+  | LongWithYearTimeZone
+  | LongTimeWithTimeZone
   | LongTime
   | FullDateWithYear
   | FullDate
+  | FullTime
+  | Full
+  | FullWithYear
   | MediumTime
   | MediumDate
   | MediumDateWithYear
@@ -121,6 +144,8 @@ export type DateTimeFormatOptions =
   | LongWeekdayLongTime
   | ShortWeekdayShortTime
   | ShortWeekdayLongTime
+  | Short
+  | ShortWithYear
   | Readonly<{ hour: 'numeric' | '2-digit' }>
   | Readonly<{ minute: 'numeric' | '2-digit' }>
   | Readonly<{ second: 'numeric' | '2-digit' }>;
@@ -172,6 +197,23 @@ export const LONG_TIME: LongTime = {
   second: 'numeric'
 };
 
+export const LONG_TIME_WITH_TIMEZONE: LongTimeWithTimeZone = {
+  ...LONG_TIME,
+  timeZoneName: 'short'
+};
+
+export const LONG_WITH_TIMEZONE: LongWithTimeZone = {
+  ...LONG_DATE,
+  ...LONG_TIME,
+  timeZoneName: 'short'
+};
+
+export const LONG_WITH_YEAR_TIMEZONE: LongWithYearTimeZone = {
+  ...LONG_DATE_WITH_YEAR,
+  ...LONG_TIME,
+  timeZoneName: 'short'
+};
+
 export const LONG_WEEKDAY: LongWeekday = { weekday: 'long' };
 
 export const SHORT_WEEKDAY: ShortWeekday = { weekday: 'short' };
@@ -187,6 +229,21 @@ export const FULL_DATE: FullDate = {
   weekday: 'long',
   day: 'numeric',
   month: 'long'
+};
+
+export const FULL_TIME: FullTime = {
+  ...LONG_TIME,
+  timeZoneName: 'long'
+};
+
+export const FULL: Full = {
+  ...FULL_DATE,
+  ...FULL_TIME
+};
+
+export const FULL_WITH_YEAR: FullWithYear = {
+  ...FULL_DATE_WITH_YEAR,
+  ...FULL_TIME,
 };
 
 export const MEDIUM_TIME: MediumTime = {
@@ -228,6 +285,16 @@ export const LONG_WEEKDAY_SHORT_TIME: LongWeekdayShortTime = {
 export const LONG_WEEKDAY_LONG_TIME: LongWeekdayLongTime = {
   ...LONG_WEEKDAY,
   ...LONG_TIME
+};
+
+export const SHORT: Short = {
+  ...SHORT_DATE,
+  ...SHORT_TIME
+};
+
+export const SHORT_WITH_YEAR: ShortWithYear = {
+  ...SHORT_DATE_WITH_YEAR,
+  ...SHORT_TIME,
 };
 
 export const SHORT_WEEKDAY_SHORT_TIME: ShortWeekdayShortTime = {
