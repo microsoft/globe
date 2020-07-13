@@ -139,6 +139,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.8.0` 2020-06-29
+
+Precompute formats so that applying is faster.
+
 ### `2.7.4` 2020-06-29
 
 Do not use `for...of` because of perf impact.

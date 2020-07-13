@@ -20,6 +20,10 @@ interface ITranslationMap {
   [key: string]: ITranslationItem;
 }
 
+interface IPlatformUnsupportedMask {
+  [key: string]: RegExp[];
+}
+
 interface ITranslationMaps {
   [os: string]: ITranslationMap;
 }
@@ -201,7 +205,7 @@ const macTime: ITranslationMap = {
     }
   },
   'zone-short': {
-    symbol: ['z', 'zz', 'zzz', 'Z', 'ZZ', 'ZZZ', 'ZZZZ', 'ZZZZZ', 'O', 'OOOO'],
+    symbol: ['x', 'xx', 'xxx', 'xxxx', 'xxxxx', 'X', 'XX', 'XXX', 'XXXX', 'XXXXX', 'z', 'zz', 'zzz', 'Z', 'ZZ', 'ZZZ', 'ZZZZ', 'ZZZZZ', 'O', 'OOOO'],
     intl: {
       options: {
         timeZoneName: 'short'
@@ -210,7 +214,7 @@ const macTime: ITranslationMap = {
     }
   },
   'zone-long': {
-    symbol: ['zzzz', 'v', 'vvvv', 'VV', 'VVV', 'VVVV'],
+    symbol: ['zzzz', 'v', 'vvvv', 'V', 'VV', 'VVV', 'VVVV'],
     intl: {
       options: {
         timeZoneName: 'long'
@@ -222,7 +226,7 @@ const macTime: ITranslationMap = {
 
 const timeTranslationMaps: ITranslationMaps = {};
 timeTranslationMaps.windows = windowsTime;
-timeTranslationMaps.mac = macTime;
+timeTranslationMaps.macos = macTime;
 
 const windowsDate: ITranslationMap = {
   d: {
@@ -492,11 +496,27 @@ const macDate: ITranslationMap = {
 
 const dateTranslationMaps: ITranslationMaps = {};
 dateTranslationMaps.windows = windowsDate;
-dateTranslationMaps.mac = macDate;
+dateTranslationMaps.macos = macDate;
+
+const unsupportedMask: IPlatformUnsupportedMask = {
+  macos: [
+    /l/g, // deprecared
+    /w/g, // week of year
+    /W/g, // week of month
+    /D/g, // day of year
+    /F/g, // day of week in month
+    /g/g, // modified julian day
+    /U/g, // cyclic year
+    /q/g, // quarter
+    /Q/g, // quarter
+  ],
+};
 
 export {
   timeTranslationMaps,
   dateTranslationMaps,
   IDateTimeFormatPartKeys,
-  ITranslationMap
+  ITranslationMap,
+  IPlatformUnsupportedMask,
+  unsupportedMask,
 };

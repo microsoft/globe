@@ -3,6 +3,7 @@
  * Licensed under the MIT License.
  */
 
+import { CachedDateTimeFormat } from './cached-datetimeformat';
 import {
   DateTimeFormatOptions,
   FULL_DATE,
@@ -30,18 +31,15 @@ import {
   SHORT_WEEKDAY_SHORT_TIME
 } from './date-time-format-options';
 import ILocaleInfo from './ILocaleInfo';
-import {
-  dateTranslationMaps,
-  IDateTimeFormatPartKeys,
-  ITranslationMap,
-  timeTranslationMaps
-} from './os-date-time-translation-maps';
+import { OsDateTimeFormatter } from './os-date-time-formatter';
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair 
   // (locale - string & options - object) and stringify is native so it is so fars it is
   // not worth maintaing the two-level cache (map for string and weak map for object)
-  private readonly localeFormatCache = new Map<string, Intl.DateTimeFormat>();
+  private readonly cachedDateTimeFormat = new CachedDateTimeFormat();
+
+  private formatter?: OsDateTimeFormatter = undefined;
 
   /**
    * Instantiates DateTimeFormatter
@@ -57,235 +55,27 @@ export class DateTimeFormatter {
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
     if (typeof this.locale === 'string') {
-      const dtf = this.cachedDateTimeFormat(this.locale, format);
+      const dtf = this.cachedDateTimeFormat.get(this.locale, format);
       return dtf.format(date);
     }
 
     return this.formatOsDateTime(date, format, this.locale);
   }
 
-  private partsToObject(parts: IElectronDateTimePart[]): IDateTimeFormatParts {
-    const partsObject: IDateTimeFormatParts = {};
-    parts.every(part => {
-      if (part.type !== 'literal') {
-        // eslint-disable-next-line msteams/no-explicit-any-with-exceptions
-        partsObject[part.type] = part.value as any;
-      }
-      return true;
-    });
-    return partsObject;
-  }
-
-  private cachedDateTimeFormat(locale: string, dateTimeOptions: Intl.DateTimeFormatOptions) {
-    const key = `${locale}:${JSON.stringify(dateTimeOptions)}`;
-    let dtf = this.localeFormatCache.get(key);
-    if (!dtf) {
-      dtf = Intl.DateTimeFormat(locale, dateTimeOptions);
-      this.localeFormatCache.set(key, dtf);
-    }
-
-    return dtf;
-  }
-
-  private getDateTimeParts(
-    dateTimeOptions: Intl.DateTimeFormatOptions,
-    date: number | Date
-  ): IDateTimeFormatParts {
-    if (typeof this.locale === 'string') {
-      throw new Error('Must be called only when using the OS formatter.');
-    }
-
-    const dtf = this.cachedDateTimeFormat(this.locale.regionalFormat, dateTimeOptions);
-    const partsArray = dtf.formatToParts(date);
-    return this.partsToObject(partsArray);
-  }
-
-  private formatDateTimeFromMask(
-    mask: string,
-    dateTimeMap: IDateTimeMap
-  ): string {
-    let formatted = '';
-    let toMaskIndex = 0;
-    let maskPartFound: boolean;
-    while (toMaskIndex < mask.length) {
-      maskPartFound = false;
-      for (let endIndex = mask.length; endIndex > toMaskIndex; endIndex--) {
-        if (dateTimeMap[mask.slice(toMaskIndex, endIndex)]) {
-          maskPartFound = true;
-          formatted += dateTimeMap[mask.slice(toMaskIndex, endIndex)];
-          toMaskIndex = endIndex;
-          break;
-        }
-      }
-      if (!maskPartFound) {
-        formatted += mask[toMaskIndex];
-        toMaskIndex += 1;
-      }
-    }
-
-    return formatted;
-  }
-
-  private addToMap(
-    map: IDateTimeMap,
-    symbols: string | string[],
-    value: string | boolean | undefined
-  ) {
-
-    if (Array.isArray(symbols)) {
-      symbols.every(symbol => {
-        map[symbol] = value ? value.toString() : symbol;
-        return true;
-      });
-    } else {
-      map[symbols] = value ? value.toString() : symbols;
-    }
-  }
-
-  private fixChromiumDigitBug(dateTimeMap: IDateTimeMap) {
-    // fix of chromium bug - Chromium Intl.DateTimeFormat ignores numeric/2-digit for hour/min/sec settings
-
-    // fix of 2-digit symbols
-    ['hh', 'HH', 'mm', 'ss'].every(symbol => {
-      if (dateTimeMap[symbol] && dateTimeMap[symbol].length === 1) {
-        dateTimeMap[symbol] = `0${dateTimeMap[symbol]}`;
-      }
-      return true;
-    });
-
-    // fix of numeric symbols
-    ['h', 'H', 'm', 's'].every(symbol => {
-      if (
-        dateTimeMap[symbol] &&
-        dateTimeMap[symbol].length === 2 &&
-        dateTimeMap[symbol][0] === '0'
-      ) {
-        dateTimeMap[symbol] = dateTimeMap[symbol][1];
-      }
-    });
-    return true;
-  }
-
-  private macTimeToString(date: number | Date, macTimeFormat: string): string {
-    const dateTimeMap = this.getDateTimeMap(
-      timeTranslationMaps['mac'],
-      date
-    );
-    dateTimeMap.V = 'unk';
-
-    let timeFormat = macTimeFormat; // local copy of macDateFormat to enable changes and preserve the original value
-    timeFormat = timeFormat.replace(/x/g, '');
-    timeFormat = timeFormat.replace(/X/g, '');
-
-    timeFormat = this.sanitizeOsFormat(timeFormat);
-
-    return this.formatDateTimeFromMask(timeFormat, dateTimeMap);
-  }
-
-  private windowsTimeToString(
-    date: number | Date,
-    windowsTimeFormat: string
-  ): string {
-    const dateTimeMap = this.getDateTimeMap(
-      timeTranslationMaps['windows'],
-      date
-    );
-    const format = this.sanitizeOsFormat(windowsTimeFormat);
-    return this.formatDateTimeFromMask(format, dateTimeMap);
-  }
-
-  private macDateToString(date: number | Date, macDateFormat: string): string {
-    const dateTimeMap = this.getDateTimeMap(
-      dateTranslationMaps['mac'],
-      date
-    );
-    let dateFormat = macDateFormat; // local copy of macDateFormat to enable changes and preserve the original value
-
-    dateFormat = dateFormat.replace(/l/g, '');
-
-    dateFormat = dateFormat.replace(/w/g, '');
-    dateFormat = dateFormat.replace(/W/g, '');
-    dateFormat = dateFormat.replace(/D/g, '');
-    dateFormat = dateFormat.replace(/F/g, '');
-    dateFormat = dateFormat.replace(/g/g, '');
-    dateFormat = dateFormat.replace(/U/g, '');
-    dateFormat = dateFormat.replace(/q/g, '');
-    dateFormat = dateFormat.replace(/Q/g, '');
-
-    dateFormat = this.sanitizeOsFormat(dateFormat);
-
-    return this.formatDateTimeFromMask(dateFormat, dateTimeMap);
-  }
-
-  private windowsDateToString(
-    date: number | Date,
-    windowsDateFormat: string
-  ): string {
-    const dateTimeMap = this.getDateTimeMap(
-      dateTranslationMaps['windows'],
-      date
-    );
-
-    // Windows "y" = Year represented only by the last digit
-    // Intl doesn't support 1-digit year, but it supports 2-digit year -> let create it from it
-    dateTimeMap['y'] =
-      dateTimeMap['y'].length === 2 ? dateTimeMap['y'][1] : dateTimeMap['y'];
-
-    const format = this.sanitizeOsFormat(windowsDateFormat);
-    return this.formatDateTimeFromMask(format, dateTimeMap);
-  }
-
-  private getDateTimeMap(
-    translationMap: ITranslationMap,
-    date: number | Date
-  ): IDateTimeMap {
-    const dateTimeMap: IDateTimeMap = {};
-
-    Object.keys(translationMap).every(key => {
-      const entry = translationMap[key];
-      const parts = this.getDateTimeParts(
-        entry.intl.options,
-        date
-      );
-      let symbolValue;
-      const symbolPart = entry.intl.part;
-      if (Array.isArray(symbolPart)) {
-        (symbolPart as IDateTimeFormatPartKeys[]).every(p => {
-          if (parts[p]) {
-            symbolValue = parts[p];
-            return false;
-          } else {
-            return true;
-          }
-        });
-      } else {
-        symbolValue = parts[symbolPart];
-      }
-
-      this.addToMap(dateTimeMap, entry.symbol, symbolValue);
-      return true;
-    });
-
-    this.fixChromiumDigitBug(dateTimeMap);
-    return dateTimeMap;
-  }
-
-  private sanitizedOsFormats: {[key: string]: string } = {};
-
-  private sanitizeOsFormat(format: string): string {
-    let sanitized = this.sanitizedOsFormats[format];
-    if (sanitized) {
-      return sanitized;
-    }
-    
-    sanitized = format.replace(/\s+/g, ' ').trim();
-    this.sanitizedOsFormats[format] = sanitized;
-    return sanitized;
-  }
-
-  private formatOsDateTime(date: number | Date, format: DateTimeFormatOptions, localeInfo: ILocaleInfo): string {
+  public formatOsDateTime(date: number | Date, format: DateTimeFormatOptions, localeInfo: ILocaleInfo): string {
     if (!localeInfo) {
       throw new Error('Cannot call the OS date and time formatter without specifying the OS locale info.');
+    }
+
+    if (!this.formatter) {
+       this.formatter = new OsDateTimeFormatter(localeInfo.regionalFormat, localeInfo.platform, this.cachedDateTimeFormat);
+    }
+
+    let loc: string;
+    if (typeof this.locale === 'string') {
+      loc = this.locale;
+    } else {
+      loc = this.locale.regionalFormat;
     }
 
     switch (format) {
@@ -294,11 +84,7 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.shortTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return this.macTimeToString(date, localeInfo.shortTime);
-        } else {
-          return this.windowsTimeToString(date, localeInfo.shortTime);
-        }
+        return this.formatter.timeToString(date, localeInfo.shortTime);
       }
       case SHORT_DATE:
       case SHORT_DATE_WITH_SHORT_YEAR:
@@ -307,33 +93,25 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.shortDate was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return this.macDateToString(date, localeInfo.shortDate);
-        } else {
-          return this.windowsDateToString(date, localeInfo.shortDate);
-        }
+        return this.formatter.dateToString(date, localeInfo.shortDate);
       }
       case SHORT_DATE_LONG_TIME: {
-        if (!localeInfo.shortDate || !localeInfo.longDate) {
+        if (!localeInfo.shortDate || !localeInfo.longTime) {
           throw new Error(`localeInfo.shortDate or localeInfo.longTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return `${this.macDateToString(date, localeInfo.shortDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
-        } else {
-          return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.longTime)}`;
-        }
+        const d = this.formatter.dateToString(date, localeInfo.shortDate);
+        const t = this.formatter.timeToString(date, localeInfo.longTime);
+        return `${d} ${t}`;
       }
       case SHORT_DATE_TIME: {
         if (!localeInfo.shortDate || !localeInfo.shortTime) {
           throw new Error(`localeInfo.shortDate or localeInfo.shortTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return `${this.macDateToString(date, localeInfo.shortDate)} ${this.macTimeToString(date, localeInfo.shortTime)}`;
-        } else {
-          return `${this.windowsDateToString(date, localeInfo.shortDate)} ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
-        }
+        const d = this.formatter.dateToString(date, localeInfo.shortDate);
+        const t = this.formatter.timeToString(date, localeInfo.shortTime);
+        return `${d} ${t}`;
       }
       case HOUR_ONLY: {
         if (!localeInfo.shortTime) {
@@ -342,11 +120,11 @@ export class DateTimeFormatter {
 
         if (localeInfo.platform === 'macos') {
           const includesADayPeriod = localeInfo.shortTime.includes('a');
-          return this.macTimeToString(date, includesADayPeriod ? 'h a' : 'H');
+          return this.formatter.timeToString(date, includesADayPeriod ? 'h a' : 'H');
         } else {
           const includesTTDayPeriod = localeInfo.shortTime.includes('tt');
           const includesTDayPeriod = localeInfo.shortTime.includes('t');
-          return this.windowsTimeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
+          return this.formatter.timeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
         }
       }
       case MEDIUM_TIME:
@@ -355,11 +133,7 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.longTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return this.macTimeToString(date, localeInfo.longTime);
-        } else {
-          return this.windowsTimeToString(date, localeInfo.longTime);
-        }
+        return this.formatter.timeToString(date, localeInfo.longTime);
       }
       case MEDIUM:
       case MEDIUM_WITH_YEAR: {
@@ -367,34 +141,25 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return `${this.macDateToString(date, localeInfo.longDate)} ${this.macTimeToString(date, localeInfo.longTime)}`;
-        } else {
-          return `${this.windowsDateToString(date, localeInfo.longDate)} ${this.windowsTimeToString(date, localeInfo.longTime)}`;
-        }
+        const d = this.formatter.dateToString(date, localeInfo.longDate);
+        const t = this.formatter.timeToString(date, localeInfo.longTime);
+        return `${d} ${t}`;
+      }
+      case LONG_WEEKDAY:
+      case SHORT_WEEKDAY: {
+        return this.cachedDateTimeFormat.get(loc, format).format(date); 
       }
       case LONG_WEEKDAY_LONG_TIME:
       case SHORT_WEEKDAY_LONG_TIME: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
           throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
         }
-
-        let loc: string;
-        if (typeof this.locale === 'string') {
-          loc = this.locale;
-        } else {
-          loc = this.locale.regionalFormat;
-        }
-
+        
         const weekFormat = format === LONG_WEEKDAY_LONG_TIME 
-          ? this.cachedDateTimeFormat(loc, LONG_WEEKDAY).format(date) 
-          : this.cachedDateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date) 
+          : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
-        if (localeInfo.platform === 'macos') {
-          return `${weekFormat}, ${this.macTimeToString(date, localeInfo.longTime)}`;
-        } else {
-          return `${weekFormat}, ${this.windowsTimeToString(date, localeInfo.longTime)}`;
-        }
+        return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.longTime)}`;
       }
       case LONG_WEEKDAY_SHORT_TIME:
       case SHORT_WEEKDAY_SHORT_TIME: {
@@ -402,22 +167,11 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.shortTime was not provided!`);
         }
 
-        let loc: string;
-        if (typeof this.locale === 'string') {
-          loc = this.locale;
-        } else {
-          loc = this.locale.regionalFormat;
-        }
-
         const weekFormat = format === LONG_WEEKDAY_SHORT_TIME
-          ? this.cachedDateTimeFormat(loc, LONG_WEEKDAY).format(date) 
-          : this.cachedDateTimeFormat(loc, SHORT_WEEKDAY).format(date);
+          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date) 
+          : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
-        if (localeInfo.platform === 'macos') {
-          return `${weekFormat}, ${this.macTimeToString(date, localeInfo.shortTime)}`;
-        } else {
-          return `${weekFormat}, ${this.windowsTimeToString(date, localeInfo.shortTime)}`;
-        }
+        return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.shortTime)}`;
       }
       case MEDIUM_DATE:
       case LONG_DATE:
@@ -429,30 +183,10 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.longDate was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          return this.macDateToString(date, localeInfo.longDate);
-        } else {
-          return this.windowsDateToString(date, localeInfo.longDate);
-        }
+        return this.formatter.dateToString(date, localeInfo.longDate);
       }
     }
 
     throw new Error('Incorrect OS locale info format specified:' + format);
   }
-}
-
-interface IDateTimeMap {
-  [symbol: string]: string;
-}
-
-interface IDateTimeFormatParts extends Intl.DateTimeFormatOptions {
-  dayperiod?: string;
-  dayPeriod?: string;
-}
-
-type ElectronDateTimePartItem = keyof IDateTimeFormatParts | 'literal';
-
-export interface IElectronDateTimePart {
-  type: ElectronDateTimePartItem;
-  value: string;
 }
