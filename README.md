@@ -142,6 +142,7 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 ### `2.8.0` 2020-06-29
 
 Precompute formats so that applying is faster.
+Added FULL, FULL_WITH_YEAR, FULL_TIME, LONG_TIME_WITH_TIMEZONE, LONG_WITH_TIMEZONE, LONG_WITH_YEAR_TIMEZONE, SHORT and SHORT_WITH_YEAR formats.
 
 ### `2.7.4` 2020-06-29
 

@@ -26,15 +26,15 @@ export interface IElectronDateTimePart {
 
 interface IReplacePart {
   replacePart: IDateTimeFormatPartKeys | IDateTimeFormatPartKeys[];
-  force1Digit: boolean;
-  force2Digits: boolean;
+  force1Digit?: boolean;
+  force2Digits?: boolean;
   intlOptionsOverride?: Intl.DateTimeFormatOptions;
 }
 
 type ReplacePart = string | IReplacePart;
 
 interface IFormat {
-  intlOptions: any;
+  intlOptions: Intl.DateTimeFormatOptions;
   parts: ReplacePart[];
 }
 
@@ -75,6 +75,35 @@ export class OsDateTimeFormatter {
 
   public dateToString(date: number | Date, mask: string): string {
     const format = this.getFormat(mask, this.dateTranslationMap);
+    return this.applyFormat(format, date);
+  }
+
+  public timeHasTimeZone(mask: string): boolean {
+    const format = this.getFormat(mask, this.timeTranslationMap);
+    if (format.intlOptions.timeZoneName) {
+      return true;
+    }
+
+    let result = false;
+    format.parts.every(part => {
+      if (typeof(part) !== 'string') {
+        if (part.intlOptionsOverride && part.intlOptionsOverride.timeZoneName) {
+          result = true;
+          return false;
+        }
+      }
+      return true;
+    });
+
+    return result;
+  }
+
+  public getTimeZoneName(date: number | Date, formatOptions: Intl.DateTimeFormatOptions) {
+    const format = {
+      intlOptions: { timeZoneName: formatOptions.timeZoneName },
+      parts: [
+        { replacePart: 'timeZoneName' } as IReplacePart
+      ]};
     return this.applyFormat(format, date);
   }
 
