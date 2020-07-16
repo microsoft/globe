@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <script>
+    var exports = {};
+  </script>
+  <script src="https://unpkg.com/@microsoft/globe@2.8.0/dist/globe.cjs.development.js"></script>
+  <style>
+    .header {
+      display: flex;
+      align-items: baseline;
+      padding-left: 1rem;
+    }
+
+    .header a {
+      margin-left: 1rem;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      padding: 1rem;
+      margin: 1rem;
+      border-left: 1px solid #7daace;
+      width: 90%;
+    }
+
+    body {
+      box-sizing: border-box;
+      font-family: "Trebuchet MS", sans-serif;
+      background: #f9f8fd;
+    }
+
+    label,
+    .label {
+      padding: 2px 2px 6px 0;
+      display: inline-block;
+      font-weight: 600;
+    }
+
+    #wrapper label {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    #wrapper select {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .wrapper:after,
+    clear-floats:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+    }
+  </style>
+  <title>Globe date and time formats</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Globe date and time formats</h1>
+    <a href="https://www.npmjs.com/package/@microsoft/globe">https://www.npmjs.com/package/@microsoft/globe</a>
+  </div>
+  <div class="clear-floats">
+    <div class="column">
+      <form id='formats-form'>
+        <div class="container">
+          <h2>Input parameters</h2>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+          <label for="time">Time:</label>
+          <input type="text" id="time" name="time">
+          <label for="locale">Locale:</label>
+          <input type="text" id="locale" name="locale">
+          <div id="test-data-container">
+            <label for="test-data">Test data:</label>
+          </div>
+          </div>
+        <div id="globe-wrapper" class="container">
+          <h2>Globe results</h2>
+          <div id="globe-container">Select test data to show results</div>
+        </div>
+      </form>
+    </div>
+    <div class="column">
+      <div id="results-container" class="container">
+        <h2>Intl results</h2>
+      </div>
+      <div id="options-container" class="container">
+        <h2>Intl options</h2>
+      </div>
+    </div>
+    <script>
+
+      const formatStyles = ['full', 'long', 'medium', 'short'];
+
+      const options = {
+        dateStyle: formatStyles,
+        timeStyle: formatStyles,
+        //fractionalSecondDigits
+        calendar: ["buddhist", "chinese", " coptic", "ethiopia", "ethiopic", "gregory", " hebrew", "indian", "islamic", "iso8601", " japanese", "persian", "roc"],
+        dayPeriod: ['narrow', 'short', 'long'],
+        numberingSystem: ["arab", "arabext", " bali", "beng", "deva", "fullwide", " gujr", "guru", "hanidec", "khmr", " knda", "laoo", "latn", "limb", "mlym", " mong", "mymr", "orya", "tamldec", " telu", "thai", "tibt"],
+        localeMatcher: ["lookup", "best fit"],
+        //timeZone
+        hour12: [true, false],
+        hourCycle: ["h11", "h12", "h23", "h24"],
+        formatMatcher: ["lookup", "best fit"],
+        weekday: ['long', 'short', 'narrow'],
+        era: ['long', 'short', 'narrow'],
+        year: ['numeric', '2-digit'],
+        month: ['numeric', '2-digit', 'long', 'short', 'narrow'],
+        day: ['numeric', '2-digit'],
+        hour: ['numeric', '2-digit'],
+        minute: ['numeric', '2-digit'],
+        second: ['numeric', '2-digit'],
+        timeZoneName: ['long', 'short'],
+      };
+
+      const globeFormats = {
+        SHORT_TIME: exports.SHORT_TIME,
+        SHORT_DATE: exports.SHORT_DATE,
+        SHORT_DATE_WITH_YEAR: exports.SHORT_DATE_WITH_YEAR,
+        SHORT_DATE_TIME: exports.SHORT_DATE_TIME,
+        SHORT_DATE_LONG_TIME: exports.SHORT_DATE_LONG_TIME,
+        SHORT_DATE_WITH_SHORT_YEAR: exports.SHORT_DATE_WITH_SHORT_YEAR,
+        SHORT: exports.SHORT,
+        SHORT_WITH_YEAR: exports.SHORT_WITH_YEAR,
+        LONG_DATE: exports.LONG_DATE,
+        LONG_DATE_WITH_YEAR: exports.LONG_DATE_WITH_YEAR,
+        LONG_TIME: exports.LONG_TIME,
+        LONG_TIME_WITH_TIMEZONE: exports.LONG_TIME_WITH_TIMEZONE,
+        LONG_WITH_TIMEZONE: exports.LONG_WITH_TIMEZONE,
+        LONG_WITH_YEAR_TIMEZONE: exports.LONG_WITH_YEAR_TIMEZONE,
+        LONG_WEEKDAY: exports.LONG_WEEKDAY,
+        SHORT_WEEKDAY: exports.SHORT_WEEKDAY,
+        FULL_DATE_WITH_YEAR: exports.FULL_DATE_WITH_YEAR,
+        FULL_DATE: exports.FULL_DATE,
+        FULL_TIME: exports.FULL_TIME,
+        FULL_WITH_YEAR: exports.FULL_WITH_YEAR,
+        FULL: exports.FULL,
+        MEDIUM_TIME: exports.MEDIUM_TIME,
+        MEDIUM_DATE: exports.MEDIUM_DATE,
+        MEDIUM_DATE_WITH_YEAR: exports.MEDIUM_DATE_WITH_YEAR,
+        MEDIUM_WITH_YEAR: exports.MEDIUM_WITH_YEAR,
+        MEDIUM: exports.MEDIUM,
+        HOUR_ONLY: exports.HOUR_ONLY,
+        LONG_WEEKDAY_SHORT_TIME: exports.LONG_WEEKDAY_SHORT_TIME,
+        LONG_WEEKDAY_LONG_TIME: exports.LONG_WEEKDAY_LONG_TIME,
+        SHORT_WEEKDAY_SHORT_TIME: exports.SHORT_WEEKDAY_SHORT_TIME,
+        SHORT_WEEKDAY_LONG_TIME: exports.SHORT_WEEKDAY_LONG_TIME,
+      }
+
+      const testData = [
+        {
+          "locale": "sk-sk",
+          "shortDate": {
+            "mask": "d. M. yyyy",
+            "expected": "3. 7. 2020"
+          },
+          "longDate": {
+            "mask": "dddd d. MMMM yyyy",
+            "expected": "piatok 3. júla 2020"
+          },
+          "shortTime": {
+            "mask": "H:mm",
+            "expected": "9:10"
+          },
+          "longTime": {
+            "mask": "H:mm:ss",
+            "expected": "9:10:44"
+          }
+        },
+        {
+          "locale": "sk-sk",
+          "longDate": {
+            "mask": "d. MMMM yyyy",
+            "expected": "3. júla 2020"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "M/d/yyyy",
+            "expected": "7/3/2020"
+          },
+          "longDate": {
+            "mask": "dddd, MMMM d, yyyy",
+            "expected": "Friday, July 3, 2020"
+          },
+          "shortTime": {
+            "mask": "h:mm tt",
+            "expected": "9:10 AM"
+          },
+          "longTime": {
+            "mask": "h:mm:ss tt",
+            "expected": "9:10:44 AM"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "M/d/yy",
+            "expected": "7/3/20"
+          },
+          "longDate": {
+            "mask": "MMMM d, yyyy",
+            "expected": "July 3, 2020"
+          },
+          "shortTime": {
+            "mask": "hh:mm tt",
+            "expected": "09:10 AM"
+          },
+          "longTime": {
+            "mask": "hh:mm:ss tt",
+            "expected": "09:10:44 AM"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "MM/dd/yy",
+            "expected": "07/03/20"
+          },
+          "longDate": {
+            "mask": "dddd, d MMMM, yyyy",
+            "expected": "Friday, 3 July, 2020"
+          },
+          "shortTime": {
+            "mask": "H:mm",
+            "expected": "9:10"
+          },
+          "longTime": {
+            "mask": "H:mm:ss",
+            "expected": "9:10:44"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "MM/dd/yyyy",
+            "expected": "07/3/20"
+          },
+          "longDate": {
+            "mask": "d MMMM, yyyy",
+            "expected": "3 July, 2020"
+          },
+          "shortTime": {
+            "mask": "HH:mm",
+            "expected": "09:10"
+          },
+          "longTime": {
+            "mask": "HH:mm:ss",
+            "expected": "09:10:44"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "yy/MM/dd",
+            "expected": "20/07/03"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "yyyy-MM-dd",
+            "expected": "2020-07-03"
+          }
+        },
+        {
+          "locale": "en-us",
+          "shortDate": {
+            "mask": "dd-MMM-yy",
+            "expected": "03-Jul-20"
+          }
+        },
+        {},
+        {
+          "locale": "en-gb",
+          "shortDate": {
+            "mask": "dd/MM/yyyy",
+            "expected": "03/07/2020"
+          },
+          "longDate": {
+            "mask": "dd MMMM yyyy",
+            "expected": "03 July 2020"
+          },
+          "shortTime": {
+            "mask": "HH:mm",
+            "expected": "9:10"
+          },
+          "longTime": {
+            "mask": "HH:mm:ss",
+            "expected": "9:10:44"
+          }
+        },
+        {
+          "locale": "en-gb",
+          "shortDate": {
+            "mask": "dd/MM/yy",
+            "expected": "03/07/20"
+          },
+          "longDate": {
+            "mask": "d MMMM yyyy",
+            "expected": "3 July 2020"
+          },
+          "shortTime": {
+            "mask": "xxxx"
+          }
+        },
+        {
+          "locale": "en-gb",
+          "shortDate": {
+            "mask": "d/M/yy",
+            "expected": "3/7/20"
+          },
+          "longDate": {
+            "mask": "dddd, d MMMM yyyy",
+            "expected": "Friday, 3 July 2020"
+          }
+        },
+        {
+          "locale": "en-gb",
+          "shortDate": {
+            "mask": "d.M.yy",
+            "expected": "3.7.20"
+          },
+          "longDate": {
+            "mask": "dddd, dd MMMM yyyy",
+            "expected": "Friday, 03 July 2020"
+          }
+        },
+        {
+          "locale": "en-gb",
+          "shortDate": {
+            "mask": "yyyy-MM-dd",
+            "expected": "2020-07-03"
+          }
+        }
+      ];
+
+      const selectedOptions = {};
+      let selectedLocale = "en-us";
+      let isRtl = () => selectedLocale.toLocaleLowerCase() === 'he-il' || selectedLocale.toLocaleLowerCase() === 'ar-sa';
+      let wrapWithDirectionSpan = content => isRtl() ? `<span dir='rtl'>${content}</span>` : content;
+      let date = new Date();
+      let time = "";
+      let selectedTestData = "";
+      const VALUES = {
+        '': undefined,
+        'true': true,
+        'false': false
+      }
+
+      const resultsContainer = document.getElementById("results-container");
+      const optionsContainer = document.getElementById("options-container");
+      const testDataContainer = document.getElementById("test-data-container");
+      const globeContainer = document.getElementById("globe-container");
+      const locale = document.getElementById("locale");
+
+      [...formatStyles, 'custom'].map(f => {
+
+        const wrapper = document.createElement("div");
+        const label = document.createElement("span");
+        const formatted = document.createElement("span");
+        formatted.id = f;
+        label.innerHTML = `${f}: `;
+        label.className = "label"
+        resultsContainer.appendChild(wrapper);
+        wrapper.appendChild(label);
+        wrapper.appendChild(formatted);
+      });
+
+      locale.onchange = e => {
+        selectedLocale = locale.value;
+        refresh();
+      }
+
+      const dateInput = document.getElementById('date');
+      dateInput.onchange = e => {
+        date = dateInput.valueAsNumber === NaN ? new Date() : new Date(dateInput.valueAsNumber);
+        setTime();
+      }
+
+      const timeInput = document.getElementById('time');
+      timeInput.onchange = e => {
+        setTime();
+      }
+
+      const setTime = () => {
+        const parts = timeInput.value.split(":");
+        if (parts[2]) {
+          date.setSeconds(parseInt(parts[2]));
+        }
+        if (parts[1]) {
+          date.setMinutes(parseInt(parts[1]));
+        }
+        if (parts[0]) {
+          date.setHours(parseInt(parts[0]));
+        }
+      }
+
+      const refresh = () => {
+
+        if (selectedTestData) {
+          globeContainer.innerHTML = "";
+
+          const expected = {
+            'SHORT_DATE': selectedTestData.shortDate && selectedTestData.shortDate.expected,
+            'SHORT_TIME': selectedTestData.shortTime && selectedTestData.shortTime.expected,
+            'LONG_DATE': selectedTestData.longDate && selectedTestData.longDate.expected,
+            'LONG_TIME': selectedTestData.longTime && selectedTestData.longTime.expected,
+          }
+
+          const dtf = new exports.DateTimeFormatter({
+            regionalFormat: selectedTestData.locale,
+            platform: 'windows',
+            shortDate: selectedTestData.shortDate && selectedTestData.shortDate.mask,
+            shortTime: selectedTestData.shortTime && selectedTestData.shortTime.mask,
+            longDate: selectedTestData.longDate && selectedTestData.longDate.mask,
+            longTime: selectedTestData.longTime && selectedTestData.longTime.mask,
+          });
+          Object.keys(globeFormats).every(formatName => {
+            const format = globeFormats[formatName];
+            const wrapper = document.createElement("div");
+            const label = document.createElement("span");
+            const formatted = document.createElement("span");
+            formatted.id = formatName;
+            label.innerHTML = `${formatName}: `;
+            label.className = "label"
+            globeContainer.appendChild(wrapper);
+            wrapper.appendChild(label);
+            wrapper.appendChild(formatted);
+            let result = "";
+            try {
+              const formattedDate = dtf.formatDateTime(date, format);
+              result = wrapWithDirectionSpan(formattedDate);
+              if(expected[formatName]) {
+                const failed = expected[formatName] != formattedDate;
+                const directedExpected = wrapWithDirectionSpan(expected[formatName]);
+                result += ` <span style="color:${failed ? 'red' : 'green'}">Expected: ${directedExpected} ${failed ? '&#10060;' : '&#10003;'}</span>`
+              }
+            } catch (e) {
+              result = `<span style="color:blue">${e}</span>`;
+            }
+
+            console.log(result)
+
+            formatted.innerHTML = result;
+            return true;
+          });
+        }
+
+        const dtf = Intl.DateTimeFormat(selectedLocale, selectedOptions);
+        document.getElementById('custom').innerHTML = dtf.format(date);
+        formatStyles.map(f => {
+          const formatted = Intl.DateTimeFormat(selectedLocale, { dateStyle: f, timeStyle: f }).format(date);
+          document.getElementById(f).innerHTML = wrapWithDirectionSpan(formatted);
+        });
+
+      }
+
+      Object.keys(options).every(optionName => {
+
+        const label = document.createElement("label");
+        label.setAttribute('for', optionName);
+        label.innerHTML = optionName;
+        optionsContainer.appendChild(label);
+
+        const selectList = document.createElement("select");
+        selectList.id = optionName;
+        selectList.onchange = e => {
+          selectedOptions[optionName] = VALUES.hasOwnProperty(selectList.value) ? VALUES[selectList.value] : selectList.value;
+          refresh();
+        };
+        optionsContainer.appendChild(selectList);
+
+        const br = document.createElement("br");
+        optionsContainer.appendChild(br);
+
+
+        var emptyOption = document.createElement("option");
+        emptyOption.value = '';
+        emptyOption.text = '(not set)';
+        selectList.appendChild(emptyOption);
+
+        for (value of options[optionName]) {
+          var option = document.createElement("option");
+          option.value = value;
+          option.text = `${value}`;
+          selectList.appendChild(option);
+        }
+        return true;
+      });
+
+      const testDataSelect = document.createElement("select");
+      testDataSelect.id = "test-data";
+      testDataSelect.onchange = e => {
+        selectedTestData = testData[+testDataSelect.value];
+        selectedLocale = selectedTestData.locale;
+        locale.value = selectedTestData.locale;
+        refresh();
+      };
+      testDataContainer.appendChild(testDataSelect);
+      var option = document.createElement("option");
+      option.text = "(select)";
+      testDataSelect.appendChild(option);
+
+      let i = 0;
+      for (td of testData) {
+        var option = document.createElement("option");
+        option.value = i;
+        option.text = `${td.locale} short: ${td.shortDate && td.shortDate.mask || ""} ${td.shortTime && td.shortTime.mask || ""} long: ${td.longDate && td.longDate.mask || ""} ${td.longTime && td.longTime.mask || ""}`;
+        testDataSelect.appendChild(option);
+        i++;
+      }
+
+      refresh();
+
+    </script>
+</body>
+
+</html>
