@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <script>
+    var exports = {};
+  </script>
+  <script src="https://unpkg.com/@microsoft/globe@2.8.0/dist/globe.cjs.development.js"></script>
+  <style>
+    .header {
+      display: flex;
+      align-items: baseline;
+      padding-left: 1rem;
+    }
+
+    .header a {
+      margin-left: 1rem;
+    }
+
+    body {
+      box-sizing: border-box;
+      font-family: "Trebuchet MS", sans-serif;
+      background: #f9f8fd;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background-color: black;
+      color: white;
+    }
+
+    td {
+      border: 1px solid gray;
+      padding: 5px;
+    }
+    tr:nth-child(even){background-color: #f2f2f2;}
+
+    tr:hover {background-color: #ddd;}
+  </style>
+  <title>Globe time formats</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Globe time formats</h1>
+    <a href="https://www.npmjs.com/package/@microsoft/globe">https://www.npmjs.com/package/@microsoft/globe</a>
+  </div>
+
+  <table>
+    <thead>
+      <th>Locale</th>
+      <th>h:mm:ss</th>
+      <th>hh:mm:ss</th>
+      <th>H:mm:ss</th>
+      <th>HH:mm:ss</th>
+      <th>Intl - short</th>
+      <th>Intl - medium</th>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+    <script>
+
+      const locales = [
+      "ar-sa",
+  "az-latn-az",
+  "be-by",
+  "bg-bg",
+  "ca-es",
+  "ca-es",
+  "ca-es-valencia",
+  "cs-cz",
+  "cy-gb",
+  "da-dk",
+  "de-at",
+  "de-ch",
+  "de-de",
+  "de-li",
+  "de-lu",
+  "el-gr",
+  "en-au",
+  "en-ca",
+  "en-ie",
+  "en-in",
+  "en-my",
+  "en-nz",
+  "en-sg",
+  "en-us",
+  "en-za",
+  "en-zw",
+  "es-419",
+  "es-ar",
+  "es-bo",
+  "es-cl",
+  "es-co",
+  "es-cr",
+  "es-do",
+  "es-ec",
+  "es-es",
+  "es-gt",
+  "es-hn",
+  "es-ni",
+  "es-pa",
+  "es-pe",
+  "es-pr",
+  "es-py",
+  "es-sv",
+  "es-us",
+  "es-uy",
+  "es-ve",
+  "et-ee",
+  "eu-es",
+  "fi-fi",
+  "fil-ph",
+  "fr-be",
+  "fr-ch",
+  "fr-fr",
+  "fr-lu",
+  "fr-mc",
+  "gl-es",
+  "he-il",
+  "hi-in",
+  "hr-hr",
+  "hu-hu",
+  "id-id",
+  "is-is",
+  "it-ch",
+  "it-it",
+  "ja-jp",
+  "ka-ge",
+  "kk-kz",
+  "ko-kr",
+  "ky-kg",
+  "lb-lu",
+  "lt-lt",
+  "lv-lv",
+  "nb-no",
+  "nl-be",
+  "nl-nl",
+  "nn-no",
+  "pl-pl",
+  "pt-br",
+  "qut-gt",
+  "quz-pe",
+  "ro-ro",
+  "ru-ru",
+  "sk-sk",
+  "sl-sl",
+  "sr-cyrl",
+  "sr-cyrl-rs",
+  "sr-latn",
+  "sr-latn-rs",
+  "sv-fi",
+  "sv-se",
+  "tg-cyrl-tj",
+  "th-th",
+  "tk-tm",
+  "tr-tr",
+  "tt-ru",
+  "ug-cn",
+  "uk-ua",
+  "vi-vn",
+  "wo-sn",
+  "zh-hans",
+  "zh-hant",
+  "zh-hk",
+  "zh-mo",
+  "zh-sg",
+    ];
+
+    // <th>h:mm:ss</th>
+    //   <th>hh:mm:ss</th>
+    //   <th>H:mm:ss</th>
+    //   <th>HH:mm:ss</th>
+    //   <th>Intl - short</th>
+    //   <th>Intl - long</th>
+
+  const options = [
+      { // h
+        hour12: true,
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit'
+      },
+      { // hh
+        hour12: true,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      },
+      { // H
+        hour12: false,
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit'
+      },
+      { // HH
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      },
+      { timeStyle: 'short' },
+      { timeStyle: 'medium' },
+  ];
+      let isRtl = (locale) => locale.toLocaleLowerCase() === 'he-il' || selectedLocale.toLocaleLowerCase() === 'ar-sa';
+      let date = new Date();
+      date.setHours(0);
+      date.setMinutes(15);
+      date.setSeconds(30);
+
+      const tbody = document.getElementById("tbody");
+
+      locales.map(locale => {
+
+        const row = document.createElement("tr");
+        tbody.appendChild(row);
+        const localeLabel = document.createElement("td");
+        localeLabel.innerHTML = locale;
+        row.appendChild(localeLabel);
+
+        options.map(option => {
+          let dtf = Intl.DateTimeFormat(locale, option);
+          const value = document.createElement("td");
+          value.innerHTML = dtf.format(date);
+          row.appendChild(value);
+        });
+      
+      });
+    </script>
+</body>
+
+</html>
