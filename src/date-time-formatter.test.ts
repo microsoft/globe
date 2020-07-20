@@ -19,7 +19,8 @@ const {
   FULL_WITH_YEAR,
   FULL,
   SHORT_WITH_YEAR,
-  SHORT
+  SHORT,
+  SHORT_TIME
 } = require('../dist/globe.cjs.development');
 
 describe('date-time-format-options', () => {
@@ -241,6 +242,18 @@ describe('date-time-format-options', () => {
         expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1-Saturday, 2-February 1, 20-2020');
       });
 
+      it('Uses 0 for midnight', () => {
+        const localeInfo = {
+          platform: 'windows',
+          regionalFormat: 'en-us',
+          shortTime: 'H:mm',
+        };
+    
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 0, 15, 30);
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:15');
+      });
+
       it('long time with time zone', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
@@ -282,30 +295,6 @@ describe('date-time-format-options', () => {
         const result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
         expect(result).toBe('6/28/2020 3:40 PM');
       });
-    });
-  });
-
-  xdescribe('performance', () => {
-    const localeInfo = {
-      platform: 'windows',
-      regionalFormat: 'en-US',
-      shortDate: 'M/d/yyyy',
-      longDate: 'dddd, MMMM d, yyyy',
-      shortTime: 'h:mm tt',
-      longTime: 'h:mm:ss tt',
-    };
-
-    it('is fast', () => {      
-      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-      const date = new Date(2020, 5, 28, 15, 40, 25);
-      let result = '';
-      const start = performance.now();
-      for (let i = 0; i < 1000; i++) {
-        result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
-      }
-      const end = performance.now();
-      expect(result).toBe('6/28/2020 3:40 PM');
-      expect(end - start).toBe(0);
     });
   });
 

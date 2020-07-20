@@ -139,6 +139,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `2.8.1` 2020-07-20
+SafeDateTimeFormat with fallback to UTC if timezone is not detected or provided
+Use 0 instead of 24 for H and HH tokens
+
 ### `2.8.0` 2020-06-29
 
 Precompute formats so that applying is faster.

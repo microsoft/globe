@@ -28,6 +28,7 @@ interface IReplacePart {
   replacePart: IDateTimeFormatPartKeys | IDateTimeFormatPartKeys[];
   force1Digit?: boolean;
   force2Digits?: boolean;
+  force0forMidnight?: boolean;
   intlOptionsOverride?: Intl.DateTimeFormatOptions;
 }
 
@@ -50,6 +51,11 @@ const FORCE_2_DIGIT_PARTS: {[key: string]: boolean } = {
   HH: true,
   mm: true,
   ss: true,
+};
+
+const FORCE_0_FOR_MIDNIGHT: {[key: string]: boolean } = {
+  H: true,
+  HH: true,
 };
 
 export class OsDateTimeFormatter {
@@ -152,6 +158,7 @@ export class OsDateTimeFormatter {
           const entry = map[slice];
           const force1Digit = FORCE_1_DIGIT_PARTS[slice] || false;
           const force2Digits = FORCE_2_DIGIT_PARTS[slice] || false;
+          const force0forMidnight = FORCE_0_FOR_MIDNIGHT[slice] || false;
 
           // we can only use merged object if entries do not overlap
           // if an entry would change some props, create new intlOptions and store it as override for the part
@@ -159,10 +166,16 @@ export class OsDateTimeFormatter {
           const change = this.didValuesChange(intlOptions, entry.intl.options);
 
           if (change) {
-            parts.push({ replacePart: entry.intl.part, force1Digit, force2Digits,  intlOptionsOverride: entry.intl.options});
+            parts.push({
+              replacePart: entry.intl.part,
+              force1Digit,
+              force2Digits,
+              force0forMidnight,
+              intlOptionsOverride: entry.intl.options
+            });
           } else {
             intlOptions = Object.assign(intlOptions, entry.intl.options);
-            parts.push({ replacePart: entry.intl.part, force1Digit, force2Digits });
+            parts.push({ replacePart: entry.intl.part, force1Digit, force2Digits, force0forMidnight });
           }
           
           toMaskIndex = endIndex;
@@ -242,6 +255,10 @@ export class OsDateTimeFormatter {
       });
     } else {
       value = values[part.replacePart];
+    }
+
+    if (part.force0forMidnight && value === '24') {
+      value = '0';
     }
 
     if (part.force1Digit && value && typeof value === 'string' && value.length === 2 && value[0] === '0') {
