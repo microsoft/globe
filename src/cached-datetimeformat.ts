@@ -3,17 +3,19 @@
  * Licensed under the MIT License.
  */
 
+import { SafeDateTimeFormat } from './safe-datetimeformat';
+
 export class CachedDateTimeFormat {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
   // (locale - string & options - object) and stringify is native so it is so fars it is
   // not worth maintaing the two-level cache (map for string and weak map for object)
-  private readonly localeFormatCache = new Map<string, Intl.DateTimeFormat>();
+  private readonly localeFormatCache = new Map<string, SafeDateTimeFormat>();
 
   public get(locale: string, dateTimeOptions: Intl.DateTimeFormatOptions) {
     const key = `${locale}:${JSON.stringify(dateTimeOptions)}`;
     let dtf = this.localeFormatCache.get(key);
     if (!dtf) {
-      dtf = Intl.DateTimeFormat(locale, dateTimeOptions);
+      dtf = new SafeDateTimeFormat(locale, dateTimeOptions);
       this.localeFormatCache.set(key, dtf);
     }
 
