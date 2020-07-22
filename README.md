@@ -139,6 +139,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `3.0.0` 2020-07-22
+Avoid depending on Intl.DateTimeFormatParts which is not available in es5
+
 ### `2.8.1` 2020-07-20
 SafeDateTimeFormat with fallback to UTC if timezone is not detected or provided
 Use 0 instead of 24 for H and HH tokens
