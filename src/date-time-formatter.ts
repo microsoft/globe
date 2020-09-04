@@ -225,7 +225,12 @@ export class DateTimeFormatter {
       }
     }
 
-    throw new Error('Incorrect OS locale info format specified:' + format);
+    let formatStringified = undefined;
+    try {
+      formatStringified = JSON.stringify(format);
+    } catch { }
+
+    throw new Error('Incorrect OS locale info format specified:' + (formatStringified || format));
   }
 
   private combineDateAndTime(date: string, time: string) {

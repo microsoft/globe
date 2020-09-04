@@ -139,6 +139,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `3.0.1` 2020-09-04
+Improve error logging for unknown formats
+
 ### `3.0.0` 2020-07-22
 Avoid depending on Intl.DateTimeFormatParts which is not available in es5
 
