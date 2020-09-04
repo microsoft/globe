@@ -42,7 +42,7 @@ import ILocaleInfo from './ILocaleInfo';
 import { OsDateTimeFormatter } from './os-date-time-formatter';
 
 export class DateTimeFormatter {
-  // We're keying this using JSON.stringify because with a WeakMap we've have a key pair 
+  // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
   // (locale - string & options - object) and stringify is native so it is so fars it is
   // not worth maintaing the two-level cache (map for string and weak map for object)
   private readonly cachedDateTimeFormat = new CachedDateTimeFormat();
@@ -173,16 +173,16 @@ export class DateTimeFormatter {
       }
       case LONG_WEEKDAY:
       case SHORT_WEEKDAY: {
-        return this.cachedDateTimeFormat.get(loc, format).format(date); 
+        return this.cachedDateTimeFormat.get(loc, format).format(date);
       }
       case LONG_WEEKDAY_LONG_TIME:
       case SHORT_WEEKDAY_LONG_TIME: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
           throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
         }
-        
-        const weekFormat = format === LONG_WEEKDAY_LONG_TIME 
-          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date) 
+
+        const weekFormat = format === LONG_WEEKDAY_LONG_TIME
+          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
           : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
         return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.longTime)}`;
@@ -194,7 +194,7 @@ export class DateTimeFormatter {
         }
 
         const weekFormat = format === LONG_WEEKDAY_SHORT_TIME
-          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date) 
+          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
           : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
         return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.shortTime)}`;
@@ -228,6 +228,7 @@ export class DateTimeFormatter {
     let formatStringified = undefined;
     try {
       formatStringified = JSON.stringify(format);
+    // tslint:disable-next-line: no-empty
     } catch { }
 
     throw new Error('Incorrect OS locale info format specified:' + (formatStringified || format));
@@ -241,7 +242,7 @@ export class DateTimeFormatter {
     if (this.formatter?.timeHasTimeZone(mask)) {
       return time;
     }
-    
+
     const timeZoneName = this.formatter?.getTimeZoneName(date, format);
     return `${time} ${timeZoneName}`;
   }
