@@ -5,7 +5,7 @@
 
 import ILocaleInfo from './ILocaleInfo';
 
-export default async function getLocaleInfoAsync(platform: 'windows' | 'macos'): Promise<ILocaleInfo> {
+export async function getLocaleInfoAsync(platform: 'windows' | 'macos'): Promise<ILocaleInfo | null> {
   if (window.getLocaleInfoAsync) {
     const localeInfo = await window.getLocaleInfoAsync();
     return {
@@ -14,6 +14,7 @@ export default async function getLocaleInfoAsync(platform: 'windows' | 'macos'):
       shortDate: localeInfo.date.shortDate,
       longDate: localeInfo.date.longDate,
       shortTime: localeInfo.date.shortTime,
+      longTime: localeInfo.date.longTime,
     };
   }
 
