@@ -49,3 +49,5 @@ export {
 export { DateTimeFormatter } from './date-time-formatter';
 
 export { SafeDateTimeFormat } from './safe-datetimeformat';
+
+export getLocaleInfoAsync from './getLocaleInfoAsync';

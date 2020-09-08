@@ -139,6 +139,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `3.1.0` 2020-09-08
+Add getLocaleInfoAsync to module export
+
 ### `3.0.1` 2020-09-04
 Improve error logging for unknown formats
 
