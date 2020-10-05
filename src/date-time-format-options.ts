@@ -21,6 +21,8 @@ type ShortDateTime = Readonly<{
   minute: 'numeric';
 }>;
 
+type ShortDateTimeNoYear = ShortDate & ShortTime;
+
 type ShortDateLongTime = Readonly<{
   day: 'numeric';
   month: 'numeric';
@@ -118,6 +120,7 @@ export type DateTimeFormatOptions =
   | ShortDate
   | ShortDateWithYear
   | ShortDateTime
+  | ShortDateTimeNoYear
   | ShortDateWithShortYear
   | ShortDateLongTime
   | LongDate
@@ -164,6 +167,13 @@ export const SHORT_DATE_TIME: ShortDateTime = {
   day: 'numeric',
   month: 'numeric',
   year: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric'
+};
+
+export const SHORT_DATE_TIME_NO_YEAR: ShortDateTimeNoYear = {
+  day: 'numeric',
+  month: 'numeric',
   hour: 'numeric',
   minute: 'numeric'
 };
