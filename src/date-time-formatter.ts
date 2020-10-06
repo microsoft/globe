@@ -30,6 +30,7 @@ import {
   SHORT_DATE,
   SHORT_DATE_LONG_TIME,
   SHORT_DATE_TIME,
+  SHORT_DATE_TIME_NO_YEAR,
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
   SHORT_TIME,
@@ -120,6 +121,18 @@ export class DateTimeFormatter {
         }
 
         const d = this.formatter.dateToString(date, localeInfo.shortDate);
+        const t = this.formatter.timeToString(date, localeInfo.shortTime);
+        return this.combineDateAndTime(d, t);
+      }
+      case SHORT_DATE_TIME_NO_YEAR: {
+        if (!localeInfo.shortDate || !localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortDate or localeInfo.shortTime was not provided!`);
+        }
+
+        // strip out the `y` and any `/` before or after
+        let shortDateFormat = localeInfo.shortDate.replace(/\/*y+\/*/, '');
+
+        const d = this.formatter.dateToString(date, shortDateFormat);
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
         return this.combineDateAndTime(d, t);
       }
