@@ -139,7 +139,7 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
-### `3.23.0` 2020-10-057
+### `3.3.0` 2020-10-057
 Removed `SHORT_DATE_TIME_NO_YEAR`
 
 ### `3.2.0` 2020-10-05
