@@ -3,14 +3,13 @@
  * Licensed under the MIT License.
  */
 
-const { 
-  DateTimeFormatter, 
-  LONG_DATE, 
-  HOUR_ONLY, 
-  SHORT_DATE_LONG_TIME, 
-  SHORT_DATE_TIME, 
-  SHORT_DATE_TIME_NO_YEAR,
-  LONG_WEEKDAY_SHORT_TIME, 
+const {
+  DateTimeFormatter,
+  LONG_DATE,
+  HOUR_ONLY,
+  SHORT_DATE_LONG_TIME,
+  SHORT_DATE_TIME,
+  LONG_WEEKDAY_SHORT_TIME,
   LONG_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
@@ -87,12 +86,6 @@ describe('date-time-format-options', () => {
         expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME)).toBe('6/28/20 3:40 PM');
       });
 
-      it('formats short date with short time no year', () => {
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-        const date = new Date(2020, 5, 28, 15, 40, 25);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME_NO_YEAR)).toBe('6/28 3:40 PM');
-      });
-
       it('formats short', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
@@ -128,7 +121,7 @@ describe('date-time-format-options', () => {
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_WEEKDAY_SHORT_TIME)).toBe('Sun, 3:40 PM');
       });
-      
+
       it('short weekend with long time', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
@@ -177,31 +170,19 @@ describe('date-time-format-options', () => {
         longTime: 'h:mm:ss tt',
       };
 
-      it('formats short date with short time', () => {      
+      it('formats short date with short time', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME)).toBe('6/28/2020 3:40 PM');
       });
 
-      it('formats short date with short time no year', () => {      
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-        const date = new Date(2020, 5, 28, 15, 40, 25);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME_NO_YEAR)).toBe('6/28 3:40 PM');
-      });
-
-      it('formats short date with short time and two digit hour', () => {      
+      it('formats short date with short time and two digit hour', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 5, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME)).toBe('6/28/2020 5:40 AM');
       });
 
-      it('formats short date with short time, not year, and two digit hour', () => {      
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-        const date = new Date(2020, 5, 28, 5, 40, 25);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME_NO_YEAR)).toBe('6/28 5:40 AM');
-      });
-
-      it('formats short date with short time and one digit hour', () => {      
+      it('formats short date with short time and one digit hour', () => {
         const localeInfo = {
           platform: 'windows',
           regionalFormat: 'en-US',
@@ -214,21 +195,6 @@ describe('date-time-format-options', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 5, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME)).toBe('6/28/2020 05:40 AM');
-      });
-
-      it('formats short date with short time, not year, and one digit hour', () => {      
-        const localeInfo = {
-          platform: 'windows',
-          regionalFormat: 'en-US',
-          shortDate: 'M/d/yyyy',
-          longDate: 'dddd, MMMM d, yyyy',
-          shortTime: 'hh:mm tt',
-          longTime: 'hh:mm:ss tt',
-        };
-
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-        const date = new Date(2020, 5, 28, 5, 40, 25);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME_NO_YEAR)).toBe('6/28 05:40 AM');
       });
 
       it('formats short date with long time', () => {
@@ -254,7 +220,7 @@ describe('date-time-format-options', () => {
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_WEEKDAY_SHORT_TIME)).toBe('Sun, 3:40 PM');
       });
-      
+
       it('short weekend with long time', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
@@ -270,7 +236,7 @@ describe('date-time-format-options', () => {
           shortTime: 'h:mm tt',
           longTime: 'h:mm:ss tt',
         };
-    
+
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 12, 0, 0);
         expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1-Saturday, 2-February 1, 20-2020');
@@ -282,7 +248,7 @@ describe('date-time-format-options', () => {
           regionalFormat: 'en-us',
           shortTime: 'H:mm',
         };
-    
+
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 0, 15, 30);
         expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:15');
@@ -323,7 +289,7 @@ describe('date-time-format-options', () => {
         longTime: 'h:mm:ss tt',
       };
 
-      it('falls back to windows for unknown platforms', () => {      
+      it('falls back to windows for unknown platforms', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
         const result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
@@ -342,7 +308,7 @@ describe('date-time-format-options', () => {
       longTime: 'h:mm:ss tt',
     };
 
-    it('is fast', () => {      
+    it('is fast', () => {
       const dateTimeFormatter = new DateTimeFormatter(localeInfo);
       const date = new Date(2020, 5, 28, 15, 40, 25);
       let result = '';
