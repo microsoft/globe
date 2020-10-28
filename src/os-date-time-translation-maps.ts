@@ -134,8 +134,8 @@ const macTime: ITranslationMap = {
     symbol: 'h',
     intl: {
       options: {
-        // hour12: true,
-        hourCycle: 'h12',
+        hour12: true,
+        // hourCycle: 'h12',
         hour: 'numeric'
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
@@ -145,8 +145,8 @@ const macTime: ITranslationMap = {
     symbol: 'hh',
     intl: {
       options: {
-        // hour12: true,
-        hourCycle: 'h12',
+        hour12: true,
+        // hourCycle: 'h12',
         hour: '2-digit'
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
@@ -156,8 +156,8 @@ const macTime: ITranslationMap = {
     symbol: 'H',
     intl: {
       options: {
-        // hour12: false,
-        hourCycle: 'h23',
+        hour12: false,
+        // hourCycle: 'h23',
         hour: 'numeric'
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
@@ -167,8 +167,8 @@ const macTime: ITranslationMap = {
     symbol: 'HH',
     intl: {
       options: {
-        // hour12: false,
-        hourCycle: 'h23',
+        hour12: false,
+        // hourCycle: 'h23',
         hour: '2-digit'
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
@@ -179,8 +179,8 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour: 'numeric',
-        hourCycle: 'h24',
-        // hour12: true,
+        // hourCycle: 'h24',
+        hour12: false,
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
@@ -190,8 +190,8 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour: '2-digit',
-        // hour12: true,
-        hourCycle: 'h24',
+        hour12: false,
+        // hourCycle: 'h24',
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
@@ -201,8 +201,8 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour: 'numeric',
-        hourCycle: 'h11',
-        // hour12: false,
+        // hourCycle: 'h11',
+        hour12: true,
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
@@ -212,8 +212,8 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour: '2-digit',
-        hourCycle: 'h11',
-        // hour12: false,
+        // hourCycle: 'h11',
+        hour12: true,
       } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
