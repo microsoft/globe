@@ -250,6 +250,14 @@ export class OsDateTimeFormatter {
       }
       return true;
     });
+
+    // hour12 overrides hourCycle, mark it as change if it was added
+    if (newOptions['hourCycle'] || oldOptions['hourCycle']) {
+      if (!!newOptions['hour12'] !== !!oldOptions['hour12']) {
+        change = true;
+      }
+    }
+
     return change;
   }
 

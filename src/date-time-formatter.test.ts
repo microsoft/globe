@@ -26,6 +26,11 @@ const {
 } = require('../dist/globe.cjs.development');
 
 describe('date-time-format-options', () => {
+
+  test('uses correct version of electron', () => {
+    expect(process.versions.electron).toMatch(/4.*$/);
+  });
+
   describe('functionality', () => {
     it('constructs without throwing', () => {
       expect(() => new DateTimeFormatter('en-US')).not.toThrow();
@@ -134,19 +139,19 @@ describe('date-time-format-options', () => {
       });
 
       it('uses mac k format', () => {
-        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'k:mm a', longTime: 'kk:mm a' };
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'k:mm', longTime: 'kk:mm' };
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 0, 0, 0);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('12:00 AM');
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('24:00');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('24:00');
       });
 
       it('uses mac K format', () => {
-        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'K:mm', longTime: 'KK:mm' };
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'K:mm a', longTime: 'KK:mm a' };
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 0, 0, 0);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00');
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00');
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00 AM');
       });
 
       it('uses time zone in mask correctly', () => {
@@ -236,36 +241,36 @@ describe('date-time-format-options', () => {
       });
     });
 
-    xdescribe('Mac hours', () => {
-
-    // sk-sk 00:15
-    // K h11 0:15 AM 
-    // h h12 12:15 AM
-    // H h23 0:15
-    // k h24 24:15
-
-    // sk-sk 12:15
-    // K h11 0:15 PM
-    // h h12 12:15 PM
-    // H h23 12:15
-    // k h24 12:15
-
+    describe('Mac hours', () => {
       const midnight = new Date(2020, 1, 1, 0, 15, 0);
       const noon = new Date(2020, 1, 1, 12, 15, 0);
-      it('K / h11', () => {
-        const localeInfo = {
-          platform: 'macos',
-          regionalFormat: 'sk-sk',
-          shortTime: 'K:mm a',
-          longTime: 'KK:mm a',
-        };
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-  
-        expect(dateTimeFormatter.formatDateTime(midnight, SHORT_TIME)).toBe('0:15 AM');
-        expect(dateTimeFormatter.formatDateTime(midnight, LONG_TIME)).toBe('0:15 AM');
-        expect(dateTimeFormatter.formatDateTime(noon, SHORT_TIME)).toBe('0:15 PM');
-        expect(dateTimeFormatter.formatDateTime(noon, LONG_TIME)).toBe('0:15 PM');
-      });
+
+      const testMacHours = (symbol: string, expectedMidnight: string, expectedNoon: string, includeA?: boolean) => {
+        it(`Symbol ${symbol}`, () => {
+          const localeInfo = {
+            platform: 'macos',
+            regionalFormat: 'sk-sk',
+            shortTime: `${symbol}:mm${includeA ? ' a' : ''}`,
+            longTime: `${symbol}${symbol}:mm${includeA ? ' a' : ''}`,
+          };
+          const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+
+          const ensureLong = (t: string) => (t.length === 4 || t.length === 7) ? `0${t}` : t;
+          const m = (t: string) => `midnight ${t}`;
+          const n = (t: string) => `noon ${t}`;
+    
+          expect(m(dateTimeFormatter.formatDateTime(midnight, SHORT_TIME))).toBe(m(expectedMidnight));
+          expect(m(dateTimeFormatter.formatDateTime(midnight, LONG_TIME))).toBe(m(ensureLong(expectedMidnight)));
+          expect(n(dateTimeFormatter.formatDateTime(noon, SHORT_TIME))).toBe(n(expectedNoon));
+          expect(n(dateTimeFormatter.formatDateTime(noon, LONG_TIME))).toBe(n(ensureLong(expectedNoon)));
+        });
+      };
+
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle
+      testMacHours('h', '12:15 AM', '12:15 PM', true); //h12
+      testMacHours('H', '0:15', '12:15', false); //h23
+      testMacHours('K', '0:15 AM', '0:15 PM', true); //h11
+      testMacHours('k', '24:15', '12:15', false); //h24
     });
 
     describe('Windows', () => {
