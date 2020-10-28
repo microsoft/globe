@@ -141,7 +141,7 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
-### `4.0.0` 2020-10-29
+### `3.4.0` 2020-10-29
 Support quotes in format
 Support K and k tokens for mac
 
