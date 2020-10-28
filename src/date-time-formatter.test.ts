@@ -3,13 +3,15 @@
  * Licensed under the MIT License.
  */
 
-const {
-  DateTimeFormatter,
-  LONG_DATE,
-  HOUR_ONLY,
-  SHORT_DATE_LONG_TIME,
+const { 
+  DateTimeFormatter, 
+  LONG_DATE, 
+  LONG_TIME,
+  HOUR_ONLY, 
+  SHORT_DATE_LONG_TIME, 
   SHORT_DATE_TIME,
-  LONG_WEEKDAY_SHORT_TIME,
+  SHORT_DATE,
+  LONG_WEEKDAY_SHORT_TIME, 
   LONG_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
@@ -49,6 +51,64 @@ describe('date-time-format-options', () => {
       expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1 February 2020');
     });
 
+    describe('Quotes', () => {
+      const localeInfo = {
+        platform: 'macos',
+        regionalFormat: 'en-US',
+        shortDate: 'dd\'d\'MM\'MM\' y \'yyyy\'',
+        longDate: '\'d\'d\'MMMM\'MMMM\'y\'y',
+        shortTime: '\'\'HH:mm\'\'',
+      };
+
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      const date = new Date(2020, 1, 1, 12, 0, 0);
+
+      it('respects quotes after symbols', () => {
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE)).toBe('01d02MM 2020 yyyy');
+      });
+
+      it('respects quotes before symbols', () => {
+        expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('d1MMMMFebruaryy2020');
+      });
+
+      it('transforms double quotes to single', () => {
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('\'12:00\'');
+      });
+
+      it('handles unpaired quote at the beginning', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: '\'HH:mm',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('');
+      });
+
+      it('handles unpaired quote at the end', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: 'HH:mm\'',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00');
+      });
+
+      it('handles unpaired quote in the middle', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: 'HH:m\'m',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:0');
+      });
+    });
+
     describe('Mac', () => {
       const localeInfo = {
         platform: 'macos',
@@ -71,6 +131,22 @@ describe('date-time-format-options', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 15, 0, 0);
         expect(dateTimeFormatter.formatDateTime(date, HOUR_ONLY)).toBe('15');
+      });
+
+      it('uses mac k format', () => {
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'k:mm a', longTime: 'kk:mm a' };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 0, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('12:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00 AM');
+      });
+
+      it('uses mac K format', () => {
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'K:mm', longTime: 'KK:mm' };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 0, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00');
       });
 
       it('uses time zone in mask correctly', () => {
@@ -157,6 +233,38 @@ describe('date-time-format-options', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, FULL)).toBe('June 28, 2020 3:40:25 PM Coordinated Universal Time');
+      });
+    });
+
+    xdescribe('Mac hours', () => {
+
+    // sk-sk 00:15
+    // K h11 0:15 AM 
+    // h h12 12:15 AM
+    // H h23 0:15
+    // k h24 24:15
+
+    // sk-sk 12:15
+    // K h11 0:15 PM
+    // h h12 12:15 PM
+    // H h23 12:15
+    // k h24 12:15
+
+      const midnight = new Date(2020, 1, 1, 0, 15, 0);
+      const noon = new Date(2020, 1, 1, 12, 15, 0);
+      it('K / h11', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'sk-sk',
+          shortTime: 'K:mm a',
+          longTime: 'KK:mm a',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(midnight, SHORT_TIME)).toBe('0:15 AM');
+        expect(dateTimeFormatter.formatDateTime(midnight, LONG_TIME)).toBe('0:15 AM');
+        expect(dateTimeFormatter.formatDateTime(noon, SHORT_TIME)).toBe('0:15 PM');
+        expect(dateTimeFormatter.formatDateTime(noon, LONG_TIME)).toBe('0:15 PM');
       });
     });
 

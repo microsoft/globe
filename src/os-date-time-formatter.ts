@@ -42,6 +42,8 @@ interface IFormat {
 const FORCE_1_DIGIT_PARTS: {[key: string]: boolean } = {
   h: true,
   H: true,
+  k: true,
+  K: true,
   m: true,
   s: true,
 };
@@ -49,6 +51,8 @@ const FORCE_1_DIGIT_PARTS: {[key: string]: boolean } = {
 const FORCE_2_DIGIT_PARTS: {[key: string]: boolean } = {
   hh: true,
   HH: true,
+  kk: true,
+  KK: true,
   mm: true,
   ss: true,
 };
@@ -56,7 +60,14 @@ const FORCE_2_DIGIT_PARTS: {[key: string]: boolean } = {
 const FORCE_0_FOR_MIDNIGHT: {[key: string]: boolean } = {
   H: true,
   HH: true,
+  K: true,
+  KK: true
 };
+
+const QUOTE =  '\'';
+const QUOTE_ESCAPED =  '~';
+const DOUBLE_QUOTES_REGEX = /''/g;
+const ESCAPED_QUOTES_REGEX = new RegExp(QUOTE_ESCAPED, 'g');
 
 export class OsDateTimeFormatter {
   private readonly timeTranslationMap: ITranslationMap;
@@ -146,11 +157,30 @@ export class OsDateTimeFormatter {
     let parts: ReplacePart[] = [];
     let toMaskIndex = 0;
     let maskPartFound: boolean;
+    let inQuotes = false;
+    let quoted = '';
 
-    const mask = this.stripUnsupported(formatMask);
+    const mask = this.escapeQuotes(this.stripUnsupported(formatMask));
 
     while (toMaskIndex < mask.length) {
       maskPartFound = false;
+
+      if (mask[toMaskIndex] === QUOTE) {
+        if (inQuotes && quoted) {
+          parts.push(quoted);
+          quoted = '';
+        }
+        inQuotes = !inQuotes;
+        toMaskIndex++;
+        continue;
+      }
+
+      if (inQuotes) {
+        quoted += mask[toMaskIndex];
+        toMaskIndex++;
+        continue;
+      }
+      
       for (let endIndex = mask.length; endIndex > toMaskIndex; endIndex--) {
         const slice = mask.slice(toMaskIndex, endIndex);
         if (map[slice]) {
@@ -183,7 +213,7 @@ export class OsDateTimeFormatter {
         }
       }
       if (!maskPartFound) {
-        parts.push(mask[toMaskIndex]);
+        parts.push(this.unescapeQuotes(mask[toMaskIndex]));
         toMaskIndex += 1;
       }
     }
@@ -201,6 +231,14 @@ export class OsDateTimeFormatter {
       return true;
     });
     return result;
+  }
+
+  private escapeQuotes(mask: string) {
+    return mask && mask.replace(DOUBLE_QUOTES_REGEX, QUOTE_ESCAPED);
+  }
+
+  private unescapeQuotes(mask: string) {
+    return mask && mask.replace(ESCAPED_QUOTES_REGEX, QUOTE);
   }
 
   private didValuesChange(oldOptions: any, newOptions: any) {

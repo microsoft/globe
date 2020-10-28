@@ -128,13 +128,16 @@ const macTime: ITranslationMap = {
       part: ['dayPeriod', 'dayperiod']
     }
   },
+  // we should use hourCycle https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle
+  // but for now it is not working consistently across varous versions of Electron and Node
   h: {
     symbol: 'h',
     intl: {
       options: {
         hour12: true,
+        // hourCycle: 'h12',
         hour: 'numeric'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -143,8 +146,9 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour12: true,
+        // hourCycle: 'h12',
         hour: '2-digit'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -153,8 +157,9 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour12: false,
+        // hourCycle: 'h23',
         hour: 'numeric'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -163,8 +168,53 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour12: false,
+        // hourCycle: 'h23',
         hour: '2-digit'
-      },
+      } as Intl.DateTimeFormatOptions,
+      part: 'hour'
+    }
+  },
+  k: {
+    symbol: 'k',
+    intl: {
+      options: {
+        hour: 'numeric',
+        // hourCycle: 'h24',
+        hour12: true,
+      } as Intl.DateTimeFormatOptions,
+      part: 'hour'
+    }
+  },
+  kk: {
+    symbol: 'kk',
+    intl: {
+      options: {
+        hour: '2-digit',
+        hour12: true,
+        // hourCycle: 'h24',
+      } as Intl.DateTimeFormatOptions,
+      part: 'hour'
+    }
+  },
+  K: {
+    symbol: 'K',
+    intl: {
+      options: {
+        hour: 'numeric',
+        // hourCycle: 'h11',
+        hour12: false,
+      } as Intl.DateTimeFormatOptions,
+      part: 'hour'
+    }
+  },
+  KK: {
+    symbol: 'KK',
+    intl: {
+      options: {
+        hour: '2-digit',
+        // hourCycle: 'h11',
+        hour12: false,
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
