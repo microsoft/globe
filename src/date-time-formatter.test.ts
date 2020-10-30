@@ -3,13 +3,15 @@
  * Licensed under the MIT License.
  */
 
-const {
-  DateTimeFormatter,
-  LONG_DATE,
-  HOUR_ONLY,
-  SHORT_DATE_LONG_TIME,
+const { 
+  DateTimeFormatter, 
+  LONG_DATE, 
+  LONG_TIME,
+  HOUR_ONLY, 
+  SHORT_DATE_LONG_TIME, 
   SHORT_DATE_TIME,
-  LONG_WEEKDAY_SHORT_TIME,
+  SHORT_DATE,
+  LONG_WEEKDAY_SHORT_TIME, 
   LONG_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
@@ -24,6 +26,11 @@ const {
 } = require('../dist/globe.cjs.development');
 
 describe('date-time-format-options', () => {
+
+  test('uses correct version of electron', () => {
+    expect(process.versions.electron).toMatch(/4.*$/);
+  });
+
   describe('functionality', () => {
     it('constructs without throwing', () => {
       expect(() => new DateTimeFormatter('en-US')).not.toThrow();
@@ -49,6 +56,64 @@ describe('date-time-format-options', () => {
       expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1 February 2020');
     });
 
+    describe('Quotes', () => {
+      const localeInfo = {
+        platform: 'macos',
+        regionalFormat: 'en-US',
+        shortDate: 'dd\'d\'MM\'MM\' y \'yyyy\'',
+        longDate: '\'d\'d\'MMMM\'MMMM\'y\'y',
+        shortTime: '\'\'HH:mm\'\'',
+      };
+
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      const date = new Date(2020, 1, 1, 12, 0, 0);
+
+      it('respects quotes after symbols', () => {
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE)).toBe('01d02MM 2020 yyyy');
+      });
+
+      it('respects quotes before symbols', () => {
+        expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('d1MMMMFebruaryy2020');
+      });
+
+      it('transforms double quotes to single', () => {
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('\'12:00\'');
+      });
+
+      it('handles unpaired quote at the beginning', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: '\'HH:mm',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('');
+      });
+
+      it('handles unpaired quote at the end', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: 'HH:mm\'',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00');
+      });
+
+      it('handles unpaired quote in the middle', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          longTime: 'HH:m\'m',
+        };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+  
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:0');
+      });
+    });
+
     describe('Mac', () => {
       const localeInfo = {
         platform: 'macos',
@@ -71,6 +136,22 @@ describe('date-time-format-options', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 15, 0, 0);
         expect(dateTimeFormatter.formatDateTime(date, HOUR_ONLY)).toBe('15');
+      });
+
+      it('uses mac k format', () => {
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'k:mm', longTime: 'kk:mm' };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 0, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00');
+      });
+
+      it('uses mac K format', () => {
+        const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'K:mm a', longTime: 'KK:mm a' };
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 0, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('12:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00 AM');
       });
 
       it('uses time zone in mask correctly', () => {
@@ -158,6 +239,38 @@ describe('date-time-format-options', () => {
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, FULL)).toBe('June 28, 2020 3:40:25 PM Coordinated Universal Time');
       });
+    });
+
+    xdescribe('Mac hours', () => { // this only works in E8
+      const midnight = new Date(2020, 1, 1, 0, 15, 0);
+      const noon = new Date(2020, 1, 1, 12, 15, 0);
+
+      const testMacHours = (symbol: string, expectedMidnight: string, expectedNoon: string, includeA?: boolean) => {
+        it(`Symbol ${symbol}`, () => {
+          const localeInfo = {
+            platform: 'macos',
+            regionalFormat: 'sk-sk',
+            shortTime: `${symbol}:mm${includeA ? ' a' : ''}`,
+            longTime: `${symbol}${symbol}:mm${includeA ? ' a' : ''}`,
+          };
+          const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+
+          const ensureLong = (t: string) => (t.length === 4 || t.length === 7) ? `0${t}` : t;
+          const m = (t: string) => `midnight ${t}`;
+          const n = (t: string) => `noon ${t}`;
+    
+          expect(m(dateTimeFormatter.formatDateTime(midnight, SHORT_TIME))).toBe(m(expectedMidnight));
+          expect(m(dateTimeFormatter.formatDateTime(midnight, LONG_TIME))).toBe(m(ensureLong(expectedMidnight)));
+          expect(n(dateTimeFormatter.formatDateTime(noon, SHORT_TIME))).toBe(n(expectedNoon));
+          expect(n(dateTimeFormatter.formatDateTime(noon, LONG_TIME))).toBe(n(ensureLong(expectedNoon)));
+        });
+      };
+
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle
+      testMacHours('h', '12:15 AM', '12:15 PM', true); //h12
+      testMacHours('H', '0:15', '12:15', false); //h23
+      testMacHours('K', '0:15 AM', '0:15 PM', true); //h11
+      testMacHours('k', '24:15', '12:15', false); //h24
     });
 
     describe('Windows', () => {

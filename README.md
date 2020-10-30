@@ -103,6 +103,8 @@ The values provided can be found in Date & Time this way:
 
 ![](./macos-times.png)
 
+[MacOS format patterns reference](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW1)
+
 ## Building
 
 ```sh
@@ -138,6 +140,10 @@ Install the pre-release package using: `npm i @microsoft/globe@next`
 NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
+
+### `3.4.0` 2020-10-29
+Support quotes in format
+Support K and k tokens for mac
 
 ### `3.3.0` 2020-10-057
 Removed `SHORT_DATE_TIME_NO_YEAR`

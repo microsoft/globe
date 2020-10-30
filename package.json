@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/globe",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Globalization Service",
   "author": "Microsoft",
   "license": "MIT",
@@ -15,8 +15,13 @@
     "url": "git+https://github.com/microsoft/globe"
   },
   "jest": {
-   "globalSetup": "./jest-setup.js"
- },
+    "globalSetup": "./jest-setup.js",
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "runner": "@jest-runner/electron",
+    "testEnvironment": "@jest-runner/electron/environment"
+  },
   "scripts": {
     "build": "npm run tslint && npm run clean && tsdx build",
     "clean": "rimraf dist",
@@ -26,9 +31,12 @@
     "test:debug": "node --inspect node_modules/.bin/jest --watch --runInBand"
   },
   "devDependencies": {
+    "@jest-runner/electron": "3.0.0",
     "@types/jest": "^25.1.1",
+    "electron": "4.2.12",
     "jest": "^25.1.0",
     "rimraf": "^3.0.1",
+    "ts-jest": "^26.4.3",
     "tsdx": "^0.12.3",
     "tslint": "^6.0.0",
     "tslint-microsoft-contrib": "^6.2.0",
