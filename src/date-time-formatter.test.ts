@@ -120,6 +120,7 @@ describe('date-time-format-options', () => {
         regionalFormat: 'en-US',
         shortDate: 'M/d/yy',
         longDate: 'MMMM d, y',
+        fullDate: 'EEEE MMMM d, y',
         shortTime: 'h:mm a',
         longTime: 'h:mm:ss a',
       };
@@ -231,11 +232,23 @@ describe('date-time-format-options', () => {
       it('full date and time with year', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 5, 28, 15, 40, 25);
+        expect(dateTimeFormatter.formatDateTime(date, FULL_WITH_YEAR)).toBe('Sunday June 28, 2020 3:40:25 PM Coordinated Universal Time');
+      });
+
+      it('full date and time with year (long fallback)', () => {
+        const dateTimeFormatter = new DateTimeFormatter({...localeInfo, fullDate: null});
+        const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, FULL_WITH_YEAR)).toBe('June 28, 2020 3:40:25 PM Coordinated Universal Time');
       });
 
       it('full', () => {
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 5, 28, 15, 40, 25);
+        expect(dateTimeFormatter.formatDateTime(date, FULL)).toBe('Sunday June 28, 2020 3:40:25 PM Coordinated Universal Time');
+      });
+
+      it('full (long fallback', () => {
+        const dateTimeFormatter = new DateTimeFormatter({...localeInfo, fullDate: null});
         const date = new Date(2020, 5, 28, 15, 40, 25);
         expect(dateTimeFormatter.formatDateTime(date, FULL)).toBe('June 28, 2020 3:40:25 PM Coordinated Universal Time');
       });

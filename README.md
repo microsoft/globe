@@ -27,6 +27,7 @@ type ILocaleInfo = {
   regionalFormat: string; // e.g.: 'en-US'
   shortDate: string; // e.g.: 'dd/MM/y'
   longDate: string; // e.g.: 'd MMMM y'
+  fullDate: string; // e.g.: 'EEEE d MMMM y'
   shortTime: string; // e.g.: 'HH:mm'
 };
 ```
@@ -140,6 +141,9 @@ Install the pre-release package using: `npm i @microsoft/globe@next`
 NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
+
+### `3.5.0` 2020-10-29
+Mac full date format
 
 ### `3.4.0` 2020-10-29
 Support quotes in format

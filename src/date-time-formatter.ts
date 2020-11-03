@@ -162,11 +162,17 @@ export class DateTimeFormatter {
       }
       case FULL:
       case FULL_WITH_YEAR: {
-        if (!localeInfo.longDate || !localeInfo.longTime) {
+
+        let dateFormat = localeInfo.longDate;
+        if (localeInfo.fullDate && localeInfo.fullDate !== 'UNKNOWN') {
+          dateFormat = localeInfo.fullDate;
+        }
+
+        if (!dateFormat || !localeInfo.longTime) {
           throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
         }
 
-        const d = this.formatter.dateToString(date, localeInfo.longDate);
+        const d = this.formatter.dateToString(date, dateFormat);
         const t = this.formatter.timeToString(date, localeInfo.longTime);
         const timeWithTimeZone = this.ensureTimeZone(t, date, localeInfo.longTime, format, localeInfo);
         return this.combineDateAndTime(d, timeWithTimeZone);
@@ -201,10 +207,8 @@ export class DateTimeFormatter {
       }
       case MEDIUM_DATE:
       case LONG_DATE:
-      case FULL_DATE:
       case MEDIUM_DATE_WITH_YEAR:
-      case LONG_DATE_WITH_YEAR:
-      case FULL_DATE_WITH_YEAR: {
+      case LONG_DATE_WITH_YEAR: {
         if (!localeInfo.longDate) {
           throw new Error(`localeInfo.longDate was not provided!`);
         }
@@ -212,6 +216,20 @@ export class DateTimeFormatter {
         return this.formatter.dateToString(date, localeInfo.longDate);
       }
 
+      case FULL_DATE:
+      case FULL_DATE_WITH_YEAR: {
+
+        if (localeInfo.fullDate && localeInfo.fullDate !== 'UNKNOWN') {
+          return this.formatter.dateToString(date, localeInfo.fullDate);
+        }
+
+        if (!localeInfo.longDate) {
+          throw new Error(`localeInfo.longDate was not provided!`);
+        }
+
+        return this.formatter.dateToString(date, localeInfo.longDate);
+      }
+  
       case LONG_WITH_TIMEZONE:
       case LONG_WITH_YEAR_TIMEZONE: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
