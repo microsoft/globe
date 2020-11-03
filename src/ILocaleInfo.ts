@@ -8,6 +8,7 @@ export default interface ILocaleInfo {
   regionalFormat: string;
   shortDate: string;
   longDate: string;
+  fullDate?: string;
   shortTime: string;
   longTime: string;
 }
