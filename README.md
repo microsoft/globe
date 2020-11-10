@@ -142,6 +142,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `4.0.0` 2020-11-10
+Use `hourCycle` for mac as it is supported in Electron 8
+
 ### `3.5.0` 2020-10-29
 Mac full date format
 
