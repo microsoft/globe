@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/globe",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "Globalization Service",
   "author": "Microsoft",
   "license": "MIT",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@jest-runner/electron": "3.0.0",
     "@types/jest": "^25.1.1",
-    "electron": "4.2.12",
+    "electron": "8.5.2",
     "jest": "^25.1.0",
     "rimraf": "^3.0.1",
     "ts-jest": "^26.4.3",

@@ -28,7 +28,7 @@ const {
 describe('date-time-format-options', () => {
 
   test('uses correct version of electron', () => {
-    expect(process.versions.electron).toMatch(/4.*$/);
+    expect(process.versions.electron).toMatch(/8.*$/);
   });
 
   describe('functionality', () => {
@@ -143,16 +143,16 @@ describe('date-time-format-options', () => {
         const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'k:mm', longTime: 'kk:mm' };
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 0, 0, 0);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00');
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00');
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('24:00');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('24:00');
       });
 
       it('uses mac K format', () => {
         const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'K:mm a', longTime: 'KK:mm a' };
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
         const date = new Date(2020, 1, 1, 0, 0, 0);
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('12:00 AM');
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('0:00 AM');
+        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('00:00 AM');
       });
 
       it('uses time zone in mask correctly', () => {
@@ -254,7 +254,7 @@ describe('date-time-format-options', () => {
       });
     });
 
-    xdescribe('Mac hours', () => { // this only works in E8
+    describe('Mac hours', () => {
       const midnight = new Date(2020, 1, 1, 0, 15, 0);
       const noon = new Date(2020, 1, 1, 12, 15, 0);
 
