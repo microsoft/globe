@@ -566,6 +566,7 @@ export {
   timeTranslationMaps,
   dateTranslationMaps,
   IDateTimeFormatPartKeys,
+  ITranslationItem,
   ITranslationMap,
   IPlatformUnsupportedMask,
   unsupportedMask,

@@ -7,6 +7,7 @@ import { CachedDateTimeFormat } from './cached-datetimeformat';
 import {
   dateTranslationMaps,
   IDateTimeFormatPartKeys,
+  ITranslationItem,
   ITranslationMap,
   timeTranslationMaps,
   unsupportedMask,
@@ -101,18 +102,7 @@ export class OsDateTimeFormatter {
       return true;
     }
 
-    let result = false;
-    format.parts.every(part => {
-      if (typeof(part) !== 'string') {
-        if (part.intlOptionsOverride && part.intlOptionsOverride.timeZoneName) {
-          result = true;
-          return false;
-        }
-      }
-      return true;
-    });
-
-    return result;
+    return format.parts.reduce(this.timeZoneReducer, false);
   }
 
   public getTimeZoneName(date: number | Date, formatOptions: Intl.DateTimeFormatOptions) {
@@ -124,21 +114,36 @@ export class OsDateTimeFormatter {
     return this.applyFormat(format, date);
   }
 
+  private timeZoneReducer(result: boolean, part: ReplacePart) {
+    if (result) {
+      return true;
+    }
+
+    if (typeof(part) !== 'string') {
+      if (part.intlOptionsOverride && part.intlOptionsOverride.timeZoneName) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   private expandMap(map: ITranslationMap): ITranslationMap {
     const result: ITranslationMap = {};
-    Object.keys(map).every(entry => {
-      const value = map[entry];
-      const symbols = value.symbol;
-      if (!Array.isArray(symbols)) {
-        result[symbols] = value;
-      } else {
-        symbols.every(symbol => {
-          result[symbol] = value;
-          return true;
-        });
-      }
-      return true;
-    });
+    Object.values(map).reduce(this.expandMapReducer, result);
+    return result;
+  }
+
+  private expandMapReducer(result: ITranslationMap, value: ITranslationItem) {
+    const symbols = value.symbol;
+    if (!Array.isArray(symbols)) {
+      result[symbols] = value;
+    } else {
+      symbols.every(symbol => {
+        result[symbol] = value;
+        return true;
+      });
+    }
+  
     return result;
   }
 
@@ -225,12 +230,12 @@ export class OsDateTimeFormatter {
     if (!this.unsupportedMask) {
       return mask;
     }
-    let result = mask;
-    this.unsupportedMask.every(m => {
-      result = result.replace(m, '');
-      return true;
-    });
+    const result = this.unsupportedMask.reduce(this.stripUnsupportedReducer, mask);
     return result;
+  }
+
+  private stripUnsupportedReducer(result: string, mask: RegExp) {
+    return result.replace(mask, '');
   }
 
   private escapeQuotes(mask: string) {
@@ -242,43 +247,55 @@ export class OsDateTimeFormatter {
   }
 
   private didValuesChange(oldOptions: any, newOptions: any) {
-    let change = false;
-    Object.keys(newOptions).every(key => {
-      if (oldOptions[key] && oldOptions[key] !== newOptions[key]) {
-        change = true;
-        return false;
-      }
-      return true;
-    });
+    const acc = { change: false, newOptions, oldOptions };
+    Object.keys(newOptions).reduce(this.didValuesChangeReducer, acc);
 
     // hour12 overrides hourCycle, mark it as change if it was added
     if (newOptions['hourCycle'] || oldOptions['hourCycle']) {
       if (!!newOptions['hour12'] !== !!oldOptions['hour12']) {
-        change = true;
+        acc.change = true;
       }
     }
 
-    return change;
+    return acc.change;
+  }
+
+  private didValuesChangeReducer(acc: { change: boolean, newOptions: any, oldOptions: any }, key: string) {
+    if (acc.change) {
+      return acc;
+    }
+    if (acc.oldOptions[key] && acc.oldOptions[key] !== acc.newOptions[key]) {
+      acc.change = true;
+    }
+    return acc;
   }
 
   private partsToObject(parts: IElectronDateTimePart[]): IDateTimeFormatParts {
     const partsObject: IDateTimeFormatParts = {};
-    parts.every(part => {
-      if (part.type !== 'literal') {
-        partsObject[part.type] = part.value as any;
-      }
-      return true;
-    });
-    return partsObject;
+    return parts.reduce(this.partsObjectReducer, partsObject);
+  }
+
+  private partsObjectReducer(result: IDateTimeFormatParts, part: IElectronDateTimePart) {
+    if (part.type !== 'literal') {
+      result[part.type] = part.value as any;
+    }
+    return result;
   }
 
   private applyFormat(format: IFormat, date: number | Date): string {
     const partValues = this.getPartValues(format.intlOptions, date);
-    const formatted = format.parts
-      .map(part => this.getValue(part, partValues, date))
-      .join('');
+    const acc = { result: [], partValues, date, _this: this };
+    const formatted = format.parts.reduce(this.applyFormatReducer, acc).result.join('');
 
     return formatted.replace(/\s+/g, ' ').trim();
+  }
+
+  private applyFormatReducer(
+    acc: { _this: OsDateTimeFormatter, result: string[], partValues: IDateTimeFormatParts, date: number | Date },
+    part: ReplacePart) {
+      const value = acc._this.getValue(part, acc.partValues, acc.date);
+      acc.result.push(value);
+      return acc;
   }
 
   private getValue(part: ReplacePart | string, partValues: IDateTimeFormatParts, date: number | Date): string {
@@ -291,14 +308,9 @@ export class OsDateTimeFormatter {
     let value = undefined;
 
     if (Array.isArray(part.replacePart)) {
-      part.replacePart.every(partCandidate => {
-        const valueCandidate = values[partCandidate];
-        if (valueCandidate) {
-          value = valueCandidate;
-          return false;
-        }
-        return true;
-      });
+      const acc = { value: undefined as any, values };
+      part.replacePart.reduce(this.partsCandidateReducer, acc);
+      value = acc.value;
     } else {
       value = values[part.replacePart];
     }
@@ -316,6 +328,18 @@ export class OsDateTimeFormatter {
     }
 
     return typeof value === 'string' ? value : '';
+  }
+
+  private partsCandidateReducer(acc: { value: any, values: IDateTimeFormatParts}, partCandidate: IDateTimeFormatPartKeys) {
+    if (acc.value) {
+      return acc;
+    }
+
+    const valueCandidate = acc.values[partCandidate];
+    if (valueCandidate) {
+      acc.value = valueCandidate;
+    }
+    return acc;
   }
 
   private getPartValues(options: Intl.DateTimeFormatOptions, date: number | Date) {

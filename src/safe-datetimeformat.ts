@@ -6,16 +6,29 @@
 let _fallbackNeeded: boolean | undefined = undefined;
 const fallbackNeeded = (locales?: string | string[] | undefined) => {
   if (_fallbackNeeded === undefined) {
-    const format = Intl.DateTimeFormat(locales);
-    const tz = format.resolvedOptions().timeZone;
-    if (!tz || tz.toLowerCase() === 'etc/unknown') {
-      _fallbackNeeded = true;
-    } else {
-      _fallbackNeeded = false;
+    _fallbackNeeded = checkFallback(locales);
+  }
+  return _fallbackNeeded;
+};
+
+const checkFallback = (locales?: string | string[] | undefined) => {
+  const format = Intl.DateTimeFormat(locales);
+  const tz = format.resolvedOptions().timeZone;
+  if (!tz || tz.toLowerCase() === 'etc/unknown') {
+    return true;
+  }
+
+  try {
+    format.format(new Date());
+  } catch (e) {
+    if (e && e.message && (
+      e.message.indexOf('Invalid time zone specified')
+      || e.message.indexOf('Unsupported time zone specified'))) {
+        return true;        
     }
   }
 
-  return _fallbackNeeded;
+  return false;
 };
 
 const getOptionsWithFallback = (locales?: string | string[] | undefined, options?: Intl.DateTimeFormatOptions) => {
