@@ -142,6 +142,10 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `4.1.0` 2021-02-03
+Use reducers in an attempt to reduce memory consumption (eliminate anonymous functions)
+Better checks for cases where time zone is not provided by default
+
 ### `4.0.0` 2020-11-10
 Use `hourCycle` for mac as it is supported in Electron 8
 
