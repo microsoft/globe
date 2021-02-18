@@ -142,6 +142,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `4.1.1` 2021-02-18
+Use for loops in an attempt to reduce memory consumption
+
 ### `4.1.0` 2021-02-03
 Use reducers in an attempt to reduce memory consumption (eliminate anonymous functions)
 Better checks for cases where time zone is not provided by default
