@@ -101,8 +101,13 @@ export class OsDateTimeFormatter {
     if (format.intlOptions.timeZoneName) {
       return true;
     }
-
-    return format.parts.reduce(this.timeZoneReducer, false);
+    for (let i = 0; i < format.parts.length; i++) {
+      const part = format.parts[i];
+      if (typeof part !== 'string' && part.intlOptionsOverride?.timeZoneName) {
+          return true;
+      }
+    }
+    return false;
   }
 
   public getTimeZoneName(date: number | Date, formatOptions: Intl.DateTimeFormatOptions) {
@@ -112,19 +117,6 @@ export class OsDateTimeFormatter {
         { replacePart: 'timeZoneName' } as IReplacePart
       ]};
     return this.applyFormat(format, date);
-  }
-
-  private timeZoneReducer(result: boolean, part: ReplacePart) {
-    if (result) {
-      return true;
-    }
-
-    if (typeof(part) !== 'string') {
-      if (part.intlOptionsOverride && part.intlOptionsOverride.timeZoneName) {
-        return true;
-      }
-    }
-    return false;
   }
 
   private expandMap(map: ITranslationMap): ITranslationMap {
@@ -138,10 +130,9 @@ export class OsDateTimeFormatter {
     if (!Array.isArray(symbols)) {
       result[symbols] = value;
     } else {
-      symbols.every(symbol => {
-        result[symbol] = value;
-        return true;
-      });
+      for (let i = 0; i < symbols.length; i++) {
+        result[symbols[i]] = value;  
+      }
     }
   
     return result;
@@ -230,12 +221,11 @@ export class OsDateTimeFormatter {
     if (!this.unsupportedMask) {
       return mask;
     }
-    const result = this.unsupportedMask.reduce(this.stripUnsupportedReducer, mask);
+    let result = mask;
+    for (let i = 0; i < this.unsupportedMask.length; i++) {
+        result = result.replace(this.unsupportedMask[i], '');
+    }
     return result;
-  }
-
-  private stripUnsupportedReducer(result: string, mask: RegExp) {
-    return result.replace(mask, '');
   }
 
   private escapeQuotes(mask: string) {
@@ -272,30 +262,22 @@ export class OsDateTimeFormatter {
 
   private partsToObject(parts: IElectronDateTimePart[]): IDateTimeFormatParts {
     const partsObject: IDateTimeFormatParts = {};
-    return parts.reduce(this.partsObjectReducer, partsObject);
-  }
-
-  private partsObjectReducer(result: IDateTimeFormatParts, part: IElectronDateTimePart) {
-    if (part.type !== 'literal') {
-      result[part.type] = part.value as any;
+    for (let i = 0; i < parts.length; i++) {
+      const type = parts[i].type;
+      if (type !== 'literal') {
+          partsObject[type] = parts[i].value as any;
+      }
     }
-    return result;
+    return partsObject;
   }
 
   private applyFormat(format: IFormat, date: number | Date): string {
     const partValues = this.getPartValues(format.intlOptions, date);
-    const acc = { result: [], partValues, date, _this: this };
-    const formatted = format.parts.reduce(this.applyFormatReducer, acc).result.join('');
-
+    let formatted = '';
+    for (let i = 0; i < format.parts.length; i++) {
+        formatted = `${formatted}${this.getValue(format.parts[i], partValues, date)}`;
+    }
     return formatted.replace(/\s+/g, ' ').trim();
-  }
-
-  private applyFormatReducer(
-    acc: { _this: OsDateTimeFormatter, result: string[], partValues: IDateTimeFormatParts, date: number | Date },
-    part: ReplacePart) {
-      const value = acc._this.getValue(part, acc.partValues, acc.date);
-      acc.result.push(value);
-      return acc;
   }
 
   private getValue(part: ReplacePart | string, partValues: IDateTimeFormatParts, date: number | Date): string {
@@ -308,9 +290,14 @@ export class OsDateTimeFormatter {
     let value = undefined;
 
     if (Array.isArray(part.replacePart)) {
-      const acc = { value: undefined as any, values };
-      part.replacePart.reduce(this.partsCandidateReducer, acc);
-      value = acc.value;
+      for (let i = 0; i < part.replacePart.length; i++) {
+        const partCandidate = part.replacePart[i];
+        const valueCandidate = values[partCandidate];
+        if (valueCandidate) {
+            value = valueCandidate;
+            break;
+        }
+      }
     } else {
       value = values[part.replacePart];
     }
@@ -328,18 +315,6 @@ export class OsDateTimeFormatter {
     }
 
     return typeof value === 'string' ? value : '';
-  }
-
-  private partsCandidateReducer(acc: { value: any, values: IDateTimeFormatParts}, partCandidate: IDateTimeFormatPartKeys) {
-    if (acc.value) {
-      return acc;
-    }
-
-    const valueCandidate = acc.values[partCandidate];
-    if (valueCandidate) {
-      acc.value = valueCandidate;
-    }
-    return acc;
   }
 
   private getPartValues(options: Intl.DateTimeFormatOptions, date: number | Date) {
