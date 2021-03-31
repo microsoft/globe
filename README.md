@@ -142,6 +142,9 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `4.1.2` 2021-03-31
+Fixed 12 hours format for Windows
+
 ### `4.1.1` 2021-02-18
 Use for loops in an attempt to reduce memory consumption
 

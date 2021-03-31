@@ -33,9 +33,10 @@ const windowsTime: ITranslationMap = {
     symbol: 'hh',
     intl: {
       options: {
-        hour12: true,
+        // hour12: true,
+        hourCycle: 'h12',
         hour: '2-digit'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -43,9 +44,10 @@ const windowsTime: ITranslationMap = {
     symbol: 'h',
     intl: {
       options: {
-        hour12: true,
+        // hour12: true,
+        hourCycle: 'h12',
         hour: 'numeric'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -53,9 +55,10 @@ const windowsTime: ITranslationMap = {
     symbol: 'HH',
     intl: {
       options: {
-        hour12: false,
+        // hour12: false,
+        hourCycle: 'h23',
         hour: '2-digit'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
@@ -63,9 +66,10 @@ const windowsTime: ITranslationMap = {
     symbol: 'H',
     intl: {
       options: {
-        hour12: false,
+        // hour12: false,
+        hourCycle: 'h23',
         hour: 'numeric'
-      },
+      } as Intl.DateTimeFormatOptions,
       part: 'hour'
     }
   },
