@@ -5,7 +5,8 @@
   <script>
     var exports = {};
   </script>
-  <script src="https://unpkg.com/@microsoft/globe@2.8.1/dist/globe.cjs.development.js"></script>
+  <script src="https://unpkg.com/@microsoft/globe@4.1.2/dist/globe.cjs.development.js"></script>
+  <!-- <script src="./../dist/globe.cjs.development.js"></script> -->
   <style>
     .header {
       display: flex;
@@ -171,6 +172,44 @@
       }
 
       const testData = [
+        {
+          "locale": "es-mx",
+          "shortDate": {
+            "mask": "dd/MM/yyyy",
+            "expected": "3.7.2020"
+          },
+          "longDate": {
+            "mask": "dddd, d' de 'MMMM' de 'yyyy",
+            "expected": "piatok 3. júla 2020"
+          },
+          "shortTime": {
+            "mask": "HH:mm",
+            "expected": "9:10"
+          },
+          "longTime": {
+            "mask": "HH:mm:ss",
+            "expected": "9:10:44"
+          }
+        },
+        {
+          "locale": "es-mx",
+          "shortDate": {
+            "mask": "dd/MM/yyyy",
+            "expected": "3.7.2020"
+          },
+          "longDate": {
+            "mask": "dddd, d' de 'MMMM' de 'yyyy",
+            "expected": "piatok 3. júla 2020"
+          },
+          "shortTime": {
+            "mask": "hh:mm tt",
+            "expected": "9:10"
+          },
+          "longTime": {
+            "mask": "hh:mm:ss tt",
+            "expected": "9:10:44"
+          }
+        },
         {
           "locale": "sk-sk",
           "shortDate": {
