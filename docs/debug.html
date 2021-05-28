@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.min.js"></script>
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>Date/Time stats</h1>
+    <div id="data" />
+    <script>
+      const data = document.getElementById("data");
+      const addData = (title, value) => {
+        const row = document.createElement("div");
+        const titleElement = document.createElement("b");
+        titleElement.innerHTML = title + ": ";
+        row.appendChild(titleElement);
+        const valueElement = document.createTextNode(value);
+        row.appendChild(valueElement);
+        data.appendChild(row);
+      };
+
+      addData("Date", new Date());
+      addData("offset", new Date().getTimezoneOffset());
+      addData("UTC", new Date().toUTCString());
+      addData(
+        "Date (intl)",
+        Intl.DateTimeFormat("en-us", {
+          dateStyle: "full",
+          timeStyle: "long"
+        }).format(new Date())
+      );
+      addData("moment", moment(new Date()));
+    </script>
+  </body>
+</html>
