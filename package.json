@@ -33,7 +33,7 @@
   "devDependencies": {
     "@jest-runner/electron": "3.0.0",
     "@types/jest": "^25.1.1",
-    "electron": "8.5.2",
+    "electron": "9.4.0",
     "jest": "^25.1.0",
     "rimraf": "^3.0.1",
     "ts-jest": "^26.4.3",
