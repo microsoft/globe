@@ -31,6 +31,21 @@ const checkFallback = (locales?: string | string[] | undefined) => {
   return false;
 };
 
+export function getVdiTimeZoneFix()  {
+  const offset: number = new Date().getTimezoneOffset();
+  if (offset % 60 === 0) {
+    const tz: number = offset / 60;
+    if (tz === 0) {
+      return 'Etc/GMT';
+    } 
+    if (tz > 0) {
+      return "Etc/GMT+" + tz;
+    }
+    return "Etc/GMT"+ tz;
+  }
+  return 'UTC';
+}
+
 const getOptionsWithFallback = (locales?: string | string[] | undefined, options?: Intl.DateTimeFormatOptions) => {
   if (options && options['timeZone']) {
     return options;
@@ -42,7 +57,7 @@ const getOptionsWithFallback = (locales?: string | string[] | undefined, options
 
   return {
     ...options,
-    timeZone: 'UTC'
+    timeZone:  getVdiTimeZoneFix()
   };
 };
 
