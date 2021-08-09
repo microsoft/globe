@@ -142,6 +142,8 @@ NPM Releases are made manually by @TomasHubelbauer at the moment.
 
 ## Release Notes
 
+### `4.1.3` 2021-08-09
+Attempting to fix VDI issues on Electron
 ### `4.1.2` 2021-03-31
 Fixed 12 hours format for Windows
 
