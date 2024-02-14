@@ -80,6 +80,13 @@ type MediumDateWithYear = Readonly<{
   year: 'numeric'
 }>;
 
+type MediumDateShortTime = Readonly<{
+  day: 'numeric',
+  month: 'short',
+  hour: 'numeric',
+  minute: 'numeric'
+}>;
+
 type ShortTimeZoneName = Readonly<{ timeZoneName: 'short' }>;
 
 type LongTimeZoneName = Readonly<{ timeZoneName: 'long' }>;
@@ -137,6 +144,7 @@ export type DateTimeFormatOptions =
   | MediumDateWithYear
   | MediumWithYear
   | Medium
+  | MediumDateShortTime
   | LongWeekday
   | ShortWeekday
   | HourOnly
@@ -271,6 +279,13 @@ export const MEDIUM_WITH_YEAR: MediumWithYear = {
 export const MEDIUM: Medium = {
   ...MEDIUM_DATE,
   ...MEDIUM_TIME
+};
+
+export const MEDIUM_DATE_SHORT_TIME: MediumDateShortTime = {
+  day: 'numeric',
+  month: 'short',
+  hour: 'numeric',
+  minute: 'numeric'
 };
 
 export const HOUR_ONLY: HourOnly = {
