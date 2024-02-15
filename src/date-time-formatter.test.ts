@@ -22,7 +22,8 @@ const {
   FULL,
   SHORT_WITH_YEAR,
   SHORT,
-  SHORT_TIME
+  SHORT_TIME,
+  MEDIUM_DATE_SHORT_TIME
 } = require('../dist/globe.cjs.development');
 
 describe('date-time-format-options', () => {
@@ -210,6 +211,12 @@ describe('date-time-format-options', () => {
         expect(dateTimeFormatter.formatDateTime(date, SHORT_WEEKDAY_LONG_TIME)).toBe('Sun, 3:40:25 PM');
       });
 
+      it('medium date with short time', () => {
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 5, 28, 15, 40, 25);
+        expect(dateTimeFormatter.formatDateTime(date, MEDIUM_DATE_SHORT_TIME)).toBe('Jun 28, 3:40 PM');
+      });
+
       it('removes unsupported symbols', () => {
         const localeInfo = { platform: 'macos', regionalFormat: 'en-US', shortTime: 'llwwWWDDFFggUUqqQQh:mm a' };
         const dateTimeFormatter = new DateTimeFormatter(localeInfo);
@@ -353,6 +360,12 @@ describe('date-time-format-options', () => {
         expect(dateTimeFormatter.formatDateTime(date, SHORT_WEEKDAY_LONG_TIME)).toBe('Sun, 3:40:25 PM');
       });
 
+      it('medium date with short time', () => {
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 5, 28, 15, 40, 25);
+        expect(dateTimeFormatter.formatDateTime(date, MEDIUM_DATE_SHORT_TIME)).toBe('Jun 28, 3:40 PM');
+      });
+
       it('combines short month and long month', () => {
         const localeInfo = {
           platform: 'windows',
@@ -444,7 +457,7 @@ describe('date-time-format-options', () => {
       }
       const end = performance.now();
       expect(result).toBe('6/28/2020 3:40 PM');
-      expect(end - start).toBe(0);
+expect(end - start).toBe(0);
+      });
     });
-  });
 });
