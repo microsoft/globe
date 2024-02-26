@@ -29,7 +29,7 @@ const {
 describe('date-time-format-options', () => {
 
   test('uses correct version of electron', () => {
-    expect(process.versions.electron).toMatch(/8.*$/);
+    expect((process.versions as any).electron).toMatch(/8.*$/);
   });
 
   describe('functionality', () => {
@@ -457,7 +457,7 @@ describe('date-time-format-options', () => {
       }
       const end = performance.now();
       expect(result).toBe('6/28/2020 3:40 PM');
-expect(end - start).toBe(0);
+      expect(end - start).toBe(0);
       });
     });
 });
