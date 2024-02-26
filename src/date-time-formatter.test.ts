@@ -29,7 +29,7 @@ const {
 describe('date-time-format-options', () => {
 
   test('uses correct version of electron', () => {
-    expect((process.versions as any).electron).toMatch(/8.*$/);
+    expect((process.versions as any).electron).toMatch(/9.*$/);
   });
 
   describe('functionality', () => {
