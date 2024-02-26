@@ -32,13 +32,13 @@
   },
   "devDependencies": {
     "@jest-runner/electron": "3.0.0",
-    "@types/jest": "^25.1.1",
+    "@types/jest": "^29.5.12",
     "electron": "9.4.0",
-    "jest": "^25.1.0",
+    "jest": "^26.4.0",
     "rimraf": "^3.0.1",
     "ts-jest": "^26.4.3",
     "tsdx": "^0.12.3",
-    "tslint": "^6.0.0",
+    "tslint": "^5.1.0",
     "tslint-microsoft-contrib": "^6.2.0",
     "tsutils": "^3.17.1",
     "typescript": "^3.7.5"

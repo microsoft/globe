@@ -39,9 +39,9 @@ export function getVdiTimeZoneFix()  {
       return 'Etc/GMT';
     } 
     if (tz > 0) {
-      return "Etc/GMT+" + tz;
+      return 'Etc/GMT+' + tz;
     }
-    return "Etc/GMT"+ tz;
+    return 'Etc/GMT' + tz;
   }
   return 'UTC';
 }
