@@ -19,7 +19,7 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = jest.fn().mockReturnValue(0);
             const spy = jest.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as string);
+                () => (mockDate as unknown) as Date);
 
             try {
                 const tz = getVdiTimeZoneFix();
@@ -40,7 +40,7 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = jest.fn().mockReturnValue(13);
             const spy = jest.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as string);
+                () => (mockDate as unknown) as Date);
 
             try {
 
@@ -62,7 +62,7 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = jest.fn().mockReturnValue(-120);
             const spy = jest.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as string);
+                () => (mockDate as unknown) as Date);
 
             try {
                 const tz = getVdiTimeZoneFix();
@@ -83,7 +83,7 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = jest.fn().mockReturnValue(360);
             const spy = jest.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as string);
+                () => (mockDate as unknown) as Date);
 
             try {
 
