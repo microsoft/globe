@@ -319,7 +319,11 @@ export class OsDateTimeFormatter {
 
   private getPartValues(options: Intl.DateTimeFormatOptions, date: number | Date) {
     const partsArray = this.cachedDateTimeFormat.get(this.locale, options).formatToParts(date);
-    return this.partsToObject(partsArray);
+    const electronPartsArray: IElectronDateTimePart[] = partsArray.map(part => ({
+      type: part.type as ElectronDateTimePartItem,
+      value: part.value
+    }));
+    return this.partsToObject(electronPartsArray);
   }
 
 }

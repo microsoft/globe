@@ -1,7 +1,4 @@
 import _import from "eslint-plugin-import";
-import stylistic from '@stylistic/eslint-plugin'
-import typescriptEslint from "@typescript-eslint/eslint-plugin";
-import typescriptEslintTslint from "@typescript-eslint/eslint-plugin-tslint";
 import { fixupPluginRules } from "@eslint/compat";
 import globals from "globals";
 import tsParser from "@typescript-eslint/parser";
@@ -9,6 +6,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
+import licenseHeader from "eslint-plugin-license-header";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,9 +19,7 @@ const compat = new FlatCompat({
 export default [...compat.extends("prettier"), {
     plugins: {
         import: fixupPluginRules(_import),
-        '@stylistic': stylistic,
-        "@typescript-eslint": typescriptEslint,
-        "@typescript-eslint/tslint": typescriptEslintTslint,
+        'license-header': licenseHeader
     },
     languageOptions: {
         globals: {
@@ -41,7 +37,15 @@ export default [...compat.extends("prettier"), {
         "guard-for-in": "error",
         "id-denylist": "off",
         "id-match": "off",
-
+        "license-header/header": [
+            "error",
+            [
+                "/*!",
+                " * Copyright (c) Microsoft Corporation. All rights reserved.",
+                " * Licensed under the MIT License.",
+                " */",
+            ]
+        ],
         "import/order": ["error", {
             alphabetize: {
                 caseInsensitive: true,
