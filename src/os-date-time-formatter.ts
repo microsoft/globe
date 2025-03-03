@@ -15,7 +15,7 @@ import {
 
 interface IDateTimeFormatParts extends Intl.DateTimeFormatOptions {
   dayperiod?: string;
-  dayPeriod?: string;
+  dayPeriod?: 'narrow' | 'short' | 'long' | undefined;
 }
 
 type ElectronDateTimePartItem = keyof IDateTimeFormatParts | 'literal';
