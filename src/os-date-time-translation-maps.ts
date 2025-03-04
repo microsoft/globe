@@ -5,8 +5,8 @@
 
 type IDateTimeFormatPartKeys =
   | keyof Intl.DateTimeFormatOptions
-  | 'dayperiod' // Chromium bug going to be fixed in Electron 5
-  | 'dayPeriod';
+  | "dayperiod" // Chromium bug going to be fixed in Electron 5
+  | "dayPeriod";
 
 interface ITranslationItem {
   symbol: string | string[];
@@ -30,250 +30,271 @@ interface ITranslationMaps {
 
 const windowsTime: ITranslationMap = {
   hh: {
-    symbol: 'hh',
+    symbol: "hh",
     intl: {
       options: {
         // hour12: true,
-        hourCycle: 'h12',
-        hour: '2-digit'
+        hourCycle: "h12",
+        hour: "2-digit"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   h: {
-    symbol: 'h',
+    symbol: "h",
     intl: {
       options: {
         // hour12: true,
-        hourCycle: 'h12',
-        hour: 'numeric'
+        hourCycle: "h12",
+        hour: "numeric"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   HH: {
-    symbol: 'HH',
+    symbol: "HH",
     intl: {
       options: {
         // hour12: false,
-        hourCycle: 'h23',
-        hour: '2-digit'
+        hourCycle: "h23",
+        hour: "2-digit"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   H: {
-    symbol: 'H',
+    symbol: "H",
     intl: {
       options: {
         // hour12: false,
-        hourCycle: 'h23',
-        hour: 'numeric'
+        hourCycle: "h23",
+        hour: "numeric"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   mm: {
-    symbol: 'mm',
+    symbol: "mm",
     intl: {
       options: {
-        minute: '2-digit'
+        minute: "2-digit"
       },
-      part: 'minute'
+      part: "minute"
     }
   },
   m: {
-    symbol: 'm',
+    symbol: "m",
     intl: {
       options: {
-        minute: 'numeric'
+        minute: "numeric"
       },
-      part: 'minute'
+      part: "minute"
     }
   },
   ss: {
-    symbol: 'ss',
+    symbol: "ss",
     intl: {
       options: {
-        second: '2-digit'
+        second: "2-digit"
       },
-      part: 'second'
+      part: "second"
     }
   },
   s: {
-    symbol: 's',
+    symbol: "s",
     intl: {
       options: {
-        second: 'numeric'
+        second: "numeric"
       },
-      part: 'second'
+      part: "second"
     }
   },
   period: {
-    symbol: ['t', 'tt'],
+    symbol: ["t", "tt"],
     intl: {
       options: {
         hour12: true,
-        hour: 'numeric'
+        hour: "numeric"
       },
-      part: ['dayPeriod', 'dayperiod']
+      part: ["dayPeriod", "dayperiod"]
     }
   }
 };
 
 const macTime: ITranslationMap = {
   a: {
-    symbol: 'a',
+    symbol: "a",
     intl: {
       options: {
         hour12: true,
-        hour: 'numeric'
+        hour: "numeric"
       },
-      part: ['dayPeriod', 'dayperiod']
+      part: ["dayPeriod", "dayperiod"]
     }
   },
   // we should use hourCycle https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle
   // but for now it is not working consistently across varous versions of Electron and Node
   h: {
-    symbol: 'h',
+    symbol: "h",
     intl: {
       options: {
         // hour12: true,
-        hourCycle: 'h12',
-        hour: 'numeric'
+        hourCycle: "h12",
+        hour: "numeric"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   hh: {
-    symbol: 'hh',
+    symbol: "hh",
     intl: {
       options: {
         // hour12: true,
-        hourCycle: 'h12',
-        hour: '2-digit'
+        hourCycle: "h12",
+        hour: "2-digit"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   H: {
-    symbol: 'H',
+    symbol: "H",
     intl: {
       options: {
         // hour12: false,
-        hourCycle: 'h23',
-        hour: 'numeric'
+        hourCycle: "h23",
+        hour: "numeric"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   HH: {
-    symbol: 'HH',
+    symbol: "HH",
     intl: {
       options: {
         // hour12: false,
-        hourCycle: 'h23',
-        hour: '2-digit'
+        hourCycle: "h23",
+        hour: "2-digit"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   k: {
-    symbol: 'k',
+    symbol: "k",
     intl: {
       options: {
-        hour: 'numeric',
-        hourCycle: 'h24',
+        hour: "numeric",
+        hourCycle: "h24"
         // hour12: false,
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   kk: {
-    symbol: 'kk',
+    symbol: "kk",
     intl: {
       options: {
-        hour: '2-digit',
+        hour: "2-digit",
         // hour12: false,
-        hourCycle: 'h24',
+        hourCycle: "h24"
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   K: {
-    symbol: 'K',
+    symbol: "K",
     intl: {
       options: {
-        hour: 'numeric',
-        hourCycle: 'h11',
+        hour: "numeric",
+        hourCycle: "h11"
         // hour12: true,
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   KK: {
-    symbol: 'KK',
+    symbol: "KK",
     intl: {
       options: {
-        hour: '2-digit',
-        hourCycle: 'h11',
+        hour: "2-digit",
+        hourCycle: "h11"
         // hour12: true,
       } as Intl.DateTimeFormatOptions,
-      part: 'hour'
+      part: "hour"
     }
   },
   m: {
-    symbol: 'm',
+    symbol: "m",
     intl: {
       options: {
-        minute: 'numeric'
+        minute: "numeric"
       },
-      part: 'minute'
+      part: "minute"
     }
   },
   mm: {
-    symbol: 'mm',
+    symbol: "mm",
     intl: {
       options: {
-        minute: '2-digit'
+        minute: "2-digit"
       },
-      part: 'minute'
+      part: "minute"
     }
   },
   s: {
-    symbol: 's',
+    symbol: "s",
     intl: {
       options: {
-        second: 'numeric'
+        second: "numeric"
       },
-      part: 'second'
+      part: "second"
     }
   },
   ss: {
-    symbol: 'ss',
+    symbol: "ss",
     intl: {
       options: {
-        second: '2-digit'
+        second: "2-digit"
       },
-      part: 'second'
+      part: "second"
     }
   },
-  'zone-short': {
-    symbol: ['x', 'xx', 'xxx', 'xxxx', 'xxxxx', 'X', 'XX', 'XXX', 'XXXX', 'XXXXX', 'z', 'zz', 'zzz', 'Z', 'ZZ', 'ZZZ', 'ZZZZ', 'ZZZZZ', 'O', 'OOOO'],
+  "zone-short": {
+    symbol: [
+      "x",
+      "xx",
+      "xxx",
+      "xxxx",
+      "xxxxx",
+      "X",
+      "XX",
+      "XXX",
+      "XXXX",
+      "XXXXX",
+      "z",
+      "zz",
+      "zzz",
+      "Z",
+      "ZZ",
+      "ZZZ",
+      "ZZZZ",
+      "ZZZZZ",
+      "O",
+      "OOOO"
+    ],
     intl: {
       options: {
-        timeZoneName: 'short'
+        timeZoneName: "short"
       },
-      part: 'timeZoneName'
+      part: "timeZoneName"
     }
   },
-  'zone-long': {
-    symbol: ['zzzz', 'v', 'vvvv', 'V', 'VV', 'VVV', 'VVVV'],
+  "zone-long": {
+    symbol: ["zzzz", "v", "vvvv", "V", "VV", "VVV", "VVVV"],
     intl: {
       options: {
-        timeZoneName: 'long'
+        timeZoneName: "long"
       },
-      part: 'timeZoneName'
+      part: "timeZoneName"
     }
   }
 };
@@ -284,266 +305,266 @@ timeTranslationMaps.macos = macTime;
 
 const windowsDate: ITranslationMap = {
   d: {
-    symbol: 'd',
+    symbol: "d",
     intl: {
       options: {
-        day: 'numeric'
+        day: "numeric"
       },
-      part: 'day'
+      part: "day"
     }
   },
   dd: {
-    symbol: 'dd',
+    symbol: "dd",
     intl: {
       options: {
-        day: '2-digit'
+        day: "2-digit"
       },
-      part: 'day'
+      part: "day"
     }
   },
   ddd: {
-    symbol: 'ddd',
+    symbol: "ddd",
     intl: {
       options: {
-        weekday: 'short'
+        weekday: "short"
       },
-      part: 'weekday'
+      part: "weekday"
     }
   },
   dddd: {
-    symbol: 'dddd',
+    symbol: "dddd",
     intl: {
       options: {
-        weekday: 'long'
+        weekday: "long"
       },
-      part: 'weekday'
+      part: "weekday"
     }
   },
   M: {
-    symbol: 'M',
+    symbol: "M",
     intl: {
       options: {
-        month: 'numeric'
+        month: "numeric"
       },
-      part: 'month'
+      part: "month"
     }
   },
   MM: {
-    symbol: 'MM',
+    symbol: "MM",
     intl: {
       options: {
-        month: '2-digit'
+        month: "2-digit"
       },
-      part: 'month'
+      part: "month"
     }
   },
   MMM: {
-    symbol: 'MMM',
+    symbol: "MMM",
     intl: {
       options: {
-        month: 'short'
+        month: "short"
       },
-      part: 'month'
+      part: "month"
     }
   },
   MMMM: {
-    symbol: 'MMMM',
+    symbol: "MMMM",
     intl: {
       options: {
-        month: 'long'
+        month: "long"
       },
-      part: 'month'
+      part: "month"
     }
   },
-  'year-short': {
-    symbol: ['y', 'yy'],
+  "year-short": {
+    symbol: ["y", "yy"],
     intl: {
       options: {
-        year: '2-digit'
+        year: "2-digit"
       },
-      part: 'year'
+      part: "year"
     }
   },
-  'year-long': {
-    symbol: ['yyyy', 'yyyyy'],
+  "year-long": {
+    symbol: ["yyyy", "yyyyy"],
     intl: {
       options: {
-        year: 'numeric'
+        year: "numeric"
       },
-      part: 'year'
+      part: "year"
     }
   },
   era: {
-    symbol: ['g', 'gg'],
+    symbol: ["g", "gg"],
     intl: {
       options: {
-        era: 'narrow'
+        era: "narrow"
       },
-      part: 'era'
+      part: "era"
     }
   }
 };
 
 const macDate: ITranslationMap = {
-  'era-short': {
-    symbol: ['G', 'GG', 'GGG'],
+  "era-short": {
+    symbol: ["G", "GG", "GGG"],
     intl: {
       options: {
-        era: 'short'
+        era: "short"
       },
-      part: 'era'
+      part: "era"
     }
   },
   GGGG: {
-    symbol: 'GGGG',
+    symbol: "GGGG",
     intl: {
       options: {
-        era: 'long'
+        era: "long"
       },
-      part: 'era'
+      part: "era"
     }
   },
   GGGGG: {
-    symbol: 'GGGG',
+    symbol: "GGGG",
     intl: {
       options: {
-        era: 'narrow'
+        era: "narrow"
       },
-      part: 'era'
+      part: "era"
     }
   },
-  'year-numeric': {
+  "year-numeric": {
     symbol: [
-      'y',
-      'yyy',
-      'yyyy',
-      'yyyyy',
-      'Y',
-      'YYY',
-      'YYYY',
-      'YYYYY',
-      'u',
-      'uuu',
-      'uuuu',
-      'uuuuu'
+      "y",
+      "yyy",
+      "yyyy",
+      "yyyyy",
+      "Y",
+      "YYY",
+      "YYYY",
+      "YYYYY",
+      "u",
+      "uuu",
+      "uuuu",
+      "uuuuu"
     ],
     intl: {
       options: {
-        year: 'numeric'
+        year: "numeric"
       },
-      part: 'year'
+      part: "year"
     }
   },
-  'year-short': {
-    symbol: ['yy', 'YY', 'uu'],
+  "year-short": {
+    symbol: ["yy", "YY", "uu"],
     intl: {
       options: {
-        year: '2-digit'
+        year: "2-digit"
       },
-      part: 'year'
+      part: "year"
     }
   },
-  'month-numeric': {
-    symbol: ['M', 'L'],
+  "month-numeric": {
+    symbol: ["M", "L"],
     intl: {
       options: {
-        month: 'numeric'
+        month: "numeric"
       },
-      part: 'month'
+      part: "month"
     }
   },
-  'month-2-digit': {
-    symbol: ['MM', 'LL'],
+  "month-2-digit": {
+    symbol: ["MM", "LL"],
     intl: {
       options: {
-        month: '2-digit'
+        month: "2-digit"
       },
-      part: 'month'
+      part: "month"
     }
   },
-  'month-short': {
-    symbol: ['MMM', 'LLL'],
+  "month-short": {
+    symbol: ["MMM", "LLL"],
     intl: {
       options: {
-        month: 'short'
+        month: "short"
       },
-      part: 'month'
+      part: "month"
     }
   },
-  'month-long': {
-    symbol: ['MMMM', 'LLLL'],
+  "month-long": {
+    symbol: ["MMMM", "LLLL"],
     intl: {
       options: {
-        month: 'long'
+        month: "long"
       },
-      part: 'month'
+      part: "month"
     }
   },
-  'month-narrow': {
-    symbol: ['MMMMM', 'LLLLL'],
+  "month-narrow": {
+    symbol: ["MMMMM", "LLLLL"],
     intl: {
       options: {
-        month: 'narrow'
+        month: "narrow"
       },
-      part: 'month'
+      part: "month"
     }
   },
   d: {
-    symbol: 'd',
+    symbol: "d",
     intl: {
       options: {
-        day: 'numeric'
+        day: "numeric"
       },
-      part: 'day'
+      part: "day"
     }
   },
   dd: {
-    symbol: 'dd',
+    symbol: "dd",
     intl: {
       options: {
-        day: '2-digit'
+        day: "2-digit"
       },
-      part: 'day'
+      part: "day"
     }
   },
-  'weekday-long': {
+  "weekday-long": {
     symbol: [
-      'E',
-      'EE',
-      'EEE',
-      'EEEE',
-      'e',
-      'ee',
-      'eee',
-      'eeee',
-      'c',
-      'cc',
-      'ccc',
-      'cccc'
+      "E",
+      "EE",
+      "EEE",
+      "EEEE",
+      "e",
+      "ee",
+      "eee",
+      "eeee",
+      "c",
+      "cc",
+      "ccc",
+      "cccc"
     ],
     intl: {
       options: {
-        weekday: 'long'
+        weekday: "long"
       },
-      part: 'weekday'
+      part: "weekday"
     }
   },
-  'weekday-narrow': {
-    symbol: ['EEEEE', 'eeeee', 'ccccc'],
+  "weekday-narrow": {
+    symbol: ["EEEEE", "eeeee", "ccccc"],
     intl: {
       options: {
-        weekday: 'narrow'
+        weekday: "narrow"
       },
-      part: 'weekday'
+      part: "weekday"
     }
   },
-  'weekday-short': {
-    symbol: ['EEEEEE', 'eeeeee', 'cccccc'],
+  "weekday-short": {
+    symbol: ["EEEEEE", "eeeeee", "cccccc"],
     intl: {
       options: {
-        weekday: 'short'
+        weekday: "short"
       },
-      part: 'weekday'
+      part: "weekday"
     }
   }
 };
@@ -562,8 +583,8 @@ const unsupportedMask: IPlatformUnsupportedMask = {
     /g/g, // modified julian day
     /U/g, // cyclic year
     /q/g, // quarter
-    /Q/g, // quarter
-  ],
+    /Q/g // quarter
+  ]
 };
 
 export {
@@ -573,5 +594,5 @@ export {
   ITranslationItem,
   ITranslationMap,
   IPlatformUnsupportedMask,
-  unsupportedMask,
+  unsupportedMask
 };

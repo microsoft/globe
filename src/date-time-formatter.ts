@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 
-import { CachedDateTimeFormat } from './cached-datetimeformat';
+import { CachedDateTimeFormat } from "./cached-datetimeformat";
 import {
   DateTimeFormatOptions,
   FULL,
@@ -38,9 +38,9 @@ import {
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
   SHORT_WITH_YEAR
-} from './date-time-format-options';
-import ILocaleInfo from './ILocaleInfo';
-import { OsDateTimeFormatter } from './os-date-time-formatter';
+} from "./date-time-format-options";
+import ILocaleInfo from "./ILocaleInfo";
+import { OsDateTimeFormatter } from "./os-date-time-formatter";
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
@@ -54,7 +54,7 @@ export class DateTimeFormatter {
    * Instantiates DateTimeFormatter
    * @param locale The desired locale to which to format the date and time value (default: en-US)
    */
-  constructor(private locale: string | ILocaleInfo = 'en-US') { }
+  constructor(private locale: string | ILocaleInfo = "en-US") {}
 
   /**
    * Localizes the date/time value
@@ -63,7 +63,7 @@ export class DateTimeFormatter {
    * @returns The localized date/time string
    */
   public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
-    if (typeof this.locale === 'string') {
+    if (typeof this.locale === "string") {
       const dtf = this.cachedDateTimeFormat.get(this.locale, format);
       return dtf.format(date);
     }
@@ -71,17 +71,27 @@ export class DateTimeFormatter {
     return this.formatOsDateTime(date, format, this.locale);
   }
 
-  public formatOsDateTime(date: number | Date, format: DateTimeFormatOptions, localeInfo: ILocaleInfo): string {
+  public formatOsDateTime(
+    date: number | Date,
+    format: DateTimeFormatOptions,
+    localeInfo: ILocaleInfo
+  ): string {
     if (!localeInfo) {
-      throw new Error('Cannot call the OS date and time formatter without specifying the OS locale info.');
+      throw new Error(
+        "Cannot call the OS date and time formatter without specifying the OS locale info."
+      );
     }
 
     if (!this.formatter) {
-       this.formatter = new OsDateTimeFormatter(localeInfo.regionalFormat, localeInfo.platform, this.cachedDateTimeFormat);
+      this.formatter = new OsDateTimeFormatter(
+        localeInfo.regionalFormat,
+        localeInfo.platform,
+        this.cachedDateTimeFormat
+      );
     }
 
     let loc: string;
-    if (typeof this.locale === 'string') {
+    if (typeof this.locale === "string") {
       loc = this.locale;
     } else {
       loc = this.locale.regionalFormat;
@@ -106,7 +116,9 @@ export class DateTimeFormatter {
       }
       case SHORT_DATE_LONG_TIME: {
         if (!localeInfo.shortDate || !localeInfo.longTime) {
-          throw new Error(`localeInfo.shortDate or localeInfo.longTime was not provided!`);
+          throw new Error(
+            `localeInfo.shortDate or localeInfo.longTime was not provided!`
+          );
         }
 
         const d = this.formatter.dateToString(date, localeInfo.shortDate);
@@ -117,7 +129,9 @@ export class DateTimeFormatter {
       case SHORT_WITH_YEAR:
       case SHORT_DATE_TIME: {
         if (!localeInfo.shortDate || !localeInfo.shortTime) {
-          throw new Error(`localeInfo.shortDate or localeInfo.shortTime was not provided!`);
+          throw new Error(
+            `localeInfo.shortDate or localeInfo.shortTime was not provided!`
+          );
         }
 
         const d = this.formatter.dateToString(date, localeInfo.shortDate);
@@ -129,13 +143,19 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.shortTime was not provided!`);
         }
 
-        if (localeInfo.platform === 'macos') {
-          const includesADayPeriod = localeInfo.shortTime.includes('a');
-          return this.formatter.timeToString(date, includesADayPeriod ? 'h a' : 'H');
+        if (localeInfo.platform === "macos") {
+          const includesADayPeriod = localeInfo.shortTime.includes("a");
+          return this.formatter.timeToString(
+            date,
+            includesADayPeriod ? "h a" : "H"
+          );
         } else {
-          const includesTTDayPeriod = localeInfo.shortTime.includes('tt');
-          const includesTDayPeriod = localeInfo.shortTime.includes('t');
-          return this.formatter.timeToString(date, includesTTDayPeriod ? 'h tt' : (includesTDayPeriod ? 'h t' : 'H'));
+          const includesTTDayPeriod = localeInfo.shortTime.includes("tt");
+          const includesTDayPeriod = localeInfo.shortTime.includes("t");
+          return this.formatter.timeToString(
+            date,
+            includesTTDayPeriod ? "h tt" : includesTDayPeriod ? "h t" : "H"
+          );
         }
       }
       case FULL_TIME:
@@ -147,14 +167,22 @@ export class DateTimeFormatter {
         }
 
         const time = this.formatter.timeToString(date, localeInfo.longTime);
-        return (format === LONG_TIME_WITH_TIMEZONE || format === FULL_TIME)
-          ? this.ensureTimeZone(time, date, localeInfo.longTime, format, localeInfo)
+        return format === LONG_TIME_WITH_TIMEZONE || format === FULL_TIME
+          ? this.ensureTimeZone(
+              time,
+              date,
+              localeInfo.longTime,
+              format,
+              localeInfo
+            )
           : time;
       }
       case MEDIUM:
       case MEDIUM_WITH_YEAR: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
-          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
         }
 
         const d = this.formatter.dateToString(date, localeInfo.longDate);
@@ -165,27 +193,34 @@ export class DateTimeFormatter {
         if (!localeInfo.shortTime) {
           throw new Error(`localeInfo.shortTime was not provided!`);
         }
-        
+
         const d = this.cachedDateTimeFormat.get(loc, MEDIUM_DATE).format(date);
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
-        
+
         return `${d}, ${t}`;
       }
       case FULL:
       case FULL_WITH_YEAR: {
-
         let dateFormat = localeInfo.longDate;
-        if (localeInfo.fullDate && localeInfo.fullDate !== 'UNKNOWN') {
+        if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
           dateFormat = localeInfo.fullDate;
         }
 
         if (!dateFormat || !localeInfo.longTime) {
-          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
         }
 
         const d = this.formatter.dateToString(date, dateFormat);
         const t = this.formatter.timeToString(date, localeInfo.longTime);
-        const timeWithTimeZone = this.ensureTimeZone(t, date, localeInfo.longTime, format, localeInfo);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.longTime,
+          format,
+          localeInfo
+        );
         return this.combineDateAndTime(d, timeWithTimeZone);
       }
       case LONG_WEEKDAY:
@@ -195,14 +230,20 @@ export class DateTimeFormatter {
       case LONG_WEEKDAY_LONG_TIME:
       case SHORT_WEEKDAY_LONG_TIME: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
-          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
         }
 
-        const weekFormat = format === LONG_WEEKDAY_LONG_TIME
-          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
-          : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
+        const weekFormat =
+          format === LONG_WEEKDAY_LONG_TIME
+            ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
+            : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
-        return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.longTime)}`;
+        return `${weekFormat}, ${this.formatter.timeToString(
+          date,
+          localeInfo.longTime
+        )}`;
       }
       case LONG_WEEKDAY_SHORT_TIME:
       case SHORT_WEEKDAY_SHORT_TIME: {
@@ -210,11 +251,15 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.shortTime was not provided!`);
         }
 
-        const weekFormat = format === LONG_WEEKDAY_SHORT_TIME
-          ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
-          : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
+        const weekFormat =
+          format === LONG_WEEKDAY_SHORT_TIME
+            ? this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date)
+            : this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
 
-        return `${weekFormat}, ${this.formatter.timeToString(date, localeInfo.shortTime)}`;
+        return `${weekFormat}, ${this.formatter.timeToString(
+          date,
+          localeInfo.shortTime
+        )}`;
       }
       case MEDIUM_DATE:
       case LONG_DATE:
@@ -229,8 +274,7 @@ export class DateTimeFormatter {
 
       case FULL_DATE:
       case FULL_DATE_WITH_YEAR: {
-
-        if (localeInfo.fullDate && localeInfo.fullDate !== 'UNKNOWN') {
+        if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
           return this.formatter.dateToString(date, localeInfo.fullDate);
         }
 
@@ -240,16 +284,24 @@ export class DateTimeFormatter {
 
         return this.formatter.dateToString(date, localeInfo.longDate);
       }
-  
+
       case LONG_WITH_TIMEZONE:
       case LONG_WITH_YEAR_TIMEZONE: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
-          throw new Error(`localeInfo.longDate or localeInfo.longTime was not provided!`);
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
         }
 
         const d = this.formatter.dateToString(date, localeInfo.longDate);
         const t = this.formatter.timeToString(date, localeInfo.longTime);
-        const timeWithTimeZone = this.ensureTimeZone(t, date, localeInfo.longTime, format, localeInfo);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.longTime,
+          format,
+          localeInfo
+        );
         return this.combineDateAndTime(d, timeWithTimeZone);
       }
     }
@@ -257,17 +309,26 @@ export class DateTimeFormatter {
     let formatStringified = undefined;
     try {
       formatStringified = JSON.stringify(format);
-    // tslint:disable-next-line: no-empty
-    } catch { }
+      // eslint-disable-next-line no-empty
+    } catch {}
 
-    throw new Error('Incorrect OS locale info format specified:' + (formatStringified || format));
+    throw new Error(
+      "Incorrect OS locale info format specified:" +
+        (formatStringified || format)
+    );
   }
 
   private combineDateAndTime(date: string, time: string) {
     return `${date} ${time}`;
   }
 
-  private ensureTimeZone(time: string, date: number | Date, mask: string, format: Intl.DateTimeFormatOptions, localeInfo: ILocaleInfo) {
+  private ensureTimeZone(
+    time: string,
+    date: number | Date,
+    mask: string,
+    format: Intl.DateTimeFormatOptions,
+    localeInfo: ILocaleInfo
+  ) {
     if (this.formatter?.timeHasTimeZone(mask)) {
       return time;
     }

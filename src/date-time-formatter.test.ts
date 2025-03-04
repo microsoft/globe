@@ -24,13 +24,9 @@ const {
   SHORT,
   SHORT_TIME,
   MEDIUM_DATE_SHORT_TIME
-} = require('../dist/globe.cjs.development');
+} = require('../dist/index');
 
 describe('date-time-format-options', () => {
-
-  test('uses correct version of electron', () => {
-    expect((process.versions as any).electron).toMatch(/9.*$/);
-  });
 
   describe('functionality', () => {
     it('constructs without throwing', () => {
