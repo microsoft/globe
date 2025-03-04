@@ -13,10 +13,14 @@
         "strictPropertyInitialization": true,
         "forceConsistentCasingInFileNames": true,
         "outDir": "./dist/",
+        "types": [
+            "node"
+        ],
         "lib": [
             "es5",
             "es2015.iterable",
-            "dom"
+            "dom",
+            "es2017"
         ]
     },
 
