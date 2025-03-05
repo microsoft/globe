@@ -3,6 +3,7 @@
  * Licensed under the MIT License.
  */
 
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { getVdiTimeZoneFix } from './safe-datetimeformat';
 
 describe('safe-datetimeformat', () => {
@@ -10,6 +11,11 @@ describe('safe-datetimeformat', () => {
     const nowDate = new Date();
 
     describe('vdi', () => {
+        let spy: any;
+
+        afterEach(() => {
+            spy?.mockRestore();
+        });
 
         it('constructs without throwing', () => {
             getVdiTimeZoneFix();
@@ -17,88 +23,59 @@ describe('safe-datetimeformat', () => {
 
         it('If no offset return GMT', () => {
             const mockDate = new Date();
-            mockDate.getTimezoneOffset = jest.fn().mockReturnValue(0);
-            const spy = jest.spyOn(global, 'Date').mockImplementation(
+            mockDate.getTimezoneOffset = vi.fn().mockReturnValue(0);
+            spy = vi.spyOn(global, 'Date').mockImplementation(
                 () => (mockDate as unknown) as Date);
 
-            try {
-                const tz = getVdiTimeZoneFix();
-                expect(tz).toEqual('Etc/GMT');
+            const tz = getVdiTimeZoneFix();
+            expect(tz).toEqual('Etc/GMT');
 
-                Intl.DateTimeFormat('en-GB', {
-                    timeZone: tz
-                }).format(nowDate);
-            } catch (e) {
-                fail(e);
-            } finally {
-                spy.mockRestore();
-            }
+            Intl.DateTimeFormat('en-GB', {
+                timeZone: tz
+            }).format(nowDate);
         });
 
         it('If unexpected value return UTC', () => {
-
             const mockDate = new Date();
-            mockDate.getTimezoneOffset = jest.fn().mockReturnValue(13);
-            const spy = jest.spyOn(global, 'Date').mockImplementation(
+            mockDate.getTimezoneOffset = vi.fn().mockReturnValue(13);
+            spy = vi.spyOn(global, 'Date').mockImplementation(
                 () => (mockDate as unknown) as Date);
 
-            try {
+            const tz = getVdiTimeZoneFix();
+            expect(tz).toEqual('UTC');
 
-                const tz = getVdiTimeZoneFix();
-                expect(tz).toEqual('UTC');
-
-                Intl.DateTimeFormat('en-GB', {
-                    timeZone: tz
-                }).format(nowDate);
-            } catch (e) {
-                fail(e);
-            } finally {
-                spy.mockRestore();
-            }
+            Intl.DateTimeFormat('en-GB', {
+                timeZone: tz
+            }).format(nowDate);
         });
 
         it('If negative hour returns correct format', () => {
-
             const mockDate = new Date();
-            mockDate.getTimezoneOffset = jest.fn().mockReturnValue(-120);
-            const spy = jest.spyOn(global, 'Date').mockImplementation(
+            mockDate.getTimezoneOffset = vi.fn().mockReturnValue(-120);
+            spy = vi.spyOn(global, 'Date').mockImplementation(
                 () => (mockDate as unknown) as Date);
 
-            try {
-                const tz = getVdiTimeZoneFix();
-                expect(tz).toEqual('Etc/GMT-2');
+            const tz = getVdiTimeZoneFix();
+            expect(tz).toEqual('Etc/GMT-2');
 
-                Intl.DateTimeFormat('en-GB', {
-                    timeZone: tz
-                }).format(nowDate);
-            } catch (e) {
-                fail(e);
-            } finally {
-                spy.mockRestore();
-            }
+            Intl.DateTimeFormat('en-GB', {
+                timeZone: tz
+            }).format(nowDate);
         });
 
         it('If positive hour returns correct format', () => {
 
             const mockDate = new Date();
-            mockDate.getTimezoneOffset = jest.fn().mockReturnValue(360);
-            const spy = jest.spyOn(global, 'Date').mockImplementation(
+            mockDate.getTimezoneOffset = vi.fn().mockReturnValue(360);
+            spy = vi.spyOn(global, 'Date').mockImplementation(
                 () => (mockDate as unknown) as Date);
 
-            try {
+            const tz = getVdiTimeZoneFix();
+            expect(tz).toEqual('Etc/GMT+6');
 
-                const tz = getVdiTimeZoneFix();
-                expect(tz).toEqual('Etc/GMT+6');
-
-                Intl.DateTimeFormat('en-GB', {
-                    timeZone: tz
-                }).format(nowDate);
-            } catch (e) {
-                fail(e);
-            } finally {
-                spy.mockRestore();
-            }
+            Intl.DateTimeFormat('en-GB', {
+                timeZone: tz
+            }).format(nowDate);
         });
-
     });
 });

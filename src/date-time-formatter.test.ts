@@ -3,112 +3,114 @@
  * Licensed under the MIT License.
  */
 
+import { describe, it, expect } from 'vitest';
 const { 
-  DateTimeFormatter, 
-  LONG_DATE, 
-  LONG_TIME,
-  HOUR_ONLY, 
-  SHORT_DATE_LONG_TIME, 
-  SHORT_DATE_TIME,
-  SHORT_DATE,
-  LONG_WEEKDAY_SHORT_TIME, 
-  LONG_WEEKDAY_LONG_TIME,
-  SHORT_WEEKDAY_LONG_TIME,
-  SHORT_WEEKDAY_SHORT_TIME,
-  FULL_TIME,
-  LONG_TIME_WITH_TIMEZONE,
-  LONG_WITH_TIMEZONE,
-  FULL_WITH_YEAR,
-  FULL,
-  SHORT_WITH_YEAR,
-  SHORT,
-  SHORT_TIME,
-  MEDIUM_DATE_SHORT_TIME
-} = require('../dist/index');
+    DateTimeFormatter, 
+    LONG_DATE, 
+    LONG_TIME,
+    HOUR_ONLY, 
+    SHORT_DATE_LONG_TIME, 
+    SHORT_DATE_TIME,
+    SHORT_DATE,
+    LONG_WEEKDAY_SHORT_TIME, 
+    LONG_WEEKDAY_LONG_TIME,
+    SHORT_WEEKDAY_LONG_TIME,
+    SHORT_WEEKDAY_SHORT_TIME,
+    FULL_TIME,
+    LONG_TIME_WITH_TIMEZONE,
+    LONG_WITH_TIMEZONE,
+    FULL_WITH_YEAR,
+    FULL,
+    SHORT_WITH_YEAR,
+    SHORT,
+    SHORT_TIME,
+    MEDIUM_DATE_SHORT_TIME
+  } = require('../dist/index');
 
 describe('date-time-format-options', () => {
 
-  describe('functionality', () => {
-    it('constructs without throwing', () => {
-      expect(() => new DateTimeFormatter('en-US')).not.toThrow();
+    describe('functionality', () => {
+      it('constructs without throwing', () => {
+        expect(() => new DateTimeFormatter('en-US')).not.toThrow();
+      });
+
+      it('formats a date using a locale string', () => {
+        const dateTimeFormatter = new DateTimeFormatter('en-US');
+        const date = new Date(2020, 1, 1, 12, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date)).toBe('2/1/2020');
+      });
+
+      it('formats a date using ILocaleInfo', () => {
+        const localeInfo = {
+          platform: 'macos',
+          regionalFormat: 'en-US',
+          shortDate: 'dd/MM/y',
+          longDate: 'd MMMM y',
+          shortTime: 'HH:mm',
+        };
+  
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 12, 0, 0);
+        expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1 February 2020');
+      });
     });
-
-    it('formats a date using a locale string', () => {
-      const dateTimeFormatter = new DateTimeFormatter('en-US');
-      const date = new Date(2020, 1, 1, 12, 0, 0);
-      expect(dateTimeFormatter.formatDateTime(date)).toBe('2/1/2020');
-    });
-
-    it('formats a date using ILocaleInfo', () => {
-      const localeInfo = {
-        platform: 'macos',
-        regionalFormat: 'en-US',
-        shortDate: 'dd/MM/y',
-        longDate: 'd MMMM y',
-        shortTime: 'HH:mm',
-      };
-
-      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-      const date = new Date(2020, 1, 1, 12, 0, 0);
-      expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('1 February 2020');
-    });
-
+    
     describe('Quotes', () => {
-      const localeInfo = {
-        platform: 'macos',
-        regionalFormat: 'en-US',
-        shortDate: 'dd\'d\'MM\'MM\' y \'yyyy\'',
-        longDate: '\'d\'d\'MMMM\'MMMM\'y\'y',
-        shortTime: '\'\'HH:mm\'\'',
-      };
-
-      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-      const date = new Date(2020, 1, 1, 12, 0, 0);
-
-      it('respects quotes after symbols', () => {
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE)).toBe('01d02MM 2020 yyyy');
-      });
-
-      it('respects quotes before symbols', () => {
-        expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('d1MMMMFebruaryy2020');
-      });
-
-      it('transforms double quotes to single', () => {
-        expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('\'12:00\'');
-      });
-
-      it('handles unpaired quote at the beginning', () => {
         const localeInfo = {
           platform: 'macos',
           regionalFormat: 'en-US',
-          longTime: '\'HH:mm',
+          shortDate: 'dd\'d\'MM\'MM\' y \'yyyy\'',
+          longDate: '\'d\'d\'MMMM\'MMMM\'y\'y',
+          shortTime: '\'\'HH:mm\'\'',
         };
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
   
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('');
-      });
+        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        const date = new Date(2020, 1, 1, 12, 0, 0);
+  
+        it('respects quotes after symbols', () => {
+          expect(dateTimeFormatter.formatDateTime(date, SHORT_DATE)).toBe('01d02MM 2020 yyyy');
+        });
 
-      it('handles unpaired quote at the end', () => {
-        const localeInfo = {
-          platform: 'macos',
-          regionalFormat: 'en-US',
-          longTime: 'HH:mm\'',
-        };
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        it('respects quotes before symbols', () => {
+          expect(dateTimeFormatter.formatDateTime(date, LONG_DATE)).toBe('d1MMMMFebruaryy2020');
+        });
   
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00');
-      });
+        it('transforms double quotes to single', () => {
+          expect(dateTimeFormatter.formatDateTime(date, SHORT_TIME)).toBe('\'12:00\'');
+        });
 
-      it('handles unpaired quote in the middle', () => {
-        const localeInfo = {
-          platform: 'macos',
-          regionalFormat: 'en-US',
-          longTime: 'HH:m\'m',
-        };
-        const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+        it('handles unpaired quote at the beginning', () => {
+          const localeInfo = {
+            platform: 'macos',
+            regionalFormat: 'en-US',
+            longTime: '\'HH:mm',
+          };
+          const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+    
+          expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('');
+        });
   
-        expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:0');
-      });
+        it('handles unpaired quote at the end', () => {
+          const localeInfo = {
+            platform: 'macos',
+            regionalFormat: 'en-US',
+            longTime: 'HH:mm\'',
+          };
+          const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+    
+          expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:00');
+        });
+
+        it('handles unpaired quote in the middle', () => {
+          const localeInfo = {
+            platform: 'macos',
+            regionalFormat: 'en-US',
+            longTime: 'HH:m\'m',
+          };
+          const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+    
+          expect(dateTimeFormatter.formatDateTime(date, LONG_TIME)).toBe('12:0');
+        });
     });
 
     describe('Mac', () => {
@@ -429,31 +431,6 @@ describe('date-time-format-options', () => {
         const date = new Date(2020, 5, 28, 15, 40, 25);
         const result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
         expect(result).toBe('6/28/2020 3:40 PM');
-      });
-    });
-  });
-
-  xdescribe('performance', () => {
-    const localeInfo = {
-      platform: 'windows',
-      regionalFormat: 'en-US',
-      shortDate: 'M/d/yyyy',
-      longDate: 'dddd, MMMM d, yyyy',
-      shortTime: 'h:mm tt',
-      longTime: 'h:mm:ss tt',
-    };
-
-    it('is fast', () => {
-      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
-      const date = new Date(2020, 5, 28, 15, 40, 25);
-      let result = '';
-      const start = performance.now();
-      for (let i = 0; i < 1000; i++) {
-        result = dateTimeFormatter.formatDateTime(date, SHORT_DATE_TIME);
-      }
-      const end = performance.now();
-      expect(result).toBe('6/28/2020 3:40 PM');
-      expect(end - start).toBe(0);
       });
     });
 });
