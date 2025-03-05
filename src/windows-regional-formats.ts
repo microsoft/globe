@@ -18,7 +18,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "aa-DJ",
@@ -26,7 +26,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "aa-ER",
@@ -34,7 +34,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "aa-ET",
@@ -42,7 +42,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "af",
@@ -50,7 +50,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "af-NA",
@@ -58,7 +58,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "af-ZA",
@@ -66,7 +66,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "agq",
@@ -74,7 +74,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "agq-CM",
@@ -82,7 +82,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ak",
@@ -90,7 +90,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ak-GH",
@@ -98,7 +98,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "am",
@@ -106,7 +106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "am-ET",
@@ -114,7 +114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ar",
@@ -122,7 +122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ar-001",
@@ -130,7 +130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-AE",
@@ -138,7 +138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-BH",
@@ -146,7 +146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-DJ",
@@ -154,7 +154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-DZ",
@@ -162,7 +162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-EG",
@@ -170,7 +170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-ER",
@@ -178,7 +178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-IL",
@@ -186,7 +186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ar-IQ",
@@ -194,7 +194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-JO",
@@ -202,7 +202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-KM",
@@ -210,7 +210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-KW",
@@ -218,7 +218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-LB",
@@ -226,7 +226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-LY",
@@ -234,7 +234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-MA",
@@ -242,7 +242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-MR",
@@ -250,7 +250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-OM",
@@ -258,7 +258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ar-PS",
@@ -266,7 +266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-QA",
@@ -274,7 +274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-SA",
@@ -282,7 +282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ar-SD",
@@ -290,7 +290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-SO",
@@ -298,7 +298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-SS",
@@ -306,7 +306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-SY",
@@ -314,7 +314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ar-TD",
@@ -322,7 +322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-TN",
@@ -330,7 +330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ar-YE",
@@ -338,7 +338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "arn",
@@ -346,7 +346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "arn-CL",
@@ -354,7 +354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "as",
@@ -362,7 +362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "as-IN",
@@ -370,7 +370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "asa",
@@ -378,7 +378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "asa-TZ",
@@ -386,7 +386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ast",
@@ -394,7 +394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ast-ES",
@@ -402,7 +402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "az",
@@ -410,7 +410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "az-Cyrl",
@@ -418,7 +418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "az-Cyrl-AZ",
@@ -426,7 +426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "az-Latn",
@@ -434,7 +434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "az-Latn-AZ",
@@ -442,7 +442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ba",
@@ -450,7 +450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ba-RU",
@@ -458,7 +458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bas",
@@ -466,7 +466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bas-CM",
@@ -474,7 +474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "be",
@@ -482,7 +482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "be-BY",
@@ -490,7 +490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bem",
@@ -498,7 +498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bem-ZM",
@@ -506,7 +506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bez",
@@ -514,7 +514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bez-TZ",
@@ -522,7 +522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bg",
@@ -530,7 +530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy 'г.'",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bg-BG",
@@ -538,7 +538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy 'г.'",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bin",
@@ -546,7 +546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bin-NG",
@@ -554,7 +554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bm",
@@ -562,7 +562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bm-Latn",
@@ -570,7 +570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bm-Latn-ML",
@@ -578,7 +578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bn",
@@ -586,7 +586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "bn-BD",
@@ -594,7 +594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "bn-IN",
@@ -602,7 +602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "bo",
@@ -610,7 +610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bo-CN",
@@ -618,7 +618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bo-IN",
@@ -626,7 +626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "br",
@@ -634,7 +634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "br-FR",
@@ -642,7 +642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "brx",
@@ -650,7 +650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "brx-IN",
@@ -658,7 +658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "bs",
@@ -666,7 +666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bs-Cyrl",
@@ -674,7 +674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bs-Cyrl-BA",
@@ -682,7 +682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bs-Latn",
@@ -690,7 +690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "bs-Latn-BA",
@@ -698,7 +698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "byn",
@@ -706,7 +706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "byn-ER",
@@ -714,7 +714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca",
@@ -722,7 +722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca-AD",
@@ -730,7 +730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca-ES",
@@ -738,7 +738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca-ES-valencia",
@@ -746,7 +746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca-FR",
@@ -754,7 +754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ca-IT",
@@ -762,7 +762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ccp",
@@ -770,7 +770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ccp-Cakm",
@@ -778,7 +778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ccp-Cakm-BD",
@@ -786,7 +786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ccp-Cakm-IN",
@@ -794,7 +794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ce",
@@ -802,7 +802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ce-RU",
@@ -810,7 +810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ceb",
@@ -818,7 +818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ceb-Latn",
@@ -826,7 +826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ceb-Latn-PH",
@@ -834,7 +834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "cgg",
@@ -842,7 +842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cgg-UG",
@@ -850,7 +850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "chr",
@@ -858,7 +858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "chr-Cher",
@@ -866,7 +866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "chr-Cher-US",
@@ -874,7 +874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "co",
@@ -882,7 +882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "co-FR",
@@ -890,7 +890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cs",
@@ -898,7 +898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cs-CZ",
@@ -906,7 +906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cu",
@@ -914,7 +914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy.MM.dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cu-RU",
@@ -922,7 +922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy.MM.dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cy",
@@ -930,7 +930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "cy-GB",
@@ -938,7 +938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "da",
@@ -946,7 +946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "da-DK",
@@ -954,7 +954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "da-GL",
@@ -962,7 +962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dav",
@@ -970,7 +970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "dav-KE",
@@ -978,7 +978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "de",
@@ -986,7 +986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-AT",
@@ -994,7 +994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-BE",
@@ -1002,7 +1002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-CH",
@@ -1010,7 +1010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-DE",
@@ -1018,7 +1018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-IT",
@@ -1026,7 +1026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-LI",
@@ -1034,7 +1034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "de-LU",
@@ -1042,7 +1042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dje",
@@ -1050,7 +1050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dje-NE",
@@ -1058,7 +1058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "doi",
@@ -1066,7 +1066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "doi-Deva",
@@ -1074,7 +1074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "doi-Deva-IN",
@@ -1082,7 +1082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "dsb",
@@ -1090,7 +1090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dsb-DE",
@@ -1098,7 +1098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dua",
@@ -1106,7 +1106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dua-CM",
@@ -1114,7 +1114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dv",
@@ -1122,7 +1122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "dv-MV",
@@ -1130,7 +1130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "dyo",
@@ -1138,7 +1138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dyo-SN",
@@ -1146,7 +1146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "dz",
@@ -1154,7 +1154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "ཆུ་ཚོད་h:mm:ss tt",
     ShortTimeFormat: "ཆུ་ཚོད་ h སྐར་མ་ mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "dz-BT",
@@ -1162,7 +1162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "ཆུ་ཚོད་h:mm:ss tt",
     ShortTimeFormat: "ཆུ་ཚོད་ h སྐར་མ་ mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ebu",
@@ -1170,7 +1170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ebu-KE",
@@ -1178,7 +1178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ee",
@@ -1186,7 +1186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "tt 'ga' h:mm:ss",
     ShortTimeFormat: "tt 'ga' h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ee-GH",
@@ -1194,7 +1194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "tt 'ga' h:mm:ss",
     ShortTimeFormat: "tt 'ga' h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ee-TG",
@@ -1202,7 +1202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "el",
@@ -1210,7 +1210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "el-CY",
@@ -1218,7 +1218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "el-GR",
@@ -1226,7 +1226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en",
@@ -1234,7 +1234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-001",
@@ -1242,7 +1242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-029",
@@ -1250,7 +1250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-150",
@@ -1258,7 +1258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-AE",
@@ -1266,7 +1266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "en-AG",
@@ -1274,7 +1274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-AI",
@@ -1282,7 +1282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-AS",
@@ -1290,7 +1290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-AT",
@@ -1298,7 +1298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-AU",
@@ -1306,7 +1306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-BB",
@@ -1314,7 +1314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-BE",
@@ -1322,7 +1322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-BI",
@@ -1330,7 +1330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-BM",
@@ -1338,7 +1338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-BS",
@@ -1346,7 +1346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-BW",
@@ -1354,7 +1354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-BZ",
@@ -1362,7 +1362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-CA",
@@ -1370,7 +1370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-CC",
@@ -1378,7 +1378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-CH",
@@ -1386,7 +1386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-CK",
@@ -1394,7 +1394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-CM",
@@ -1402,7 +1402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-CX",
@@ -1410,7 +1410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-CY",
@@ -1418,7 +1418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-DE",
@@ -1426,7 +1426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-DK",
@@ -1434,7 +1434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-DM",
@@ -1442,7 +1442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-ER",
@@ -1450,7 +1450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-FI",
@@ -1458,7 +1458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-FJ",
@@ -1466,7 +1466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-FK",
@@ -1474,7 +1474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-FM",
@@ -1482,7 +1482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GB",
@@ -1490,7 +1490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GD",
@@ -1498,7 +1498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GG",
@@ -1506,7 +1506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GH",
@@ -1514,7 +1514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GI",
@@ -1522,7 +1522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GM",
@@ -1530,7 +1530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-GU",
@@ -1538,7 +1538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-GY",
@@ -1546,7 +1546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-HK",
@@ -1554,7 +1554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-ID",
@@ -1562,7 +1562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-IE",
@@ -1570,7 +1570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-IL",
@@ -1578,7 +1578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-IM",
@@ -1586,7 +1586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-IN",
@@ -1594,7 +1594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-IO",
@@ -1602,7 +1602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-JE",
@@ -1610,7 +1610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-JM",
@@ -1618,7 +1618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-KE",
@@ -1626,7 +1626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-KI",
@@ -1634,7 +1634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-KN",
@@ -1642,7 +1642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-KY",
@@ -1650,7 +1650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-LC",
@@ -1658,7 +1658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-LR",
@@ -1666,7 +1666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-LS",
@@ -1674,7 +1674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MG",
@@ -1682,7 +1682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MH",
@@ -1690,7 +1690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-MO",
@@ -1698,7 +1698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-MP",
@@ -1706,7 +1706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MS",
@@ -1714,7 +1714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MT",
@@ -1722,7 +1722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-MU",
@@ -1730,7 +1730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MW",
@@ -1738,7 +1738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-MY",
@@ -1746,7 +1746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-NA",
@@ -1754,7 +1754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NF",
@@ -1762,7 +1762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NG",
@@ -1770,7 +1770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NL",
@@ -1778,7 +1778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NR",
@@ -1786,7 +1786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NU",
@@ -1794,7 +1794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-NZ",
@@ -1802,7 +1802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-PG",
@@ -1810,7 +1810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-PH",
@@ -1818,7 +1818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-PK",
@@ -1826,7 +1826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-PN",
@@ -1834,7 +1834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-PR",
@@ -1842,7 +1842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-PW",
@@ -1850,7 +1850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-RW",
@@ -1858,7 +1858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SB",
@@ -1866,7 +1866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SC",
@@ -1874,7 +1874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SD",
@@ -1882,7 +1882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "en-SE",
@@ -1890,7 +1890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SG",
@@ -1898,7 +1898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-SH",
@@ -1906,7 +1906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SI",
@@ -1914,7 +1914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SL",
@@ -1922,7 +1922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SS",
@@ -1930,7 +1930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SX",
@@ -1938,7 +1938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-SZ",
@@ -1946,7 +1946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-TC",
@@ -1954,7 +1954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-TK",
@@ -1962,7 +1962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-TO",
@@ -1970,7 +1970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-TT",
@@ -1978,7 +1978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-TV",
@@ -1986,7 +1986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-TZ",
@@ -1994,7 +1994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-UG",
@@ -2002,7 +2002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-UM",
@@ -2010,7 +2010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-US",
@@ -2018,7 +2018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-VC",
@@ -2026,7 +2026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-VG",
@@ -2034,7 +2034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-VI",
@@ -2042,7 +2042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-VU",
@@ -2050,7 +2050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-WS",
@@ -2058,7 +2058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-ZA",
@@ -2066,7 +2066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "en-ZM",
@@ -2074,7 +2074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "en-ZW",
@@ -2082,7 +2082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "eo",
@@ -2090,7 +2090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "eo-001",
@@ -2098,7 +2098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es",
@@ -2106,7 +2106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-419",
@@ -2114,7 +2114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-AR",
@@ -2122,7 +2122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-BO",
@@ -2130,7 +2130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-BR",
@@ -2138,7 +2138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-BZ",
@@ -2146,7 +2146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-CL",
@@ -2154,7 +2154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-CO",
@@ -2162,7 +2162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-CR",
@@ -2170,7 +2170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-CU",
@@ -2178,7 +2178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-DO",
@@ -2186,7 +2186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-EC",
@@ -2194,7 +2194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-ES",
@@ -2202,7 +2202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-GQ",
@@ -2210,7 +2210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-GT",
@@ -2218,7 +2218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-HN",
@@ -2226,7 +2226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-MX",
@@ -2234,7 +2234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-NI",
@@ -2242,7 +2242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-PA",
@@ -2250,7 +2250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "MM/dd/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-PE",
@@ -2258,7 +2258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-PH",
@@ -2266,7 +2266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-PR",
@@ -2274,7 +2274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "MM/dd/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-PY",
@@ -2282,7 +2282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-SV",
@@ -2290,7 +2290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-US",
@@ -2298,7 +2298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "es-UY",
@@ -2306,7 +2306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "es-VE",
@@ -2314,7 +2314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "et",
@@ -2322,7 +2322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "et-EE",
@@ -2330,7 +2330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "eu",
@@ -2338,7 +2338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "eu-ES",
@@ -2346,7 +2346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ewo",
@@ -2354,7 +2354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ewo-CM",
@@ -2362,7 +2362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fa",
@@ -2370,7 +2370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "fa-AF",
@@ -2378,7 +2378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "fa-IR",
@@ -2386,7 +2386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ff",
@@ -2394,7 +2394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm",
@@ -2402,7 +2402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-BF",
@@ -2410,7 +2410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-CM",
@@ -2418,7 +2418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-GH",
@@ -2426,7 +2426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-GM",
@@ -2434,7 +2434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-GN",
@@ -2442,7 +2442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-GW",
@@ -2450,7 +2450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-LR",
@@ -2458,7 +2458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-MR",
@@ -2466,7 +2466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-NE",
@@ -2474,7 +2474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-NG",
@@ -2482,7 +2482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-SL",
@@ -2490,7 +2490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Adlm-SN",
@@ -2498,7 +2498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn",
@@ -2506,7 +2506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-BF",
@@ -2514,7 +2514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-CM",
@@ -2522,7 +2522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-GH",
@@ -2530,7 +2530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-GM",
@@ -2538,7 +2538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-GN",
@@ -2546,7 +2546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-GW",
@@ -2554,7 +2554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-LR",
@@ -2562,7 +2562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-MR",
@@ -2570,7 +2570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-NE",
@@ -2578,7 +2578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-NG",
@@ -2586,7 +2586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-SL",
@@ -2594,7 +2594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ff-Latn-SN",
@@ -2602,7 +2602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fi",
@@ -2610,7 +2610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fi-FI",
@@ -2618,7 +2618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fil",
@@ -2626,7 +2626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "fil-PH",
@@ -2634,7 +2634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "fo",
@@ -2642,7 +2642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fo-DK",
@@ -2650,7 +2650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fo-FO",
@@ -2658,7 +2658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr",
@@ -2666,7 +2666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-029",
@@ -2674,7 +2674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-BE",
@@ -2682,7 +2682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-BF",
@@ -2690,7 +2690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-BI",
@@ -2698,7 +2698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-BJ",
@@ -2706,7 +2706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-BL",
@@ -2714,7 +2714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CA",
@@ -2722,7 +2722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "fr-CD",
@@ -2730,7 +2730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CF",
@@ -2738,7 +2738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CG",
@@ -2746,7 +2746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CH",
@@ -2754,7 +2754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CI",
@@ -2762,7 +2762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-CM",
@@ -2770,7 +2770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-DJ",
@@ -2778,7 +2778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "fr-DZ",
@@ -2786,7 +2786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "fr-FR",
@@ -2794,7 +2794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-GA",
@@ -2802,7 +2802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-GF",
@@ -2810,7 +2810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-GN",
@@ -2818,7 +2818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-GP",
@@ -2826,7 +2826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-GQ",
@@ -2834,7 +2834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-HT",
@@ -2842,7 +2842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-KM",
@@ -2850,7 +2850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-LU",
@@ -2858,7 +2858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MA",
@@ -2866,7 +2866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MC",
@@ -2874,7 +2874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MF",
@@ -2882,7 +2882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MG",
@@ -2890,7 +2890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-ML",
@@ -2898,7 +2898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MQ",
@@ -2906,7 +2906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MR",
@@ -2914,7 +2914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-MU",
@@ -2922,7 +2922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-NC",
@@ -2930,7 +2930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-NE",
@@ -2938,7 +2938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-PF",
@@ -2946,7 +2946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-PM",
@@ -2954,7 +2954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-RE",
@@ -2962,7 +2962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-RW",
@@ -2970,7 +2970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-SC",
@@ -2978,7 +2978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-SN",
@@ -2986,7 +2986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-SY",
@@ -2994,7 +2994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "fr-TD",
@@ -3002,7 +3002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-TG",
@@ -3010,7 +3010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-TN",
@@ -3018,7 +3018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-VU",
@@ -3026,7 +3026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-WF",
@@ -3034,7 +3034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fr-YT",
@@ -3042,7 +3042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fur",
@@ -3050,7 +3050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fur-IT",
@@ -3058,7 +3058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fy",
@@ -3066,7 +3066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "fy-NL",
@@ -3074,7 +3074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ga",
@@ -3082,7 +3082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ga-GB",
@@ -3090,7 +3090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ga-IE",
@@ -3098,7 +3098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gd",
@@ -3106,7 +3106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gd-GB",
@@ -3114,7 +3114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gl",
@@ -3122,7 +3122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gl-ES",
@@ -3130,7 +3130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gn",
@@ -3138,7 +3138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "gn-PY",
@@ -3146,7 +3146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "gsw",
@@ -3154,7 +3154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gsw-CH",
@@ -3162,7 +3162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gsw-FR",
@@ -3170,7 +3170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gsw-LI",
@@ -3178,7 +3178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gu",
@@ -3186,7 +3186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "gu-IN",
@@ -3194,7 +3194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "guz",
@@ -3202,7 +3202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "guz-KE",
@@ -3210,7 +3210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "gv",
@@ -3218,7 +3218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "gv-IM",
@@ -3226,7 +3226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ha",
@@ -3234,7 +3234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ha-Latn",
@@ -3242,7 +3242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ha-Latn-GH",
@@ -3250,7 +3250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ha-Latn-NE",
@@ -3258,7 +3258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ha-Latn-NG",
@@ -3266,7 +3266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "haw",
@@ -3274,7 +3274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "haw-US",
@@ -3282,7 +3282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "he",
@@ -3290,7 +3290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "he-IL",
@@ -3298,7 +3298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "hi",
@@ -3306,7 +3306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "hi-IN",
@@ -3314,7 +3314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "hr",
@@ -3322,7 +3322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hr-BA",
@@ -3330,7 +3330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hr-HR",
@@ -3338,7 +3338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hsb",
@@ -3346,7 +3346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm 'hodź'.",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hsb-DE",
@@ -3354,7 +3354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm 'hodź'.",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hu",
@@ -3362,7 +3362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy. MM. dd.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hu-HU",
@@ -3370,7 +3370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy. MM. dd.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hy",
@@ -3378,7 +3378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "hy-AM",
@@ -3386,7 +3386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ia",
@@ -3394,7 +3394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ia-001",
@@ -3402,7 +3402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ibb",
@@ -3410,7 +3410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ibb-NG",
@@ -3418,7 +3418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "id",
@@ -3426,7 +3426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "id-ID",
@@ -3434,7 +3434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ig",
@@ -3442,7 +3442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ig-NG",
@@ -3450,7 +3450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ii",
@@ -3458,7 +3458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ii-CN",
@@ -3466,7 +3466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "is",
@@ -3474,7 +3474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "is-IS",
@@ -3482,7 +3482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "it",
@@ -3490,7 +3490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "it-CH",
@@ -3498,7 +3498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "it-IT",
@@ -3506,7 +3506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "it-SM",
@@ -3514,7 +3514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "it-VA",
@@ -3522,7 +3522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "iu",
@@ -3530,7 +3530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "iu-Cans",
@@ -3538,7 +3538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "iu-Cans-CA",
@@ -3546,7 +3546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "iu-Latn",
@@ -3554,7 +3554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "iu-Latn-CA",
@@ -3562,7 +3562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ja",
@@ -3570,7 +3570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ja-JP",
@@ -3578,7 +3578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "jgo",
@@ -3586,7 +3586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "jgo-CM",
@@ -3594,7 +3594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "jmc",
@@ -3602,7 +3602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "jmc-TZ",
@@ -3610,7 +3610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "jv",
@@ -3618,7 +3618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "jv-Java",
@@ -3626,7 +3626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "jv-Java-ID",
@@ -3634,7 +3634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "jv-Latn",
@@ -3642,7 +3642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "jv-Latn-ID",
@@ -3650,7 +3650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ka",
@@ -3658,7 +3658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ka-GE",
@@ -3666,7 +3666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kab",
@@ -3674,7 +3674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "kab-DZ",
@@ -3682,7 +3682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "kam",
@@ -3690,7 +3690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kam-KE",
@@ -3698,7 +3698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kde",
@@ -3706,7 +3706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kde-TZ",
@@ -3714,7 +3714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kea",
@@ -3722,7 +3722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kea-CV",
@@ -3730,7 +3730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "khq",
@@ -3738,7 +3738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "khq-ML",
@@ -3746,7 +3746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ki",
@@ -3754,7 +3754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ki-KE",
@@ -3762,7 +3762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kk",
@@ -3770,7 +3770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kk-KZ",
@@ -3778,7 +3778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kkj",
@@ -3786,7 +3786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kkj-CM",
@@ -3794,7 +3794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kl",
@@ -3802,7 +3802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kl-GL",
@@ -3810,7 +3810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kln",
@@ -3818,7 +3818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kln-KE",
@@ -3826,7 +3826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "km",
@@ -3834,7 +3834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "km-KH",
@@ -3842,7 +3842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kn",
@@ -3850,7 +3850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kn-IN",
@@ -3858,7 +3858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ko",
@@ -3866,7 +3866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ko-KP",
@@ -3874,7 +3874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy. M. d.",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ko-KR",
@@ -3882,7 +3882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kok",
@@ -3890,7 +3890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kok-IN",
@@ -3898,7 +3898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "kr",
@@ -3906,7 +3906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kr-Latn",
@@ -3914,7 +3914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kr-Latn-NG",
@@ -3922,7 +3922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ks",
@@ -3930,7 +3930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ks-Arab",
@@ -3938,7 +3938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ks-Arab-IN",
@@ -3946,7 +3946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ks-Deva",
@@ -3954,7 +3954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ks-Deva-IN",
@@ -3962,7 +3962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ksb",
@@ -3970,7 +3970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ksb-TZ",
@@ -3978,7 +3978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ksf",
@@ -3986,7 +3986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ksf-CM",
@@ -3994,7 +3994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ksh",
@@ -4002,7 +4002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ksh-DE",
@@ -4010,7 +4010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ku",
@@ -4018,7 +4018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ku-Arab",
@@ -4026,7 +4026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ku-Arab-IQ",
@@ -4034,7 +4034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/MM/dd",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ku-Arab-IR",
@@ -4042,7 +4042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "kw",
@@ -4050,7 +4050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "kw-GB",
@@ -4058,7 +4058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ky",
@@ -4066,7 +4066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ky-KG",
@@ -4074,7 +4074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "la",
@@ -4082,7 +4082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d M yyyy gg",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "la-VA",
@@ -4090,7 +4090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d M yyyy gg",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lag",
@@ -4098,7 +4098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lag-TZ",
@@ -4106,7 +4106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lb",
@@ -4114,7 +4114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lb-LU",
@@ -4122,7 +4122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lg",
@@ -4130,7 +4130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lg-UG",
@@ -4138,7 +4138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lkt",
@@ -4146,7 +4146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "lkt-US",
@@ -4154,7 +4154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ln",
@@ -4162,7 +4162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ln-AO",
@@ -4170,7 +4170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ln-CD",
@@ -4178,7 +4178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ln-CF",
@@ -4186,7 +4186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ln-CG",
@@ -4194,7 +4194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lo",
@@ -4202,7 +4202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "lo-LA",
@@ -4210,7 +4210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "lrc",
@@ -4218,7 +4218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "lrc-IQ",
@@ -4226,7 +4226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "lrc-IR",
@@ -4234,7 +4234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "lt",
@@ -4242,7 +4242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lt-LT",
@@ -4250,7 +4250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lu",
@@ -4258,7 +4258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lu-CD",
@@ -4266,7 +4266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "luo",
@@ -4274,7 +4274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "luo-KE",
@@ -4282,7 +4282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "luy",
@@ -4290,7 +4290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "luy-KE",
@@ -4298,7 +4298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "lv",
@@ -4306,7 +4306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "lv-LV",
@@ -4314,7 +4314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mai",
@@ -4322,7 +4322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mai-IN",
@@ -4330,7 +4330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mas",
@@ -4338,7 +4338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mas-KE",
@@ -4346,7 +4346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mas-TZ",
@@ -4354,7 +4354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mer",
@@ -4362,7 +4362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mer-KE",
@@ -4370,7 +4370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mfe",
@@ -4378,7 +4378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mfe-MU",
@@ -4386,7 +4386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mg",
@@ -4394,7 +4394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mg-MG",
@@ -4402,7 +4402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mgh",
@@ -4410,7 +4410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mgh-MZ",
@@ -4418,7 +4418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mgo",
@@ -4426,7 +4426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mgo-CM",
@@ -4434,7 +4434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mi",
@@ -4442,7 +4442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mi-NZ",
@@ -4450,7 +4450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mk",
@@ -4458,7 +4458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mk-MK",
@@ -4466,7 +4466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ml",
@@ -4474,7 +4474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ml-IN",
@@ -4482,7 +4482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mn",
@@ -4490,7 +4490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy.MM.dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mn-Cyrl",
@@ -4498,7 +4498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy.MM.dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mn-MN",
@@ -4506,7 +4506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy.MM.dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mn-Mong",
@@ -4514,7 +4514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mn-Mong-CN",
@@ -4522,7 +4522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mn-Mong-MN",
@@ -4530,7 +4530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mni",
@@ -4538,7 +4538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mni-Beng",
@@ -4546,7 +4546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mni-IN",
@@ -4554,7 +4554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "moh",
@@ -4562,7 +4562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "moh-CA",
@@ -4570,7 +4570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mr",
@@ -4578,7 +4578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mr-IN",
@@ -4586,7 +4586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ms",
@@ -4594,7 +4594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ms-BN",
@@ -4602,7 +4602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ms-ID",
@@ -4610,7 +4610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ms-MY",
@@ -4618,7 +4618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ms-SG",
@@ -4626,7 +4626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mt",
@@ -4634,7 +4634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mt-MT",
@@ -4642,7 +4642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mua",
@@ -4650,7 +4650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "mua-CM",
@@ -4658,7 +4658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "my",
@@ -4666,7 +4666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "my-MM",
@@ -4674,7 +4674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "mzn",
@@ -4682,7 +4682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "mzn-IR",
@@ -4690,7 +4690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "naq",
@@ -4698,7 +4698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "naq-NA",
@@ -4706,7 +4706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nb",
@@ -4714,7 +4714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nb-NO",
@@ -4722,7 +4722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nb-SJ",
@@ -4730,7 +4730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nd",
@@ -4738,7 +4738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nd-ZW",
@@ -4746,7 +4746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nds",
@@ -4754,7 +4754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "'Klock' H.mm:ss",
     ShortTimeFormat: "'Kl'. H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nds-DE",
@@ -4762,7 +4762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "'Klock' H.mm:ss",
     ShortTimeFormat: "'Kl'. H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nds-NL",
@@ -4770,7 +4770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "'Klock' H.mm:ss",
     ShortTimeFormat: "'Kl'. H.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ne",
@@ -4778,7 +4778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ne-IN",
@@ -4786,7 +4786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ne-NP",
@@ -4794,7 +4794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nl",
@@ -4802,7 +4802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d-M-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-AW",
@@ -4810,7 +4810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-BE",
@@ -4818,7 +4818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-BQ",
@@ -4826,7 +4826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-CW",
@@ -4834,7 +4834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-NL",
@@ -4842,7 +4842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d-M-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-SR",
@@ -4850,7 +4850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nl-SX",
@@ -4858,7 +4858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nmg",
@@ -4866,7 +4866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nmg-CM",
@@ -4874,7 +4874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nn",
@@ -4882,7 +4882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nn-NO",
@@ -4890,7 +4890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nnh",
@@ -4898,7 +4898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nnh-CM",
@@ -4906,7 +4906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "no",
@@ -4914,7 +4914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nqo",
@@ -4922,7 +4922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "nqo-GN",
@@ -4930,7 +4930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "nr",
@@ -4938,7 +4938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nr-ZA",
@@ -4946,7 +4946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nso",
@@ -4954,7 +4954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nso-ZA",
@@ -4962,7 +4962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "nus",
@@ -4970,7 +4970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nus-SS",
@@ -4978,7 +4978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nyn",
@@ -4986,7 +4986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "nyn-UG",
@@ -4994,7 +4994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "oc",
@@ -5002,7 +5002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "H'h'mm:ss",
     ShortTimeFormat: "H'h'mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "oc-FR",
@@ -5010,7 +5010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/MM/yyyy",
     LongTimeFormat: "H'h'mm:ss",
     ShortTimeFormat: "H'h'mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "om",
@@ -5018,7 +5018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "om-ET",
@@ -5026,7 +5026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "om-KE",
@@ -5034,7 +5034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "or",
@@ -5042,7 +5042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "or-IN",
@@ -5050,7 +5050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "os",
@@ -5058,7 +5058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "os-GE",
@@ -5066,7 +5066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "os-RU",
@@ -5074,7 +5074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pa",
@@ -5082,7 +5082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pa-Arab",
@@ -5090,7 +5090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "h.mm.ss tt",
     ShortTimeFormat: "h.mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pa-Arab-PK",
@@ -5098,7 +5098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "h.mm.ss tt",
     ShortTimeFormat: "h.mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pa-Guru",
@@ -5106,7 +5106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pa-IN",
@@ -5114,7 +5114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yy",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pap",
@@ -5122,7 +5122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d-M-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pap-029",
@@ -5130,7 +5130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d-M-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pcm",
@@ -5138,7 +5138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pcm-Latn",
@@ -5146,7 +5146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pcm-Latn-NG",
@@ -5154,7 +5154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pl",
@@ -5162,7 +5162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pl-PL",
@@ -5170,7 +5170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "prg",
@@ -5178,7 +5178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "prg-001",
@@ -5186,7 +5186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ps",
@@ -5194,7 +5194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ps-AF",
@@ -5202,7 +5202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "ps-PK",
@@ -5210,7 +5210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt",
@@ -5218,7 +5218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt-AO",
@@ -5226,7 +5226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-BR",
@@ -5234,7 +5234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt-CH",
@@ -5242,7 +5242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-CV",
@@ -5250,7 +5250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-GQ",
@@ -5258,7 +5258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-GW",
@@ -5266,7 +5266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-LU",
@@ -5274,7 +5274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-MO",
@@ -5282,7 +5282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt-MZ",
@@ -5290,7 +5290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt-PT",
@@ -5298,7 +5298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "pt-ST",
@@ -5306,7 +5306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "pt-TL",
@@ -5314,7 +5314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "quc",
@@ -5322,7 +5322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "quc-Latn",
@@ -5330,7 +5330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "quc-Latn-GT",
@@ -5338,7 +5338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "quz",
@@ -5346,7 +5346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "quz-BO",
@@ -5354,7 +5354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "quz-EC",
@@ -5362,7 +5362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "quz-PE",
@@ -5370,7 +5370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rm",
@@ -5378,7 +5378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rm-CH",
@@ -5386,7 +5386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rn",
@@ -5394,7 +5394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rn-BI",
@@ -5402,7 +5402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ro",
@@ -5410,7 +5410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ro-MD",
@@ -5418,7 +5418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ro-RO",
@@ -5426,7 +5426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rof",
@@ -5434,7 +5434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rof-TZ",
@@ -5442,7 +5442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru",
@@ -5450,7 +5450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-BY",
@@ -5458,7 +5458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-KG",
@@ -5466,7 +5466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-KZ",
@@ -5474,7 +5474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-MD",
@@ -5482,7 +5482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-RU",
@@ -5490,7 +5490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ru-UA",
@@ -5498,7 +5498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rw",
@@ -5506,7 +5506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rw-RW",
@@ -5514,7 +5514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rwk",
@@ -5522,7 +5522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "rwk-TZ",
@@ -5530,7 +5530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sa",
@@ -5538,7 +5538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sa-IN",
@@ -5546,7 +5546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sah",
@@ -5554,7 +5554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sah-RU",
@@ -5562,7 +5562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "saq",
@@ -5570,7 +5570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "saq-KE",
@@ -5578,7 +5578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sat",
@@ -5586,7 +5586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sat-Olck",
@@ -5594,7 +5594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sat-Olck-IN",
@@ -5602,7 +5602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sbp",
@@ -5610,7 +5610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sbp-TZ",
@@ -5618,7 +5618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sd",
@@ -5626,7 +5626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sd-Arab",
@@ -5634,7 +5634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sd-Arab-PK",
@@ -5642,7 +5642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sd-Deva",
@@ -5650,7 +5650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sd-Deva-IN",
@@ -5658,7 +5658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "se",
@@ -5666,7 +5666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "se-FI",
@@ -5674,7 +5674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "se-NO",
@@ -5682,7 +5682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "se-SE",
@@ -5690,7 +5690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "seh",
@@ -5698,7 +5698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "seh-MZ",
@@ -5706,7 +5706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ses",
@@ -5714,7 +5714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ses-ML",
@@ -5722,7 +5722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sg",
@@ -5730,7 +5730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sg-CF",
@@ -5738,7 +5738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "shi",
@@ -5746,7 +5746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "shi-Latn",
@@ -5754,7 +5754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "shi-Latn-MA",
@@ -5762,7 +5762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "shi-Tfng",
@@ -5770,7 +5770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "shi-Tfng-MA",
@@ -5778,7 +5778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "si",
@@ -5786,7 +5786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "si-LK",
@@ -5794,7 +5794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH.mm.ss",
     ShortTimeFormat: "HH.mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sk",
@@ -5802,7 +5802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sk-SK",
@@ -5810,7 +5810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. M. yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sl",
@@ -5818,7 +5818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. MM. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sl-SI",
@@ -5826,7 +5826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d. MM. yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sma",
@@ -5834,7 +5834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sma-NO",
@@ -5842,7 +5842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sma-SE",
@@ -5850,7 +5850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "smj",
@@ -5858,7 +5858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "smj-NO",
@@ -5866,7 +5866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "smj-SE",
@@ -5874,7 +5874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "smn",
@@ -5882,7 +5882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "smn-FI",
@@ -5890,7 +5890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sms",
@@ -5898,7 +5898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sms-FI",
@@ -5906,7 +5906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sn",
@@ -5914,7 +5914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sn-Latn",
@@ -5922,7 +5922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sn-Latn-ZW",
@@ -5930,7 +5930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "so",
@@ -5938,7 +5938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "so-DJ",
@@ -5946,7 +5946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "so-ET",
@@ -5954,7 +5954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "so-KE",
@@ -5962,7 +5962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "so-SO",
@@ -5970,7 +5970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sq",
@@ -5978,7 +5978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sq-AL",
@@ -5986,7 +5986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sq-MK",
@@ -5994,7 +5994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sq-XK",
@@ -6002,7 +6002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr",
@@ -6010,7 +6010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Cyrl",
@@ -6018,7 +6018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Cyrl-BA",
@@ -6026,7 +6026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Cyrl-ME",
@@ -6034,7 +6034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Cyrl-RS",
@@ -6042,7 +6042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy.",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Cyrl-XK",
@@ -6050,7 +6050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Latn",
@@ -6058,7 +6058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Latn-BA",
@@ -6066,7 +6066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Latn-ME",
@@ -6074,7 +6074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Latn-RS",
@@ -6082,7 +6082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sr-Latn-XK",
@@ -6090,7 +6090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.M.yyyy.",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ss",
@@ -6098,7 +6098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ss-SZ",
@@ -6106,7 +6106,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ss-ZA",
@@ -6114,7 +6114,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ssy",
@@ -6122,7 +6122,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ssy-ER",
@@ -6130,7 +6130,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "st",
@@ -6138,7 +6138,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "st-LS",
@@ -6146,7 +6146,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "st-ZA",
@@ -6154,7 +6154,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "su",
@@ -6162,7 +6162,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "su-Latn",
@@ -6170,7 +6170,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "su-Latn-ID",
@@ -6178,7 +6178,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H.mm.ss",
     ShortTimeFormat: "H.mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sv",
@@ -6186,7 +6186,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sv-AX",
@@ -6194,7 +6194,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sv-FI",
@@ -6202,7 +6202,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sv-SE",
@@ -6210,7 +6210,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sw",
@@ -6218,7 +6218,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sw-CD",
@@ -6226,7 +6226,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sw-KE",
@@ -6234,7 +6234,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "sw-TZ",
@@ -6242,7 +6242,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "sw-UG",
@@ -6250,7 +6250,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "syr",
@@ -6258,7 +6258,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "syr-SY",
@@ -6266,7 +6266,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "hh:mm:ss tt",
     ShortTimeFormat: "hh:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ta",
@@ -6274,7 +6274,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ta-IN",
@@ -6282,7 +6282,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ta-LK",
@@ -6290,7 +6290,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ta-MY",
@@ -6298,7 +6298,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ta-SG",
@@ -6306,7 +6306,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "te",
@@ -6314,7 +6314,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "te-IN",
@@ -6322,7 +6322,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "teo",
@@ -6330,7 +6330,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "teo-KE",
@@ -6338,7 +6338,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "teo-UG",
@@ -6346,7 +6346,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tg",
@@ -6354,7 +6354,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tg-Cyrl",
@@ -6362,7 +6362,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tg-Cyrl-TJ",
@@ -6370,7 +6370,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "th",
@@ -6378,7 +6378,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "th-TH",
@@ -6386,7 +6386,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ti",
@@ -6394,7 +6394,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ti-ER",
@@ -6402,7 +6402,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ti-ET",
@@ -6410,7 +6410,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "tig",
@@ -6418,7 +6418,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tig-ER",
@@ -6426,7 +6426,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tk",
@@ -6434,7 +6434,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy 'ý.'",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tk-TM",
@@ -6442,7 +6442,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yy 'ý.'",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tn",
@@ -6450,7 +6450,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "tn-BW",
@@ -6458,7 +6458,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "tn-ZA",
@@ -6466,7 +6466,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "to",
@@ -6474,7 +6474,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "to-TO",
@@ -6482,7 +6482,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tr",
@@ -6490,7 +6490,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tr-CY",
@@ -6498,7 +6498,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tr-TR",
@@ -6506,7 +6506,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ts",
@@ -6514,7 +6514,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ts-ZA",
@@ -6522,7 +6522,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "tt",
@@ -6530,7 +6530,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tt-RU",
@@ -6538,7 +6538,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "twq",
@@ -6546,7 +6546,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "twq-NE",
@@ -6554,7 +6554,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tzm",
@@ -6562,7 +6562,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "tzm-Arab",
@@ -6570,7 +6570,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tzm-Arab-MA",
@@ -6578,7 +6578,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tzm-Latn",
@@ -6586,7 +6586,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "tzm-Latn-DZ",
@@ -6594,7 +6594,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "tzm-Latn-MA",
@@ -6602,7 +6602,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tzm-Tfng",
@@ -6610,7 +6610,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "tzm-Tfng-MA",
@@ -6618,7 +6618,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ug",
@@ -6626,7 +6626,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-M-d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ug-CN",
@@ -6634,7 +6634,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-M-d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uk",
@@ -6642,7 +6642,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uk-UA",
@@ -6650,7 +6650,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd.MM.yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ur",
@@ -6658,7 +6658,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ur-IN",
@@ -6666,7 +6666,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ur-PK",
@@ -6674,7 +6674,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uz",
@@ -6682,7 +6682,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uz-Arab",
@@ -6690,7 +6690,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "uz-Arab-AF",
@@ -6698,7 +6698,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 6
+    FirstDayOfWeek: 6,
   },
   {
     Culture: "uz-Cyrl",
@@ -6706,7 +6706,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uz-Cyrl-UZ",
@@ -6714,7 +6714,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uz-Latn",
@@ -6722,7 +6722,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "uz-Latn-UZ",
@@ -6730,7 +6730,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vai",
@@ -6738,7 +6738,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vai-Latn",
@@ -6746,7 +6746,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vai-Latn-LR",
@@ -6754,7 +6754,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vai-Vaii",
@@ -6762,7 +6762,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vai-Vaii-LR",
@@ -6770,7 +6770,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "ve",
@@ -6778,7 +6778,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "ve-ZA",
@@ -6786,7 +6786,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "vi",
@@ -6794,7 +6794,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vi-VN",
@@ -6802,7 +6802,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vo",
@@ -6810,7 +6810,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vo-001",
@@ -6818,7 +6818,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vun",
@@ -6826,7 +6826,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "vun-TZ",
@@ -6834,7 +6834,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "wae",
@@ -6842,7 +6842,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "wae-CH",
@@ -6850,7 +6850,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "wal",
@@ -6858,7 +6858,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "wal-ET",
@@ -6866,7 +6866,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "h:mm:ss tt",
     ShortTimeFormat: "h:mm tt",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "wo",
@@ -6874,7 +6874,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "wo-SN",
@@ -6882,7 +6882,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd-MM-yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "xh",
@@ -6890,7 +6890,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "xh-ZA",
@@ -6898,7 +6898,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy-MM-dd",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "xog",
@@ -6906,7 +6906,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "xog-UG",
@@ -6914,7 +6914,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yav",
@@ -6922,7 +6922,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yav-CM",
@@ -6930,7 +6930,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yi",
@@ -6938,7 +6938,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yi-001",
@@ -6946,7 +6946,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "dd/MM/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yo",
@@ -6954,7 +6954,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:m:s",
     ShortTimeFormat: "H:m",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yo-BJ",
@@ -6962,7 +6962,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:m:s",
     ShortTimeFormat: "H:m",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "yo-NG",
@@ -6970,7 +6970,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:m:s",
     ShortTimeFormat: "H:m",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zgh",
@@ -6978,7 +6978,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zgh-Tfng",
@@ -6986,7 +6986,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zgh-Tfng-MA",
@@ -6994,7 +6994,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zh",
@@ -7002,7 +7002,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zh-CN",
@@ -7010,7 +7010,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zh-Hans",
@@ -7018,7 +7018,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zh-Hans-HK",
@@ -7026,7 +7026,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tth:mm:ss",
     ShortTimeFormat: "tth:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-Hans-MO",
@@ -7034,7 +7034,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tth:mm:ss",
     ShortTimeFormat: "tth:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-Hant",
@@ -7042,7 +7042,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-HK",
@@ -7050,7 +7050,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-MO",
@@ -7058,7 +7058,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-SG",
@@ -7066,7 +7066,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "tt h:mm:ss",
     ShortTimeFormat: "tt h:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-TW",
@@ -7074,7 +7074,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "tt hh:mm:ss",
     ShortTimeFormat: "tt hh:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zu",
@@ -7082,7 +7082,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zu-ZA",
@@ -7090,7 +7090,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "M/d/yyyy",
     LongTimeFormat: "HH:mm:ss",
     ShortTimeFormat: "HH:mm",
-    FirstDayOfWeek: 0
+    FirstDayOfWeek: 0,
   },
   {
     Culture: "zh-CHS",
@@ -7098,7 +7098,7 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "yyyy/M/d",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 1
+    FirstDayOfWeek: 1,
   },
   {
     Culture: "zh-CHT",
@@ -7106,6 +7106,6 @@ export const RegionalSettingsPerLocale: RegionalSettings[] = [
     ShortDateFormat: "d/M/yyyy",
     LongTimeFormat: "H:mm:ss",
     ShortTimeFormat: "H:mm",
-    FirstDayOfWeek: 0
-  }
+    FirstDayOfWeek: 0,
+  },
 ];
