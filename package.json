@@ -19,9 +19,13 @@
     "rollup": "rollup -c",
     "clean": "rimraf dist",
     "lint": "eslint -c eslint.config.mjs --ext .ts src",
-    "prepare": "npm run build",
     "test": "vitest run",
-    "test:debug": "vitest"
+    "test:debug": "vitest",
+    "ci": "yarn build && yarn checkchange",
+    "beachball": "beachball -b origin/master",
+    "change": "yarn beachball change",
+    "checkchange": "yarn beachball check",
+    "release": "yarn beachball publish -t latest"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
@@ -29,6 +33,7 @@
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/node": "^22.13.9",
     "@typescript-eslint/parser": "^8.25.0",
+    "beachball": "^2.51.0",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-import": "^2.31.0",
