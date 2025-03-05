@@ -49,5 +49,8 @@
   },
   "resolutions": {
     "@typescript-eslint/typescript-estree": "^8.26.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
   }
 }

@@ -28,6 +28,54 @@ interface ITranslationMaps {
   [os: string]: ITranslationMap;
 }
 
+export const intlToDateFns = {
+  day: {
+    numeric: "d",
+    "2-digit": "dd",
+  },
+  weekday: {
+    narrow: "EEEEEE",
+    short: "E",
+    long: "EEEE",
+  },
+  month: {
+    numeric: "M",
+    narrow: "MMMMM",
+    "2-digit": "MM",
+    short: "MMM",
+    long: "MMMM",
+  },
+  year: {
+    numeric: "y",
+    "2-digit": "yy",
+  },
+  era: {
+    narrow: "GGGGG",
+    short: "GG",
+    long: "GGGG",
+  },
+  // TODO: add 12/24 hour
+  hour: {
+    numeric: "H",
+    "2-digit": "HH",
+  },
+  minute: {
+    numeric: "m",
+    "2-digit": "mm",
+  },
+  second: {
+    numeric: "s",
+    "2-digit": "ss",
+  },
+  timeZoneName: {
+    short: "zzz",
+    long: "zzzz",
+  },
+  dayPeriod: {
+    hour12: "a",
+  },
+};
+
 const windowsTime: ITranslationMap = {
   hh: {
     symbol: "hh",
@@ -35,10 +83,10 @@ const windowsTime: ITranslationMap = {
       options: {
         // hour12: true,
         hourCycle: "h12",
-        hour: "2-digit"
+        hour: "2-digit",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   h: {
     symbol: "h",
@@ -46,10 +94,10 @@ const windowsTime: ITranslationMap = {
       options: {
         // hour12: true,
         hourCycle: "h12",
-        hour: "numeric"
+        hour: "numeric",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   HH: {
     symbol: "HH",
@@ -57,10 +105,10 @@ const windowsTime: ITranslationMap = {
       options: {
         // hour12: false,
         hourCycle: "h23",
-        hour: "2-digit"
+        hour: "2-digit",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   H: {
     symbol: "H",
@@ -68,57 +116,57 @@ const windowsTime: ITranslationMap = {
       options: {
         // hour12: false,
         hourCycle: "h23",
-        hour: "numeric"
+        hour: "numeric",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   mm: {
     symbol: "mm",
     intl: {
       options: {
-        minute: "2-digit"
+        minute: "2-digit",
       },
-      part: "minute"
-    }
+      part: "minute",
+    },
   },
   m: {
     symbol: "m",
     intl: {
       options: {
-        minute: "numeric"
+        minute: "numeric",
       },
-      part: "minute"
-    }
+      part: "minute",
+    },
   },
   ss: {
     symbol: "ss",
     intl: {
       options: {
-        second: "2-digit"
+        second: "2-digit",
       },
-      part: "second"
-    }
+      part: "second",
+    },
   },
   s: {
     symbol: "s",
     intl: {
       options: {
-        second: "numeric"
+        second: "numeric",
       },
-      part: "second"
-    }
+      part: "second",
+    },
   },
   period: {
     symbol: ["t", "tt"],
     intl: {
       options: {
         hour12: true,
-        hour: "numeric"
+        hour: "numeric",
       },
-      part: ["dayPeriod", "dayperiod"]
-    }
-  }
+      part: ["dayPeriod", "dayperiod"],
+    },
+  },
 };
 
 const macTime: ITranslationMap = {
@@ -127,10 +175,10 @@ const macTime: ITranslationMap = {
     intl: {
       options: {
         hour12: true,
-        hour: "numeric"
+        hour: "numeric",
       },
-      part: ["dayPeriod", "dayperiod"]
-    }
+      part: ["dayPeriod", "dayperiod"],
+    },
   },
   // we should use hourCycle https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle
   // but for now it is not working consistently across varous versions of Electron and Node
@@ -140,10 +188,10 @@ const macTime: ITranslationMap = {
       options: {
         // hour12: true,
         hourCycle: "h12",
-        hour: "numeric"
+        hour: "numeric",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   hh: {
     symbol: "hh",
@@ -151,10 +199,10 @@ const macTime: ITranslationMap = {
       options: {
         // hour12: true,
         hourCycle: "h12",
-        hour: "2-digit"
+        hour: "2-digit",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   H: {
     symbol: "H",
@@ -162,10 +210,10 @@ const macTime: ITranslationMap = {
       options: {
         // hour12: false,
         hourCycle: "h23",
-        hour: "numeric"
+        hour: "numeric",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   HH: {
     symbol: "HH",
@@ -173,21 +221,21 @@ const macTime: ITranslationMap = {
       options: {
         // hour12: false,
         hourCycle: "h23",
-        hour: "2-digit"
+        hour: "2-digit",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   k: {
     symbol: "k",
     intl: {
       options: {
         hour: "numeric",
-        hourCycle: "h24"
+        hourCycle: "h24",
         // hour12: false,
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   kk: {
     symbol: "kk",
@@ -195,68 +243,68 @@ const macTime: ITranslationMap = {
       options: {
         hour: "2-digit",
         // hour12: false,
-        hourCycle: "h24"
+        hourCycle: "h24",
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   K: {
     symbol: "K",
     intl: {
       options: {
         hour: "numeric",
-        hourCycle: "h11"
+        hourCycle: "h11",
         // hour12: true,
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   KK: {
     symbol: "KK",
     intl: {
       options: {
         hour: "2-digit",
-        hourCycle: "h11"
+        hourCycle: "h11",
         // hour12: true,
       } as Intl.DateTimeFormatOptions,
-      part: "hour"
-    }
+      part: "hour",
+    },
   },
   m: {
     symbol: "m",
     intl: {
       options: {
-        minute: "numeric"
+        minute: "numeric",
       },
-      part: "minute"
-    }
+      part: "minute",
+    },
   },
   mm: {
     symbol: "mm",
     intl: {
       options: {
-        minute: "2-digit"
+        minute: "2-digit",
       },
-      part: "minute"
-    }
+      part: "minute",
+    },
   },
   s: {
     symbol: "s",
     intl: {
       options: {
-        second: "numeric"
+        second: "numeric",
       },
-      part: "second"
-    }
+      part: "second",
+    },
   },
   ss: {
     symbol: "ss",
     intl: {
       options: {
-        second: "2-digit"
+        second: "2-digit",
       },
-      part: "second"
-    }
+      part: "second",
+    },
   },
   "zone-short": {
     symbol: [
@@ -279,24 +327,24 @@ const macTime: ITranslationMap = {
       "ZZZZ",
       "ZZZZZ",
       "O",
-      "OOOO"
+      "OOOO",
     ],
     intl: {
       options: {
-        timeZoneName: "short"
+        timeZoneName: "short",
       },
-      part: "timeZoneName"
-    }
+      part: "timeZoneName",
+    },
   },
   "zone-long": {
     symbol: ["zzzz", "v", "vvvv", "V", "VV", "VVV", "VVVV"],
     intl: {
       options: {
-        timeZoneName: "long"
+        timeZoneName: "long",
       },
-      part: "timeZoneName"
-    }
-  }
+      part: "timeZoneName",
+    },
+  },
 };
 
 const timeTranslationMaps: ITranslationMaps = {};
@@ -308,101 +356,101 @@ const windowsDate: ITranslationMap = {
     symbol: "d",
     intl: {
       options: {
-        day: "numeric"
+        day: "numeric",
       },
-      part: "day"
-    }
+      part: "day",
+    },
   },
   dd: {
     symbol: "dd",
     intl: {
       options: {
-        day: "2-digit"
+        day: "2-digit",
       },
-      part: "day"
-    }
+      part: "day",
+    },
   },
   ddd: {
     symbol: "ddd",
     intl: {
       options: {
-        weekday: "short"
+        weekday: "short",
       },
-      part: "weekday"
-    }
+      part: "weekday",
+    },
   },
   dddd: {
     symbol: "dddd",
     intl: {
       options: {
-        weekday: "long"
+        weekday: "long",
       },
-      part: "weekday"
-    }
+      part: "weekday",
+    },
   },
   M: {
     symbol: "M",
     intl: {
       options: {
-        month: "numeric"
+        month: "numeric",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   MM: {
     symbol: "MM",
     intl: {
       options: {
-        month: "2-digit"
+        month: "2-digit",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   MMM: {
     symbol: "MMM",
     intl: {
       options: {
-        month: "short"
+        month: "short",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   MMMM: {
     symbol: "MMMM",
     intl: {
       options: {
-        month: "long"
+        month: "long",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   "year-short": {
     symbol: ["y", "yy"],
     intl: {
       options: {
-        year: "2-digit"
+        year: "2-digit",
       },
-      part: "year"
-    }
+      part: "year",
+    },
   },
   "year-long": {
     symbol: ["yyyy", "yyyyy"],
     intl: {
       options: {
-        year: "numeric"
+        year: "numeric",
       },
-      part: "year"
-    }
+      part: "year",
+    },
   },
   era: {
     symbol: ["g", "gg"],
     intl: {
       options: {
-        era: "narrow"
+        era: "narrow",
       },
-      part: "era"
-    }
-  }
+      part: "era",
+    },
+  },
 };
 
 const macDate: ITranslationMap = {
@@ -410,28 +458,28 @@ const macDate: ITranslationMap = {
     symbol: ["G", "GG", "GGG"],
     intl: {
       options: {
-        era: "short"
+        era: "short",
       },
-      part: "era"
-    }
+      part: "era",
+    },
   },
   GGGG: {
     symbol: "GGGG",
     intl: {
       options: {
-        era: "long"
+        era: "long",
       },
-      part: "era"
-    }
+      part: "era",
+    },
   },
   GGGGG: {
     symbol: "GGGG",
     intl: {
       options: {
-        era: "narrow"
+        era: "narrow",
       },
-      part: "era"
-    }
+      part: "era",
+    },
   },
   "year-numeric": {
     symbol: [
@@ -446,86 +494,86 @@ const macDate: ITranslationMap = {
       "u",
       "uuu",
       "uuuu",
-      "uuuuu"
+      "uuuuu",
     ],
     intl: {
       options: {
-        year: "numeric"
+        year: "numeric",
       },
-      part: "year"
-    }
+      part: "year",
+    },
   },
   "year-short": {
     symbol: ["yy", "YY", "uu"],
     intl: {
       options: {
-        year: "2-digit"
+        year: "2-digit",
       },
-      part: "year"
-    }
+      part: "year",
+    },
   },
   "month-numeric": {
     symbol: ["M", "L"],
     intl: {
       options: {
-        month: "numeric"
+        month: "numeric",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   "month-2-digit": {
     symbol: ["MM", "LL"],
     intl: {
       options: {
-        month: "2-digit"
+        month: "2-digit",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   "month-short": {
     symbol: ["MMM", "LLL"],
     intl: {
       options: {
-        month: "short"
+        month: "short",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   "month-long": {
     symbol: ["MMMM", "LLLL"],
     intl: {
       options: {
-        month: "long"
+        month: "long",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   "month-narrow": {
     symbol: ["MMMMM", "LLLLL"],
     intl: {
       options: {
-        month: "narrow"
+        month: "narrow",
       },
-      part: "month"
-    }
+      part: "month",
+    },
   },
   d: {
     symbol: "d",
     intl: {
       options: {
-        day: "numeric"
+        day: "numeric",
       },
-      part: "day"
-    }
+      part: "day",
+    },
   },
   dd: {
     symbol: "dd",
     intl: {
       options: {
-        day: "2-digit"
+        day: "2-digit",
       },
-      part: "day"
-    }
+      part: "day",
+    },
   },
   "weekday-long": {
     symbol: [
@@ -540,33 +588,33 @@ const macDate: ITranslationMap = {
       "c",
       "cc",
       "ccc",
-      "cccc"
+      "cccc",
     ],
     intl: {
       options: {
-        weekday: "long"
+        weekday: "long",
       },
-      part: "weekday"
-    }
+      part: "weekday",
+    },
   },
   "weekday-narrow": {
     symbol: ["EEEEE", "eeeee", "ccccc"],
     intl: {
       options: {
-        weekday: "narrow"
+        weekday: "narrow",
       },
-      part: "weekday"
-    }
+      part: "weekday",
+    },
   },
   "weekday-short": {
     symbol: ["EEEEEE", "eeeeee", "cccccc"],
     intl: {
       options: {
-        weekday: "short"
+        weekday: "short",
       },
-      part: "weekday"
-    }
-  }
+      part: "weekday",
+    },
+  },
 };
 
 const dateTranslationMaps: ITranslationMaps = {};
@@ -583,8 +631,8 @@ const unsupportedMask: IPlatformUnsupportedMask = {
     /g/g, // modified julian day
     /U/g, // cyclic year
     /q/g, // quarter
-    /Q/g // quarter
-  ]
+    /Q/g, // quarter
+  ],
 };
 
 export {
@@ -594,5 +642,5 @@ export {
   ITranslationItem,
   ITranslationMap,
   IPlatformUnsupportedMask,
-  unsupportedMask
+  unsupportedMask,
 };

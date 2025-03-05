@@ -37,24 +37,33 @@ import {
   SHORT_WEEKDAY,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
-  SHORT_WITH_YEAR
+  SHORT_WITH_YEAR,
 } from "./date-time-format-options";
 import ILocaleInfo from "./ILocaleInfo";
 import { OsDateTimeFormatter } from "./os-date-time-formatter";
+import es from "date-fns/locale/es";
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
   // (locale - string & options - object) and stringify is native so it is so fars it is
   // not worth maintaing the two-level cache (map for string and weak map for object)
   private readonly cachedDateTimeFormat = new CachedDateTimeFormat();
-
+  private dateFnsLocale: any = es;
   private formatter?: OsDateTimeFormatter = undefined;
 
   /**
    * Instantiates DateTimeFormatter
    * @param locale The desired locale to which to format the date and time value (default: en-US)
    */
-  constructor(private locale: string | ILocaleInfo = "en-US") {}
+  constructor(private locale: string | ILocaleInfo = "en-US") {
+    if (typeof this.locale === "string") {
+      this.loadLocale(this.locale);
+    } else {
+      this.loadLocale(this.locale.regionalFormat);
+    }
+  }
+
+  private async loadLocale(locale: string) {}
 
   /**
    * Localizes the date/time value
@@ -86,7 +95,8 @@ export class DateTimeFormatter {
       this.formatter = new OsDateTimeFormatter(
         localeInfo.regionalFormat,
         localeInfo.platform,
-        this.cachedDateTimeFormat
+        this.cachedDateTimeFormat,
+        this.dateFnsLocale
       );
     }
 
