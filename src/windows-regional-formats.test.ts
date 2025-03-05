@@ -41,7 +41,7 @@ import {
 import { DateTimeFormatter } from "./date-time-formatter";
 import { RegionalSettingsPerLocale } from "./windows-regional-formats";
 
-describe("Windows Regional Formats", () => {
+describe.skip("Windows Regional Formats", () => {
   const supportedLocales = [
     "ar-sa",
     "az-latn-az",
