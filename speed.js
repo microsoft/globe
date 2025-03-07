@@ -1,4 +1,4 @@
-const { DateTimeFormatter, SHORT_DATE } = require('./');
+import { DateTimeFormatter, SHORT_DATE } from './';
 
 const date = new Date(2020, 05, 25);
 const expected = '6/25/2020';

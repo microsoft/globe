@@ -1,5 +1,69 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`Windows Regional Formats > Regional settings based formatting en-us - FULL 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - FULL_DATE 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - FULL_DATE_WITH_YEAR 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - FULL_TIME 1`] = `"13:30:45 01/15/20201 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - FULL_WITH_YEAR 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - HOUR_ONLY 1`] = `"13 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_DATE 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_DATE_WITH_YEAR 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_TIME 1`] = `"13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_TIME_WITH_TIMEZONE 1`] = `"13:30:45 01/15/20201 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_WEEKDAY 1`] = `"Wednesday"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_WEEKDAY_LONG_TIME 1`] = `"Wednesday, 13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_WEEKDAY_SHORT_TIME 1`] = `"Wednesday, 13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_WITH_TIMEZONE 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - LONG_WITH_YEAR_TIMEZONE 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM_DATE 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM_DATE_WITH_YEAR 1`] = `"Wednesday, January 15, 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM_TIME 1`] = `"13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - MEDIUM_WITH_YEAR 1`] = `"Wednesday, January 15, 2020 13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT 1`] = `"1/15/2020 13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_DATE 1`] = `"1/15/2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_DATE_LONG_TIME 1`] = `"1/15/2020 13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_DATE_TIME 1`] = `"1/15/2020 13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"1/15/2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_DATE_WITH_YEAR 1`] = `"1/15/2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_TIME 1`] = `"13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY 1`] = `"Wed"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 13:30:45 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY_SHORT_TIME 1`] = `"Wed, 13:30 01/15/20201"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WITH_YEAR 1`] = `"1/15/2020 13:30 01/15/20201"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-es - FULL 1`] = `"miércoles, 15 de enero de 2020 13:30:45 GMT+00:00"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-es - FULL_DATE 1`] = `"miércoles, 15 de enero de 2020"`;
@@ -63,3 +127,67 @@ exports[`Windows Regional Formats > Regional settings based formatting es-es - S
 exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_WEEKDAY_SHORT_TIME 1`] = `"mié, 13:30"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_WITH_YEAR 1`] = `"15/01/2020 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - FULL 1`] = `"miercuri, 15 ianuarie 2020 13:30:45 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - FULL_DATE 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - FULL_DATE_WITH_YEAR 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - FULL_TIME 1`] = `"13:30:45 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - FULL_WITH_YEAR 1`] = `"miercuri, 15 ianuarie 2020 13:30:45 GMT+00:00"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - HOUR_ONLY 1`] = `"13"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_DATE 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_DATE_WITH_YEAR 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_TIME 1`] = `"13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_TIME_WITH_TIMEZONE 1`] = `"13:30:45 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_WEEKDAY 1`] = `"miercuri"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_WEEKDAY_LONG_TIME 1`] = `"miercuri, 13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_WEEKDAY_SHORT_TIME 1`] = `"miercuri, 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_WITH_TIMEZONE 1`] = `"miercuri, 15 ianuarie 2020 13:30:45 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - LONG_WITH_YEAR_TIMEZONE 1`] = `"miercuri, 15 ianuarie 2020 13:30:45 GMT+0"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM 1`] = `"miercuri, 15 ianuarie 2020 13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM_DATE 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ian., 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM_DATE_WITH_YEAR 1`] = `"miercuri, 15 ianuarie 2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM_TIME 1`] = `"13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - MEDIUM_WITH_YEAR 1`] = `"miercuri, 15 ianuarie 2020 13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT 1`] = `"15.01.2020 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_DATE 1`] = `"15.01.2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_DATE_LONG_TIME 1`] = `"15.01.2020 13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_DATE_TIME 1`] = `"15.01.2020 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"15.01.2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY 1`] = `"mie."`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY_LONG_TIME 1`] = `"mie., 13:30:45"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY_SHORT_TIME 1`] = `"mie., 13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WITH_YEAR 1`] = `"15.01.2020 13:30"`;

@@ -3,6 +3,7 @@
  * Licensed under the MIT License.
  */
 
+import { enUS } from "date-fns/locale";
 import { CachedDateTimeFormat } from "./cached-datetimeformat";
 import {
   DateTimeFormatOptions,
@@ -41,14 +42,13 @@ import {
 } from "./date-time-format-options";
 import ILocaleInfo from "./ILocaleInfo";
 import { OsDateTimeFormatter } from "./os-date-time-formatter";
-import es from "date-fns/locale/es";
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
   // (locale - string & options - object) and stringify is native so it is so fars it is
   // not worth maintaing the two-level cache (map for string and weak map for object)
   private readonly cachedDateTimeFormat = new CachedDateTimeFormat();
-  private dateFnsLocale: any = es;
+  private dateFnsLocale: any = enUS;
   private formatter?: OsDateTimeFormatter = undefined;
 
   /**
@@ -56,6 +56,7 @@ export class DateTimeFormatter {
    * @param locale The desired locale to which to format the date and time value (default: en-US)
    */
   constructor(private locale: string | ILocaleInfo = "en-US") {
+    console.log("constructor");
     if (typeof this.locale === "string") {
       this.loadLocale(this.locale);
     } else {
@@ -63,7 +64,24 @@ export class DateTimeFormatter {
     }
   }
 
-  private async loadLocale(locale: string) {}
+  private loadLocale(locale: string) {
+    const fnsLocale = locale.toLocaleLowerCase().split("-")[0];
+    console.log(`fnsLocale: ${fnsLocale}`);
+    if (fnsLocale === "en") {
+      return;
+    }
+    try {
+      console.log(`Loading date-fns locale: ${fnsLocale}`);
+      /* webpackMode: "lazy", webpackChunkName: "df-[index]", webpackExclude: /_lib/ */
+      import(`date-fns/locale/${fnsLocale}`).then(locale => {
+        this.dateFnsLocale = locale;
+        console.log("Successfully loaded date-fns locale", this.dateFnsLocale);
+      });
+    } catch (e) {
+      this.dateFnsLocale = enUS;
+      console.error(`Failed to load date-fns locale: ${locale}`);
+    }
+  }
 
   /**
    * Localizes the date/time value

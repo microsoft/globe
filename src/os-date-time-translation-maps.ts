@@ -74,6 +74,9 @@ export const intlToDateFns = {
   dayPeriod: {
     hour12: "a",
   },
+  dayperiod: {
+    hour12: "a",
+  },
 };
 
 const windowsTime: ITranslationMap = {

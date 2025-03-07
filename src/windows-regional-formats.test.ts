@@ -142,7 +142,7 @@ describe("Windows Regional Formats", () => {
   //   "zh-mo",
   //   "zh-tw",
   // ];
-  const supportedLocales = ["es-es"];
+  const supportedLocales = ["es-es", "ro-ro"];
   const formatsToTest: { [key: string]: any } = {
     SHORT,
     SHORT_WITH_YEAR,
@@ -185,39 +185,41 @@ describe("Windows Regional Formats", () => {
         locale.toLocaleLowerCase()
     )[0];
 
+    // let localeBasedDateTimeFormat;
+    let regionalBasedDateTimeFormatter: DateTimeFormatter | undefined;
+    // try {
+    //   const localeBasedDateTimeFormatter = new DateTimeFormatter(locale);
+    //   localeBasedDateTimeFormat = localeBasedDateTimeFormatter.formatDateTime(
+    //     date,
+    //     format
+    //   );
+    // } catch {
+    //   localeBasedDateTimeFormat = "Not supported";
+    // }
+
+    try {
+      regionalBasedDateTimeFormatter = new DateTimeFormatter({
+        platform: "windows",
+        regionalFormat: regionalFormat.Culture,
+        shortDate: regionalFormat.ShortDateFormat,
+        longDate: regionalFormat.LongDateFormat,
+        shortTime: regionalFormat.ShortTimeFormat,
+        longTime: regionalFormat.LongTimeFormat,
+      });
+    } catch {
+      console.log(`Regional settings not supported for ${locale}`);
+    }
+    // it(`Locale based formatting ${locale} - ${formatName}`, () => {
+    //   expect(localeBasedDateTimeFormat).toMatchSnapshot();
+    // });
+
     Object.keys(formatsToTest).forEach((formatName: string) => {
       const format = formatsToTest[formatName];
-      // let localeBasedDateTimeFormat;
-      let regionalBasedDateTimeFormat;
-      // try {
-      //   const localeBasedDateTimeFormatter = new DateTimeFormatter(locale);
-      //   localeBasedDateTimeFormat = localeBasedDateTimeFormatter.formatDateTime(
-      //     date,
-      //     format
-      //   );
-      // } catch {
-      //   localeBasedDateTimeFormat = "Not supported";
-      // }
-
-      try {
-        const regionalBasedDateTimeFormatter = new DateTimeFormatter({
-          platform: "windows",
-          regionalFormat: regionalFormat.Culture,
-          shortDate: regionalFormat.ShortDateFormat,
-          longDate: regionalFormat.LongDateFormat,
-          shortTime: regionalFormat.ShortTimeFormat,
-          longTime: regionalFormat.LongTimeFormat,
-        });
-        regionalBasedDateTimeFormat =
-          regionalBasedDateTimeFormatter.formatDateTime(date, format);
-      } catch {
-        regionalBasedDateTimeFormat = "Not supported";
-      }
-      // it(`Locale based formatting ${locale} - ${formatName}`, () => {
-      //   expect(localeBasedDateTimeFormat).toMatchSnapshot();
-      // });
 
       it(`Regional settings based formatting ${locale} - ${formatName}`, () => {
+        const regionalBasedDateTimeFormat = regionalBasedDateTimeFormatter
+          ? regionalBasedDateTimeFormatter.formatDateTime(date, format)
+          : "Not supported";
         expect(regionalBasedDateTimeFormat).toMatchSnapshot();
       });
     });

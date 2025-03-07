@@ -3,6 +3,7 @@
  * Licensed under the MIT License.
  */
 
+import { format as dateFnsFormatter } from "date-fns";
 import { CachedDateTimeFormat } from "./cached-datetimeformat";
 import {
   dateTranslationMaps,
@@ -13,7 +14,6 @@ import {
   timeTranslationMaps,
   unsupportedMask,
 } from "./os-date-time-translation-maps";
-import { format as dateFnsFormatter } from "date-fns";
 
 interface IDateTimeFormatParts extends Intl.DateTimeFormatOptions {
   dayperiod?: string;
@@ -294,19 +294,6 @@ export class OsDateTimeFormatter {
     return partsObject;
   }
 
-  private applyFormat(format: IFormat, date: number | Date): string {
-    const partValues = this.getPartValues(format.intlOptions, date);
-    let formatted = "";
-    for (let i = 0; i < format.parts.length; i++) {
-      formatted = `${formatted}${this.getValue(
-        format.parts[i],
-        partValues,
-        date
-      )}`;
-    }
-    return formatted.replace(/\s+/g, " ").trim();
-  }
-
   private applyDateFnsFormat(format: IFormat, date: number | Date): string {
     const partValues = this.getPartValues(format.intlOptions, date);
     let formatted = "";
@@ -339,8 +326,21 @@ export class OsDateTimeFormatter {
     }
 
     const dateFnsPart = part.replacePart;
-    const dateFnsType = intlOptions[part.replacePart];
-    const dateFnsToken = intlToDateFns[dateFnsPart][dateFnsType];
+    let dateFnsType;
+    if (Array.isArray(part.replacePart)) {
+      for (let i = 0; i < part.replacePart.length; i++) {
+        const partCandidate = part.replacePart[i];
+        if (intlOptions && intlOptions[partCandidate]) {
+          dateFnsType = intlOptions[partCandidate];
+          break;
+        }
+      }
+    } else {
+      dateFnsType = intlOptions ? intlOptions[part.replacePart] : undefined;
+    }
+    const dateFnsToken = dateFnsType
+      ? intlToDateFns[dateFnsPart][dateFnsType]
+      : undefined;
     const values = part.intlOptionsOverride
       ? this.getPartValues(part.intlOptionsOverride, date)
       : partValues;
@@ -386,59 +386,6 @@ export class OsDateTimeFormatter {
     return typeof value === "string" ? value : "";
   }
 
-  private getValue(
-    part: ReplacePart | string,
-    partValues: IDateTimeFormatParts,
-    date: number | Date
-  ): string {
-    if (typeof part === "string") {
-      return part;
-    }
-
-    const values = part.intlOptionsOverride
-      ? this.getPartValues(part.intlOptionsOverride, date)
-      : partValues;
-
-    let value = undefined;
-
-    if (Array.isArray(part.replacePart)) {
-      for (let i = 0; i < part.replacePart.length; i++) {
-        const partCandidate = part.replacePart[i];
-        const valueCandidate = values[partCandidate];
-        if (valueCandidate) {
-          value = valueCandidate;
-          break;
-        }
-      }
-    } else {
-      value = values[part.replacePart];
-    }
-
-    if (part.force0forMidnight && value === "24") {
-      value = "0";
-    }
-
-    if (
-      part.force1Digit &&
-      value &&
-      typeof value === "string" &&
-      value.length === 2 &&
-      value[0] === "0"
-    ) {
-      return value[1];
-    }
-
-    if (
-      part.force2Digits &&
-      value &&
-      typeof value === "string" &&
-      value.length === 1
-    ) {
-      return `0${value}`;
-    }
-
-    return typeof value === "string" ? value : "";
-  }
   private getPartValues(
     options: Intl.DateTimeFormatOptions,
     date: number | Date

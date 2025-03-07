@@ -4,6 +4,7 @@
   "description": "Globalization Service",
   "author": "Microsoft",
   "license": "MIT",
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/globe.esm.js",
   "typings": "./dist/index.d.ts",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
     "@formatjs/intl-datetimeformat": "^6.17.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/node": "^22.13.9",
     "@typescript-eslint/parser": "^8.25.0",
