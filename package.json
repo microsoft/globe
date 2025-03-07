@@ -39,7 +39,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-license-header": "^0.8.0",
     "globals": "^16.0.0",
-    "rimraf": "^6.0.1",
+    "rimraf": "^5.0.10",
     "rollup": "^4.34.9",
     "tslib": "^2.8.1",
     "tslint": "^5.1.0",
