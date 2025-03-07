@@ -1,10 +1,14 @@
-import typescript from '@rollup/plugin-typescript';
+import { nodeResolve } from "@rollup/plugin-node-resolve";
+import typescript from "@rollup/plugin-typescript";
 
 export default {
-  input: 'src/index.ts',
+  input: "src/index.ts",
   output: {
-  dir: 'dist',
-  format: 'cjs'
+    dir: "dist",
+    format: "esm",
   },
-  plugins: [typescript()]
+  plugins: [
+    nodeResolve(), // <-- Resolver to handle node modules
+    typescript(),
+  ],
 };
