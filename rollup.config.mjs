@@ -1,4 +1,3 @@
-import { nodeResolve } from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
 
 export default {
@@ -8,7 +7,6 @@ export default {
     format: "esm",
   },
   plugins: [
-    nodeResolve(), // <-- Resolver to handle node modules
     typescript(),
   ],
 };
