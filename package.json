@@ -52,8 +52,8 @@
     "types": "./dist/index.d.ts",
     "exports": {
       ".": {
-        "import": "./lib/index.js",
-        "types": "./lib/index.d.ts"
+        "import": "./dist/index.js",
+        "types": "./dist/index.d.ts"
       }
     }
   }
