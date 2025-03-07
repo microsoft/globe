@@ -2,8 +2,8 @@
     "compilerOptions": {
         "declaration": true,
         "noResolve": false,
-        "module": "es2015",
-        "target": "es5",
+        "module": "ES2022",
+        "target": "ES2022",
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
