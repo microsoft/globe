@@ -3,9 +3,11 @@
  * Licensed under the MIT License.
  */
 
-import ILocaleInfo from './ILocaleInfo';
+import { ILocaleInfo } from "./ILocaleInfo";
 
-export async function getLocaleInfoAsync(platform: 'windows' | 'macos'): Promise<ILocaleInfo | null> {
+export async function getLocaleInfoAsync(
+  platform: "windows" | "macos"
+): Promise<ILocaleInfo | null> {
   if (window.getLocaleInfoAsync) {
     const localeInfo = await window.getLocaleInfoAsync();
     return {

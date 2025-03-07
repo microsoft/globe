@@ -3,8 +3,8 @@
  * Licensed under the MIT License.
  */
 
-export default interface ILocaleInfo {
-  platform: 'windows' | 'macos';
+export interface ILocaleInfo {
+  platform: "windows" | "macos";
   regionalFormat: string;
   shortDate: string;
   longDate: string;

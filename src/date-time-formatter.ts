@@ -37,9 +37,9 @@ import {
   SHORT_WEEKDAY,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
-  SHORT_WITH_YEAR
+  SHORT_WITH_YEAR,
 } from "./date-time-format-options";
-import ILocaleInfo from "./ILocaleInfo";
+import { ILocaleInfo } from "./ILocaleInfo";
 import { OsDateTimeFormatter } from "./os-date-time-formatter";
 
 export class DateTimeFormatter {

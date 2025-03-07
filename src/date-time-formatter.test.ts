@@ -27,7 +27,7 @@ import {
   SHORT_WITH_YEAR,
 } from "./date-time-format-options";
 import { DateTimeFormatter } from "./date-time-formatter";
-import ILocaleInfo from "./ILocaleInfo";
+import { ILocaleInfo } from "./ILocaleInfo";
 
 describe("date-time-format-options", () => {
   describe("functionality", () => {

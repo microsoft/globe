@@ -36,19 +36,17 @@ export {
   LONG_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
   SHORT_WEEKDAY_LONG_TIME,
-} from './date-time-format-options';
+} from "./date-time-format-options";
 
 export {
   TimeStringFormat,
-  DateTimeFormatOptions
-} from './date-time-format-options';
+  DateTimeFormatOptions,
+} from "./date-time-format-options";
 
-export {
-  IElectronDateTimePart
-} from './os-date-time-formatter';
+export { IElectronDateTimePart } from "./os-date-time-formatter";
 
-export { DateTimeFormatter } from './date-time-formatter';
+export { DateTimeFormatter } from "./date-time-formatter";
 
-export { SafeDateTimeFormat } from './safe-datetimeformat';
+export { SafeDateTimeFormat } from "./safe-datetimeformat";
 
-export { getLocaleInfoAsync } from './getLocaleInfoAsync';
+export { getLocaleInfoAsync } from "./getLocaleInfoAsync";
