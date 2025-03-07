@@ -48,8 +48,6 @@ extends:
               image: ubuntu-latest
               os: linux
             steps:
-              - checkout: self
-                persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
               - script: yarn
                 displayName: yarn
               - script: |
