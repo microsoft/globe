@@ -1,8 +1,7 @@
 # Pierces the ADO npm feed cache in order to pull in new versions published to
 # the public npm feed.
 #
-# Expects the last git commit to contain all package.json files for packages
-# that have been published.
+# Expects the last git commit to contain package.json
 
 parameters:
   - name: adoNpmFeedPat
@@ -16,8 +15,11 @@ parameters:
 
 steps:
   - bash: |
-      git diff --name-only HEAD HEAD~1 | grep 'package.json' | while read line ; do
-        pkgAndVersion=`cat $line | jq -r '. | "\(.name)/versions/\(.version)"'`
-        curl -Ivu $(adoNpmFeedPat) $(adoNpmFeedBaseUrl)/npm/packages/$pkgAndVersion/content || true
+      git diff --name-only HEAD HEAD~1 | grep 'package.json' | while read pkgFilename ; do
+        pkgName=`cat $pkgFilename | jq -r '.name'`
+        pkgVersion=`cat $pkgFilename | jq -r '.version'`
+        pkgBasename=`echo $pkgName | cut -d "/" -f 2`
+        curl -Ivu $(adoNpmFeedPat) $(adoOrgBaseUrl)/_apis/packaging/feeds/$(adoNpmFeedName)/npm/packages/$pkgName/versions/$pkgVersion/content || true
+        curl -o /dev/null -vu $(adoNpmFeedPat) $(adoOrgBaseUrl)/_packaging/$(adoNpmFeedName)/npm/registry/$pkgName/-/$pkgBasename-$pkgVersion.tgz || true
       done
     displayName: "Pierce ADO NPM feed cache"
