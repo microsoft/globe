@@ -61,7 +61,7 @@ extends:
                   git config user.name "Globalization Team Account"
                   git fetch --depth=2
                 displayName: Configure git for release
-              - script: yarn release -y -n $(ossNpmToken) --access public --no-push --keep-change-files
+              - script: yarn release -y -n $(ossNpmToken) --access public
                 displayName: Release to the npm registry
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: 📒 Publish Manifest
