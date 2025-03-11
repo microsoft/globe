@@ -49,7 +49,7 @@ extends:
               os: linux
             steps:
               - checkout: self
-                persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
+                persistCredentials: false # fix for beachball: https://github.com/microsoft/beachball/issues/674
                 fetchDepth: 2
               - script: yarn
                 displayName: yarn
