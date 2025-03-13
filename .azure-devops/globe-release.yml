@@ -1,3 +1,10 @@
+resources:
+  repositories:
+    - repository: 1ESPipelineTemplates
+      type: git
+      name: 1ESPipelineTemplates/1ESPipelineTemplates
+      ref: refs/tags/release
+
 pr: none
 trigger:
   - master
@@ -8,17 +15,8 @@ variables:
     value: production,externalfacing
   - name: serviceTreeID
     value: c3a0680e-4563-4c47-bce9-710df6e5485c
-  - name: adoOrgBaseUrl
-    value: https://pkgs.dev.azure.com/domoreexp
-  - name: adoNpmFeedName
-    value: npm-mirror
-
-resources:
-  repositories:
-    - repository: 1ESPipelineTemplates
-      type: git
-      name: 1ESPipelineTemplates/1ESPipelineTemplates
-      ref: refs/tags/release
+  - name: adoNpmFeedBaseUrl
+    value: https://pkgs.dev.azure.com/domoreexp/_apis/packaging/feeds/npm-mirror
 
 extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
@@ -49,8 +47,7 @@ extends:
               os: linux
             steps:
               - checkout: self
-                persistCredentials: false # fix for beachball: https://github.com/microsoft/beachball/issues/674
-                fetchDepth: 2
+                persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
               - script: yarn
                 displayName: yarn
               - script: |
@@ -59,8 +56,6 @@ extends:
               - script: |
                   git config user.email "teams-globalization@microsoft.com"
                   git config user.name "Globalization Team Account"
-                  git remote set-url origin https://teams-globalization:$(ossGithubPAT)@github.com/microsoft/globe.git
-                  git fetch --depth=2
                 displayName: Configure git for release
               - script: yarn release -y -n $(ossNpmToken) --access public
                 displayName: Release to the npm registry
@@ -72,5 +67,4 @@ extends:
               - template: .azure-devops/steps/pierce-ado-npm-mirror-cache.yml@self
                 parameters:
                   adoNpmFeedPat: $(adoNpmFeedPat)
-                  adoOrgBaseUrl: $(adoProjectBaseUrl)
-                  adoNpmFeedName: $(adoNpmFeedName)
+                  adoNpmFeedBaseUrl: $(adoNpmFeedBaseUrl)
