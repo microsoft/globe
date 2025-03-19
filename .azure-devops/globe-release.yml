@@ -57,7 +57,12 @@ extends:
                   git config user.email "teams-globalization@microsoft.com"
                   git config user.name "Globalization Team Account"
                 displayName: Configure git for release
-              - script: yarn release -y -n $(ossNpmToken) --access public
+              - script: |
+                  echo "always-auth=true" > .npmrc
+              - task: npmAuthenticate@0
+                inputs:
+                  workingFile: ".npmrc"
+              - script: yarn release -y
                 displayName: Release to the npm registry
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: 📒 Publish Manifest
