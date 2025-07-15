@@ -21,4 +21,8 @@ export class CachedDateTimeFormat {
 
     return dtf;
   }
+
+  public reset() {
+    this.localeFormatCache.clear();
+  }
 }

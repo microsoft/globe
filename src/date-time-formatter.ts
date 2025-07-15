@@ -318,6 +318,11 @@ export class DateTimeFormatter {
     );
   }
 
+  public resetFormatter() {
+    this.formatter = undefined;
+    this.cachedDateTimeFormat.reset();
+  }
+
   private combineDateAndTime(date: string, time: string) {
     return `${date} ${time}`;
   }
