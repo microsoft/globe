@@ -61,26 +61,26 @@ extends:
               - script: yarn bump -y
                 displayName: "Bump version with Beachball"
 
-              # 5. Publish build artifacts
+              # 4. Publish build artifacts
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "Publish built package"
                 inputs:
                   artifactName: package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
 
-              # 6. ESRP Code signing
+              # 5. ESRP Code signing
               - task: EsrpCodeSigning@5
                 displayName: "ESRP Code Signing"
                 condition: succeeded()
                 inputs:
-                  ConnectedServiceName: ${CodeSign.ConnectedServiceName}
+                  ConnectedServiceName: $(CodeSign.ConnectedServiceName)
                   FolderPath: $(System.DefaultWorkingDirectory)/dist
                   Pattern: "*.js,*.ts,*.json,*.d.ts"
                   signConfigType: inlineSignParams
                   inlineOperation: |
                     [
                       {
-                        "KeyCode" : ${CodeSign.KeyCode},
+                        "KeyCode" : $(CodeSign.KeyCode),
                         "OperationCode" : "SignToolSign",
                         "Parameters" : {},
                         "ToolName" : "sign",
@@ -89,14 +89,14 @@ extends:
                     ]
                   SessionTimeout: 60
                   VerboseLogin: false
-                  AppRegistrationTenantId: ${CodeSign.AppRegistrationTenantId}
-                  AppRegistrationClientId: ${CodeSign.AppRegistrationClientId}
-                  AuthSignCertName: ${CodeSign.AuthSignCertName}
-                  EsrpClientId: ${CodeSign.EsrpClientId}
-                  AuthAKVName: ${CodeSign.AuthAKVName}
+                  AppRegistrationTenantId: $(CodeSign.AppRegistrationTenantId)
+                  AppRegistrationClientId: $(CodeSign.AppRegistrationClientId)
+                  AuthSignCertName: $(CodeSign.AuthSignCertName)
+                  EsrpClientId: $(CodeSign.EsrpClientId)
+                  AuthAKVName: $(CodeSign.AuthAKVName)
                   UseMSIAuthentication: true
 
-              # 6.5. Generate npm package (.tgz)
+              # 6. Generate npm package (.tgz)
               - script: |
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
                   npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
@@ -107,17 +107,17 @@ extends:
                 displayName: "ESRP Release to npm"
                 condition: succeeded()
                 inputs:
-                  connectedservicename: ${Release.ConnectedServiceName}
+                  connectedservicename: $(Release.ConnectedServiceName)
                   usemanagedidentity: true
-                  keyvaultname: ${Release.KeyVaultName}
-                  signcertname: ${Release.SignCertName}
-                  clientid: ${Release.ClientId}
+                  keyvaultname: $(Release.KeyVaultName)
+                  signcertname: $(Release.SignCertName)
+                  clientid: $(Release.ClientId)
                   contenttype: "npm"
                   folderlocation: $(System.DefaultWorkingDirectory)/packages
-                  owners: ${Release.Owners}
-                  approvers: ${Release.Approvers}
+                  owners: $(Release.Owners)
+                  approvers: $(Release.Approvers)
                   mainpublisher: ESRPRELPACMAN
-                  domaintenantid: ${Release.DomainTenantId}
+                  domaintenantid: $(Release.DomainTenantId)
 
               # 8. SBOM generation
               - task: 1ES.PublishPipelineArtifact@1
