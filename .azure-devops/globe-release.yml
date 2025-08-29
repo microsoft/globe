@@ -46,7 +46,7 @@ extends:
               - checkout: self
                 persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
               - script: yarn
-                displayName: yarn
+                displayName: "yarn"
               - script: |
                   yarn ci
                 displayName: "Build package and run tests"
@@ -71,16 +71,47 @@ extends:
               # 6. ESRP Code signing
               - task: EsrpCodeSigning@5
                 displayName: "ESRP Code Signing"
-                condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+                condition: succeeded()
                 inputs:
-                  #To be filled in
+                  ConnectedServiceName: ${CodeSign.ConnectedServiceName}
+                  FolderPath: $(System.DefaultWorkingDirectory)/dist
+                  Pattern: "*.js,*.ts,*.json,*.d.ts"
+                  signConfigType: inlineSignParams
+                  inlineOperation: |
+                    [
+                      {
+                        "KeyCode" : ${CodeSign.KeyCode},
+                        "OperationCode" : "SignToolSign",
+                        "Parameters" : {},
+                        "ToolName" : "sign",
+                        "ToolVersion" : "1.0"
+                      }
+                    ]
+                  SessionTimeout: 60
+                  VerboseLogin: false
+                  AppRegistrationTenantId: ${CodeSign.AppRegistrationTenantId}
+                  AppRegistrationClientId: ${CodeSign.AppRegistrationClientId}
+                  AuthSignCertName: ${CodeSign.AuthSignCertName}
+                  EsrpClientId: ${CodeSign.EsrpClientId}
+                  AuthAKVName: ${CodeSign.AuthAKVName}
+                  UseMSIAuthentication: true
 
-              # 5. ESRP Release
+              # 7. ESRP Release
               - task: EsrpRelease@9
                 displayName: "ESRP Release to npm"
-                condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+                condition: succeeded()
                 inputs:
-                  #To be filled in
+                  connectedservicename: ${Release.ConnectedServiceName}
+                  usemanagedidentity: true
+                  keyvaultname: ${Release.KeyVaultName}
+                  signcertname: ${Release.SignCertName}
+                  clientid: ${Release.ClientId}
+                  contenttype: "npm"
+                  folderlocation: $(System.DefaultWorkingDirectory)
+                  owners: ${Release.Owners}
+                  approvers: ${Release.Approvers}
+                  mainpublisher: ESRPRELPACMAN
+                  domaintenantid: ${Release.DomainTenantId}
 
               # 8. SBOM generation
               - task: 1ES.PublishPipelineArtifact@1
