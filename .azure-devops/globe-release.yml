@@ -15,8 +15,6 @@ variables:
     value: production,externalfacing
   - name: serviceTreeID
     value: c3a0680e-4563-4c47-bce9-710df6e5485c
-  - name: adoNpmFeedBaseUrl
-    value: https://pkgs.dev.azure.com/domoreexp/_apis/packaging/feeds/npm-mirror
 
 extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
@@ -30,7 +28,7 @@ extends:
     stages:
       - stage: release
         variables:
-          # OPTIONAL: Set this varibale to 'true' to enable signing in a target stage.
+          # OPTIONAL: Set this variable to 'true' to enable signing in a target stage.
           # Remove if signing is not required.
           Build.ESRP.CodeSign.Enabled: true
           # OPTIONAL: To disable required tools not applicable in the pipeline set to false.
@@ -39,32 +37,91 @@ extends:
           Build.SDL.<ESLint>.Enabled: true
         jobs:
           - job: Release
-            variables:
-              - group: oss-secrets
             pool:
               name: Azure-Pipelines-1ESPT-ExDShared
               image: ubuntu-latest
               os: linux
             steps:
+              # 1. Setup and build
               - checkout: self
                 persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
               - script: yarn
-                displayName: yarn
+                displayName: "yarn"
               - script: |
                   yarn ci
-                displayName: build and test [test]
+                displayName: "Build package and run tests"
+
+              # 2. Git configuration
               - script: |
                   git config user.email "teams-globalization@microsoft.com"
                   git config user.name "Globalization Team Account"
-                displayName: Configure git for release
-              - script: yarn release -y -n $(ossNpmToken) --access public
-                displayName: Release to the npm registry
+                displayName: "Configure git for release"
+
+              # 3. Version bump with Beachball
+              - script: yarn bump -y
+                displayName: "Bump version with Beachball"
+
+              # 4. Publish build artifacts
+              - task: 1ES.PublishPipelineArtifact@1
+                displayName: "Publish built package"
+                inputs:
+                  artifactName: package-$(Build.BuildNumber)
+                  targetPath: $(System.DefaultWorkingDirectory)/dist
+
+              # 5. ESRP Code signing
+              - task: EsrpCodeSigning@5
+                displayName: "ESRP Code Signing"
+                condition: succeeded()
+                inputs:
+                  ConnectedServiceName: $(CodeSign.ConnectedServiceName)
+                  FolderPath: $(System.DefaultWorkingDirectory)/dist
+                  Pattern: "*.js,*.ts,*.json,*.d.ts"
+                  signConfigType: inlineSignParams
+                  inlineOperation: |
+                    [
+                      {
+                        "KeyCode" : $(CodeSign.KeyCode),
+                        "OperationCode" : "SignToolSign",
+                        "Parameters" : {},
+                        "ToolName" : "sign",
+                        "ToolVersion" : "1.0"
+                      }
+                    ]
+                  SessionTimeout: 60
+                  VerboseLogin: false
+                  AppRegistrationTenantId: $(CodeSign.AppRegistrationTenantId)
+                  AppRegistrationClientId: $(CodeSign.AppRegistrationClientId)
+                  AuthSignCertName: $(CodeSign.AuthSignCertName)
+                  EsrpClientId: $(CodeSign.EsrpClientId)
+                  AuthAKVName: $(CodeSign.AuthAKVName)
+                  UseMSIAuthentication: true
+
+              # 6. Generate npm package (.tgz)
+              - script: |
+                  mkdir -p $(System.DefaultWorkingDirectory)/packages
+                  npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
+                displayName: "Generate npm package (.tgz)"
+
+              # 7. ESRP Release
+              - task: EsrpRelease@9
+                displayName: "ESRP Release to npm"
+                condition: succeeded()
+                inputs:
+                  connectedservicename: $(Release.ConnectedServiceName)
+                  usemanagedidentity: true
+                  keyvaultname: $(Release.KeyVaultName)
+                  signcertname: $(Release.SignCertName)
+                  clientid: $(Release.ClientId)
+                  contenttype: "npm"
+                  folderlocation: $(System.DefaultWorkingDirectory)/packages
+                  owners: $(Release.Owners)
+                  approvers: $(Release.Approvers)
+                  mainpublisher: ESRPRELPACMAN
+                  domaintenantid: $(Release.DomainTenantId)
+
+              # 8. SBOM generation
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: 📒 Publish Manifest
                 inputs:
                   artifactName: SBom-$(System.JobAttempt)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
-              - template: .azure-devops/steps/pierce-ado-npm-mirror-cache.yml@self
-                parameters:
-                  adoNpmFeedPat: $(adoNpmFeedPat)
-                  adoNpmFeedBaseUrl: $(adoNpmFeedBaseUrl)

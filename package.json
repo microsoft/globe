@@ -20,7 +20,7 @@
     "beachball": "beachball -b origin/master",
     "change": "yarn beachball change",
     "checkchange": "yarn beachball check",
-    "release": "yarn beachball publish -t latest"
+    "bump": "yarn beachball publish --no-publish"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
@@ -47,6 +47,11 @@
   },
   "sideEffects": false,
   "access": "public",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "publishConfig": {
     "main": "./dist/index",
     "types": "./dist/index.d.ts",
