@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Updating dev depenencies and switch build to esm from cjs.",
-  "packageName": "@microsoft/globe",
-  "email": "liviudima@microsoft.com",
-  "dependentChangeType": "patch"
-}

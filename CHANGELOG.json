@@ -1,0 +1,20 @@
+{
+  "name": "@microsoft/globe",
+  "entries": [
+    {
+      "date": "Fri, 29 Aug 2025 17:42:31 GMT",
+      "version": "4.2.0",
+      "tag": "@microsoft/globe_v4.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "liviudima@microsoft.com",
+            "package": "@microsoft/globe",
+            "commit": "48203adbdff2275e1423054a76aec9c91f4fd6c9",
+            "comment": "Updating dev depenencies and switch build to esm from cjs."
+          }
+        ]
+      }
+    }
+  ]
+}
