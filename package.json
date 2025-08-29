@@ -47,6 +47,11 @@
   },
   "sideEffects": false,
   "access": "public",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "publishConfig": {
     "main": "./dist/index",
     "types": "./dist/index.d.ts",

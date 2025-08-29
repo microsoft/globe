@@ -96,6 +96,12 @@ extends:
                   AuthAKVName: ${CodeSign.AuthAKVName}
                   UseMSIAuthentication: true
 
+              # 6.5. Generate npm package (.tgz)
+              - script: |
+                  mkdir -p $(System.DefaultWorkingDirectory)/packages
+                  npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
+                displayName: "Generate npm package (.tgz)"
+
               # 7. ESRP Release
               - task: EsrpRelease@9
                 displayName: "ESRP Release to npm"
@@ -107,7 +113,7 @@ extends:
                   signcertname: ${Release.SignCertName}
                   clientid: ${Release.ClientId}
                   contenttype: "npm"
-                  folderlocation: $(System.DefaultWorkingDirectory)
+                  folderlocation: $(System.DefaultWorkingDirectory)/packages
                   owners: ${Release.Owners}
                   approvers: ${Release.Approvers}
                   mainpublisher: ESRPRELPACMAN
