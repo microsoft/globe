@@ -57,7 +57,7 @@ extends:
                   git config user.name "Globalization Team Account"
                 displayName: "Configure git for release"
 
-              # 4. Version bump with Beachball
+              # 3. Version bump with Beachball
               - script: yarn bump -y
                 displayName: "Bump version with Beachball"
 
