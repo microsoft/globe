@@ -20,7 +20,7 @@
     "beachball": "beachball -b origin/master",
     "change": "yarn beachball change",
     "checkchange": "yarn beachball check",
-    "bump": "yarn beachball publish --no-publish"
+    "bump": "yarn beachball bump"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
