@@ -15,9 +15,6 @@ variables:
     value: production,externalfacing
   - name: serviceTreeID
     value: c3a0680e-4563-4c47-bce9-710df6e5485c
-  # Set to 'true' to skip version check and always try to publish
-  - name: Release.SkipVersionCheck
-    value: false
 
 extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
