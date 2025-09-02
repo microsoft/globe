@@ -21,7 +21,7 @@ const dateTimeFormatter = new DateTimeFormatter(locale: string | ILocaleInfo);
 ```typescript
 type ILocaleInfo = {
   // Supported platform
-  platform: 'windows' | 'macos';
+  platform: "windows" | "macos";
 
   // OS date & time format settings (see below for OS support)
   regionalFormat: string; // e.g.: 'en-US'
@@ -51,7 +51,7 @@ provided! Most likely this will happen if you feed it the OS strings verbatim an
 the OS is configured with a custom date/time format string. If you don't desire
 this behavior, you can choose your own fallback (and telemetry) by wrapping the
 call to Globe and redoing it without OS-honoring support in case it fails with
-the *Unexpected format string* error.
+the _Unexpected format string_ error.
 
 ### OS Support
 
@@ -69,7 +69,7 @@ pattern:
   wraps the `window.getLocaleInfoAsync` function for you:
 
 ```typescript
-import { getLocaleInfoAsync } from '@microsoft/globe';
+import { getLocaleInfoAsync } from "@microsoft/globe";
 // Provide the supported platform name and obtain the OS locale settings
 const localeInfo = await getLocaleInfoAsync(/* 'windows` | 'macos' */);
 new DateTimeFormatter(localeInfo);
@@ -122,67 +122,99 @@ Build the package first: `npm run build`.
 There is a [GitHub Actions workflow](.github/workflows/main.yml) which runs the
 tests on every push to any branch.
 
-## GitHub Release Publishing
-
-GitHub Releases are made manually by @TomasHubelbauer at the moment.
-
 ## NPM Release Publishing
 
-Don't forget to build prior to cutting a release!
+NPM releases are automated through Azure DevOps pipeline.
 
-```sh
-# --tag=next pro pre-release (also include a pre-release tag in the version code)
-npm publish [--tag=next]
-# @microsoft/globe
-```
+### Standard Release Process
 
-Install the pre-release package using: `npm i @microsoft/globe@next`
+1. **Create a change file:**
 
-NPM Releases are made manually by @TomasHubelbauer at the moment.
+   ```sh
+   yarn change
+   ```
+
+   This creates a change file in the `/change` directory documenting your changes.
+
+2. **Bump the version:**
+
+   ```sh
+   yarn bump
+   ```
+
+   This uses Beachball to update the version in `package.json` and generate the changelog.
+
+3. **Commit and push:**
+
+   ```sh
+   git add .
+   git commit -m "Release: Bump version to x.x.x"
+   git push origin master
+   ```
+
+4. **Automatic publishing:**
+   - The Azure DevOps pipeline detects the version change
+   - Builds, signs, and publishes the package to npm automatically
+   - Only publishes if the version has been bumped
 
 ## Release Notes
 
 ### `4.1.4` 2024-02-14
+
 Add new format `MEDIUM_DATE_SHORT_TIME`
 
 ### `4.1.3` 2021-08-09
+
 Attempting to fix VDI issues on Electron
+
 ### `4.1.2` 2021-03-31
+
 Fixed 12 hours format for Windows
 
 ### `4.1.1` 2021-02-18
+
 Use for loops in an attempt to reduce memory consumption
 
 ### `4.1.0` 2021-02-03
+
 Use reducers in an attempt to reduce memory consumption (eliminate anonymous functions)
 Better checks for cases where time zone is not provided by default
 
 ### `4.0.0` 2020-11-10
+
 Use `hourCycle` for mac as it is supported in Electron 8
 
 ### `3.5.0` 2020-10-29
+
 Mac full date format
 
 ### `3.4.0` 2020-10-29
+
 Support quotes in format
 Support K and k tokens for mac
 
 ### `3.3.0` 2020-10-057
+
 Removed `SHORT_DATE_TIME_NO_YEAR`
 
 ### `3.2.0` 2020-10-05
+
 Add new format `SHORT_DATE_TIME_NO_YEAR`
 
 ### `3.1.0` 2020-09-08
+
 Add getLocaleInfoAsync to module export
 
 ### `3.0.1` 2020-09-04
+
 Improve error logging for unknown formats
 
 ### `3.0.0` 2020-07-22
+
 Avoid depending on Intl.DateTimeFormatParts which is not available in es5
 
 ### `2.8.1` 2020-07-20
+
 SafeDateTimeFormat with fallback to UTC if timezone is not detected or provided
 Use 0 instead of 24 for H and HH tokens
 
@@ -294,11 +326,6 @@ public consumption.
 
 Right now the tests are too rudimentary and are in JavaScript. Doing this will make it
 easier, faster and less error-prone to test the library.
-
-### Set up automated GitHub and NPM releases
-
-We don't cut releases too often, but this will still be useful to make the release
-process reproducible, reliable and consistent.
 
 ### Add more docs, especially around formatting based on OS date time settings
 
