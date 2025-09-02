@@ -81,7 +81,7 @@ extends:
 
                     # Friendly logging
                     if [ "$SHOULD_PUBLISH" = "true" ]; then
-                      echo "##vso[task.logissue type=success]✅ Version bumped from $BEFORE to $AFTER. Proceeding with release."
+                      echo "✅ Version bumped from $BEFORE to $AFTER. Proceeding with release."
                     else
                       echo "##vso[task.logissue type=warning]⚠️ No version change detected ($BEFORE). Skipping release steps."
                     fi
