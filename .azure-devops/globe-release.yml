@@ -15,6 +15,9 @@ variables:
     value: production,externalfacing
   - name: serviceTreeID
     value: c3a0680e-4563-4c47-bce9-710df6e5485c
+  # Set to 'true' to skip version check and always try to publish
+  - name: Release.SkipVersionCheck
+    value: false
 
 extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
@@ -51,19 +54,44 @@ extends:
                   yarn ci
                 displayName: "Build package and run tests"
 
-              # 2. Git configuration
+              # 2. Check if version has been bumped (git-based)
               - script: |
-                  git config user.email "teams-globalization@microsoft.com"
-                  git config user.name "Globalization Team Account"
-                displayName: "Configure git for release"
+                  set -e
 
-              # 3. Version bump with Beachball
-              - script: yarn bump -y
-                displayName: "Bump version with Beachball"
+                  # Check if version check should be skipped
+                  if [ "$(Release.SkipVersionCheck)" = "true" ]; then
+                    echo "⚠️ Version check is disabled via Release.SkipVersionCheck variable"
+                    echo "##vso[task.logissue type=warning]Skipping version check - SHOULD_PUBLISH will be set to true"
+                    echo "##vso[task.setvariable variable=SHOULD_PUBLISH]true"
+                    echo "shouldPublish=true (version check skipped)"
+                  else
+                    echo "Performing version check..."
+                    git fetch --no-tags --depth=2 origin $(Build.SourceBranchName)
+                    # Compare last commit vs its parent
+                    BEFORE=$(git show $(Build.SourceVersion)^:package.json | node -e "console.log(JSON.parse(require('fs').readFileSync(0,'utf8')).version)")
+                    AFTER=$(node -p "require('./package.json').version")
+
+                    SHOULD_PUBLISH=false
+                    if [ "$BEFORE" != "$AFTER" ]; then
+                      SHOULD_PUBLISH=true
+                    fi
+
+                    echo "From $BEFORE -> $AFTER ; shouldPublish=$SHOULD_PUBLISH"
+                    echo "##vso[task.setvariable variable=SHOULD_PUBLISH]$SHOULD_PUBLISH"
+
+                    # Friendly logging
+                    if [ "$SHOULD_PUBLISH" = "true" ]; then
+                      echo "##vso[task.logissue type=success]✅ Version bumped from $BEFORE to $AFTER. Proceeding with release."
+                    else
+                      echo "##vso[task.logissue type=warning]⚠️ No version change detected ($BEFORE). Skipping release steps."
+                    fi
+                  fi
+                displayName: "Package version check"
 
               # 4. Publish build artifacts
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "Publish built package"
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
                 inputs:
                   artifactName: package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
@@ -71,7 +99,7 @@ extends:
               # 5. ESRP Code signing
               - task: EsrpCodeSigning@5
                 displayName: "ESRP Code Signing"
-                condition: succeeded()
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
                 inputs:
                   ConnectedServiceName: $(CodeSign.ConnectedServiceName)
                   FolderPath: $(System.DefaultWorkingDirectory)/dist
@@ -101,11 +129,12 @@ extends:
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
                   npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
                 displayName: "Generate npm package (.tgz)"
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
 
               # 7. ESRP Release
               - task: EsrpRelease@9
                 displayName: "ESRP Release to npm"
-                condition: succeeded()
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
                 inputs:
                   connectedservicename: $(Release.ConnectedServiceName)
                   usemanagedidentity: true
@@ -122,6 +151,19 @@ extends:
               # 8. SBOM generation
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: 📒 Publish Manifest
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
                 inputs:
                   artifactName: SBom-$(System.JobAttempt)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
+
+              # 9. Skip message
+              - script: |
+                  echo "##[section]🔄 No version bump detected"
+                  echo "##[warning]The package version has not been bumped since the last release."
+                  echo "##[warning]To publish a new version:"
+                  echo "##[warning]1. Run 'yarn change' to create a change file"
+                  echo "##[warning]2. Run 'yarn bump' to bump the version"
+                  echo "##[warning]3. Commit and push the changes"
+                  echo "##[warning]4. Re-run this pipeline"
+                displayName: "Version not bumped - Skip publishing"
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'false'))
