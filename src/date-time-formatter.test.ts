@@ -187,6 +187,54 @@ describe("date-time-format-options", () => {
       );
     });
 
+    it("uses mac B format", () => {
+      const localeInfo = {
+        platform: "macos",
+        regionalFormat: "zh-Hant-Tw",
+        shortTime: "Bh:mm",
+        longTime: "Bh:mm",
+      } as ILocaleInfo;
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      const dateAM = new Date(2020, 1, 1, 11, 39, 0);
+      expect(dateTimeFormatter.formatDateTime(dateAM, SHORT_TIME)).toBe(
+        "上午11:39"
+      );
+      expect(dateTimeFormatter.formatDateTime(dateAM, LONG_TIME)).toBe(
+        "上午11:39"
+      );
+      const datePM = new Date(2020, 1, 1, 15, 39, 0);
+      expect(dateTimeFormatter.formatDateTime(datePM, SHORT_TIME)).toBe(
+        "下午3:39"
+      );
+      expect(dateTimeFormatter.formatDateTime(datePM, LONG_TIME)).toBe(
+        "下午3:39"
+      );
+    });
+
+    it("uses mac b format", () => {
+      const localeInfo = {
+        platform: "macos",
+        regionalFormat: "zh-Hant-Tw",
+        shortTime: "bh:mm",
+        longTime: "bh:mm",
+      } as ILocaleInfo;
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      const dateAM = new Date(2020, 1, 1, 11, 39, 0);
+      expect(dateTimeFormatter.formatDateTime(dateAM, SHORT_TIME)).toBe(
+        "上午11:39"
+      );
+      expect(dateTimeFormatter.formatDateTime(dateAM, LONG_TIME)).toBe(
+        "上午11:39"
+      );
+      const datePM = new Date(2020, 1, 1, 15, 39, 0);
+      expect(dateTimeFormatter.formatDateTime(datePM, SHORT_TIME)).toBe(
+        "下午3:39"
+      );
+      expect(dateTimeFormatter.formatDateTime(datePM, LONG_TIME)).toBe(
+        "下午3:39"
+      );
+    });
+
     it("uses time zone in mask correctly", () => {
       const localeInfo = {
         platform: "macos",
