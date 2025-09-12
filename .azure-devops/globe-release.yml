@@ -105,9 +105,15 @@ extends:
                   inlineOperation: |
                     [
                       {
-                        "KeyCode" : $(CodeSign.KeyCode),
+                        "KeyCode" : "$(CodeSign.KeyCode)",
                         "OperationCode" : "SignToolSign",
-                        "Parameters" : {},
+                        "Parameters" : {
+                          "OpusName": "Microsoft",
+                          "OpusInfo": "https://www.microsoft.com",
+                          "FileDigest": "/fd SHA256",
+                          "PageHash": "/NPH",
+                          "TimeStamp": "/tr \"$(CodeSign.TimeStampServer)\" /td sha256"
+                        },
                         "ToolName" : "sign",
                         "ToolVersion" : "1.0"
                       }
