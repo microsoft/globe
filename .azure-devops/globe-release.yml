@@ -30,7 +30,7 @@ extends:
         variables:
           # OPTIONAL: Set this variable to 'true' to enable signing in a target stage.
           # Remove if signing is not required.
-          Build.ESRP.CodeSign.Enabled: true
+          Build.ESRP.CodeSign.Enabled: false
           # OPTIONAL: To disable required tools not applicable in the pipeline set to false.
           # Supported values: BinSkim, Roslyn, ESLint, PREFast.
           Build.SDL.<Roslyn>.Enabled: false
@@ -93,48 +93,14 @@ extends:
                   artifactName: package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
 
-              # 5. ESRP Code signing
-              - task: EsrpCodeSigning@5
-                displayName: "ESRP Code Signing"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
-                inputs:
-                  ConnectedServiceName: $(CodeSign.ConnectedServiceName)
-                  FolderPath: $(System.DefaultWorkingDirectory)/dist
-                  Pattern: "*.js,*.ts,*.json,*.d.ts"
-                  signConfigType: inlineSignParams
-                  inlineOperation: |
-                    [
-                      {
-                        "KeyCode" : "$(CodeSign.KeyCode)",
-                        "OperationCode" : "SignToolSign",
-                        "Parameters" : {
-                          "OpusName": "Microsoft",
-                          "OpusInfo": "https://www.microsoft.com",
-                          "FileDigest": "/fd SHA256",
-                          "PageHash": "/NPH",
-                          "TimeStamp": "/tr \"$(CodeSign.TimeStampServer)\" /td sha256"
-                        },
-                        "ToolName" : "sign",
-                        "ToolVersion" : "1.0"
-                      }
-                    ]
-                  SessionTimeout: 60
-                  VerboseLogin: false
-                  AppRegistrationTenantId: $(CodeSign.AppRegistrationTenantId)
-                  AppRegistrationClientId: $(CodeSign.AppRegistrationClientId)
-                  AuthSignCertName: $(CodeSign.AuthSignCertName)
-                  EsrpClientId: $(CodeSign.EsrpClientId)
-                  AuthAKVName: $(CodeSign.AuthAKVName)
-                  UseMSIAuthentication: true
-
-              # 6. Generate npm package (.tgz)
+              # 5. Generate npm package (.tgz)
               - script: |
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
                   npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
                 displayName: "Generate npm package (.tgz)"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
 
-              # 7. ESRP Release
+              # 6. ESRP Release
               - task: EsrpRelease@9
                 displayName: "ESRP Release to npm"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
@@ -151,7 +117,7 @@ extends:
                   mainpublisher: ESRPRELPACMAN
                   domaintenantid: $(Release.DomainTenantId)
 
-              # 8. SBOM generation
+              # 7. SBOM generation
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: 📒 Publish Manifest
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
@@ -159,7 +125,7 @@ extends:
                   artifactName: SBom-$(System.JobAttempt)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
 
-              # 9. Skip message
+              # 8. Skip message
               - script: |
                   echo "##[section]🔄 No version bump detected"
                   echo "##[warning]The package version has not been bumped since the last release."
