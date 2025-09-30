@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Update supported locales and formats in regional formats tests",
-  "packageName": "@microsoft/globe",
-  "email": "ligia.e.popescu@gmail.com",
-  "dependentChangeType": "patch"
-}

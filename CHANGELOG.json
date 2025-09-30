@@ -2,6 +2,21 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Tue, 30 Sep 2025 14:37:26 GMT",
+      "version": "4.2.1",
+      "tag": "@microsoft/globe_v4.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "ligia.e.popescu@gmail.com",
+            "package": "@microsoft/globe",
+            "commit": "fb32124b57403d34a218cd36228bcb388195bfc5",
+            "comment": "Add support for CLDR day period identifier"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 02 Sep 2025 11:46:06 GMT",
       "version": "4.2.0",
       "tag": "@microsoft/globe_v4.2.0",
