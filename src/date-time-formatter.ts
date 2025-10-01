@@ -55,6 +55,14 @@ export class DateTimeFormatter {
    * @param locale The desired locale to which to format the date and time value (default: en-US)
    */
   constructor(private locale: string | ILocaleInfo = "en-US") {}
+  
+  /**
+   * Resets the formatter and clears the cached date/time formats
+   **/
+  public resetFormatter() {
+    this.formatter = undefined;
+    this.cachedDateTimeFormat.reset();
+  }
 
   /**
    * Localizes the date/time value
