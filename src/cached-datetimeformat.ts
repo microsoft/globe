@@ -21,4 +21,11 @@ export class CachedDateTimeFormat {
 
     return dtf;
   }
+
+/**
+ * Clears the cache of stored Intl.DateTimeFormat instances.
+ **/
+  public reset() {
+    this.localeFormatCache.clear();
+  }
 }
