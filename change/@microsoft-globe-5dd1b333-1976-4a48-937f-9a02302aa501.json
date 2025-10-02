@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "bump version to include formatters",
+  "packageName": "@microsoft/globe",
+  "email": "ravasili@microsoft.com_msteamsmdb",
+  "dependentChangeType": "patch"
+}
