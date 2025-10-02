@@ -10,10 +10,8 @@ Thu, 02 Oct 2025 10:33:04 GMT
 
 ### Minor changes
 
-- bump version (ravasili@microsoft.com_msteamsmdb)
-- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
-- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
-- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
+- Adding the possibility to reset the cached dateFormatters and to clear the localeCache format (ravasili@microsoft.com_msteamsmdb)
+
 
 ## 4.2.1
 
