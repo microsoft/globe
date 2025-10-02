@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "bump version",
-  "packageName": "@microsoft/globe",
-  "email": "ravasili@microsoft.com_msteamsmdb",
-  "dependentChangeType": "patch"
-}

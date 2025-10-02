@@ -1,8 +1,19 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Tue, 30 Sep 2025 14:37:26 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 02 Oct 2025 10:33:04 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.3.0
+
+Thu, 02 Oct 2025 10:33:04 GMT
+
+### Minor changes
+
+- bump version (ravasili@microsoft.com_msteamsmdb)
+- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
+- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
+- bump version to include formatters (ravasili@microsoft.com_msteamsmdb)
 
 ## 4.2.1
 

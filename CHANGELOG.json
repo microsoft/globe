@@ -2,6 +2,39 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Thu, 02 Oct 2025 10:33:04 GMT",
+      "version": "4.3.0",
+      "tag": "@microsoft/globe_v4.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "ravasili@microsoft.com_msteamsmdb",
+            "package": "@microsoft/globe",
+            "commit": "c64fb7df95ad9905cdc2624469477b82b858e85f",
+            "comment": "bump version"
+          },
+          {
+            "author": "ravasili@microsoft.com_msteamsmdb",
+            "package": "@microsoft/globe",
+            "commit": "26e90d27a8f0ae8768ad321750a33387bc1de3cf",
+            "comment": "bump version to include formatters"
+          },
+          {
+            "author": "ravasili@microsoft.com_msteamsmdb",
+            "package": "@microsoft/globe",
+            "commit": "c2bba0eaaf891fac930155d8d1995a347407c462",
+            "comment": "bump version to include formatters"
+          },
+          {
+            "author": "ravasili@microsoft.com_msteamsmdb",
+            "package": "@microsoft/globe",
+            "commit": "e2830ca4fabdd931b01f0effd7530d203901fb95",
+            "comment": "bump version to include formatters"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 30 Sep 2025 14:37:26 GMT",
       "version": "4.2.1",
       "tag": "@microsoft/globe_v4.2.1",
