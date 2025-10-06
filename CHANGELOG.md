@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Thu, 02 Oct 2025 10:33:04 GMT and should not be manually modified. -->
+<!-- This log was last generated on Mon, 06 Oct 2025 10:55:31 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.3.1
+
+Mon, 06 Oct 2025 10:55:31 GMT
+
+### Patches
+
+- Update package.json to correct main and types paths (ligia.e.popescu@gmail.com)
 
 ## 4.3.0
 
