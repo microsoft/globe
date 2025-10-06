@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Update package.json to correct main and types paths",
+  "packageName": "@microsoft/globe",
+  "email": "ligia.e.popescu@gmail.com",
+  "dependentChangeType": "patch"
+}
