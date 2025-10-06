@@ -4,7 +4,8 @@
   "description": "Globalization Service",
   "author": "Microsoft",
   "license": "MIT",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/globe.git"
@@ -53,7 +54,7 @@
     "LICENSE"
   ],
   "publishConfig": {
-    "main": "./dist/index",
+    "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "exports": {
       ".": {
