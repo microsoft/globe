@@ -1,7 +1,5 @@
 name: main
 on: push
-permissions:
-  contents: read
 jobs:
   main:
     runs-on: macOS-latest
