@@ -1,13 +1,15 @@
 name: main
 on: push
+permissions:
+  contents: read
 jobs:
   main:
     runs-on: macOS-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Run build and test
-      run: |
-        set -x
-        npm install
-        npm run build
-        npm test
+      - uses: actions/checkout@v1
+      - name: Run build and test
+        run: |
+          set -x
+          npm install
+          npm run build
+          npm test
