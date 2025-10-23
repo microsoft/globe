@@ -37,10 +37,14 @@ extends:
           Build.SDL.<ESLint>.Enabled: true
         jobs:
           - job: Release
+            displayName: Globe Package Release
             pool:
               name: Azure-Pipelines-1ESPT-ExDShared
               image: ubuntu-latest
               os: linux
+            templateContext:
+              type: releaseJob
+              isProduction: true
             steps:
               # 1. Setup and build
               - checkout: self
