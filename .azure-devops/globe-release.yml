@@ -50,9 +50,6 @@ extends:
                 - output: pipelineArtifact
                   targetPath: $(System.DefaultWorkingDirectory)/packages
                   artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
-                - output: pipelineArtifact
-                  targetPath: $(System.DefaultWorkingDirectory)/_manifest
-                  artifactName: SBom-$(Build.BuildId)-$(Build.BuildNumber)
             steps:
               # 1. Setup and build
               - checkout: self
