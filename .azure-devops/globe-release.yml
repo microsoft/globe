@@ -36,15 +36,20 @@ extends:
           Build.SDL.<Roslyn>.Enabled: false
           Build.SDL.<ESLint>.Enabled: true
         jobs:
-          - job: Release
-            displayName: Globe Package Release
+          - job: Build
+            displayName: Build Globe Package
             pool:
               name: Azure-Pipelines-1ESPT-ExDShared
               image: ubuntu-latest
               os: linux
             templateContext:
-              type: releaseJob
-              isProduction: true
+              outputs:
+                - output: pipelineArtifact
+                  targetPath: $(System.DefaultWorkingDirectory)/dist
+                  artifactName: package-$(Build.BuildNumber)
+                - output: pipelineArtifact
+                  targetPath: $(System.DefaultWorkingDirectory)/packages
+                  artifactName: npm-package-$(Build.BuildNumber)
             steps:
               # 1. Setup and build
               - checkout: self
@@ -65,6 +70,7 @@ extends:
                     echo "##vso[task.logissue type=warning]Skipping version check - SHOULD_PUBLISH will be set to true"
                     echo "##vso[task.setvariable variable=SHOULD_PUBLISH]true"
                     echo "shouldPublish=true (version check skipped)"
+                    echo "##vso[task.setvariable variable=SHOULD_PUBLISH;isOutput=true]true"
                   else
                     echo "Performing version check..."
                     git fetch --no-tags --depth=2 origin $(Build.SourceBranchName)
@@ -79,6 +85,7 @@ extends:
 
                     echo "From $BEFORE -> $AFTER ; shouldPublish=$SHOULD_PUBLISH"
                     echo "##vso[task.setvariable variable=SHOULD_PUBLISH]$SHOULD_PUBLISH"
+                    echo "##vso[task.setvariable variable=SHOULD_PUBLISH;isOutput=true]$SHOULD_PUBLISH"
 
                     # Friendly logging
                     if [ "$SHOULD_PUBLISH" = "true" ]; then
@@ -88,8 +95,9 @@ extends:
                     fi
                   fi
                 displayName: "Package version check"
+                name: versionCheck
 
-              # 4. Publish build artifacts
+              # 3. Publish build artifacts
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "Publish built package"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
@@ -97,39 +105,30 @@ extends:
                   artifactName: package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
 
-              # 5. Generate npm package (.tgz)
+              # 4. Generate npm package (.tgz)
               - script: |
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
                   npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
                 displayName: "Generate npm package (.tgz)"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
 
-              # 6. ESRP Release
-              - task: EsrpRelease@9
-                displayName: "ESRP Release to npm"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
-                inputs:
-                  connectedservicename: $(Release.ConnectedServiceName)
-                  usemanagedidentity: true
-                  keyvaultname: $(Release.KeyVaultName)
-                  signcertname: $(Release.SignCertName)
-                  clientid: $(Release.ClientId)
-                  contenttype: "npm"
-                  folderlocation: $(System.DefaultWorkingDirectory)/packages
-                  owners: $(Release.Owners)
-                  approvers: $(Release.Approvers)
-                  mainpublisher: ESRPRELPACMAN
-                  domaintenantid: $(Release.DomainTenantId)
-
-              # 7. SBOM generation
+              # 5. Publish npm package artifact
               - task: 1ES.PublishPipelineArtifact@1
-                displayName: 📒 Publish Manifest
+                displayName: "Publish npm package"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
                 inputs:
-                  artifactName: SBom-$(System.JobAttempt)
+                  artifactName: npm-package-$(Build.BuildNumber)
+                  targetPath: $(System.DefaultWorkingDirectory)/packages
+
+              # 6. Generate SBOM
+              - task: 1ES.PublishPipelineArtifact@1
+                displayName: "📒 Publish SBOM Manifest"
+                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
+                inputs:
+                  artifactName: SBom-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
 
-              # 8. Skip message
+              # 7. Skip message
               - script: |
                   echo "##[section]🔄 No version bump detected"
                   echo "##[warning]The package version has not been bumped since the last release."
@@ -140,3 +139,35 @@ extends:
                   echo "##[warning]4. Re-run this pipeline"
                 displayName: "Version not bumped - Skip publishing"
                 condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'false'))
+
+          - job: Release
+            displayName: Globe Package Release
+            dependsOn: Build
+            condition: and(succeeded(), eq(dependencies.Build.outputs['versionCheck.SHOULD_PUBLISH'], 'true'))
+            pool:
+              name: Azure-Pipelines-1ESPT-ExDShared
+              image: ubuntu-latest
+              os: linux
+            templateContext:
+              type: releaseJob
+              isProduction: true
+              inputs:
+                - input: pipelineArtifact
+                  artifactName: npm-package-$(Build.BuildNumber)
+                  targetPath: $(Pipeline.Workspace)/packages
+            steps:
+              # ESRP Release
+              - task: EsrpRelease@9
+                displayName: "ESRP Release to npm"
+                inputs:
+                  connectedservicename: $(Release.ConnectedServiceName)
+                  usemanagedidentity: true
+                  keyvaultname: $(Release.KeyVaultName)
+                  signcertname: $(Release.SignCertName)
+                  clientid: $(Release.ClientId)
+                  contenttype: "npm"
+                  folderlocation: $(Pipeline.Workspace)/packages
+                  owners: $(Release.Owners)
+                  approvers: $(Release.Approvers)
+                  mainpublisher: ESRPRELPACMAN
+                  domaintenantid: $(Release.DomainTenantId)
