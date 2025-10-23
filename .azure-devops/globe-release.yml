@@ -73,7 +73,7 @@ extends:
                     echo "##vso[task.setvariable variable=SHOULD_PUBLISH;isOutput=true]true"
                   else
                     echo "Performing version check..."
-                    git fetch --no-tags --depth=2 origin $(Build.SourceBranchName)
+                    git fetch --no-tags --depth=2 origin $(Build.SourceBranch)
                     # Compare last commit vs its parent
                     BEFORE=$(git show $(Build.SourceVersion)^:package.json | node -e "console.log(JSON.parse(require('fs').readFileSync(0,'utf8')).version)")
                     AFTER=$(node -p "require('./package.json').version")
