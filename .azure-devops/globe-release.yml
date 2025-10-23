@@ -50,6 +50,9 @@ extends:
                 - output: pipelineArtifact
                   targetPath: $(System.DefaultWorkingDirectory)/packages
                   artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
+                - output: pipelineArtifact
+                  targetPath: $(System.DefaultWorkingDirectory)/_manifest
+                  artifactName: SBom-$(Build.BuildId)-$(Build.BuildNumber)
             steps:
               # 1. Setup and build
               - checkout: self
@@ -97,14 +100,6 @@ extends:
                 displayName: "Package version check"
                 name: versionCheck
 
-              # 3. Publish build artifacts
-              - task: 1ES.PublishPipelineArtifact@1
-                displayName: "Publish built package"
-                condition: succeeded()
-                inputs:
-                  artifactName: package-$(Build.BuildId)-$(Build.BuildNumber)
-                  targetPath: $(System.DefaultWorkingDirectory)/dist
-
               # 4. Generate npm package (.tgz)
               - script: |
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
@@ -112,23 +107,7 @@ extends:
                 displayName: "Generate npm package (.tgz)"
                 condition: succeeded()
 
-              # 5. Publish npm package artifact
-              - task: 1ES.PublishPipelineArtifact@1
-                displayName: "Publish npm package"
-                condition: succeeded()
-                inputs:
-                  artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
-                  targetPath: $(System.DefaultWorkingDirectory)/packages
-
-              # 6. Generate SBOM
-              - task: 1ES.PublishPipelineArtifact@1
-                displayName: "📒 Publish SBOM Manifest"
-                condition: succeeded()
-                inputs:
-                  artifactName: SBom-$(Build.BuildId)-$(Build.BuildNumber)
-                  targetPath: $(System.DefaultWorkingDirectory)/_manifest
-
-              # 7. Skip message
+              # 6. Skip message
               - script: |
                   echo "##[section]🔄 No version bump detected"
                   echo "##[warning]The package version has not been bumped since the last release."
