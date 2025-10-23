@@ -46,10 +46,10 @@ extends:
               outputs:
                 - output: pipelineArtifact
                   targetPath: $(System.DefaultWorkingDirectory)/dist
-                  artifactName: package-$(Build.BuildNumber)
+                  artifactName: package-$(Build.BuildId)-$(Build.BuildNumber)
                 - output: pipelineArtifact
                   targetPath: $(System.DefaultWorkingDirectory)/packages
-                  artifactName: npm-package-$(Build.BuildNumber)
+                  artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
             steps:
               # 1. Setup and build
               - checkout: self
@@ -102,7 +102,7 @@ extends:
                 displayName: "Publish built package"
                 condition: succeeded()
                 inputs:
-                  artifactName: package-$(Build.BuildNumber)
+                  artifactName: package-$(Build.BuildId)-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
 
               # 4. Generate npm package (.tgz)
@@ -117,7 +117,7 @@ extends:
                 displayName: "Publish npm package"
                 condition: succeeded()
                 inputs:
-                  artifactName: npm-package-$(Build.BuildNumber)
+                  artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/packages
 
               # 6. Generate SBOM
@@ -125,7 +125,7 @@ extends:
                 displayName: "📒 Publish SBOM Manifest"
                 condition: succeeded()
                 inputs:
-                  artifactName: SBom-$(Build.BuildNumber)
+                  artifactName: SBom-$(Build.BuildId)-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
 
               # 7. Skip message
@@ -153,7 +153,7 @@ extends:
               isProduction: true
               inputs:
                 - input: pipelineArtifact
-                  artifactName: npm-package-$(Build.BuildNumber)
+                  artifactName: npm-package-$(Build.BuildId)-$(Build.BuildNumber)
                   targetPath: $(Pipeline.Workspace)/packages
             steps:
               # ESRP Release
