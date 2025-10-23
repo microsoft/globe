@@ -100,7 +100,7 @@ extends:
               # 3. Publish build artifacts
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "Publish built package"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
+                condition: succeeded()
                 inputs:
                   artifactName: package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/dist
@@ -110,12 +110,12 @@ extends:
                   mkdir -p $(System.DefaultWorkingDirectory)/packages
                   npm pack --pack-destination $(System.DefaultWorkingDirectory)/packages
                 displayName: "Generate npm package (.tgz)"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
+                condition: succeeded()
 
               # 5. Publish npm package artifact
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "Publish npm package"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
+                condition: succeeded()
                 inputs:
                   artifactName: npm-package-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/packages
@@ -123,7 +123,7 @@ extends:
               # 6. Generate SBOM
               - task: 1ES.PublishPipelineArtifact@1
                 displayName: "📒 Publish SBOM Manifest"
-                condition: and(succeeded(), eq(variables['SHOULD_PUBLISH'], 'true'))
+                condition: succeeded()
                 inputs:
                   artifactName: SBom-$(Build.BuildNumber)
                   targetPath: $(System.DefaultWorkingDirectory)/_manifest
