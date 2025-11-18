@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Refactor release pipeline to separate build and release jobs",
-  "packageName": "@microsoft/globe",
-  "email": "ligia.e.popescu@gmail.com",
-  "dependentChangeType": "patch"
-}

@@ -1,8 +1,20 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Mon, 06 Oct 2025 10:55:31 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 18 Nov 2025 22:33:18 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.4.0
+
+Tue, 18 Nov 2025 22:33:18 GMT
+
+### Minor changes
+
+- adding timezone to datetime options (mmengen@microsoft.com)
+
+### Patches
+
+- Refactor release pipeline to separate build and release jobs (ligia.e.popescu@gmail.com)
 
 ## 4.3.1
 
