@@ -127,6 +127,7 @@ export type DateTimeFormatOptions =
   | ShortDateTime
   | ShortDateWithShortYear
   | ShortDateLongTime
+  | ShortTimeZoneName
   | LongDate
   | LongDateWithYear
   | LongWithYearTimeZone
@@ -190,6 +191,8 @@ export const SHORT_DATE_WITH_SHORT_YEAR: ShortDateWithShortYear = {
   month: 'numeric',
   year: '2-digit'
 };
+
+export const SHORT_TIME_ZONE_NAME: ShortTimeZoneName = { timeZoneName: 'short' };
 
 export const LONG_DATE: LongDate = { day: 'numeric', month: 'long' };
 

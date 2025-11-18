@@ -34,6 +34,7 @@ import {
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
   SHORT_TIME,
+  SHORT_TIME_ZONE_NAME,
   SHORT_WEEKDAY,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
@@ -145,6 +146,9 @@ export class DateTimeFormatter {
         const d = this.formatter.dateToString(date, localeInfo.shortDate);
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
         return this.combineDateAndTime(d, t);
+      }
+      case SHORT_TIME_ZONE_NAME: {
+        return this.formatter?.getTimeZoneName(date, format);
       }
       case HOUR_ONLY: {
         if (!localeInfo.shortTime) {

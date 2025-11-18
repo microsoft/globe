@@ -1,20 +1,20 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_TIME 1`] = `"٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
@@ -26,35 +26,37 @@ exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى, ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"١٥/٠١/٢٠"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥/٠١/٢٠"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥/٠١/٢٠"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME 1`] = `"٠١:٣٠ م"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY 1`] = `"الأربعاء"`;
 
@@ -62,7 +64,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - FULL 1`] = `"15 yanvar 2020, çərşənbə 13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -119,6 +121,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az -
 exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - SHORT_WEEKDAY 1`] = `"Ç."`;
 
@@ -184,6 +188,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -247,6 +253,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ca-es - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting ca-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es - SHORT_WEEKDAY 1`] = `"dc."`;
 
@@ -312,6 +320,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ca-es-valenc
 
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_WEEKDAY 1`] = `"dc."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_WEEKDAY_LONG_TIME 1`] = `"dc., 13:30:45"`;
@@ -375,6 +385,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting cs-cz - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting cs-cz - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting cs-cz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting cs-cz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting cs-cz - SHORT_WEEKDAY 1`] = `"st"`;
 
@@ -440,6 +452,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting cy-gb - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting cy-gb - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting cy-gb - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting cy-gb - SHORT_WEEKDAY 1`] = `"Mer"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting cy-gb - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mer, 13:30:45"`;
@@ -503,6 +517,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting da-dk - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting da-dk - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting da-dk - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting da-dk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting da-dk - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -568,6 +584,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting de-at - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-at - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting de-at - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting de-at - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-at - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -631,6 +649,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting de-ch - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting de-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting de-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-ch - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -696,6 +716,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting de-de - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-de - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting de-de - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting de-de - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-de - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -759,6 +781,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting de-li - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting de-li - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-li - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting de-li - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-li - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -824,6 +848,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting de-lu - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-lu - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting de-lu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting de-lu - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting de-lu - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -887,6 +913,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-029 - SHO
 exports[`Cldr Regional Formats > Regional settings based formatting en-029 - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-029 - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-029 - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-029 - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -952,6 +980,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-au - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-au - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-au - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-au - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-au - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -1015,6 +1045,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-bz - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-bz - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-bz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-bz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-bz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1080,6 +1112,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-ca - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ca - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-ca - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-ca - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 p.m."`;
@@ -1143,6 +1177,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-gb - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-gb - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-gb - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-gb - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-gb - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1208,6 +1244,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-ie - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ie - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-ie - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-ie - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ie - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 13:30:45"`;
@@ -1271,6 +1309,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-in - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-in - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-in - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-in - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-in - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1336,6 +1376,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-jm - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-jm - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-jm - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-jm - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-jm - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -1399,6 +1441,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-my - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-my - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-my - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-my - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-my - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1464,6 +1508,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-nz - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-nz - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-nz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-nz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-nz - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -1527,6 +1573,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-ph - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-ph - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ph - SHORT_TIME 1`] = `"1:30 PM"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-ph - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ph - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1592,6 +1640,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-sg - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-sg - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-sg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-sg - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-sg - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -1655,6 +1705,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-tt - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-tt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-tt - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-tt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-tt - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1720,6 +1772,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-us - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-us - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-us - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 PM"`;
@@ -1783,6 +1837,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-za - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting en-za - SHORT_DATE_WITH_YEAR 1`] = `"2020/01/15"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-za - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting en-za - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-za - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -1848,6 +1904,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-zw - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-zw - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting en-zw - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting en-zw - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-zw - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 13:30:45"`;
@@ -1911,6 +1969,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-ar - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-ar - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ar - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-ar - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ar - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -1976,6 +2036,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-bo - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-bo - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-bo - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-bo - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-bo - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2039,6 +2101,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-cl - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-cl - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-cl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-cl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-cl - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2104,6 +2168,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-co - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-co - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-co - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-co - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-co - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -2167,6 +2233,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-cr - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-cr - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-cr - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-cr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-cr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2232,6 +2300,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-do - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-do - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-do - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-do - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-do - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -2295,6 +2365,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-ec - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-ec - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ec - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-ec - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ec - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2360,6 +2432,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-es - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-es - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-es - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-es - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2423,6 +2497,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-gt - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-gt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-gt - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-gt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-gt - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2488,6 +2564,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-hn - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-hn - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-hn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-hn - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-hn - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2551,6 +2629,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-mx - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-mx - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-mx - SHORT_TIME 1`] = `"01:30 p.m."`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-mx - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-mx - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2616,6 +2696,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-ni - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ni - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-ni - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-ni - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ni - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2679,6 +2761,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-pa - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-pa - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pa - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-pa - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pa - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2744,6 +2828,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-pe - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pe - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-pe - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-pe - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pe - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2807,6 +2893,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-pr - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-pr - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pr - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-pr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-pr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -2872,6 +2960,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-py - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-py - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-py - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-py - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-py - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -2935,6 +3025,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-sv - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-sv - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-sv - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-sv - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-sv - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -3000,6 +3092,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-us - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-us - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-us - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-us - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p.m."`;
@@ -3063,6 +3157,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-uy - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting es-uy - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-uy - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting es-uy - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-uy - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -3128,6 +3224,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting es-ve - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ve - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting es-ve - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting es-ve - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting es-ve - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -3192,6 +3290,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting et-ee - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting et-ee - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting et-ee - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting et-ee - SHORT_WEEKDAY 1`] = `"K"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting et-ee - SHORT_WEEKDAY_LONG_TIME 1`] = `"K, 13:30:45"`;
@@ -3234,7 +3334,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik., 13.30"`;
+exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1., 13.30"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
@@ -3255,6 +3355,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - SHORT_TIME 1`] = `"13.30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - SHORT_WEEKDAY 1`] = `"ke"`;
 
@@ -3320,6 +3422,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fil-ph - SHO
 
 exports[`Cldr Regional Formats > Regional settings based formatting fil-ph - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting fil-ph - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting fil-ph - SHORT_WEEKDAY 1`] = `"Miy"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fil-ph - SHORT_WEEKDAY_LONG_TIME 1`] = `"Miy, 1:30:45 PM"`;
@@ -3383,6 +3487,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-be - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting fr-be - SHORT_DATE_WITH_YEAR 1`] = `"15-01-20"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-be - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting fr-be - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-be - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -3448,6 +3554,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -3511,6 +3619,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-ch - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting fr-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ch - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -3576,6 +3686,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-fr - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-fr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting fr-fr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting fr-fr - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-fr - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -3639,6 +3751,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-lu - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting fr-lu - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-lu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting fr-lu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-lu - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -3704,6 +3818,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-mc - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-mc - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting fr-mc - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting fr-mc - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-mc - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -3767,6 +3883,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting gl-es - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting gl-es - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting gl-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting gl-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting gl-es - SHORT_WEEKDAY 1`] = `"mér."`;
 
@@ -3832,6 +3950,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting he-il - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting he-il - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting he-il - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting he-il - SHORT_WEEKDAY 1`] = `"יום ד׳"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting he-il - SHORT_WEEKDAY_LONG_TIME 1`] = `"יום ד׳, 13:30:45"`;
@@ -3895,6 +4015,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting hi-in - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting hi-in - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hi-in - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting hi-in - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hi-in - SHORT_WEEKDAY 1`] = `"बुध"`;
 
@@ -3960,6 +4082,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - SHORT_WEEKDAY 1`] = `"sri"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - SHORT_WEEKDAY_LONG_TIME 1`] = `"sri, 13:30:45"`;
@@ -4023,6 +4147,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting hu-hu - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting hu-hu - SHORT_DATE_WITH_YEAR 1`] = `"2020. 01. 15."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hu-hu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting hu-hu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hu-hu - SHORT_WEEKDAY 1`] = `"Sze"`;
 
@@ -4088,6 +4214,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting id-id - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting id-id - SHORT_TIME 1`] = `"13.30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting id-id - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting id-id - SHORT_WEEKDAY 1`] = `"Rab"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting id-id - SHORT_WEEKDAY_LONG_TIME 1`] = `"Rab, 13.30.45"`;
@@ -4151,6 +4279,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting is-is - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting is-is - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting is-is - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting is-is - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting is-is - SHORT_WEEKDAY 1`] = `"mið."`;
 
@@ -4216,6 +4346,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting it-ch - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting it-ch - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting it-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting it-ch - SHORT_WEEKDAY 1`] = `"mer"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting it-ch - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer, 13:30:45"`;
@@ -4279,6 +4411,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting it-it - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting it-it - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting it-it - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting it-it - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting it-it - SHORT_WEEKDAY 1`] = `"mer"`;
 
@@ -4344,6 +4478,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - SHORT_WEEKDAY 1`] = `"水"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - SHORT_WEEKDAY_LONG_TIME 1`] = `"水, 13:30:45"`;
@@ -4407,6 +4543,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ka-ge - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting ka-ge - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ka-ge - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting ka-ge - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ka-ge - SHORT_WEEKDAY 1`] = `"ოთხ"`;
 
@@ -4472,6 +4610,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting kk-kz - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting kk-kz - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting kk-kz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting kk-kz - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting kk-kz - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -4535,6 +4675,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ko-kr - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting ko-kr - SHORT_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ko-kr - SHORT_TIME 1`] = `"오후 1:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting ko-kr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ko-kr - SHORT_WEEKDAY 1`] = `"수"`;
 
@@ -4600,6 +4742,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting lt-lt - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting lt-lt - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting lt-lt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting lt-lt - SHORT_WEEKDAY 1`] = `"tr"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting lt-lt - SHORT_WEEKDAY_LONG_TIME 1`] = `"tr, 13:30:45"`;
@@ -4663,6 +4807,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting lv-lv - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting lv-lv - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting lv-lv - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting lv-lv - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting lv-lv - SHORT_WEEKDAY 1`] = `"Trešd."`;
 
@@ -4728,6 +4874,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting mk-mk - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting mk-mk - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting mk-mk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting mk-mk - SHORT_WEEKDAY 1`] = `"сре."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting mk-mk - SHORT_WEEKDAY_LONG_TIME 1`] = `"сре., 13:30:45"`;
@@ -4791,6 +4939,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting nb-no - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting nb-no - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nb-no - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting nb-no - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nb-no - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -4856,6 +5006,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting nl-be - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting nl-be - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting nl-be - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting nl-be - SHORT_WEEKDAY 1`] = `"wo"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nl-be - SHORT_WEEKDAY_LONG_TIME 1`] = `"wo, 13:30:45"`;
@@ -4919,6 +5071,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting nl-nl - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting nl-nl - SHORT_DATE_WITH_YEAR 1`] = `"15-1-2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nl-nl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting nl-nl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nl-nl - SHORT_WEEKDAY 1`] = `"wo"`;
 
@@ -4984,6 +5138,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting nn-no - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting nn-no - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting nn-no - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting nn-no - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting nn-no - SHORT_WEEKDAY_LONG_TIME 1`] = `"ons, 13:30:45"`;
@@ -5047,6 +5203,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting pl-pl - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting pl-pl - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pl-pl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting pl-pl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pl-pl - SHORT_WEEKDAY 1`] = `"śr."`;
 
@@ -5112,6 +5270,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting pt-br - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-br - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting pt-br - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting pt-br - SHORT_WEEKDAY 1`] = `"qua."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-br - SHORT_WEEKDAY_LONG_TIME 1`] = `"qua., 13:30:45"`;
@@ -5175,6 +5335,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - SHORT_WEEKDAY 1`] = `"quarta"`;
 
@@ -5240,6 +5402,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ro-ro - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting ro-ro - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting ro-ro - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY 1`] = `"mie."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY_LONG_TIME 1`] = `"mie., 13:30:45"`;
@@ -5303,6 +5467,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - SHORT_WEEKDAY 1`] = `"ср"`;
 
@@ -5368,6 +5534,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sk-sk - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting sk-sk - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting sk-sk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting sk-sk - SHORT_WEEKDAY 1`] = `"st"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sk-sk - SHORT_WEEKDAY_LONG_TIME 1`] = `"st, 13:30:45"`;
@@ -5431,6 +5599,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sl-si - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting sl-si - SHORT_DATE_WITH_YEAR 1`] = `"15. 01. 2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sl-si - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting sl-si - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sl-si - SHORT_WEEKDAY 1`] = `"sre."`;
 
@@ -5496,6 +5666,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sq-al - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting sq-al - SHORT_TIME 1`] = `"1:30 e pasdites"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting sq-al - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting sq-al - SHORT_WEEKDAY 1`] = `"mër"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sq-al - SHORT_WEEKDAY_LONG_TIME 1`] = `"mër, 1:30:45 e pasdites"`;
@@ -5559,6 +5731,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sr-latn-rs -
 exports[`Cldr Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_WEEKDAY 1`] = `"sre"`;
 
@@ -5624,6 +5798,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sv-fi - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-fi - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting sv-fi - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting sv-fi - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-fi - SHORT_WEEKDAY_LONG_TIME 1`] = `"ons, 13:30:45"`;
@@ -5687,6 +5863,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting sv-se - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting sv-se - SHORT_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-se - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting sv-se - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-se - SHORT_WEEKDAY 1`] = `"ons"`;
 
@@ -5752,6 +5930,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting th-th - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting th-th - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting th-th - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting th-th - SHORT_WEEKDAY 1`] = `"พ."`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting th-th - SHORT_WEEKDAY_LONG_TIME 1`] = `"พ., 13:30:45"`;
@@ -5815,6 +5995,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting tr-tr - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting tr-tr - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting tr-tr - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting tr-tr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting tr-tr - SHORT_WEEKDAY 1`] = `"Çar"`;
 
@@ -5880,6 +6062,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -5943,6 +6127,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - SHORT_TIME 1`] = `"1:30 CH"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - SHORT_WEEKDAY 1`] = `"Th 4"`;
 
@@ -6008,6 +6194,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - SHORT_WEEKDAY 1`] = `"周三"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - SHORT_WEEKDAY_LONG_TIME 1`] = `"周三, 13:30:45"`;
@@ -6071,6 +6259,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - SHORT_WEEKDAY 1`] = `"週三"`;
 
@@ -6136,6 +6326,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - SHORT_WEEKDAY 1`] = `"週三"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - SHORT_WEEKDAY_LONG_TIME 1`] = `"週三, 13:30:45"`;
@@ -6199,6 +6391,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - SHOR
 exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - SHORT_TIME 1`] = `"下午 1:30"`;
+
+exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - SHORT_WEEKDAY 1`] = `"周三"`;
 
@@ -6264,6 +6458,8 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_TIME 1`] = `"下午 01:30"`;
 
+exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_WEEKDAY 1`] = `"週三"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_WEEKDAY_LONG_TIME 1`] = `"週三, 下午 01:30:45"`;
@@ -6272,21 +6468,21 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_WITH_YEAR 1`] = `"2020/1/15 下午 01:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL 1`] = `"الأربعاء، ٢٠ جمادى الأولى في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL 1`] = `"الأربعاء، ١٥ يناير في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE 1`] = `"الأربعاء، ٢٠ جمادى الأولى"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE 1`] = `"الأربعاء، ١٥ يناير"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"الأربعاء، ٢٠ جمادى الأولى ١٤٤١ هـ"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"الأربعاء، ١٥ يناير ٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_TIME 1`] = `"١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_WITH_YEAR 1`] = `"الأربعاء، ٢٠ جمادى الأولى ١٤٤١ هـ في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_WITH_YEAR 1`] = `"الأربعاء، ١٥ يناير ٢٠٢٠ في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE 1`] = `"٢٠ جمادى الأولى"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE 1`] = `"١٥ يناير"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_TIME 1`] = `"١:٣٠:٤٥ م"`;
 
@@ -6298,35 +6494,37 @@ exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WEEKDAY
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠ جمادى الأولى في ١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥ يناير في ١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ في ١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥ يناير ٢٠٢٠ في ١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM 1`] = `"٢٠ جمادى الأولى، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM 1`] = `"١٥ يناير، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠ جمادى الأولى"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥ يناير"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_TIME 1`] = `"١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT 1`] = `"٢٠‏/٥، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT 1`] = `"١٥‏/١، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE 1`] = `"٢٠‏/٥"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE 1`] = `"١٥‏/١"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠‏/٥‏/٤١ هـ"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥‏/١‏/٢٠"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠‏/٥‏/١٤٤١ هـ"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥‏/١‏/٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_TIME 1`] = `"١:٣٠ م"`;
+
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_TIME_ZONE_NAME 1`] = `"١٥‏/١‏/٢٠٢٠، UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WEEKDAY 1`] = `"الأربعاء"`;
 
@@ -6334,7 +6532,7 @@ exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠ م"`;
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - FULL 1`] = `"15 yanvar, çərşənbə/13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -6391,6 +6589,8 @@ exports[`Windows Regional Formats > Locale based formatting az-latn-az - SHORT_D
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting az-latn-az - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - SHORT_WEEKDAY 1`] = `"Ç."`;
 
@@ -6456,6 +6656,8 @@ exports[`Windows Regional Formats > Locale based formatting bg-bg - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting bg-bg - SHORT_TIME 1`] = `"13:30 ч."`;
 
+exports[`Windows Regional Formats > Locale based formatting bg-bg - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020 г., UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting bg-bg - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Windows Regional Formats > Locale based formatting bg-bg - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45 ч."`;
@@ -6519,6 +6721,8 @@ exports[`Windows Regional Formats > Locale based formatting ca-es - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting ca-es - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting ca-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting ca-es - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ca-es - SHORT_WEEKDAY 1`] = `"dc."`;
 
@@ -6584,6 +6788,8 @@ exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - SHO
 
 exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - SHORT_WEEKDAY 1`] = `"dc."`;
 
 exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - SHORT_WEEKDAY_LONG_TIME 1`] = `"dc. 13:30:45"`;
@@ -6647,6 +6853,8 @@ exports[`Windows Regional Formats > Locale based formatting cs-cz - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting cs-cz - SHORT_DATE_WITH_YEAR 1`] = `"15. 1. 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting cs-cz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting cs-cz - SHORT_TIME_ZONE_NAME 1`] = `"15. 1. 2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting cs-cz - SHORT_WEEKDAY 1`] = `"st"`;
 
@@ -6712,6 +6920,8 @@ exports[`Windows Regional Formats > Locale based formatting cy-gb - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting cy-gb - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting cy-gb - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting cy-gb - SHORT_WEEKDAY 1`] = `"Mer"`;
 
 exports[`Windows Regional Formats > Locale based formatting cy-gb - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mer, 13:30:45"`;
@@ -6775,6 +6985,8 @@ exports[`Windows Regional Formats > Locale based formatting da-dk - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting da-dk - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting da-dk - SHORT_TIME 1`] = `"13.30"`;
+
+exports[`Windows Regional Formats > Locale based formatting da-dk - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting da-dk - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -6840,6 +7052,8 @@ exports[`Windows Regional Formats > Locale based formatting de-at - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting de-at - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting de-at - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting de-at - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-at - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi., 13:30:45"`;
@@ -6903,6 +7117,8 @@ exports[`Windows Regional Formats > Locale based formatting de-ch - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting de-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting de-ch - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-ch - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -6968,6 +7184,8 @@ exports[`Windows Regional Formats > Locale based formatting de-de - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting de-de - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting de-de - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting de-de - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-de - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi., 13:30:45"`;
@@ -7031,6 +7249,8 @@ exports[`Windows Regional Formats > Locale based formatting de-li - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting de-li - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-li - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting de-li - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-li - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -7096,6 +7316,8 @@ exports[`Windows Regional Formats > Locale based formatting de-lu - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting de-lu - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting de-lu - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting de-lu - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-lu - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi., 13:30:45"`;
@@ -7159,6 +7381,8 @@ exports[`Windows Regional Formats > Locale based formatting en-029 - SHORT_DATE_
 exports[`Windows Regional Formats > Locale based formatting en-029 - SHORT_DATE_WITH_YEAR 1`] = `"1/15/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-029 - SHORT_TIME 1`] = `"1:30 PM"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-029 - SHORT_TIME_ZONE_NAME 1`] = `"1/15/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-029 - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7224,6 +7448,8 @@ exports[`Windows Regional Formats > Locale based formatting en-au - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-au - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-au - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-au - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-au - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 pm"`;
@@ -7287,6 +7513,8 @@ exports[`Windows Regional Formats > Locale based formatting en-bz - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-bz - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-bz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-bz - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-bz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7352,6 +7580,8 @@ exports[`Windows Regional Formats > Locale based formatting en-ca - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-ca - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Windows Regional Formats > Locale based formatting en-ca - SHORT_TIME_ZONE_NAME 1`] = `"2020-01-15, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-ca - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 p.m."`;
@@ -7364,11 +7594,11 @@ exports[`Windows Regional Formats > Locale based formatting en-gb - FULL 1`] = `
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE 1`] = `"Wednesday 15 January"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE_WITH_YEAR 1`] = `"Wednesday 15 January 2020"`;
+exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE_WITH_YEAR 1`] = `"Wednesday, 15 January 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_TIME 1`] = `"13:30:45 Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_WITH_YEAR 1`] = `"Wednesday 15 January 2020 at 13:30:45 Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_WITH_YEAR 1`] = `"Wednesday, 15 January 2020 at 13:30:45 Coordinated Universal Time"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - HOUR_ONLY 1`] = `"13"`;
 
@@ -7415,6 +7645,8 @@ exports[`Windows Regional Formats > Locale based formatting en-gb - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-gb - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-gb - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7480,6 +7712,8 @@ exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 13:30:45"`;
@@ -7488,15 +7722,15 @@ exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WITH_YEAR 1`] = `"15/1/2020, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL 1`] = `"Wednesday 15 January at 1:30:45 pm Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL 1`] = `"Wednesday, 15 January at 1:30:45 pm Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE 1`] = `"Wednesday 15 January"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE 1`] = `"Wednesday, 15 January"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE_WITH_YEAR 1`] = `"Wednesday 15 January, 2020"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE_WITH_YEAR 1`] = `"Wednesday, 15 January 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - FULL_TIME 1`] = `"1:30:45 pm Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_WITH_YEAR 1`] = `"Wednesday 15 January, 2020 at 1:30:45 pm Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_WITH_YEAR 1`] = `"Wednesday, 15 January 2020 at 1:30:45 pm Coordinated Universal Time"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - HOUR_ONLY 1`] = `"1 pm"`;
 
@@ -7543,6 +7777,8 @@ exports[`Windows Regional Formats > Locale based formatting en-in - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-in - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-in - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7608,6 +7844,8 @@ exports[`Windows Regional Formats > Locale based formatting en-jm - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-jm - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-jm - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-jm - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-jm - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 pm"`;
@@ -7671,6 +7909,8 @@ exports[`Windows Regional Formats > Locale based formatting en-my - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-my - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-my - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-my - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-my - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7736,6 +7976,8 @@ exports[`Windows Regional Formats > Locale based formatting en-nz - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-nz - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-nz - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-nz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-nz - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 pm"`;
@@ -7799,6 +8041,8 @@ exports[`Windows Regional Formats > Locale based formatting en-ph - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-ph - SHORT_DATE_WITH_YEAR 1`] = `"1/15/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ph - SHORT_TIME 1`] = `"1:30 PM"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-ph - SHORT_TIME_ZONE_NAME 1`] = `"1/15/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ph - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7864,6 +8108,8 @@ exports[`Windows Regional Formats > Locale based formatting en-sg - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-sg - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-sg - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-sg - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-sg - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 pm"`;
@@ -7927,6 +8173,8 @@ exports[`Windows Regional Formats > Locale based formatting en-tt - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-tt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-tt - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-tt - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-tt - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -7992,6 +8240,8 @@ exports[`Windows Regional Formats > Locale based formatting en-us - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-us - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-us - SHORT_TIME_ZONE_NAME 1`] = `"1/15/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-us - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 1:30:45 PM"`;
@@ -8055,6 +8305,8 @@ exports[`Windows Regional Formats > Locale based formatting en-za - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting en-za - SHORT_DATE_WITH_YEAR 1`] = `"2020/01/15"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-za - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting en-za - SHORT_TIME_ZONE_NAME 1`] = `"2020/01/15, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-za - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -8120,6 +8372,8 @@ exports[`Windows Regional Formats > Locale based formatting en-zw - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting en-zw - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting en-zw - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting en-zw - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-zw - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed 13:30:45"`;
@@ -8183,6 +8437,8 @@ exports[`Windows Regional Formats > Locale based formatting es-ar - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-ar - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ar - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-ar - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ar - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8248,6 +8504,8 @@ exports[`Windows Regional Formats > Locale based formatting es-bo - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-bo - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-bo - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-bo - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-bo - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -8311,6 +8569,8 @@ exports[`Windows Regional Formats > Locale based formatting es-cl - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-cl - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cl - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-cl - SHORT_TIME_ZONE_NAME 1`] = `"15-01-2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cl - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8376,6 +8636,8 @@ exports[`Windows Regional Formats > Locale based formatting es-co - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-co - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-co - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-co - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-co - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -8439,6 +8701,8 @@ exports[`Windows Regional Formats > Locale based formatting es-cr - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-cr - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cr - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-cr - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8504,6 +8768,8 @@ exports[`Windows Regional Formats > Locale based formatting es-do - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-do - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-do - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-do - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-do - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -8567,6 +8833,8 @@ exports[`Windows Regional Formats > Locale based formatting es-ec - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-ec - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ec - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-ec - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ec - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8632,6 +8900,8 @@ exports[`Windows Regional Formats > Locale based formatting es-es - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-es - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting es-es - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-es - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-es - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -8695,6 +8965,8 @@ exports[`Windows Regional Formats > Locale based formatting es-gt - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-gt - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-gt - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-gt - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-gt - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8760,6 +9032,8 @@ exports[`Windows Regional Formats > Locale based formatting es-hn - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-hn - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-hn - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-hn - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-hn - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -8823,6 +9097,8 @@ exports[`Windows Regional Formats > Locale based formatting es-mx - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-mx - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-mx - SHORT_TIME 1`] = `"1:30 p.m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-mx - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-mx - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -8888,6 +9164,8 @@ exports[`Windows Regional Formats > Locale based formatting es-ni - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-ni - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-ni - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-ni - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ni - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -8951,6 +9229,8 @@ exports[`Windows Regional Formats > Locale based formatting es-pa - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-pa - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pa - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-pa - SHORT_TIME_ZONE_NAME 1`] = `"01/15/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pa - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -9016,6 +9296,8 @@ exports[`Windows Regional Formats > Locale based formatting es-pe - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-pe - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-pe - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-pe - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pe - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -9079,6 +9361,8 @@ exports[`Windows Regional Formats > Locale based formatting es-pr - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-pr - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pr - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-pr - SHORT_TIME_ZONE_NAME 1`] = `"01/15/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -9144,6 +9428,8 @@ exports[`Windows Regional Formats > Locale based formatting es-py - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-py - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-py - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-py - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-py - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -9207,6 +9493,8 @@ exports[`Windows Regional Formats > Locale based formatting es-sv - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-sv - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-sv - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-sv - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-sv - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -9272,6 +9560,8 @@ exports[`Windows Regional Formats > Locale based formatting es-us - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-us - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-us - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-us - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié 1:30:45 p.m."`;
@@ -9335,6 +9625,8 @@ exports[`Windows Regional Formats > Locale based formatting es-uy - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting es-uy - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-uy - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Locale based formatting es-uy - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-uy - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -9400,6 +9692,8 @@ exports[`Windows Regional Formats > Locale based formatting es-ve - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting es-ve - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Locale based formatting es-ve - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting es-ve - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ve - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -9464,6 +9758,8 @@ exports[`Windows Regional Formats > Locale based formatting et-ee - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting et-ee - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting et-ee - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting et-ee - SHORT_WEEKDAY 1`] = `"K"`;
 
 exports[`Windows Regional Formats > Locale based formatting et-ee - SHORT_WEEKDAY_LONG_TIME 1`] = `"K 13:30:45"`;
@@ -9502,17 +9798,17 @@ exports[`Windows Regional Formats > Locale based formatting fi-fi - LONG_WITH_TI
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - LONG_WITH_YEAR_TIMEZONE 1`] = `"15. tammikuuta 2020 klo 13.30.45 UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM 1`] = `"15. tammik. klo 13.30.45"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM 1`] = `"15.1. klo 13.30.45"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE 1`] = `"15. tammik."`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE 1`] = `"15.1."`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik. klo 13.30"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1. klo 13.30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"15. tammik. 2020"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_TIME 1`] = `"13.30.45"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_WITH_YEAR 1`] = `"15. tammik. 2020 klo 13.30.45"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_WITH_YEAR 1`] = `"15.1.2020 klo 13.30.45"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT 1`] = `"15.1. klo 13.30"`;
 
@@ -9527,6 +9823,8 @@ exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT_TIME 1`] = `"13.30"`;
+
+exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020 klo UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT_WEEKDAY 1`] = `"ke"`;
 
@@ -9592,6 +9890,8 @@ exports[`Windows Regional Formats > Locale based formatting fil-ph - SHORT_DATE_
 
 exports[`Windows Regional Formats > Locale based formatting fil-ph - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Windows Regional Formats > Locale based formatting fil-ph - SHORT_TIME_ZONE_NAME 1`] = `"1/15/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting fil-ph - SHORT_WEEKDAY 1`] = `"Miy"`;
 
 exports[`Windows Regional Formats > Locale based formatting fil-ph - SHORT_WEEKDAY_LONG_TIME 1`] = `"Miy 1:30:45 PM"`;
@@ -9655,6 +9955,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-be - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting fr-be - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-be - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting fr-be - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-be - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -9720,6 +10022,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-ca - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting fr-ca - SHORT_TIME 1`] = `"13 h 30"`;
 
+exports[`Windows Regional Formats > Locale based formatting fr-ca - SHORT_TIME_ZONE_NAME 1`] = `"2020-01-15 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting fr-ca - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer. 13 h 30 min 45 s"`;
@@ -9783,6 +10087,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-ch - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting fr-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting fr-ch - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-ch - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -9848,6 +10154,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-fr - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting fr-fr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting fr-fr - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting fr-fr - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-fr - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer. 13:30:45"`;
@@ -9911,6 +10219,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-lu - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting fr-lu - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-lu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting fr-lu - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-lu - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -9976,6 +10286,8 @@ exports[`Windows Regional Formats > Locale based formatting fr-mc - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting fr-mc - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting fr-mc - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting fr-mc - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-mc - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer. 13:30:45"`;
@@ -10039,6 +10351,8 @@ exports[`Windows Regional Formats > Locale based formatting gl-es - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting gl-es - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting gl-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting gl-es - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting gl-es - SHORT_WEEKDAY 1`] = `"mér."`;
 
@@ -10104,6 +10418,8 @@ exports[`Windows Regional Formats > Locale based formatting he-il - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting he-il - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting he-il - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting he-il - SHORT_WEEKDAY 1`] = `"יום ד׳"`;
 
 exports[`Windows Regional Formats > Locale based formatting he-il - SHORT_WEEKDAY_LONG_TIME 1`] = `"יום ד׳ 13:30:45"`;
@@ -10167,6 +10483,8 @@ exports[`Windows Regional Formats > Locale based formatting hi-in - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting hi-in - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting hi-in - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Locale based formatting hi-in - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting hi-in - SHORT_WEEKDAY 1`] = `"बुध"`;
 
@@ -10232,6 +10550,8 @@ exports[`Windows Regional Formats > Locale based formatting hr-hr - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting hr-hr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting hr-hr - SHORT_TIME_ZONE_NAME 1`] = `"15. 01. 2020. UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting hr-hr - SHORT_WEEKDAY 1`] = `"sri"`;
 
 exports[`Windows Regional Formats > Locale based formatting hr-hr - SHORT_WEEKDAY_LONG_TIME 1`] = `"sri 13:30:45"`;
@@ -10295,6 +10615,8 @@ exports[`Windows Regional Formats > Locale based formatting hu-hu - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting hu-hu - SHORT_DATE_WITH_YEAR 1`] = `"2020. 01. 15."`;
 
 exports[`Windows Regional Formats > Locale based formatting hu-hu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting hu-hu - SHORT_TIME_ZONE_NAME 1`] = `"2020. 01. 15. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting hu-hu - SHORT_WEEKDAY 1`] = `"Sze"`;
 
@@ -10360,6 +10682,8 @@ exports[`Windows Regional Formats > Locale based formatting id-id - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting id-id - SHORT_TIME 1`] = `"13.30"`;
 
+exports[`Windows Regional Formats > Locale based formatting id-id - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting id-id - SHORT_WEEKDAY 1`] = `"Rab"`;
 
 exports[`Windows Regional Formats > Locale based formatting id-id - SHORT_WEEKDAY_LONG_TIME 1`] = `"Rab 13.30.45"`;
@@ -10423,6 +10747,8 @@ exports[`Windows Regional Formats > Locale based formatting is-is - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting is-is - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting is-is - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting is-is - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting is-is - SHORT_WEEKDAY 1`] = `"mið."`;
 
@@ -10488,6 +10814,8 @@ exports[`Windows Regional Formats > Locale based formatting it-ch - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting it-ch - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting it-ch - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting it-ch - SHORT_WEEKDAY 1`] = `"mer"`;
 
 exports[`Windows Regional Formats > Locale based formatting it-ch - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer 13:30:45"`;
@@ -10551,6 +10879,8 @@ exports[`Windows Regional Formats > Locale based formatting it-it - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting it-it - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting it-it - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting it-it - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting it-it - SHORT_WEEKDAY 1`] = `"mer"`;
 
@@ -10616,6 +10946,8 @@ exports[`Windows Regional Formats > Locale based formatting ja-jp - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting ja-jp - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting ja-jp - SHORT_TIME_ZONE_NAME 1`] = `"2020/1/15 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting ja-jp - SHORT_WEEKDAY 1`] = `"水"`;
 
 exports[`Windows Regional Formats > Locale based formatting ja-jp - SHORT_WEEKDAY_LONG_TIME 1`] = `"13:30:45 (水)"`;
@@ -10679,6 +11011,8 @@ exports[`Windows Regional Formats > Locale based formatting ka-ge - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting ka-ge - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting ka-ge - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting ka-ge - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ka-ge - SHORT_WEEKDAY 1`] = `"ოთხ"`;
 
@@ -10744,6 +11078,8 @@ exports[`Windows Regional Formats > Locale based formatting kk-kz - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting kk-kz - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting kk-kz - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting kk-kz - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Windows Regional Formats > Locale based formatting kk-kz - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср 13:30:45"`;
@@ -10807,6 +11143,8 @@ exports[`Windows Regional Formats > Locale based formatting ko-kr - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting ko-kr - SHORT_DATE_WITH_YEAR 1`] = `"2020. 1. 15."`;
 
 exports[`Windows Regional Formats > Locale based formatting ko-kr - SHORT_TIME 1`] = `"오후 1:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting ko-kr - SHORT_TIME_ZONE_NAME 1`] = `"2020. 1. 15. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ko-kr - SHORT_WEEKDAY 1`] = `"수"`;
 
@@ -10872,6 +11210,8 @@ exports[`Windows Regional Formats > Locale based formatting lt-lt - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting lt-lt - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting lt-lt - SHORT_TIME_ZONE_NAME 1`] = `"2020-01-15 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting lt-lt - SHORT_WEEKDAY 1`] = `"tr"`;
 
 exports[`Windows Regional Formats > Locale based formatting lt-lt - SHORT_WEEKDAY_LONG_TIME 1`] = `"13:30:45, tr"`;
@@ -10936,6 +11276,8 @@ exports[`Windows Regional Formats > Locale based formatting lv-lv - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting lv-lv - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting lv-lv - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020. UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting lv-lv - SHORT_WEEKDAY 1`] = `"Trešd."`;
 
 exports[`Windows Regional Formats > Locale based formatting lv-lv - SHORT_WEEKDAY_LONG_TIME 1`] = `"trešd., 13:30:45"`;
@@ -10948,17 +11290,17 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL 1`] = `
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE 1`] = `"среда, 15 јануари"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE_WITH_YEAR 1`] = `"среда, 15 јануари 2020"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE_WITH_YEAR 1`] = `"среда, 15 јануари 2020 г."`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_TIME 1`] = `"13:30:45 Координирано универзално време"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_WITH_YEAR 1`] = `"среда, 15 јануари 2020, во 13:30:45 Координирано универзално време"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_WITH_YEAR 1`] = `"среда, 15 јануари 2020 г., во 13:30:45 Координирано универзално време"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - HOUR_ONLY 1`] = `"13"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE 1`] = `"15 јануари"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE_WITH_YEAR 1`] = `"15 јануари 2020"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE_WITH_YEAR 1`] = `"15 јануари 2020 г."`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_TIME 1`] = `"13:30:45"`;
 
@@ -10972,7 +11314,7 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WEEKDAY
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_TIMEZONE 1`] = `"15 јануари, во 13:30:45 UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_YEAR_TIMEZONE 1`] = `"15 јануари 2020, во 13:30:45 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_YEAR_TIMEZONE 1`] = `"15 јануари 2020 г., во 13:30:45 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM 1`] = `"15 јан., во 13:30:45"`;
 
@@ -10990,15 +11332,17 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT 1`] = 
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE 1`] = `"15.1"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_LONG_TIME 1`] = `"15.1.2020, во 13:30:45"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_LONG_TIME 1`] = `"15.1.2020 г., во 13:30:45"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_TIME 1`] = `"15.1.2020, во 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_TIME 1`] = `"15.1.2020 г., во 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"15.1.20"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"15.1.20 г."`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020 г."`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020 г., во UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WEEKDAY 1`] = `"сре."`;
 
@@ -11006,7 +11350,7 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WEEKDAY_SHORT_TIME 1`] = `"сре. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WITH_YEAR 1`] = `"15.1.2020, во 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WITH_YEAR 1`] = `"15.1.2020 г., во 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - FULL 1`] = `"onsdag 15. januar kl. 13:30:45 koordinert universaltid"`;
 
@@ -11063,6 +11407,8 @@ exports[`Windows Regional Formats > Locale based formatting nb-no - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting nb-no - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting nb-no - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -11128,6 +11474,8 @@ exports[`Windows Regional Formats > Locale based formatting nl-be - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting nl-be - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting nl-be - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting nl-be - SHORT_WEEKDAY 1`] = `"wo"`;
 
 exports[`Windows Regional Formats > Locale based formatting nl-be - SHORT_WEEKDAY_LONG_TIME 1`] = `"wo 13:30:45"`;
@@ -11191,6 +11539,8 @@ exports[`Windows Regional Formats > Locale based formatting nl-nl - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting nl-nl - SHORT_DATE_WITH_YEAR 1`] = `"15-1-2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting nl-nl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting nl-nl - SHORT_TIME_ZONE_NAME 1`] = `"15-1-2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nl-nl - SHORT_WEEKDAY 1`] = `"wo"`;
 
@@ -11256,6 +11606,8 @@ exports[`Windows Regional Formats > Locale based formatting nn-no - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting nn-no - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting nn-no - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting nn-no - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Windows Regional Formats > Locale based formatting nn-no - SHORT_WEEKDAY_LONG_TIME 1`] = `"on. 13:30:45"`;
@@ -11319,6 +11671,8 @@ exports[`Windows Regional Formats > Locale based formatting pl-pl - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting pl-pl - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting pl-pl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting pl-pl - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting pl-pl - SHORT_WEEKDAY 1`] = `"śr."`;
 
@@ -11384,6 +11738,8 @@ exports[`Windows Regional Formats > Locale based formatting pt-br - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting pt-br - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting pt-br - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting pt-br - SHORT_WEEKDAY 1`] = `"qua."`;
 
 exports[`Windows Regional Formats > Locale based formatting pt-br - SHORT_WEEKDAY_LONG_TIME 1`] = `"qua., 13:30:45"`;
@@ -11447,6 +11803,8 @@ exports[`Windows Regional Formats > Locale based formatting pt-pt - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting pt-pt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting pt-pt - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting pt-pt - SHORT_TIME_ZONE_NAME 1`] = `"15/01/2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting pt-pt - SHORT_WEEKDAY 1`] = `"quarta"`;
 
@@ -11512,6 +11870,8 @@ exports[`Windows Regional Formats > Locale based formatting ro-ro - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting ro-ro - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting ro-ro - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting ro-ro - SHORT_WEEKDAY 1`] = `"mie."`;
 
 exports[`Windows Regional Formats > Locale based formatting ro-ro - SHORT_WEEKDAY_LONG_TIME 1`] = `"mie. 13:30:45"`;
@@ -11575,6 +11935,8 @@ exports[`Windows Regional Formats > Locale based formatting ru-ru - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting ru-ru - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting ru-ru - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting ru-ru - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ru-ru - SHORT_WEEKDAY 1`] = `"ср"`;
 
@@ -11640,6 +12002,8 @@ exports[`Windows Regional Formats > Locale based formatting sk-sk - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting sk-sk - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting sk-sk - SHORT_TIME_ZONE_NAME 1`] = `"15. 1. 2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting sk-sk - SHORT_WEEKDAY 1`] = `"st"`;
 
 exports[`Windows Regional Formats > Locale based formatting sk-sk - SHORT_WEEKDAY_LONG_TIME 1`] = `"st 13:30:45"`;
@@ -11703,6 +12067,8 @@ exports[`Windows Regional Formats > Locale based formatting sl-si - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting sl-si - SHORT_DATE_WITH_YEAR 1`] = `"15. 1. 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting sl-si - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting sl-si - SHORT_TIME_ZONE_NAME 1`] = `"15. 1. 2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sl-si - SHORT_WEEKDAY 1`] = `"sre."`;
 
@@ -11768,6 +12134,8 @@ exports[`Windows Regional Formats > Locale based formatting sq-al - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting sq-al - SHORT_TIME 1`] = `"1:30 e pasdites"`;
 
+exports[`Windows Regional Formats > Locale based formatting sq-al - SHORT_TIME_ZONE_NAME 1`] = `"15.1.2020, UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting sq-al - SHORT_WEEKDAY 1`] = `"mër"`;
 
 exports[`Windows Regional Formats > Locale based formatting sq-al - SHORT_WEEKDAY_LONG_TIME 1`] = `"mër, 1:30:45 e pasdites"`;
@@ -11831,6 +12199,8 @@ exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - SHORT_D
 exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - SHORT_DATE_WITH_YEAR 1`] = `"15. 1. 2020."`;
 
 exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - SHORT_TIME_ZONE_NAME 1`] = `"15. 1. 2020. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - SHORT_WEEKDAY 1`] = `"sre"`;
 
@@ -11896,6 +12266,8 @@ exports[`Windows Regional Formats > Locale based formatting sv-fi - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting sv-fi - SHORT_TIME 1`] = `"13.30"`;
 
+exports[`Windows Regional Formats > Locale based formatting sv-fi - SHORT_TIME_ZONE_NAME 1`] = `"2020-01-15 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting sv-fi - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Windows Regional Formats > Locale based formatting sv-fi - SHORT_WEEKDAY_LONG_TIME 1`] = `"ons 13.30.45"`;
@@ -11959,6 +12331,8 @@ exports[`Windows Regional Formats > Locale based formatting sv-se - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting sv-se - SHORT_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
 exports[`Windows Regional Formats > Locale based formatting sv-se - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting sv-se - SHORT_TIME_ZONE_NAME 1`] = `"2020-01-15 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sv-se - SHORT_WEEKDAY 1`] = `"ons"`;
 
@@ -12024,6 +12398,8 @@ exports[`Windows Regional Formats > Locale based formatting th-th - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting th-th - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting th-th - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2563 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting th-th - SHORT_WEEKDAY 1`] = `"พ."`;
 
 exports[`Windows Regional Formats > Locale based formatting th-th - SHORT_WEEKDAY_LONG_TIME 1`] = `"พ. 13:30:45"`;
@@ -12088,6 +12464,8 @@ exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WEEKDAY 1`] = `"Çar"`;
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WEEKDAY_LONG_TIME 1`] = `"Çar 13:30:45"`;
@@ -12096,15 +12474,15 @@ exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WITH_YEAR 1`] = `"15.01.2020 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL 1`] = `"середу, 15 січня о 13:30:45 за всесвітнім координованим часом"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL 1`] = `"середа, 15 січня о 13:30:45 за всесвітнім координованим часом"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE 1`] = `"середу, 15 січня"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE 1`] = `"середа, 15 січня"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE_WITH_YEAR 1`] = `"середу, 15 січня 2020 р."`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE_WITH_YEAR 1`] = `"середа, 15 січня 2020 р."`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_TIME 1`] = `"13:30:45 за всесвітнім координованим часом"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_WITH_YEAR 1`] = `"середу, 15 січня 2020 р. о 13:30:45 за всесвітнім координованим часом"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_WITH_YEAR 1`] = `"середа, 15 січня 2020 р. о 13:30:45 за всесвітнім координованим часом"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - HOUR_ONLY 1`] = `"13"`;
 
@@ -12118,9 +12496,9 @@ exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_TIME_WI
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY 1`] = `"середа"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_LONG_TIME 1`] = `"середу 13:30:45"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_LONG_TIME 1`] = `"середа 13:30:45"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_SHORT_TIME 1`] = `"середу 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_SHORT_TIME 1`] = `"середа 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WITH_TIMEZONE 1`] = `"15 січня о 13:30:45 UTC"`;
 
@@ -12151,6 +12529,8 @@ exports[`Windows Regional Formats > Locale based formatting uk-ua - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting uk-ua - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting uk-ua - SHORT_TIME_ZONE_NAME 1`] = `"15.01.2020, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - SHORT_WEEKDAY 1`] = `"ср"`;
 
@@ -12216,6 +12596,8 @@ exports[`Windows Regional Formats > Locale based formatting vi-vn - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting vi-vn - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting vi-vn - SHORT_TIME_ZONE_NAME 1`] = `"UTC 15/1/2020"`;
+
 exports[`Windows Regional Formats > Locale based formatting vi-vn - SHORT_WEEKDAY 1`] = `"Th 4"`;
 
 exports[`Windows Regional Formats > Locale based formatting vi-vn - SHORT_WEEKDAY_LONG_TIME 1`] = `"13:30:45 Th 4"`;
@@ -12279,6 +12661,8 @@ exports[`Windows Regional Formats > Locale based formatting zh-cn - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting zh-cn - SHORT_DATE_WITH_YEAR 1`] = `"2020/1/15"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-cn - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting zh-cn - SHORT_TIME_ZONE_NAME 1`] = `"2020/1/15 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-cn - SHORT_WEEKDAY 1`] = `"周三"`;
 
@@ -12344,6 +12728,8 @@ exports[`Windows Regional Formats > Locale based formatting zh-hk - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting zh-hk - SHORT_TIME 1`] = `"下午1:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting zh-hk - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting zh-hk - SHORT_WEEKDAY 1`] = `"週三"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-hk - SHORT_WEEKDAY_LONG_TIME 1`] = `"週三 下午1:30:45"`;
@@ -12407,6 +12793,8 @@ exports[`Windows Regional Formats > Locale based formatting zh-mo - SHORT_DATE_W
 exports[`Windows Regional Formats > Locale based formatting zh-mo - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-mo - SHORT_TIME 1`] = `"下午1:30"`;
+
+exports[`Windows Regional Formats > Locale based formatting zh-mo - SHORT_TIME_ZONE_NAME 1`] = `"15/1/2020 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-mo - SHORT_WEEKDAY 1`] = `"週三"`;
 
@@ -12472,6 +12860,8 @@ exports[`Windows Regional Formats > Locale based formatting zh-sg - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting zh-sg - SHORT_TIME 1`] = `"下午1:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting zh-sg - SHORT_TIME_ZONE_NAME 1`] = `"2020年1月15日 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting zh-sg - SHORT_WEEKDAY 1`] = `"周三"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-sg - SHORT_WEEKDAY_LONG_TIME 1`] = `"周三下午1:30:45"`;
@@ -12536,6 +12926,8 @@ exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_DATE_W
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_TIME 1`] = `"下午1:30"`;
 
+exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_TIME_ZONE_NAME 1`] = `"2020/1/15 UTC"`;
+
 exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WEEKDAY 1`] = `"週三"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WEEKDAY_LONG_TIME 1`] = `"週三 下午1:30:45"`;
@@ -12544,21 +12936,21 @@ exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WITH_YEAR 1`] = `"2020/1/15 下午1:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_TIME 1`] = `"٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
@@ -12570,35 +12962,37 @@ exports[`Windows Regional Formats > Regional settings based formatting ar-sa - L
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى, ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"١٥/٠١/٢٠"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥/٠١/٢٠"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠/٠٥/٤١"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥/٠١/٢٠"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME 1`] = `"٠١:٣٠ م"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY 1`] = `"الأربعاء"`;
 
@@ -12606,7 +13000,7 @@ exports[`Windows Regional Formats > Regional settings based formatting ar-sa - S
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - FULL 1`] = `"15 yanvar 2020, çərşənbə 13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -12663,6 +13057,8 @@ exports[`Windows Regional Formats > Regional settings based formatting az-latn-a
 exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - SHORT_WEEKDAY 1`] = `"Ç."`;
 
@@ -12728,6 +13124,8 @@ exports[`Windows Regional Formats > Regional settings based formatting bg-bg - S
 
 exports[`Windows Regional Formats > Regional settings based formatting bg-bg - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting bg-bg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting bg-bg - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting bg-bg - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -12791,6 +13189,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ca-es - S
 exports[`Windows Regional Formats > Regional settings based formatting ca-es - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ca-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ca-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ca-es - SHORT_WEEKDAY 1`] = `"dc."`;
 
@@ -12856,6 +13256,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ca-es-val
 
 exports[`Windows Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_WEEKDAY 1`] = `"dc."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ca-es-valencia - SHORT_WEEKDAY_LONG_TIME 1`] = `"dc., 13:30:45"`;
@@ -12919,6 +13321,8 @@ exports[`Windows Regional Formats > Regional settings based formatting cs-cz - S
 exports[`Windows Regional Formats > Regional settings based formatting cs-cz - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting cs-cz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting cs-cz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting cs-cz - SHORT_WEEKDAY 1`] = `"st"`;
 
@@ -12984,6 +13388,8 @@ exports[`Windows Regional Formats > Regional settings based formatting cy-gb - S
 
 exports[`Windows Regional Formats > Regional settings based formatting cy-gb - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting cy-gb - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting cy-gb - SHORT_WEEKDAY 1`] = `"Mer"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting cy-gb - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mer, 13:30:45"`;
@@ -13047,6 +13453,8 @@ exports[`Windows Regional Formats > Regional settings based formatting da-dk - S
 exports[`Windows Regional Formats > Regional settings based formatting da-dk - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting da-dk - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting da-dk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting da-dk - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -13112,6 +13520,8 @@ exports[`Windows Regional Formats > Regional settings based formatting de-at - S
 
 exports[`Windows Regional Formats > Regional settings based formatting de-at - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting de-at - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting de-at - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-at - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -13175,6 +13585,8 @@ exports[`Windows Regional Formats > Regional settings based formatting de-ch - S
 exports[`Windows Regional Formats > Regional settings based formatting de-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting de-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-ch - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -13240,6 +13652,8 @@ exports[`Windows Regional Formats > Regional settings based formatting de-de - S
 
 exports[`Windows Regional Formats > Regional settings based formatting de-de - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting de-de - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting de-de - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-de - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -13303,6 +13717,8 @@ exports[`Windows Regional Formats > Regional settings based formatting de-li - S
 exports[`Windows Regional Formats > Regional settings based formatting de-li - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-li - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting de-li - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-li - SHORT_WEEKDAY 1`] = `"Mi"`;
 
@@ -13368,6 +13784,8 @@ exports[`Windows Regional Formats > Regional settings based formatting de-lu - S
 
 exports[`Windows Regional Formats > Regional settings based formatting de-lu - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting de-lu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting de-lu - SHORT_WEEKDAY 1`] = `"Mi"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting de-lu - SHORT_WEEKDAY_LONG_TIME 1`] = `"Mi, 13:30:45"`;
@@ -13431,6 +13849,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-029 - 
 exports[`Windows Regional Formats > Regional settings based formatting en-029 - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-029 - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-029 - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-029 - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -13496,6 +13916,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-au - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-au - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-au - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-au - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-au - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -13559,6 +13981,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-bz - S
 exports[`Windows Regional Formats > Regional settings based formatting en-bz - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-bz - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-bz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-bz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -13624,6 +14048,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-ca - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ca - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-ca - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-ca - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 p.m."`;
@@ -13687,6 +14113,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-gb - S
 exports[`Windows Regional Formats > Regional settings based formatting en-gb - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-gb - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-gb - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-gb - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -13752,6 +14180,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-ie - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ie - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-ie - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-ie - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ie - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 13:30:45"`;
@@ -13815,6 +14245,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-in - S
 exports[`Windows Regional Formats > Regional settings based formatting en-in - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-in - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-in - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-in - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -13880,6 +14312,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-jm - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-jm - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-jm - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-jm - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-jm - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -13943,6 +14377,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-my - S
 exports[`Windows Regional Formats > Regional settings based formatting en-my - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-my - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-my - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-my - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -14008,6 +14444,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-nz - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-nz - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-nz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-nz - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-nz - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -14071,6 +14509,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-ph - S
 exports[`Windows Regional Formats > Regional settings based formatting en-ph - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ph - SHORT_TIME 1`] = `"1:30 PM"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-ph - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ph - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -14136,6 +14576,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-sg - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-sg - SHORT_TIME 1`] = `"1:30 pm"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-sg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-sg - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-sg - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 pm"`;
@@ -14199,6 +14641,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-tt - S
 exports[`Windows Regional Formats > Regional settings based formatting en-tt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-tt - SHORT_TIME 1`] = `"1:30 pm"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-tt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-tt - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -14264,6 +14708,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-us - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 1:30:45 PM"`;
@@ -14327,6 +14773,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-za - S
 exports[`Windows Regional Formats > Regional settings based formatting en-za - SHORT_DATE_WITH_YEAR 1`] = `"2020/01/15"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-za - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting en-za - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-za - SHORT_WEEKDAY 1`] = `"Wed"`;
 
@@ -14392,6 +14840,8 @@ exports[`Windows Regional Formats > Regional settings based formatting en-zw - S
 
 exports[`Windows Regional Formats > Regional settings based formatting en-zw - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting en-zw - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting en-zw - SHORT_WEEKDAY 1`] = `"Wed"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-zw - SHORT_WEEKDAY_LONG_TIME 1`] = `"Wed, 13:30:45"`;
@@ -14455,6 +14905,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-ar - S
 exports[`Windows Regional Formats > Regional settings based formatting es-ar - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ar - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-ar - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ar - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -14520,6 +14972,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-bo - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-bo - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-bo - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-bo - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-bo - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -14583,6 +15037,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-cl - S
 exports[`Windows Regional Formats > Regional settings based formatting es-cl - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-cl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-cl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-cl - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -14648,6 +15104,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-co - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-co - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-co - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-co - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-co - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -14711,6 +15169,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-cr - S
 exports[`Windows Regional Formats > Regional settings based formatting es-cr - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-cr - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-cr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-cr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -14776,6 +15236,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-do - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-do - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-do - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-do - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-do - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -14839,6 +15301,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-ec - S
 exports[`Windows Regional Formats > Regional settings based formatting es-ec - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ec - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-ec - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ec - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -14904,6 +15368,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-es - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-es - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -14967,6 +15433,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-gt - S
 exports[`Windows Regional Formats > Regional settings based formatting es-gt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-gt - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-gt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-gt - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15032,6 +15500,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-hn - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-hn - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-hn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-hn - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-hn - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -15095,6 +15565,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-mx - S
 exports[`Windows Regional Formats > Regional settings based formatting es-mx - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-mx - SHORT_TIME 1`] = `"01:30 p.m."`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-mx - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-mx - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15160,6 +15632,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-ni - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ni - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-ni - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-ni - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ni - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -15223,6 +15697,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-pa - S
 exports[`Windows Regional Formats > Regional settings based formatting es-pa - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pa - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-pa - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pa - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15288,6 +15764,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-pe - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pe - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-pe - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-pe - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pe - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -15351,6 +15829,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-pr - S
 exports[`Windows Regional Formats > Regional settings based formatting es-pr - SHORT_DATE_WITH_YEAR 1`] = `"01/15/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pr - SHORT_TIME 1`] = `"1:30 p. m."`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-pr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-pr - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15416,6 +15896,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-py - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-py - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-py - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-py - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-py - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 13:30:45"`;
@@ -15479,6 +15961,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-sv - S
 exports[`Windows Regional Formats > Regional settings based formatting es-sv - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-sv - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-sv - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-sv - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15544,6 +16028,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-us - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-us - SHORT_TIME 1`] = `"1:30 p.m."`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-us - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-us - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-us - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p.m."`;
@@ -15607,6 +16093,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-uy - S
 exports[`Windows Regional Formats > Regional settings based formatting es-uy - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-uy - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting es-uy - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-uy - SHORT_WEEKDAY 1`] = `"mié"`;
 
@@ -15672,6 +16160,8 @@ exports[`Windows Regional Formats > Regional settings based formatting es-ve - S
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ve - SHORT_TIME 1`] = `"1:30 p. m."`;
 
+exports[`Windows Regional Formats > Regional settings based formatting es-ve - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting es-ve - SHORT_WEEKDAY 1`] = `"mié"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting es-ve - SHORT_WEEKDAY_LONG_TIME 1`] = `"mié, 1:30:45 p. m."`;
@@ -15736,6 +16226,8 @@ exports[`Windows Regional Formats > Regional settings based formatting et-ee - S
 
 exports[`Windows Regional Formats > Regional settings based formatting et-ee - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting et-ee - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting et-ee - SHORT_WEEKDAY 1`] = `"K"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting et-ee - SHORT_WEEKDAY_LONG_TIME 1`] = `"K, 13:30:45"`;
@@ -15778,7 +16270,7 @@ exports[`Windows Regional Formats > Regional settings based formatting fi-fi - M
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik., 13.30"`;
+exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1., 13.30"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
@@ -15799,6 +16291,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fi-fi - S
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - SHORT_TIME 1`] = `"13.30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting fi-fi - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - SHORT_WEEKDAY 1`] = `"ke"`;
 
@@ -15864,6 +16358,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fil-ph - 
 
 exports[`Windows Regional Formats > Regional settings based formatting fil-ph - SHORT_TIME 1`] = `"1:30 PM"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting fil-ph - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting fil-ph - SHORT_WEEKDAY 1`] = `"Miy"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fil-ph - SHORT_WEEKDAY_LONG_TIME 1`] = `"Miy, 1:30:45 PM"`;
@@ -15927,6 +16423,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-be - S
 exports[`Windows Regional Formats > Regional settings based formatting fr-be - SHORT_DATE_WITH_YEAR 1`] = `"15-01-20"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-be - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting fr-be - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-be - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -15992,6 +16490,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-ca - S
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ca - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting fr-ca - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting fr-ca - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ca - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -16055,6 +16555,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-ch - S
 exports[`Windows Regional Formats > Regional settings based formatting fr-ch - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ch - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting fr-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ch - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -16120,6 +16622,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-fr - S
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-fr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting fr-fr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting fr-fr - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-fr - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -16183,6 +16687,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-lu - S
 exports[`Windows Regional Formats > Regional settings based formatting fr-lu - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-lu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting fr-lu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-lu - SHORT_WEEKDAY 1`] = `"mer."`;
 
@@ -16248,6 +16754,8 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-mc - S
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-mc - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting fr-mc - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting fr-mc - SHORT_WEEKDAY 1`] = `"mer."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-mc - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer., 13:30:45"`;
@@ -16311,6 +16819,8 @@ exports[`Windows Regional Formats > Regional settings based formatting gl-es - S
 exports[`Windows Regional Formats > Regional settings based formatting gl-es - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting gl-es - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting gl-es - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting gl-es - SHORT_WEEKDAY 1`] = `"mér."`;
 
@@ -16376,6 +16886,8 @@ exports[`Windows Regional Formats > Regional settings based formatting he-il - S
 
 exports[`Windows Regional Formats > Regional settings based formatting he-il - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting he-il - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting he-il - SHORT_WEEKDAY 1`] = `"יום ד׳"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting he-il - SHORT_WEEKDAY_LONG_TIME 1`] = `"יום ד׳, 13:30:45"`;
@@ -16439,6 +16951,8 @@ exports[`Windows Regional Formats > Regional settings based formatting hi-in - S
 exports[`Windows Regional Formats > Regional settings based formatting hi-in - SHORT_DATE_WITH_YEAR 1`] = `"15-01-2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hi-in - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting hi-in - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hi-in - SHORT_WEEKDAY 1`] = `"बुध"`;
 
@@ -16504,6 +17018,8 @@ exports[`Windows Regional Formats > Regional settings based formatting hr-hr - S
 
 exports[`Windows Regional Formats > Regional settings based formatting hr-hr - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting hr-hr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting hr-hr - SHORT_WEEKDAY 1`] = `"sri"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hr-hr - SHORT_WEEKDAY_LONG_TIME 1`] = `"sri, 13:30:45"`;
@@ -16567,6 +17083,8 @@ exports[`Windows Regional Formats > Regional settings based formatting hu-hu - S
 exports[`Windows Regional Formats > Regional settings based formatting hu-hu - SHORT_DATE_WITH_YEAR 1`] = `"2020. 01. 15."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hu-hu - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting hu-hu - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hu-hu - SHORT_WEEKDAY 1`] = `"Sze"`;
 
@@ -16632,6 +17150,8 @@ exports[`Windows Regional Formats > Regional settings based formatting id-id - S
 
 exports[`Windows Regional Formats > Regional settings based formatting id-id - SHORT_TIME 1`] = `"13.30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting id-id - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting id-id - SHORT_WEEKDAY 1`] = `"Rab"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting id-id - SHORT_WEEKDAY_LONG_TIME 1`] = `"Rab, 13.30.45"`;
@@ -16695,6 +17215,8 @@ exports[`Windows Regional Formats > Regional settings based formatting is-is - S
 exports[`Windows Regional Formats > Regional settings based formatting is-is - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting is-is - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting is-is - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting is-is - SHORT_WEEKDAY 1`] = `"mið."`;
 
@@ -16760,6 +17282,8 @@ exports[`Windows Regional Formats > Regional settings based formatting it-ch - S
 
 exports[`Windows Regional Formats > Regional settings based formatting it-ch - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting it-ch - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting it-ch - SHORT_WEEKDAY 1`] = `"mer"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting it-ch - SHORT_WEEKDAY_LONG_TIME 1`] = `"mer, 13:30:45"`;
@@ -16823,6 +17347,8 @@ exports[`Windows Regional Formats > Regional settings based formatting it-it - S
 exports[`Windows Regional Formats > Regional settings based formatting it-it - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting it-it - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting it-it - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting it-it - SHORT_WEEKDAY 1`] = `"mer"`;
 
@@ -16888,6 +17414,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ja-jp - S
 
 exports[`Windows Regional Formats > Regional settings based formatting ja-jp - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting ja-jp - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting ja-jp - SHORT_WEEKDAY 1`] = `"水"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ja-jp - SHORT_WEEKDAY_LONG_TIME 1`] = `"水, 13:30:45"`;
@@ -16951,6 +17479,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ka-ge - S
 exports[`Windows Regional Formats > Regional settings based formatting ka-ge - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ka-ge - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ka-ge - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ka-ge - SHORT_WEEKDAY 1`] = `"ოთხ"`;
 
@@ -17016,6 +17546,8 @@ exports[`Windows Regional Formats > Regional settings based formatting kk-kz - S
 
 exports[`Windows Regional Formats > Regional settings based formatting kk-kz - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting kk-kz - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting kk-kz - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting kk-kz - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -17079,6 +17611,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ko-kr - S
 exports[`Windows Regional Formats > Regional settings based formatting ko-kr - SHORT_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ko-kr - SHORT_TIME 1`] = `"오후 1:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ko-kr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ko-kr - SHORT_WEEKDAY 1`] = `"수"`;
 
@@ -17144,6 +17678,8 @@ exports[`Windows Regional Formats > Regional settings based formatting lt-lt - S
 
 exports[`Windows Regional Formats > Regional settings based formatting lt-lt - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting lt-lt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting lt-lt - SHORT_WEEKDAY 1`] = `"tr"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting lt-lt - SHORT_WEEKDAY_LONG_TIME 1`] = `"tr, 13:30:45"`;
@@ -17207,6 +17743,8 @@ exports[`Windows Regional Formats > Regional settings based formatting lv-lv - S
 exports[`Windows Regional Formats > Regional settings based formatting lv-lv - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting lv-lv - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting lv-lv - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting lv-lv - SHORT_WEEKDAY 1`] = `"Trešd."`;
 
@@ -17272,6 +17810,8 @@ exports[`Windows Regional Formats > Regional settings based formatting mk-mk - S
 
 exports[`Windows Regional Formats > Regional settings based formatting mk-mk - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting mk-mk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting mk-mk - SHORT_WEEKDAY 1`] = `"сре."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting mk-mk - SHORT_WEEKDAY_LONG_TIME 1`] = `"сре., 13:30:45"`;
@@ -17335,6 +17875,8 @@ exports[`Windows Regional Formats > Regional settings based formatting nb-no - S
 exports[`Windows Regional Formats > Regional settings based formatting nb-no - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nb-no - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting nb-no - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nb-no - SHORT_WEEKDAY 1`] = `"ons."`;
 
@@ -17400,6 +17942,8 @@ exports[`Windows Regional Formats > Regional settings based formatting nl-be - S
 
 exports[`Windows Regional Formats > Regional settings based formatting nl-be - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting nl-be - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting nl-be - SHORT_WEEKDAY 1`] = `"wo"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nl-be - SHORT_WEEKDAY_LONG_TIME 1`] = `"wo, 13:30:45"`;
@@ -17463,6 +18007,8 @@ exports[`Windows Regional Formats > Regional settings based formatting nl-nl - S
 exports[`Windows Regional Formats > Regional settings based formatting nl-nl - SHORT_DATE_WITH_YEAR 1`] = `"15-1-2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nl-nl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting nl-nl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nl-nl - SHORT_WEEKDAY 1`] = `"wo"`;
 
@@ -17528,6 +18074,8 @@ exports[`Windows Regional Formats > Regional settings based formatting nn-no - S
 
 exports[`Windows Regional Formats > Regional settings based formatting nn-no - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting nn-no - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting nn-no - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting nn-no - SHORT_WEEKDAY_LONG_TIME 1`] = `"ons, 13:30:45"`;
@@ -17591,6 +18139,8 @@ exports[`Windows Regional Formats > Regional settings based formatting pl-pl - S
 exports[`Windows Regional Formats > Regional settings based formatting pl-pl - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pl-pl - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting pl-pl - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pl-pl - SHORT_WEEKDAY 1`] = `"śr."`;
 
@@ -17656,6 +18206,8 @@ exports[`Windows Regional Formats > Regional settings based formatting pt-br - S
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-br - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting pt-br - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting pt-br - SHORT_WEEKDAY 1`] = `"qua."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-br - SHORT_WEEKDAY_LONG_TIME 1`] = `"qua., 13:30:45"`;
@@ -17719,6 +18271,8 @@ exports[`Windows Regional Formats > Regional settings based formatting pt-pt - S
 exports[`Windows Regional Formats > Regional settings based formatting pt-pt - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-pt - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting pt-pt - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-pt - SHORT_WEEKDAY 1`] = `"quarta"`;
 
@@ -17784,6 +18338,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ro-ro - S
 
 exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY 1`] = `"mie."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ro-ro - SHORT_WEEKDAY_LONG_TIME 1`] = `"mie., 13:30:45"`;
@@ -17847,6 +18403,8 @@ exports[`Windows Regional Formats > Regional settings based formatting ru-ru - S
 exports[`Windows Regional Formats > Regional settings based formatting ru-ru - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ru-ru - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting ru-ru - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ru-ru - SHORT_WEEKDAY 1`] = `"ср"`;
 
@@ -17912,6 +18470,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sk-sk - S
 
 exports[`Windows Regional Formats > Regional settings based formatting sk-sk - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting sk-sk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting sk-sk - SHORT_WEEKDAY 1`] = `"st"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sk-sk - SHORT_WEEKDAY_LONG_TIME 1`] = `"st, 13:30:45"`;
@@ -17975,6 +18535,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sl-si - S
 exports[`Windows Regional Formats > Regional settings based formatting sl-si - SHORT_DATE_WITH_YEAR 1`] = `"15. 01. 2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sl-si - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting sl-si - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sl-si - SHORT_WEEKDAY 1`] = `"sre."`;
 
@@ -18040,6 +18602,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sq-al - S
 
 exports[`Windows Regional Formats > Regional settings based formatting sq-al - SHORT_TIME 1`] = `"1:30 e pasdites"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting sq-al - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting sq-al - SHORT_WEEKDAY 1`] = `"mër"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sq-al - SHORT_WEEKDAY_LONG_TIME 1`] = `"mër, 1:30:45 e pasdites"`;
@@ -18103,6 +18667,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sr-latn-r
 exports[`Windows Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sr-latn-rs - SHORT_WEEKDAY 1`] = `"sre"`;
 
@@ -18168,6 +18734,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sv-fi - S
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-fi - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting sv-fi - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting sv-fi - SHORT_WEEKDAY 1`] = `"ons"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-fi - SHORT_WEEKDAY_LONG_TIME 1`] = `"ons, 13:30:45"`;
@@ -18231,6 +18799,8 @@ exports[`Windows Regional Formats > Regional settings based formatting sv-se - S
 exports[`Windows Regional Formats > Regional settings based formatting sv-se - SHORT_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-se - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting sv-se - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-se - SHORT_WEEKDAY 1`] = `"ons"`;
 
@@ -18296,6 +18866,8 @@ exports[`Windows Regional Formats > Regional settings based formatting th-th - S
 
 exports[`Windows Regional Formats > Regional settings based formatting th-th - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting th-th - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting th-th - SHORT_WEEKDAY 1`] = `"พ."`;
 
 exports[`Windows Regional Formats > Regional settings based formatting th-th - SHORT_WEEKDAY_LONG_TIME 1`] = `"พ., 13:30:45"`;
@@ -18359,6 +18931,8 @@ exports[`Windows Regional Formats > Regional settings based formatting tr-tr - S
 exports[`Windows Regional Formats > Regional settings based formatting tr-tr - SHORT_DATE_WITH_YEAR 1`] = `"15.01.2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting tr-tr - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting tr-tr - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting tr-tr - SHORT_WEEKDAY 1`] = `"Çar"`;
 
@@ -18424,6 +18998,8 @@ exports[`Windows Regional Formats > Regional settings based formatting uk-ua - S
 
 exports[`Windows Regional Formats > Regional settings based formatting uk-ua - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting uk-ua - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting uk-ua - SHORT_WEEKDAY 1`] = `"ср"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting uk-ua - SHORT_WEEKDAY_LONG_TIME 1`] = `"ср, 13:30:45"`;
@@ -18487,6 +19063,8 @@ exports[`Windows Regional Formats > Regional settings based formatting vi-vn - S
 exports[`Windows Regional Formats > Regional settings based formatting vi-vn - SHORT_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting vi-vn - SHORT_TIME 1`] = `"1:30 CH"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting vi-vn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting vi-vn - SHORT_WEEKDAY 1`] = `"Th 4"`;
 
@@ -18552,6 +19130,8 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-cn - S
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-cn - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting zh-cn - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting zh-cn - SHORT_WEEKDAY 1`] = `"周三"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-cn - SHORT_WEEKDAY_LONG_TIME 1`] = `"周三, 13:30:45"`;
@@ -18615,6 +19195,8 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-hk - S
 exports[`Windows Regional Formats > Regional settings based formatting zh-hk - SHORT_DATE_WITH_YEAR 1`] = `"15/1/2020"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-hk - SHORT_TIME 1`] = `"13:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting zh-hk - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-hk - SHORT_WEEKDAY 1`] = `"週三"`;
 
@@ -18680,6 +19262,8 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-mo - S
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-mo - SHORT_TIME 1`] = `"13:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting zh-mo - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting zh-mo - SHORT_WEEKDAY 1`] = `"週三"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-mo - SHORT_WEEKDAY_LONG_TIME 1`] = `"週三, 13:30:45"`;
@@ -18744,6 +19328,8 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-sg - S
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-sg - SHORT_TIME 1`] = `"下午 1:30"`;
 
+exports[`Windows Regional Formats > Regional settings based formatting zh-sg - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
+
 exports[`Windows Regional Formats > Regional settings based formatting zh-sg - SHORT_WEEKDAY 1`] = `"周三"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-sg - SHORT_WEEKDAY_LONG_TIME 1`] = `"周三, 下午 1:30:45"`;
@@ -18807,6 +19393,8 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-tw - S
 exports[`Windows Regional Formats > Regional settings based formatting zh-tw - SHORT_DATE_WITH_YEAR 1`] = `"2020/1/15"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-tw - SHORT_TIME 1`] = `"下午 01:30"`;
+
+exports[`Windows Regional Formats > Regional settings based formatting zh-tw - SHORT_TIME_ZONE_NAME 1`] = `"UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-tw - SHORT_WEEKDAY 1`] = `"週三"`;
 
