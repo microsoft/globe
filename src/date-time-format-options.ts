@@ -97,6 +97,8 @@ type MediumWithYear = MediumDateWithYear & MediumTime;
 
 type Medium = MediumDate & MediumTime;
 
+type MediumDateShortTimeWithTimezone = MediumDate & ShortTime & ShortTimeZoneName;
+
 type LongWeekday = Readonly<{ weekday: 'long' }>;
 
 type ShortWeekday = Readonly<{ weekday: 'short' }>;
@@ -127,7 +129,6 @@ export type DateTimeFormatOptions =
   | ShortDateTime
   | ShortDateWithShortYear
   | ShortDateLongTime
-  | ShortTimeZoneName
   | LongDate
   | LongDateWithYear
   | LongWithYearTimeZone
@@ -143,6 +144,7 @@ export type DateTimeFormatOptions =
   | MediumTime
   | MediumDate
   | MediumDateWithYear
+  | MediumDateShortTimeWithTimezone
   | MediumWithYear
   | Medium
   | MediumDateShortTime
@@ -192,7 +194,6 @@ export const SHORT_DATE_WITH_SHORT_YEAR: ShortDateWithShortYear = {
   year: '2-digit'
 };
 
-export const SHORT_TIME_ZONE_NAME: ShortTimeZoneName = { timeZoneName: 'short' };
 
 export const LONG_DATE: LongDate = { day: 'numeric', month: 'long' };
 
@@ -289,6 +290,12 @@ export const MEDIUM_DATE_SHORT_TIME: MediumDateShortTime = {
   month: 'short',
   hour: 'numeric',
   minute: 'numeric'
+};
+
+export const MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE: MediumDateShortTimeWithTimezone = {
+  ...MEDIUM_DATE,
+  ...SHORT_TIME,
+  timeZoneName: 'short'
 };
 
 export const HOUR_ONLY: HourOnly = {

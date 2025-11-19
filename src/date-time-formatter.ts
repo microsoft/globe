@@ -24,6 +24,7 @@ import {
   MEDIUM,
   MEDIUM_DATE,
   MEDIUM_DATE_SHORT_TIME,
+  MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE,
   MEDIUM_DATE_WITH_YEAR,
   MEDIUM_TIME,
   MEDIUM_WITH_YEAR,
@@ -34,7 +35,6 @@ import {
   SHORT_DATE_WITH_SHORT_YEAR,
   SHORT_DATE_WITH_YEAR,
   SHORT_TIME,
-  SHORT_TIME_ZONE_NAME,
   SHORT_WEEKDAY,
   SHORT_WEEKDAY_LONG_TIME,
   SHORT_WEEKDAY_SHORT_TIME,
@@ -147,9 +147,6 @@ export class DateTimeFormatter {
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
         return this.combineDateAndTime(d, t);
       }
-      case SHORT_TIME_ZONE_NAME: {
-        return this.formatter?.getTimeZoneName(date, format);
-      }
       case HOUR_ONLY: {
         if (!localeInfo.shortTime) {
           throw new Error(`localeInfo.shortTime was not provided!`);
@@ -210,6 +207,23 @@ export class DateTimeFormatter {
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
 
         return `${d}, ${t}`;
+      }
+      case MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE: {
+        if (!localeInfo.longDate || !localeInfo.shortTime ) {
+          throw new Error(`localeInfo.longDate or localeInfo.shortTime was not provided!`);
+        }
+
+        const d = this.formatter.dateToString(date, localeInfo.longDate);
+        const t = this.formatter.timeToString(date, localeInfo.shortTime);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.shortTime,
+          format,
+          localeInfo
+        );
+
+        return this.combineDateAndTime(d, timeWithTimeZone);
       }
       case FULL:
       case FULL_WITH_YEAR: {
