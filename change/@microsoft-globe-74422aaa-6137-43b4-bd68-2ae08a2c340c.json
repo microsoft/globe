@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "updating to specific format MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE",
+  "packageName": "@microsoft/globe",
+  "email": "mmengen@microsoft.com",
+  "dependentChangeType": "patch"
+}
