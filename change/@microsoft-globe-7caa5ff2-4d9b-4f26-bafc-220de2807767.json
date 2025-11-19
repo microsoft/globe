@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Adding MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE to datetime options",
-  "packageName": "@microsoft/globe",
-  "email": "mmengen@microsoft.com",
-  "dependentChangeType": "patch"
-}
