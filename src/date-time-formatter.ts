@@ -24,6 +24,7 @@ import {
   MEDIUM,
   MEDIUM_DATE,
   MEDIUM_DATE_SHORT_TIME,
+  MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE,
   MEDIUM_DATE_WITH_YEAR,
   MEDIUM_TIME,
   MEDIUM_WITH_YEAR,
@@ -206,6 +207,23 @@ export class DateTimeFormatter {
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
 
         return `${d}, ${t}`;
+      }
+      case MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE: {
+        if (!localeInfo.longDate || !localeInfo.shortTime ) {
+          throw new Error(`localeInfo.longDate or localeInfo.shortTime was not provided!`);
+        }
+
+        const d = this.formatter.dateToString(date, localeInfo.longDate);
+        const t = this.formatter.timeToString(date, localeInfo.shortTime);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.shortTime,
+          format,
+          localeInfo
+        );
+
+        return this.combineDateAndTime(d, timeWithTimeZone);
       }
       case FULL:
       case FULL_WITH_YEAR: {
