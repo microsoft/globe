@@ -2,6 +2,29 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Wed, 19 Nov 2025 18:38:45 GMT",
+      "version": "4.4.0",
+      "tag": "@microsoft/globe_v4.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "mmengen@microsoft.com",
+            "package": "@microsoft/globe",
+            "commit": "eefddcd46be0083deaf5771c41037d31095d38c9",
+            "comment": "Adding MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE to datetime options"
+          }
+        ],
+        "patch": [
+          {
+            "author": "ligia.e.popescu@gmail.com",
+            "package": "@microsoft/globe",
+            "commit": "e0f8edbb20d50fd5d13989072150f57b2e01a366",
+            "comment": "Refactor release pipeline to separate build and release jobs"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 06 Oct 2025 10:55:31 GMT",
       "version": "4.3.1",
       "tag": "@microsoft/globe_v4.3.1",

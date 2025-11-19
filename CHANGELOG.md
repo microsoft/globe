@@ -1,8 +1,20 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Mon, 06 Oct 2025 10:55:31 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 19 Nov 2025 18:38:45 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.4.0
+
+Wed, 19 Nov 2025 18:38:45 GMT
+
+### Minor changes
+
+- Adding MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE to datetime options (mmengen@microsoft.com)
+
+### Patches
+
+- Refactor release pipeline to separate build and release jobs (ligia.e.popescu@gmail.com)
 
 ## 4.3.1
 
