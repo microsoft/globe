@@ -2,6 +2,21 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Wed, 19 Nov 2025 18:32:31 GMT",
+      "version": "4.5.0",
+      "tag": "@microsoft/globe_v4.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "mmengen@microsoft.com",
+            "package": "@microsoft/globe",
+            "commit": "1f6e368c7b653d08e5b2aa11e8a9bd8f1d72e81a",
+            "comment": "updating to specific format MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 18 Nov 2025 22:33:18 GMT",
       "version": "4.4.0",
       "tag": "@microsoft/globe_v4.4.0",

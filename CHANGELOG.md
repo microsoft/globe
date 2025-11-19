@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Tue, 18 Nov 2025 22:33:18 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 19 Nov 2025 18:32:31 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.5.0
+
+Wed, 19 Nov 2025 18:32:31 GMT
+
+### Minor changes
+
+- updating to specific format MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE (mmengen@microsoft.com)
 
 ## 4.4.0
 
