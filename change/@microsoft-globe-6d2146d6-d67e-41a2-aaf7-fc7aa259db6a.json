@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Adding weekday to MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE and updating index file",
-  "packageName": "@microsoft/globe",
-  "email": "mmengen@microsoft.com",
-  "dependentChangeType": "patch"
-}
