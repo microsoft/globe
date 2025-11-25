@@ -213,6 +213,7 @@ export class DateTimeFormatter {
           throw new Error(`localeInfo.longDate or localeInfo.shortTime was not provided!`);
         }
 
+        const weekday = this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date);
         const d = this.formatter.dateToString(date, localeInfo.longDate);
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
         const timeWithTimeZone = this.ensureTimeZone(
@@ -223,7 +224,7 @@ export class DateTimeFormatter {
           localeInfo
         );
 
-        return this.combineDateAndTime(d, timeWithTimeZone);
+        return `${weekday}, ${this.combineDateAndTime(d, timeWithTimeZone)}`;
       }
       case FULL:
       case FULL_WITH_YEAR: {
