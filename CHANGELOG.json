@@ -2,6 +2,21 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Tue, 25 Nov 2025 18:28:41 GMT",
+      "version": "4.4.1",
+      "tag": "@microsoft/globe_v4.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "mmengen@microsoft.com",
+            "package": "@microsoft/globe",
+            "commit": "a35ceee665ca95e13fc8bebc1ade2e3156498f68",
+            "comment": "Adding weekday to MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE and updating index file"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 19 Nov 2025 18:38:45 GMT",
       "version": "4.4.0",
       "tag": "@microsoft/globe_v4.4.0",

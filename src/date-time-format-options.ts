@@ -97,8 +97,6 @@ type MediumWithYear = MediumDateWithYear & MediumTime;
 
 type Medium = MediumDate & MediumTime;
 
-type MediumDateShortTimeWithTimezone = MediumDate & ShortTime & ShortTimeZoneName;
-
 type LongWeekday = Readonly<{ weekday: 'long' }>;
 
 type ShortWeekday = Readonly<{ weekday: 'short' }>;
@@ -109,6 +107,8 @@ type LongWeekdayShortTime = LongWeekday & ShortTime;
 type LongWeekdayLongTime = LongWeekday & LongTime;
 type LongTimeWithTimeZone = LongTime & ShortTimeZoneName;
 type LongWithTimeZone = LongTime & LongDate & ShortTimeZoneName;
+
+type MediumDateShortTimeWithTimezone = LongWeekday & MediumDate & ShortTime & ShortTimeZoneName;
 
 type ShortWeekdayShortTime = ShortWeekday & ShortTime;
 type ShortWeekdayLongTime = ShortWeekday & LongTime;
@@ -293,6 +293,7 @@ export const MEDIUM_DATE_SHORT_TIME: MediumDateShortTime = {
 };
 
 export const MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE: MediumDateShortTimeWithTimezone = {
+  ...LONG_WEEKDAY,
   ...MEDIUM_DATE,
   ...SHORT_TIME,
   timeZoneName: 'short'

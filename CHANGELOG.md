@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Wed, 19 Nov 2025 18:38:45 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 25 Nov 2025 18:28:41 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.4.1
+
+Tue, 25 Nov 2025 18:28:41 GMT
+
+### Patches
+
+- Adding weekday to MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE and updating index file (mmengen@microsoft.com)
 
 ## 4.4.0
 

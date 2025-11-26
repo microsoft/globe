@@ -1,20 +1,20 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_TIME 1`] = `"٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
@@ -26,35 +26,35 @@ exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير, ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠ م UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"الأربعاء, ٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠ م UTC"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"١٥/٠١/٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"٢٠/٠٥/٤١"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥/٠١/٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠/٠٥/٤١"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥/٠١/٢٠"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠/٠٥/٤١"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME 1`] = `"٠١:٣٠ م"`;
 
@@ -64,7 +64,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting az-latn-az - FULL 1`] = `"15 yanvar 2020, çərşənbə 13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -168,7 +168,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME 1`] = `"15.01, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 януари 2020 г. 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"сряда, 15 януари 2020 г. 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_WITH_YEAR 1`] = `"15 януари 2020 г."`;
 
@@ -498,7 +498,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting da-dk - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. januar 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag, 15. januar 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_WITH_YEAR 1`] = `"15. januar 2020"`;
 
@@ -1092,7 +1092,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-ca - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 p.m."`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"January 15, 2020 1:30 p.m. UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, January 15, 2020 1:30 p.m. UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"January 15, 2020"`;
 
@@ -1158,7 +1158,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-gb - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 January 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 January 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_WITH_YEAR 1`] = `"15 January 2020"`;
 
@@ -1290,7 +1290,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting en-in - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 January 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 January 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 January 2020"`;
 
@@ -3334,7 +3334,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1., 13.30"`;
+exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik., 13.30"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"keskiviikkona 15. tammikuuta 2020 13.30 UTC"`;
 
@@ -3534,7 +3534,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janvier 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi, 15 janvier 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janvier 2020"`;
 
@@ -3996,7 +3996,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting hi-in - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 जन॰, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 जनवरी 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"बुधवार, 15 जनवरी 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 जनवरी 2020"`;
 
@@ -4062,7 +4062,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME 1`] = `"15. sij, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. siječnja 2020. 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"srijeda, 15. siječnja 2020. 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_WITH_YEAR 1`] = `"15. siječnja 2020."`;
 
@@ -4458,7 +4458,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"水曜日, 2020年1月15日 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -5316,7 +5316,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME 1`] = `"15/01, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de janeiro de 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"quarta-feira, 15 de janeiro de 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de janeiro de 2020"`;
 
@@ -5448,7 +5448,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME 1`] = `"15 янв., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 января 2020 г. 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"среда, 15 января 2020 г. 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_WITH_YEAR 1`] = `"15 января 2020 г."`;
 
@@ -5844,7 +5844,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting sv-se - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"den 15 januari 2020 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag, den 15 januari 2020 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_WITH_YEAR 1`] = `"den 15 januari 2020"`;
 
@@ -5910,7 +5910,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting th-th - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ม.ค., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 มกราคม 2563 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"วันพุธ, 15 มกราคม 2563 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_WITH_YEAR 1`] = `"15 มกราคม 2563"`;
 
@@ -6042,7 +6042,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME 1`] = `"15 січ., 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 січня 2020 р. 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"середа, 15 січня 2020 р. 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_WITH_YEAR 1`] = `"15 січня 2020 р."`;
 
@@ -6108,7 +6108,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME 1`] = `"15 thg 1, 1:30 CH"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 tháng 1 2020 1:30 CH UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Thứ Tư, 15 tháng 1 2020 1:30 CH UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_WITH_YEAR 1`] = `"15 tháng 1 2020"`;
 
@@ -6174,7 +6174,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -6240,7 +6240,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -6306,7 +6306,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -6372,7 +6372,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 下午 1:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 下午 1:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 下午 1:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -6438,7 +6438,7 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - MEDI
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 下午 01:30"`;
 
-exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 下午 01:30 UTC"`;
+exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 下午 01:30 UTC"`;
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -6468,21 +6468,21 @@ exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHOR
 
 exports[`Cldr Regional Formats > Regional settings based formatting zh-tw - SHORT_WITH_YEAR 1`] = `"2020/1/15 下午 01:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL 1`] = `"الأربعاء، ١٥ يناير في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL 1`] = `"الأربعاء، ٢٠ جمادى الأولى في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE 1`] = `"الأربعاء، ١٥ يناير"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE 1`] = `"الأربعاء، ٢٠ جمادى الأولى"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"الأربعاء، ١٥ يناير ٢٠٢٠"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"الأربعاء، ٢٠ جمادى الأولى ١٤٤١ هـ"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_TIME 1`] = `"١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_WITH_YEAR 1`] = `"الأربعاء، ١٥ يناير ٢٠٢٠ في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - FULL_WITH_YEAR 1`] = `"الأربعاء، ٢٠ جمادى الأولى ١٤٤١ هـ في ١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE 1`] = `"١٥ يناير"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE 1`] = `"٢٠ جمادى الأولى"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_TIME 1`] = `"١:٣٠:٤٥ م"`;
 
@@ -6494,35 +6494,35 @@ exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WEEKDAY
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥ يناير في ١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠ جمادى الأولى في ١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥ يناير ٢٠٢٠ في ١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ في ١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM 1`] = `"١٥ يناير، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM 1`] = `"٢٠ جمادى الأولى، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥ يناير"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠ جمادى الأولى"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"١٥ يناير، ١:٣٠ م UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"الأربعاء، ٢٠ جمادى الأولى، ١:٣٠ م UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_TIME 1`] = `"١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥ يناير ٢٠٢٠، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠ جمادى الأولى ١٤٤١ هـ، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT 1`] = `"١٥‏/١، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT 1`] = `"٢٠‏/٥، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE 1`] = `"١٥‏/١"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE 1`] = `"٢٠‏/٥"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥‏/١‏/٢٠"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠‏/٥‏/٤١ هـ"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥‏/١‏/٢٠٢٠"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠‏/٥‏/١٤٤١ هـ"`;
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_TIME 1`] = `"١:٣٠ م"`;
 
@@ -6532,7 +6532,7 @@ exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء ١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥‏/١‏/٢٠٢٠، ١:٣٠ م"`;
+exports[`Windows Regional Formats > Locale based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠‏/٥‏/١٤٤١ هـ، ١:٣٠ م"`;
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - FULL 1`] = `"15 yanvar, çərşənbə/13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -6570,7 +6570,7 @@ exports[`Windows Regional Formats > Locale based formatting az-latn-az - MEDIUM_
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - MEDIUM_DATE_SHORT_TIME 1`] = `"15 yan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting az-latn-az - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 yan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting az-latn-az - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 yan, çərşənbə, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting az-latn-az - MEDIUM_DATE_WITH_YEAR 1`] = `"15 yan 2020"`;
 
@@ -6636,7 +6636,7 @@ exports[`Windows Regional Formats > Locale based formatting bg-bg - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting bg-bg - MEDIUM_DATE_SHORT_TIME 1`] = `"15.01, 13:30 ч."`;
 
-exports[`Windows Regional Formats > Locale based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15.01, 13:30 ч. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"сряда, 15.01, 13:30 ч. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting bg-bg - MEDIUM_DATE_WITH_YEAR 1`] = `"15.01.2020 г."`;
 
@@ -6702,7 +6702,7 @@ exports[`Windows Regional Formats > Locale based formatting ca-es - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ca-es - MEDIUM_DATE_SHORT_TIME 1`] = `"15 de gen., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ca-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de gen., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ca-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"dimecres, 15 de gen., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ca-es - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de gen. del 2020"`;
 
@@ -6768,7 +6768,7 @@ exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - MED
 
 exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - MEDIUM_DATE_SHORT_TIME 1`] = `"15 de gen., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de gen., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"dimecres, 15 de gen., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ca-es-valencia - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de gen. del 2020"`;
 
@@ -6834,7 +6834,7 @@ exports[`Windows Regional Formats > Locale based formatting cs-cz - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting cs-cz - MEDIUM_DATE_SHORT_TIME 1`] = `"15. 1. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting cs-cz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. 1. 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting cs-cz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"středa 15. 1. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting cs-cz - MEDIUM_DATE_WITH_YEAR 1`] = `"15. 1. 2020"`;
 
@@ -6900,7 +6900,7 @@ exports[`Windows Regional Formats > Locale based formatting cy-gb - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting cy-gb - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Ion, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting cy-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Ion, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting cy-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Dydd Mercher, 15 Ion, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting cy-gb - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Ion 2020"`;
 
@@ -6966,7 +6966,7 @@ exports[`Windows Regional Formats > Locale based formatting da-dk - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting da-dk - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13.30"`;
 
-exports[`Windows Regional Formats > Locale based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan., 13.30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag 15. jan., 13.30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting da-dk - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan. 2020"`;
 
@@ -7032,7 +7032,7 @@ exports[`Windows Regional Formats > Locale based formatting de-at - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting de-at - MEDIUM_DATE_SHORT_TIME 1`] = `"15. Jän., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting de-at - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. Jän., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting de-at - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Mittwoch, 15. Jän., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-at - MEDIUM_DATE_WITH_YEAR 1`] = `"15. Jän. 2020"`;
 
@@ -7098,7 +7098,7 @@ exports[`Windows Regional Formats > Locale based formatting de-ch - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting de-ch - MEDIUM_DATE_SHORT_TIME 1`] = `"15. Jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting de-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. Jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting de-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Mittwoch, 15. Jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-ch - MEDIUM_DATE_WITH_YEAR 1`] = `"15. Jan. 2020"`;
 
@@ -7164,7 +7164,7 @@ exports[`Windows Regional Formats > Locale based formatting de-de - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting de-de - MEDIUM_DATE_SHORT_TIME 1`] = `"15. Jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting de-de - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. Jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting de-de - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Mittwoch, 15. Jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-de - MEDIUM_DATE_WITH_YEAR 1`] = `"15. Jan. 2020"`;
 
@@ -7230,7 +7230,7 @@ exports[`Windows Regional Formats > Locale based formatting de-li - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting de-li - MEDIUM_DATE_SHORT_TIME 1`] = `"15. Jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting de-li - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. Jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting de-li - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Mittwoch, 15. Jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-li - MEDIUM_DATE_WITH_YEAR 1`] = `"15. Jan. 2020"`;
 
@@ -7296,7 +7296,7 @@ exports[`Windows Regional Formats > Locale based formatting de-lu - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting de-lu - MEDIUM_DATE_SHORT_TIME 1`] = `"15. Jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting de-lu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. Jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting de-lu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Mittwoch, 15. Jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting de-lu - MEDIUM_DATE_WITH_YEAR 1`] = `"15. Jan. 2020"`;
 
@@ -7362,7 +7362,7 @@ exports[`Windows Regional Formats > Locale based formatting en-029 - MEDIUM_DATE
 
 exports[`Windows Regional Formats > Locale based formatting en-029 - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 PM"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-029 - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Jan 15, 1:30 PM UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-029 - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, Jan 15, 1:30 PM UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-029 - MEDIUM_DATE_WITH_YEAR 1`] = `"Jan 15, 2020"`;
 
@@ -7428,7 +7428,7 @@ exports[`Windows Regional Formats > Locale based formatting en-au - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-au - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-au - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-au - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-au - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7494,7 +7494,7 @@ exports[`Windows Regional Formats > Locale based formatting en-bz - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-bz - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-bz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-bz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-bz - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7560,7 +7560,7 @@ exports[`Windows Regional Formats > Locale based formatting en-ca - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 p.m."`;
 
-exports[`Windows Regional Formats > Locale based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Jan 15, 1:30 p.m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, Jan 15, 1:30 p.m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"Jan 15, 2020"`;
 
@@ -7594,11 +7594,11 @@ exports[`Windows Regional Formats > Locale based formatting en-gb - FULL 1`] = `
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE 1`] = `"Wednesday 15 January"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE_WITH_YEAR 1`] = `"Wednesday, 15 January 2020"`;
+exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_DATE_WITH_YEAR 1`] = `"Wednesday 15 January 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_TIME 1`] = `"13:30:45 Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_WITH_YEAR 1`] = `"Wednesday, 15 January 2020 at 13:30:45 Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-gb - FULL_WITH_YEAR 1`] = `"Wednesday 15 January 2020 at 13:30:45 Coordinated Universal Time"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - HOUR_ONLY 1`] = `"13"`;
 
@@ -7626,7 +7626,7 @@ exports[`Windows Regional Formats > Locale based formatting en-gb - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday 15 Jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-gb - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7692,7 +7692,7 @@ exports[`Windows Regional Formats > Locale based formatting en-ie - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-ie - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-ie - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7722,15 +7722,15 @@ exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting en-ie - SHORT_WITH_YEAR 1`] = `"15/1/2020, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL 1`] = `"Wednesday, 15 January at 1:30:45 pm Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL 1`] = `"Wednesday 15 January at 1:30:45 pm Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE 1`] = `"Wednesday, 15 January"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE 1`] = `"Wednesday 15 January"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE_WITH_YEAR 1`] = `"Wednesday, 15 January 2020"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_DATE_WITH_YEAR 1`] = `"Wednesday 15 January, 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - FULL_TIME 1`] = `"1:30:45 pm Coordinated Universal Time"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - FULL_WITH_YEAR 1`] = `"Wednesday, 15 January 2020 at 1:30:45 pm Coordinated Universal Time"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - FULL_WITH_YEAR 1`] = `"Wednesday 15 January, 2020 at 1:30:45 pm Coordinated Universal Time"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - HOUR_ONLY 1`] = `"1 pm"`;
 
@@ -7758,7 +7758,7 @@ exports[`Windows Regional Formats > Locale based formatting en-in - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7824,7 +7824,7 @@ exports[`Windows Regional Formats > Locale based formatting en-jm - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-jm - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-jm - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-jm - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-jm - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7890,7 +7890,7 @@ exports[`Windows Regional Formats > Locale based formatting en-my - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-my - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-my - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-my - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-my - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -7956,7 +7956,7 @@ exports[`Windows Regional Formats > Locale based formatting en-nz - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-nz - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-nz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-nz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-nz - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -8022,7 +8022,7 @@ exports[`Windows Regional Formats > Locale based formatting en-ph - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-ph - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 PM"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-ph - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Jan 15, 1:30 PM UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-ph - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, Jan 15, 1:30 PM UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-ph - MEDIUM_DATE_WITH_YEAR 1`] = `"Jan 15, 2020"`;
 
@@ -8088,7 +8088,7 @@ exports[`Windows Regional Formats > Locale based formatting en-sg - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-sg - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-sg - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -8154,7 +8154,7 @@ exports[`Windows Regional Formats > Locale based formatting en-tt - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-tt - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-tt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-tt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-tt - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -8220,7 +8220,7 @@ exports[`Windows Regional Formats > Locale based formatting en-us - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-us - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 PM"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-us - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Jan 15, 1:30 PM UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-us - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, Jan 15, 1:30 PM UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-us - MEDIUM_DATE_WITH_YEAR 1`] = `"Jan 15, 2020"`;
 
@@ -8286,7 +8286,7 @@ exports[`Windows Regional Formats > Locale based formatting en-za - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-za - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-za - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-za - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-za - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -8352,7 +8352,7 @@ exports[`Windows Regional Formats > Locale based formatting en-zw - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting en-zw - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting en-zw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting en-zw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 Jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting en-zw - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan, 2020"`;
 
@@ -8418,7 +8418,7 @@ exports[`Windows Regional Formats > Locale based formatting es-ar - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-ar - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-ar - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-ar - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ar - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de ene de 2020"`;
 
@@ -8484,7 +8484,7 @@ exports[`Windows Regional Formats > Locale based formatting es-bo - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-bo - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-bo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-bo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-bo - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -8550,7 +8550,7 @@ exports[`Windows Regional Formats > Locale based formatting es-cl - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-cl - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-cl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-cl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cl - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -8616,7 +8616,7 @@ exports[`Windows Regional Formats > Locale based formatting es-co - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-co - MEDIUM_DATE_SHORT_TIME 1`] = `"15 de ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-co - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-co - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 de ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-co - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de ene de 2020"`;
 
@@ -8682,7 +8682,7 @@ exports[`Windows Regional Formats > Locale based formatting es-cr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-cr - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-cr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-cr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-cr - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -8748,7 +8748,7 @@ exports[`Windows Regional Formats > Locale based formatting es-do - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-do - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-do - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-do - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-do - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene de 2020"`;
 
@@ -8814,7 +8814,7 @@ exports[`Windows Regional Formats > Locale based formatting es-ec - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-ec - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-ec - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-ec - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ec - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -8880,7 +8880,7 @@ exports[`Windows Regional Formats > Locale based formatting es-es - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-es - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting es-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-es - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -8946,7 +8946,7 @@ exports[`Windows Regional Formats > Locale based formatting es-gt - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-gt - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-gt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-gt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-gt - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9012,7 +9012,7 @@ exports[`Windows Regional Formats > Locale based formatting es-hn - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-hn - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-hn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-hn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-hn - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9078,7 +9078,7 @@ exports[`Windows Regional Formats > Locale based formatting es-mx - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-mx - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p.m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-mx - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p.m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-mx - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles 15 de ene, 1:30 p.m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-mx - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9144,7 +9144,7 @@ exports[`Windows Regional Formats > Locale based formatting es-ni - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-ni - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-ni - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-ni - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ni - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9210,7 +9210,7 @@ exports[`Windows Regional Formats > Locale based formatting es-pa - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-pa - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-pa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-pa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pa - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9276,7 +9276,7 @@ exports[`Windows Regional Formats > Locale based formatting es-pe - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-pe - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene., 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-pe - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene., 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-pe - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene., 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pe - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene. 2020"`;
 
@@ -9342,7 +9342,7 @@ exports[`Windows Regional Formats > Locale based formatting es-pr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-pr - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-pr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-pr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-pr - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9408,7 +9408,7 @@ exports[`Windows Regional Formats > Locale based formatting es-py - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-py - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene., 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-py - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene., 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-py - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene., 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-py - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene. 2020"`;
 
@@ -9474,7 +9474,7 @@ exports[`Windows Regional Formats > Locale based formatting es-sv - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-sv - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-sv - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-sv - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene, 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-sv - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9540,7 +9540,7 @@ exports[`Windows Regional Formats > Locale based formatting es-us - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-us - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene, 1:30 p.m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-us - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene, 1:30 p.m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-us - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 de ene, 1:30 p.m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-us - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene 2020"`;
 
@@ -9606,7 +9606,7 @@ exports[`Windows Regional Formats > Locale based formatting es-uy - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-uy - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene., 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-uy - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene., 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-uy - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene., 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-uy - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene. 2020"`;
 
@@ -9672,7 +9672,7 @@ exports[`Windows Regional Formats > Locale based formatting es-ve - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting es-ve - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ene., 1:30 p. m."`;
 
-exports[`Windows Regional Formats > Locale based formatting es-ve - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ene., 1:30 p. m. UTC"`;
+exports[`Windows Regional Formats > Locale based formatting es-ve - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miércoles, 15 ene., 1:30 p. m. UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting es-ve - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ene. 2020"`;
 
@@ -9738,7 +9738,7 @@ exports[`Windows Regional Formats > Locale based formatting et-ee - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting et-ee - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jaan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting et-ee - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jaan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting et-ee - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"kolmapäev, 15. jaan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting et-ee - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jaan 2020"`;
 
@@ -9798,19 +9798,19 @@ exports[`Windows Regional Formats > Locale based formatting fi-fi - LONG_WITH_TI
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - LONG_WITH_YEAR_TIMEZONE 1`] = `"15. tammikuuta 2020 klo 13.30.45 UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM 1`] = `"15.1. klo 13.30.45"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM 1`] = `"15. tammik. klo 13.30.45"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE 1`] = `"15.1."`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE 1`] = `"15. tammik."`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1. klo 13.30"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik. klo 13.30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15.1. klo 13.30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"keskiviikko 15. tammik. klo 13.30 UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"15. tammik. 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_TIME 1`] = `"13.30.45"`;
 
-exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_WITH_YEAR 1`] = `"15.1.2020 klo 13.30.45"`;
+exports[`Windows Regional Formats > Locale based formatting fi-fi - MEDIUM_WITH_YEAR 1`] = `"15. tammik. 2020 klo 13.30.45"`;
 
 exports[`Windows Regional Formats > Locale based formatting fi-fi - SHORT 1`] = `"15.1. klo 13.30"`;
 
@@ -9870,7 +9870,7 @@ exports[`Windows Regional Formats > Locale based formatting fil-ph - MEDIUM_DATE
 
 exports[`Windows Regional Formats > Locale based formatting fil-ph - MEDIUM_DATE_SHORT_TIME 1`] = `"Ene 15, 1:30 PM"`;
 
-exports[`Windows Regional Formats > Locale based formatting fil-ph - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Ene 15, 1:30 PM UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fil-ph - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Miyerkules, Ene 15, 1:30 PM UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fil-ph - MEDIUM_DATE_WITH_YEAR 1`] = `"Ene 15, 2020"`;
 
@@ -9936,7 +9936,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-be - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-be - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-be - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-be - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-be - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10002,7 +10002,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-ca - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13 h 30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13 h 30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13 h 30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10068,7 +10068,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-ch - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-ch - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-ch - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10134,7 +10134,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-fr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-fr - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-fr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-fr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-fr - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10200,7 +10200,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-lu - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-lu - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-lu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-lu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-lu - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10266,7 +10266,7 @@ exports[`Windows Regional Formats > Locale based formatting fr-mc - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting fr-mc - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting fr-mc - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janv., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting fr-mc - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi 15 janv., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting fr-mc - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janv. 2020"`;
 
@@ -10332,7 +10332,7 @@ exports[`Windows Regional Formats > Locale based formatting gl-es - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting gl-es - MEDIUM_DATE_SHORT_TIME 1`] = `"15 de xan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting gl-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de xan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting gl-es - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mércores, 15 de xan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting gl-es - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de xan. de 2020"`;
 
@@ -10398,7 +10398,7 @@ exports[`Windows Regional Formats > Locale based formatting he-il - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting he-il - MEDIUM_DATE_SHORT_TIME 1`] = `"15 בינו׳, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting he-il - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 בינו׳, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting he-il - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"יום רביעי, 15 בינו׳, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting he-il - MEDIUM_DATE_WITH_YEAR 1`] = `"15 בינו׳ 2020"`;
 
@@ -10464,7 +10464,7 @@ exports[`Windows Regional Formats > Locale based formatting hi-in - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting hi-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 जन॰, 1:30 pm"`;
 
-exports[`Windows Regional Formats > Locale based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 जन॰, 1:30 pm UTC"`;
+exports[`Windows Regional Formats > Locale based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"बुधवार, 15 जन॰, 1:30 pm UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting hi-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 जन॰ 2020"`;
 
@@ -10530,7 +10530,7 @@ exports[`Windows Regional Formats > Locale based formatting hr-hr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting hr-hr - MEDIUM_DATE_SHORT_TIME 1`] = `"15. sij 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. sij 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"srijeda, 15. sij 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting hr-hr - MEDIUM_DATE_WITH_YEAR 1`] = `"15. sij 2020."`;
 
@@ -10596,7 +10596,7 @@ exports[`Windows Regional Formats > Locale based formatting hu-hu - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting hu-hu - MEDIUM_DATE_SHORT_TIME 1`] = `"jan. 15. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting hu-hu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"jan. 15. 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting hu-hu - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"jan. 15., szerda 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting hu-hu - MEDIUM_DATE_WITH_YEAR 1`] = `"2020. jan. 15."`;
 
@@ -10662,7 +10662,7 @@ exports[`Windows Regional Formats > Locale based formatting id-id - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting id-id - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13.30"`;
 
-exports[`Windows Regional Formats > Locale based formatting id-id - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Jan, 13.30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting id-id - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Rabu, 15 Jan, 13.30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting id-id - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Jan 2020"`;
 
@@ -10728,7 +10728,7 @@ exports[`Windows Regional Formats > Locale based formatting is-is - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting is-is - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting is-is - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan., UTC – 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting is-is - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miðvikudagur, 15. jan., UTC – 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting is-is - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan. 2020"`;
 
@@ -10794,7 +10794,7 @@ exports[`Windows Regional Formats > Locale based formatting it-ch - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting it-ch - MEDIUM_DATE_SHORT_TIME 1`] = `"15 gen, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting it-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 gen, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting it-ch - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercoledì 15 gen, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting it-ch - MEDIUM_DATE_WITH_YEAR 1`] = `"15 gen 2020"`;
 
@@ -10860,7 +10860,7 @@ exports[`Windows Regional Formats > Locale based formatting it-it - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting it-it - MEDIUM_DATE_SHORT_TIME 1`] = `"15 gen, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting it-it - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 gen, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting it-it - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercoledì 15 gen, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting it-it - MEDIUM_DATE_WITH_YEAR 1`] = `"15 gen 2020"`;
 
@@ -10926,7 +10926,7 @@ exports[`Windows Regional Formats > Locale based formatting ja-jp - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ja-jp - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日水曜日 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ja-jp - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -10992,7 +10992,7 @@ exports[`Windows Regional Formats > Locale based formatting ka-ge - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ka-ge - MEDIUM_DATE_SHORT_TIME 1`] = `"15 იან, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ka-ge - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 იან, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ka-ge - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"ოთხშაბათი, 15 იან, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ka-ge - MEDIUM_DATE_WITH_YEAR 1`] = `"15 იან. 2020"`;
 
@@ -11058,7 +11058,7 @@ exports[`Windows Regional Formats > Locale based formatting kk-kz - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting kk-kz - MEDIUM_DATE_SHORT_TIME 1`] = `"15 қаң., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting kk-kz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 қаң., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting kk-kz - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 қаң., сәрсенбі, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting kk-kz - MEDIUM_DATE_WITH_YEAR 1`] = `"2020 ж. 15 қаң."`;
 
@@ -11124,7 +11124,7 @@ exports[`Windows Regional Formats > Locale based formatting ko-kr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ko-kr - MEDIUM_DATE_SHORT_TIME 1`] = `"1월 15일 오후 1:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ko-kr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1월 15일 오후 1:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ko-kr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1월 15일 수요일 오후 1:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ko-kr - MEDIUM_DATE_WITH_YEAR 1`] = `"2020년 1월 15일"`;
 
@@ -11190,7 +11190,7 @@ exports[`Windows Regional Formats > Locale based formatting lt-lt - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting lt-lt - MEDIUM_DATE_SHORT_TIME 1`] = `"01-15 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting lt-lt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"01-15 13:30; UTC"`;
+exports[`Windows Regional Formats > Locale based formatting lt-lt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"01-15, trečiadienis 13:30; UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting lt-lt - MEDIUM_DATE_WITH_YEAR 1`] = `"2020-01-15"`;
 
@@ -11256,7 +11256,7 @@ exports[`Windows Regional Formats > Locale based formatting lv-lv - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting lv-lv - MEDIUM_DATE_SHORT_TIME 1`] = `"15. janv. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting lv-lv - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. janv. 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting lv-lv - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"trešdiena, 15. janv. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting lv-lv - MEDIUM_DATE_WITH_YEAR 1`] = `"2020. g. 15. janv."`;
 
@@ -11290,17 +11290,17 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL 1`] = `
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE 1`] = `"среда, 15 јануари"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE_WITH_YEAR 1`] = `"среда, 15 јануари 2020 г."`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_DATE_WITH_YEAR 1`] = `"среда, 15 јануари 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_TIME 1`] = `"13:30:45 Координирано универзално време"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_WITH_YEAR 1`] = `"среда, 15 јануари 2020 г., во 13:30:45 Координирано универзално време"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - FULL_WITH_YEAR 1`] = `"среда, 15 јануари 2020, во 13:30:45 Координирано универзално време"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - HOUR_ONLY 1`] = `"13"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE 1`] = `"15 јануари"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE_WITH_YEAR 1`] = `"15 јануари 2020 г."`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_DATE_WITH_YEAR 1`] = `"15 јануари 2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_TIME 1`] = `"13:30:45"`;
 
@@ -11314,7 +11314,7 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WEEKDAY
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_TIMEZONE 1`] = `"15 јануари, во 13:30:45 UTC"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_YEAR_TIMEZONE 1`] = `"15 јануари 2020 г., во 13:30:45 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - LONG_WITH_YEAR_TIMEZONE 1`] = `"15 јануари 2020, во 13:30:45 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM 1`] = `"15 јан., во 13:30:45"`;
 
@@ -11322,7 +11322,7 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM_DATE_SHORT_TIME 1`] = `"15 јан., во 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 јан., во 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"среда, 15 јан., во 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - MEDIUM_DATE_WITH_YEAR 1`] = `"15 јан. 2020 г."`;
 
@@ -11334,13 +11334,13 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT 1`] = 
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE 1`] = `"15.1"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_LONG_TIME 1`] = `"15.1.2020 г., во 13:30:45"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_LONG_TIME 1`] = `"15.1.2020, во 13:30:45"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_TIME 1`] = `"15.1.2020 г., во 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_TIME 1`] = `"15.1.2020, во 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"15.1.20 г."`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"15.1.20"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020 г."`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_DATE_WITH_YEAR 1`] = `"15.1.2020"`;
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_TIME 1`] = `"13:30"`;
 
@@ -11350,7 +11350,7 @@ exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WEEKDAY_SHORT_TIME 1`] = `"сре. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WITH_YEAR 1`] = `"15.1.2020 г., во 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting mk-mk - SHORT_WITH_YEAR 1`] = `"15.1.2020, во 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - FULL 1`] = `"onsdag 15. januar kl. 13:30:45 koordinert universaltid"`;
 
@@ -11388,7 +11388,7 @@ exports[`Windows Regional Formats > Locale based formatting nb-no - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting nb-no - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting nb-no - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag 15. jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nb-no - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan. 2020"`;
 
@@ -11454,7 +11454,7 @@ exports[`Windows Regional Formats > Locale based formatting nl-be - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting nl-be - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting nl-be - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting nl-be - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"woensdag 15 jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nl-be - MEDIUM_DATE_WITH_YEAR 1`] = `"15 jan 2020"`;
 
@@ -11520,7 +11520,7 @@ exports[`Windows Regional Formats > Locale based formatting nl-nl - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting nl-nl - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting nl-nl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 jan, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting nl-nl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"woensdag 15 jan, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nl-nl - MEDIUM_DATE_WITH_YEAR 1`] = `"15 jan 2020"`;
 
@@ -11586,7 +11586,7 @@ exports[`Windows Regional Formats > Locale based formatting nn-no - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting nn-no - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting nn-no - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting nn-no - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag 15. jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting nn-no - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan. 2020"`;
 
@@ -11652,7 +11652,7 @@ exports[`Windows Regional Formats > Locale based formatting pl-pl - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting pl-pl - MEDIUM_DATE_SHORT_TIME 1`] = `"15 sty, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting pl-pl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 sty, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting pl-pl - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"środa, 15 sty, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting pl-pl - MEDIUM_DATE_WITH_YEAR 1`] = `"15 sty 2020"`;
 
@@ -11718,7 +11718,7 @@ exports[`Windows Regional Formats > Locale based formatting pt-br - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting pt-br - MEDIUM_DATE_SHORT_TIME 1`] = `"15 de jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting pt-br - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting pt-br - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"quarta-feira, 15 de jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting pt-br - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de jan. de 2020"`;
 
@@ -11784,7 +11784,7 @@ exports[`Windows Regional Formats > Locale based formatting pt-pt - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting pt-pt - MEDIUM_DATE_SHORT_TIME 1`] = `"15/01, 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15/01, 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"quarta-feira, 15/01, 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting pt-pt - MEDIUM_DATE_WITH_YEAR 1`] = `"15/01/2020"`;
 
@@ -11850,7 +11850,7 @@ exports[`Windows Regional Formats > Locale based formatting ro-ro - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ro-ro - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ian., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ro-ro - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ian., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ro-ro - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"miercuri, 15 ian., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ro-ro - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ian. 2020"`;
 
@@ -11916,7 +11916,7 @@ exports[`Windows Regional Formats > Locale based formatting ru-ru - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting ru-ru - MEDIUM_DATE_SHORT_TIME 1`] = `"15 янв., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 янв., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"среда, 15 янв., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting ru-ru - MEDIUM_DATE_WITH_YEAR 1`] = `"15 янв. 2020 г."`;
 
@@ -11982,7 +11982,7 @@ exports[`Windows Regional Formats > Locale based formatting sk-sk - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting sk-sk - MEDIUM_DATE_SHORT_TIME 1`] = `"15. 1., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting sk-sk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. 1., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sk-sk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"streda 15. 1., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sk-sk - MEDIUM_DATE_WITH_YEAR 1`] = `"15. 1. 2020"`;
 
@@ -12048,7 +12048,7 @@ exports[`Windows Regional Formats > Locale based formatting sl-si - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting sl-si - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting sl-si - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sl-si - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"sreda, 15. jan., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sl-si - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan. 2020"`;
 
@@ -12114,7 +12114,7 @@ exports[`Windows Regional Formats > Locale based formatting sq-al - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting sq-al - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan, 1:30 e pasdites"`;
 
-exports[`Windows Regional Formats > Locale based formatting sq-al - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 jan, 1:30 e pasdites, UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sq-al - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"e mërkurë, 15 jan, 1:30 e pasdites, UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sq-al - MEDIUM_DATE_WITH_YEAR 1`] = `"15 jan 2020"`;
 
@@ -12180,7 +12180,7 @@ exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - MEDIUM_
 
 exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. jan 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"sreda 15. jan 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sr-latn-rs - MEDIUM_DATE_WITH_YEAR 1`] = `"15. jan 2020."`;
 
@@ -12246,7 +12246,7 @@ exports[`Windows Regional Formats > Locale based formatting sv-fi - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting sv-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan. 13.30"`;
 
-exports[`Windows Regional Formats > Locale based formatting sv-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 jan. 13.30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sv-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag 15 jan. 13.30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sv-fi - MEDIUM_DATE_WITH_YEAR 1`] = `"15 jan. 2020"`;
 
@@ -12312,7 +12312,7 @@ exports[`Windows Regional Formats > Locale based formatting sv-se - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting sv-se - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 jan. 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag 15 jan. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting sv-se - MEDIUM_DATE_WITH_YEAR 1`] = `"15 jan. 2020"`;
 
@@ -12378,7 +12378,7 @@ exports[`Windows Regional Formats > Locale based formatting th-th - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting th-th - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ม.ค. 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 ม.ค. 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"วันพุธที่ 15 ม.ค. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting th-th - MEDIUM_DATE_WITH_YEAR 1`] = `"15 ม.ค. 2563"`;
 
@@ -12444,7 +12444,7 @@ exports[`Windows Regional Formats > Locale based formatting tr-tr - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Oca 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting tr-tr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Oca 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting tr-tr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 Oca Çarşamba 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - MEDIUM_DATE_WITH_YEAR 1`] = `"15 Oca 2020"`;
 
@@ -12474,15 +12474,15 @@ exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting tr-tr - SHORT_WITH_YEAR 1`] = `"15.01.2020 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL 1`] = `"середа, 15 січня о 13:30:45 за всесвітнім координованим часом"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL 1`] = `"середу, 15 січня о 13:30:45 за всесвітнім координованим часом"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE 1`] = `"середа, 15 січня"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE 1`] = `"середу, 15 січня"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE_WITH_YEAR 1`] = `"середа, 15 січня 2020 р."`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_DATE_WITH_YEAR 1`] = `"середу, 15 січня 2020 р."`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_TIME 1`] = `"13:30:45 за всесвітнім координованим часом"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_WITH_YEAR 1`] = `"середа, 15 січня 2020 р. о 13:30:45 за всесвітнім координованим часом"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - FULL_WITH_YEAR 1`] = `"середу, 15 січня 2020 р. о 13:30:45 за всесвітнім координованим часом"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - HOUR_ONLY 1`] = `"13"`;
 
@@ -12496,9 +12496,9 @@ exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_TIME_WI
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY 1`] = `"середа"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_LONG_TIME 1`] = `"середа 13:30:45"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_LONG_TIME 1`] = `"середу 13:30:45"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_SHORT_TIME 1`] = `"середа 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WEEKDAY_SHORT_TIME 1`] = `"середу 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - LONG_WITH_TIMEZONE 1`] = `"15 січня о 13:30:45 UTC"`;
 
@@ -12510,7 +12510,7 @@ exports[`Windows Regional Formats > Locale based formatting uk-ua - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - MEDIUM_DATE_SHORT_TIME 1`] = `"15 січ., 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 січ., 13:30 UTC"`;
+exports[`Windows Regional Formats > Locale based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"середу, 15 січ., 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Locale based formatting uk-ua - MEDIUM_DATE_WITH_YEAR 1`] = `"15 січ. 2020 р."`;
 
@@ -12576,7 +12576,7 @@ exports[`Windows Regional Formats > Locale based formatting vi-vn - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting vi-vn - MEDIUM_DATE_SHORT_TIME 1`] = `"13:30 15 thg 1"`;
 
-exports[`Windows Regional Formats > Locale based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"13:30 UTC 15 thg 1"`;
+exports[`Windows Regional Formats > Locale based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"13:30 UTC Thứ Tư, 15 thg 1"`;
 
 exports[`Windows Regional Formats > Locale based formatting vi-vn - MEDIUM_DATE_WITH_YEAR 1`] = `"15 thg 1, 2020"`;
 
@@ -12642,7 +12642,7 @@ exports[`Windows Regional Formats > Locale based formatting zh-cn - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting zh-cn - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 13:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 UTC 13:30"`;
+exports[`Windows Regional Formats > Locale based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日星期三 UTC 13:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-cn - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -12708,7 +12708,7 @@ exports[`Windows Regional Formats > Locale based formatting zh-hk - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting zh-hk - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 下午1:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 下午1:30 [UTC]"`;
+exports[`Windows Regional Formats > Locale based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日星期三 下午1:30 [UTC]"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-hk - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -12774,7 +12774,7 @@ exports[`Windows Regional Formats > Locale based formatting zh-mo - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting zh-mo - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 下午1:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 下午1:30 [UTC]"`;
+exports[`Windows Regional Formats > Locale based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日星期三 下午1:30 [UTC]"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-mo - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -12840,7 +12840,7 @@ exports[`Windows Regional Formats > Locale based formatting zh-sg - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting zh-sg - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 下午1:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 UTC 下午1:30"`;
+exports[`Windows Regional Formats > Locale based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日星期三 UTC 下午1:30"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-sg - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -12906,7 +12906,7 @@ exports[`Windows Regional Formats > Locale based formatting zh-tw - MEDIUM_DATE 
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日 下午1:30"`;
 
-exports[`Windows Regional Formats > Locale based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 下午1:30 [UTC]"`;
+exports[`Windows Regional Formats > Locale based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"1月15日 星期三 下午1:30 [UTC]"`;
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -12936,21 +12936,21 @@ exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WEEKDA
 
 exports[`Windows Regional Formats > Locale based formatting zh-tw - SHORT_WITH_YEAR 1`] = `"2020/1/15 下午1:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_TIME 1`] = `"٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - FULL_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م التوقيت العالمي المنسق"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - HOUR_ONLY 1`] = `"١ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
@@ -12962,35 +12962,35 @@ exports[`Windows Regional Formats > Regional settings based formatting ar-sa - L
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - LONG_WITH_YEAR_TIMEZONE 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م UTC"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"١٥ يناير, ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME 1`] = `"٢٠ جمادى الأولى, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠ م UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"الأربعاء, ٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠ م UTC"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_DATE_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_TIME 1`] = `"٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"١٥/يناير/٢٠٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - MEDIUM_WITH_YEAR 1`] = `"٢٠/جمادى الأولى/١٤٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"١٥/٠١/٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE 1`] = `"٢٠/٠٥/٤١"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠:٤٥ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_LONG_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠:٤٥ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_TIME 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"١٥/٠١/٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_SHORT_YEAR 1`] = `"٢٠/٠٥/٤١"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"١٥/٠١/٢٠"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_DATE_WITH_YEAR 1`] = `"٢٠/٠٥/٤١"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_TIME 1`] = `"٠١:٣٠ م"`;
 
@@ -13000,7 +13000,7 @@ exports[`Windows Regional Formats > Regional settings based formatting ar-sa - S
 
 exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WEEKDAY_SHORT_TIME 1`] = `"الأربعاء, ٠١:٣٠ م"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"١٥/٠١/٢٠ ٠١:٣٠ م"`;
+exports[`Windows Regional Formats > Regional settings based formatting ar-sa - SHORT_WITH_YEAR 1`] = `"٢٠/٠٥/٤١ ٠١:٣٠ م"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting az-latn-az - FULL 1`] = `"15 yanvar 2020, çərşənbə 13:30:45 Koordinasiya edilmiş ümumdünya vaxtı"`;
 
@@ -13104,7 +13104,7 @@ exports[`Windows Regional Formats > Regional settings based formatting bg-bg - M
 
 exports[`Windows Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME 1`] = `"15.01, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 януари 2020 г. 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"сряда, 15 януари 2020 г. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting bg-bg - MEDIUM_DATE_WITH_YEAR 1`] = `"15 януари 2020 г."`;
 
@@ -13434,7 +13434,7 @@ exports[`Windows Regional Formats > Regional settings based formatting da-dk - M
 
 exports[`Windows Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME 1`] = `"15. jan., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. januar 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag, 15. januar 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting da-dk - MEDIUM_DATE_WITH_YEAR 1`] = `"15. januar 2020"`;
 
@@ -14028,7 +14028,7 @@ exports[`Windows Regional Formats > Regional settings based formatting en-ca - M
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"Jan 15, 1:30 p.m."`;
 
-exports[`Windows Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"January 15, 2020 1:30 p.m. UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, January 15, 2020 1:30 p.m. UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"January 15, 2020"`;
 
@@ -14094,7 +14094,7 @@ exports[`Windows Regional Formats > Regional settings based formatting en-gb - M
 
 exports[`Windows Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 January 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 January 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-gb - MEDIUM_DATE_WITH_YEAR 1`] = `"15 January 2020"`;
 
@@ -14226,7 +14226,7 @@ exports[`Windows Regional Formats > Regional settings based formatting en-in - M
 
 exports[`Windows Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 Jan, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 January 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Wednesday, 15 January 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting en-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 January 2020"`;
 
@@ -16270,7 +16270,7 @@ exports[`Windows Regional Formats > Regional settings based formatting fi-fi - M
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE 1`] = `"keskiviikkona 15. tammikuuta 2020"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15.1., 13.30"`;
+exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME 1`] = `"15. tammik., 13.30"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fi-fi - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"keskiviikkona 15. tammikuuta 2020 13.30 UTC"`;
 
@@ -16470,7 +16470,7 @@ exports[`Windows Regional Formats > Regional settings based formatting fr-ca - M
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME 1`] = `"15 janv., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 janvier 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"mercredi, 15 janvier 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting fr-ca - MEDIUM_DATE_WITH_YEAR 1`] = `"15 janvier 2020"`;
 
@@ -16932,7 +16932,7 @@ exports[`Windows Regional Formats > Regional settings based formatting hi-in - M
 
 exports[`Windows Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME 1`] = `"15 जन॰, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 जनवरी 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"बुधवार, 15 जनवरी 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hi-in - MEDIUM_DATE_WITH_YEAR 1`] = `"15 जनवरी 2020"`;
 
@@ -16998,7 +16998,7 @@ exports[`Windows Regional Formats > Regional settings based formatting hr-hr - M
 
 exports[`Windows Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME 1`] = `"15. sij, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15. siječnja 2020. 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"srijeda, 15. siječnja 2020. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting hr-hr - MEDIUM_DATE_WITH_YEAR 1`] = `"15. siječnja 2020."`;
 
@@ -17394,7 +17394,7 @@ exports[`Windows Regional Formats > Regional settings based formatting ja-jp - M
 
 exports[`Windows Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"水曜日, 2020年1月15日 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ja-jp - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -18252,7 +18252,7 @@ exports[`Windows Regional Formats > Regional settings based formatting pt-pt - M
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME 1`] = `"15/01, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 de janeiro de 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"quarta-feira, 15 de janeiro de 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting pt-pt - MEDIUM_DATE_WITH_YEAR 1`] = `"15 de janeiro de 2020"`;
 
@@ -18384,7 +18384,7 @@ exports[`Windows Regional Formats > Regional settings based formatting ru-ru - M
 
 exports[`Windows Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME 1`] = `"15 янв., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 января 2020 г. 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"среда, 15 января 2020 г. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting ru-ru - MEDIUM_DATE_WITH_YEAR 1`] = `"15 января 2020 г."`;
 
@@ -18780,7 +18780,7 @@ exports[`Windows Regional Formats > Regional settings based formatting sv-se - M
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME 1`] = `"15 jan., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"den 15 januari 2020 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"onsdag, den 15 januari 2020 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting sv-se - MEDIUM_DATE_WITH_YEAR 1`] = `"den 15 januari 2020"`;
 
@@ -18846,7 +18846,7 @@ exports[`Windows Regional Formats > Regional settings based formatting th-th - M
 
 exports[`Windows Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME 1`] = `"15 ม.ค., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 มกราคม 2563 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"วันพุธ, 15 มกราคม 2563 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting th-th - MEDIUM_DATE_WITH_YEAR 1`] = `"15 มกราคม 2563"`;
 
@@ -18978,7 +18978,7 @@ exports[`Windows Regional Formats > Regional settings based formatting uk-ua - M
 
 exports[`Windows Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME 1`] = `"15 січ., 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 січня 2020 р. 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"середа, 15 січня 2020 р. 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting uk-ua - MEDIUM_DATE_WITH_YEAR 1`] = `"15 січня 2020 р."`;
 
@@ -19044,7 +19044,7 @@ exports[`Windows Regional Formats > Regional settings based formatting vi-vn - M
 
 exports[`Windows Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME 1`] = `"15 thg 1, 1:30 CH"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"15 tháng 1 2020 1:30 CH UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"Thứ Tư, 15 tháng 1 2020 1:30 CH UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting vi-vn - MEDIUM_DATE_WITH_YEAR 1`] = `"15 tháng 1 2020"`;
 
@@ -19110,7 +19110,7 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-cn - M
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-cn - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -19176,7 +19176,7 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-hk - M
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-hk - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -19242,7 +19242,7 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-mo - M
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 13:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 13:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 13:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-mo - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -19308,7 +19308,7 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-sg - M
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 下午 1:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 下午 1:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 下午 1:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-sg - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
@@ -19374,7 +19374,7 @@ exports[`Windows Regional Formats > Regional settings based formatting zh-tw - M
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME 1`] = `"1月15日, 下午 01:30"`;
 
-exports[`Windows Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"2020年1月15日 下午 01:30 UTC"`;
+exports[`Windows Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE 1`] = `"星期三, 2020年1月15日 下午 01:30 UTC"`;
 
 exports[`Windows Regional Formats > Regional settings based formatting zh-tw - MEDIUM_DATE_WITH_YEAR 1`] = `"2020年1月15日"`;
 
