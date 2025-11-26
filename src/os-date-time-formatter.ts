@@ -110,6 +110,29 @@ export class OsDateTimeFormatter {
     return false;
   }
 
+  public dateHasWeekday(mask: string): boolean {
+    const format = this.getFormat(mask, this.dateTranslationMap);
+    if (format.intlOptions.weekday) {
+      return true;
+    }
+    for (let i = 0; i < format.parts.length; i++) {
+      const part = format.parts[i];
+      if (typeof part !== 'string' && part.intlOptionsOverride?.weekday) {
+          return true;
+      }
+    }
+    return false;
+  }
+
+  public getWeekdayName(date: number | Date, formatOptions: Intl.DateTimeFormatOptions) {
+    const format = {
+      intlOptions: { weekday: formatOptions.weekday },
+      parts: [
+        { replacePart: 'weekday' } as IReplacePart
+      ]};
+    return this.applyFormat(format, date);
+  }
+
   public getTimeZoneName(date: number | Date, formatOptions: Intl.DateTimeFormatOptions) {
     const format = {
       intlOptions: { timeZoneName: formatOptions.timeZoneName },

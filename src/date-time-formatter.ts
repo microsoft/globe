@@ -223,8 +223,14 @@ export class DateTimeFormatter {
           format,
           localeInfo
         );
+        const dateWithWeekDay = this.ensureWeekday(
+          d,
+          date,
+          localeInfo.longDate,
+          format
+        );
 
-        return `${weekday}, ${this.combineDateAndTime(d, timeWithTimeZone)}`;
+        return this.combineDateAndTime(dateWithWeekDay, timeWithTimeZone);
       }
       case FULL:
       case FULL_WITH_YEAR: {
@@ -362,5 +368,19 @@ export class DateTimeFormatter {
 
     const timeZoneName = this.formatter?.getTimeZoneName(date, format);
     return `${time} ${timeZoneName}`;
+  }
+
+  private ensureWeekday(
+    dateStr: string,
+    date: number | Date,
+    mask: string,
+    format: Intl.DateTimeFormatOptions,
+  ) {
+    if (this.formatter?.dateHasWeekday(mask)) {
+      return dateStr;
+    }
+
+    const weekday = this.formatter?.getWeekdayName(date, format);
+    return `${weekday}, ${dateStr}`;
   }
 }
