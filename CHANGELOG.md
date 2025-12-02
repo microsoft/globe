@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Tue, 25 Nov 2025 18:28:41 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 02 Dec 2025 18:44:44 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.5.0
+
+Tue, 02 Dec 2025 18:44:44 GMT
+
+### Minor changes
+
+- Shortening weekday and month for datetime option (mmengen@microsoft.com)
 
 ## 4.4.1
 
