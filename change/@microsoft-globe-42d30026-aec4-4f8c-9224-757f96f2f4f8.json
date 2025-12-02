@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Shortening weekday and month for datetime option",
+  "packageName": "@microsoft/globe",
+  "email": "mmengen@microsoft.com",
+  "dependentChangeType": "patch"
+}
