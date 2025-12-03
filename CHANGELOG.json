@@ -2,6 +2,21 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Tue, 02 Dec 2025 18:44:44 GMT",
+      "version": "4.5.0",
+      "tag": "@microsoft/globe_v4.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "mmengen@microsoft.com",
+            "package": "@microsoft/globe",
+            "commit": "717264d5f9b33fd59a9f76e898577cb6aec92e20",
+            "comment": "Shortening weekday and month for datetime option"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 25 Nov 2025 18:28:41 GMT",
       "version": "4.4.1",
       "tag": "@microsoft/globe_v4.4.1",

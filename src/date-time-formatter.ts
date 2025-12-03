@@ -209,12 +209,12 @@ export class DateTimeFormatter {
         return `${d}, ${t}`;
       }
       case MEDIUM_DATE_SHORT_TIME_WITH_TIMEZONE: {
-        if (!localeInfo.longDate || !localeInfo.shortTime ) {
-          throw new Error(`localeInfo.longDate or localeInfo.shortTime was not provided!`);
+        if (!localeInfo.shortTime) {
+          throw new Error(`localeInfo.shortTime was not provided!`);
         }
 
-        const weekday = this.cachedDateTimeFormat.get(loc, LONG_WEEKDAY).format(date);
-        const d = this.formatter.dateToString(date, localeInfo.longDate);
+        const weekday = this.cachedDateTimeFormat.get(loc, SHORT_WEEKDAY).format(date);
+        const d = this.cachedDateTimeFormat.get(loc, MEDIUM_DATE).format(date);
         const t = this.formatter.timeToString(date, localeInfo.shortTime);
         const timeWithTimeZone = this.ensureTimeZone(
           t,
@@ -223,14 +223,8 @@ export class DateTimeFormatter {
           format,
           localeInfo
         );
-        const dateWithWeekDay = this.ensureWeekday(
-          d,
-          date,
-          localeInfo.longDate,
-          format
-        );
 
-        return this.combineDateAndTime(dateWithWeekDay, timeWithTimeZone);
+        return `${weekday}, ${d}, ${timeWithTimeZone}`;
       }
       case FULL:
       case FULL_WITH_YEAR: {
@@ -368,19 +362,5 @@ export class DateTimeFormatter {
 
     const timeZoneName = this.formatter?.getTimeZoneName(date, format);
     return `${time} ${timeZoneName}`;
-  }
-
-  private ensureWeekday(
-    dateStr: string,
-    date: number | Date,
-    mask: string,
-    format: Intl.DateTimeFormatOptions,
-  ) {
-    if (this.formatter?.dateHasWeekday(mask)) {
-      return dateStr;
-    }
-
-    const weekday = this.formatter?.getWeekdayName(date, format);
-    return `${weekday}, ${dateStr}`;
   }
 }
