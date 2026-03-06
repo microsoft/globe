@@ -602,4 +602,170 @@ describe("date-time-format-options", () => {
       expect(result).toBe("6/28/2020 3:40 PM");
     });
   });
+
+  describe("omitYear", () => {
+    const date = new Date(2026, 2, 6, 15, 40, 25);
+
+    const createWindowsLocaleInfo = (
+      regionalFormat: string,
+      shortDate: string
+    ): ILocaleInfo => ({
+      platform: "windows",
+      regionalFormat,
+      shortDate,
+      longDate: shortDate,
+      shortTime: "h:mm tt",
+      longTime: "h:mm:ss tt",
+    });
+
+    const formatShortDate = (
+      localeInfo: ILocaleInfo,
+      format = SHORT_DATE
+    ) => {
+      const dateTimeFormatter = new DateTimeFormatter(localeInfo);
+      return {
+        withYear: dateTimeFormatter.formatDateTime(date, format),
+        withoutYear: dateTimeFormatter.formatDateTime(date, format, { omitYear: true }),
+      };
+    };
+
+    it("omits year for en-US short date", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("en-US", "M/d/yyyy")
+      );
+      expect(formatted.withYear).toBe("3/6/2026");
+      expect(formatted.withoutYear).toBe("3/6");
+    });
+
+    it("omits year for de-DE numeric date while preserving trailing dot", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("de-DE", "d.M.yyyy")
+      );
+      expect(formatted.withYear).toBe("6.3.2026");
+      expect(formatted.withoutYear).toBe("6.3.");
+    });
+
+    it("omits year for de-DE long month date", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("de-DE", "d. MMMM yyyy")
+      );
+      expect(formatted.withYear).toBe("6. März 2026");
+      expect(formatted.withoutYear).toBe("6. März");
+    });
+
+    it("omits year for ja-JP dates with 年 suffix", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("ja-JP", "yyyy年M月d日")
+      );
+      expect(formatted.withYear).toBe("2026年3月6日");
+      expect(formatted.withoutYear).toBe("3月6日");
+    });
+
+    it("omits year for ko-KR dates with 년 suffix", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("ko-KR", "yyyy년 M월 d일")
+      );
+      expect(formatted.withYear).toBe("2026년 3월 6일");
+      expect(formatted.withoutYear).toBe("3월 6일");
+    });
+
+    it("omits year and г. suffix for ru-RU", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("ru-RU", "d MMMM yyyy 'г.'")
+      );
+      expect(formatted.withYear).toBe("6 марта 2026 г.");
+      expect(formatted.withoutYear).toBe("6 марта");
+    });
+
+    it("omits year and р. suffix for uk-UA", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("uk-UA", "d MMMM yyyy 'р.'")
+      );
+      expect(formatted.withYear).toBe("6 березня 2026 р.");
+      expect(formatted.withoutYear).toBe("6 березня");
+    });
+
+    it("omits year and gada token for lv-LV", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("lv-LV", "yyyy. 'gada' d. MMMM")
+      );
+      expect(formatted.withYear).toBe("2026. gada 6. marts");
+      expect(formatted.withoutYear).toBe("6. marts");
+    });
+
+    it("omits year when lt-LT uses 'm' token", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("lt-LT", "M/d/yyyy 'm'")
+      );
+      expect(formatted.withYear).toBe("03/06/2026 m");
+      expect(formatted.withoutYear).toBe("03/6");
+    });
+
+    it("omits year when eu-ES uses ('e')'ko' pattern", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("eu-ES", "yyyy('e')'ko' M/d")
+      );
+      expect(formatted.withYear).toBe("2026(e)ko 3/6");
+      expect(formatted.withoutYear).toBe("3/6");
+    });
+
+    it("omits year for es-ES de-construction", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("es-ES", "d 'de' MMMM 'de' yyyy")
+      );
+      expect(formatted.withYear).toBe("6 de marzo de 2026");
+      expect(formatted.withoutYear).toBe("6 de marzo");
+    });
+
+    it("omits year for fr-CH while preserving trailing dot", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("fr-CH", "d.M.yyyy")
+      );
+      expect(formatted.withYear).toBe("06.03.2026");
+      expect(formatted.withoutYear).toBe("06.03.");
+    });
+
+    it("does not omit year for WITH_YEAR OS formats", () => {
+      const formatted = formatShortDate(
+        createWindowsLocaleInfo("en-US", "M/d/yyyy"),
+        SHORT_DATE_WITH_YEAR
+      );
+      expect(formatted.withYear).toBe("3/6/2026");
+      expect(formatted.withoutYear).toBe("3/6/2026");
+    });
+
+    it("omits year in Intl path and matches no-year format", () => {
+      const dateTimeFormatter = new DateTimeFormatter("en-US");
+      const result = dateTimeFormatter.formatDateTime(
+        date,
+        SHORT_DATE_WITH_YEAR,
+        { omitYear: true }
+      );
+      expect(result).toBe(dateTimeFormatter.formatDateTime(date, SHORT_DATE));
+    });
+
+    it("keeps time-only formats unchanged when omitYear is true", () => {
+      const dateTimeFormatter = new DateTimeFormatter(
+        createWindowsLocaleInfo("en-US", "M/d/yyyy")
+      );
+      const withOmitYear = dateTimeFormatter.formatDateTime(
+        date,
+        SHORT_TIME,
+        { omitYear: true }
+      );
+      const withoutOmitYear = dateTimeFormatter.formatDateTime(date, SHORT_TIME);
+      expect(withOmitYear).toBe(withoutOmitYear);
+    });
+
+    it("keeps no-year Intl formats unchanged when omitYear is true", () => {
+      const dateTimeFormatter = new DateTimeFormatter("en-US");
+      const withOmitYear = dateTimeFormatter.formatDateTime(
+        date,
+        SHORT_DATE,
+        { omitYear: true }
+      );
+      const withoutOmitYear = dateTimeFormatter.formatDateTime(date, SHORT_DATE);
+      expect(withOmitYear).toBe(withoutOmitYear);
+    });
+  });
 });
