@@ -46,7 +46,10 @@ export {
 
 export { IElectronDateTimePart } from "./os-date-time-formatter";
 
-export { DateTimeFormatter } from "./date-time-formatter";
+export {
+  DateTimeFormatter,
+  DateTimeFormattingBehaviorOptions,
+} from "./date-time-formatter";
 
 export { SafeDateTimeFormat } from "./safe-datetimeformat";
 

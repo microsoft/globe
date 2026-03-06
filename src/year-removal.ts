@@ -60,10 +60,14 @@ function doesLocaleRequireDotAfterMonth(localeCode: string): boolean {
   );
 }
 
+function normalizeMaskWhitespace(mask: string): string {
+  return mask.replace(/\s+/g, " ").trim();
+}
+
 export function removeYearFromMask(mask: string, localeCode: string): string {
   // Locales requiring dot-after-month use a regex variant that does not strip leading dots.
   const regex = doesLocaleRequireDotAfterMonth(localeCode)
     ? NO_YEAR_REGEX
     : NO_YEAR_REGEX_REMOVE_DOT_AFTER_MONTH;
-  return mask.replace(regex, "");
+  return normalizeMaskWhitespace(mask.replace(regex, ""));
 }

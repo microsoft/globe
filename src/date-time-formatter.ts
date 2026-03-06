@@ -44,6 +44,10 @@ import { ILocaleInfo } from "./ILocaleInfo";
 import { OsDateTimeFormatter } from "./os-date-time-formatter";
 import { removeYearFromMask } from "./year-removal";
 
+export type DateTimeDisplayOptions = Readonly<{
+  omitYear?: boolean;
+}>;
+
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
   // (locale - string & options - object) and stringify is native so it is so fars it is
@@ -76,7 +80,7 @@ export class DateTimeFormatter {
   public formatDateTime(
     date: number | Date,
     format: DateTimeFormatOptions,
-    options?: { omitYear?: boolean }
+    options?: DateTimeDisplayOptions
   ) {
     const effectiveIntlOptions = this.getFormatOptions(
       format,
@@ -94,7 +98,7 @@ export class DateTimeFormatter {
     date: number | Date,
     format: DateTimeFormatOptions,
     localeInfo: ILocaleInfo,
-    options?: { omitYear?: boolean }
+    options?: DateTimeDisplayOptions
   ): string {
     if (!localeInfo) {
       throw new Error(

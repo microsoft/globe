@@ -22,7 +22,7 @@ describe("year-removal", () => {
   });
 
   it("handles long month de-DE mask", () => {
-    expect(removeYearFromMask("d. MMMM yyyy", "de-DE")).toBe("d. MMMM ");
+    expect(removeYearFromMask("d. MMMM yyyy", "de-DE")).toBe("d. MMMM");
   });
 
   it("handles Japanese year marker", () => {
@@ -30,27 +30,27 @@ describe("year-removal", () => {
   });
 
   it("handles Korean year marker", () => {
-    expect(removeYearFromMask("yyyy년 M월 d일", "ko-KR")).toBe(" M월 d일");
+    expect(removeYearFromMask("yyyy년 M월 d일", "ko-KR")).toBe("M월 d일");
   });
 
   it("handles Russian year suffix", () => {
-    expect(removeYearFromMask("d MMMM yyyy 'г.'", "ru-RU")).toBe("d MMMM  ");
+    expect(removeYearFromMask("d MMMM yyyy 'г.'", "ru-RU")).toBe("d MMMM");
   });
 
   it("handles Ukrainian year suffix", () => {
-    expect(removeYearFromMask("d MMMM yyyy 'р.'", "uk-UA")).toBe("d MMMM  ");
+    expect(removeYearFromMask("d MMMM yyyy 'р.'", "uk-UA")).toBe("d MMMM");
   });
 
   it("handles Latvian gada suffix", () => {
-    expect(removeYearFromMask("yyyy. 'gada' d. MMMM", "lv-LV")).toBe("  d. MMMM");
+    expect(removeYearFromMask("yyyy. 'gada' d. MMMM", "lv-LV")).toBe("d. MMMM");
   });
 
   it("handles Lithuanian m token", () => {
-    expect(removeYearFromMask("M/d/yyyy 'm'", "lt-LT")).toBe("M/d ");
+    expect(removeYearFromMask("M/d/yyyy 'm'", "lt-LT")).toBe("M/d");
   });
 
   it("handles Basque ('e')'ko' pattern", () => {
-    expect(removeYearFromMask("yyyy('e')'ko' M/d", "eu-ES")).toBe(" M/d");
+    expect(removeYearFromMask("yyyy('e')'ko' M/d", "eu-ES")).toBe("M/d");
   });
 
   it("handles Spanish de-construction", () => {

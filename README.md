@@ -10,7 +10,7 @@ Respects the OS date and time format configuration.
 ## Usage
 
 ```typescript
-import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter } from 'globe';
+import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter, DateTimeFormattingBehaviorOptions } from 'globe';
 
 // Instantiate the formatter
 const dateTimeFormatter = new DateTimeFormatter(locale: string | ILocaleInfo);
@@ -45,7 +45,7 @@ To format a date and time value:
 function formatDateTime(
   date: number | Date,
   format: DateTimeFormatOptions,
-  options?: { omitYear?: boolean }
+  options?: DateTimeFormattingBehaviorOptions
 ) {
   return dateTimeFormatter.formatDateTime(date, format, options);
 }
