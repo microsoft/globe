@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Add omitYear year-removal support",
-  "packageName": "@microsoft/globe",
-  "email": "ligia.e.popescu@gmail.com",
-  "dependentChangeType": "patch"
-}
