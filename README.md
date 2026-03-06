@@ -10,7 +10,7 @@ Respects the OS date and time format configuration.
 ## Usage
 
 ```typescript
-import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter } from 'globe';
+import { TimeStringFormat, DateTimeFormatOptions, DateTimeFormatter, DateTimeFormattingBehaviorOptions } from 'globe';
 
 // Instantiate the formatter
 const dateTimeFormatter = new DateTimeFormatter(locale: string | ILocaleInfo);
@@ -39,12 +39,19 @@ To format a date and time value:
  * Localize the date/time
  * @param date The date/time to localize
  * @param format The format to be used for the localization
+ * @param options Optional formatting options
  * @returns The localized date/time string
  */
-function formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
-  return dateTimeFormatter.formatDateTime(date, format);
+function formatDateTime(
+  date: number | Date,
+  format: DateTimeFormatOptions,
+  options?: DateTimeFormattingBehaviorOptions
+) {
+  return dateTimeFormatter.formatDateTime(date, format, options);
 }
 ```
+
+Set `options.omitYear` to `true` to remove the year portion while preserving locale-specific date formatting behavior.
 
 **The function throws** in case an unexpected OS date and time format string is
 provided! Most likely this will happen if you feed it the OS strings verbatim and

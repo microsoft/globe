@@ -42,6 +42,11 @@ import {
 } from "./date-time-format-options";
 import { ILocaleInfo } from "./ILocaleInfo";
 import { OsDateTimeFormatter } from "./os-date-time-formatter";
+import { removeYearFromMask } from "./year-removal";
+
+export type DateTimeDisplayOptions = Readonly<{
+  omitYear?: boolean;
+}>;
 
 export class DateTimeFormatter {
   // We're keying this using JSON.stringify because with a WeakMap we've have a key pair
@@ -69,21 +74,31 @@ export class DateTimeFormatter {
    * Localizes the date/time value
    * @param date The date/time to localize
    * @param format The format to be used for the localization
+   * @param options The options to apply during formatting
    * @returns The localized date/time string
    */
-  public formatDateTime(date: number | Date, format: DateTimeFormatOptions) {
+  public formatDateTime(
+    date: number | Date,
+    format: DateTimeFormatOptions,
+    options?: DateTimeDisplayOptions
+  ) {
+    const effectiveIntlOptions = this.getFormatOptions(
+      format,
+      options?.omitYear === true
+    );
     if (typeof this.locale === "string") {
-      const dtf = this.cachedDateTimeFormat.get(this.locale, format);
+      const dtf = this.cachedDateTimeFormat.get(this.locale, effectiveIntlOptions);
       return dtf.format(date);
     }
 
-    return this.formatOsDateTime(date, format, this.locale);
+    return this.formatOsDateTime(date, format, this.locale, options);
   }
 
   public formatOsDateTime(
     date: number | Date,
     format: DateTimeFormatOptions,
-    localeInfo: ILocaleInfo
+    localeInfo: ILocaleInfo,
+    options?: DateTimeDisplayOptions
   ): string {
     if (!localeInfo) {
       throw new Error(
@@ -106,6 +121,8 @@ export class DateTimeFormatter {
       loc = this.locale.regionalFormat;
     }
 
+    const omitYear = options?.omitYear === true;
+
     switch (format) {
       case SHORT_TIME: {
         if (!localeInfo.shortTime) {
@@ -114,7 +131,16 @@ export class DateTimeFormatter {
 
         return this.formatter.timeToString(date, localeInfo.shortTime);
       }
-      case SHORT_DATE:
+      case SHORT_DATE: {
+        if (!localeInfo.shortDate) {
+          throw new Error(`localeInfo.shortDate was not provided!`);
+        }
+
+        return this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.shortDate, loc, omitYear)
+        );
+      }
       case SHORT_DATE_WITH_SHORT_YEAR:
       case SHORT_DATE_WITH_YEAR: {
         if (!localeInfo.shortDate) {
@@ -130,13 +156,29 @@ export class DateTimeFormatter {
           );
         }
 
-        const d = this.formatter.dateToString(date, localeInfo.shortDate);
+        const d = this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.shortDate, loc, omitYear)
+        );
         const t = this.formatter.timeToString(date, localeInfo.longTime);
         return this.combineDateAndTime(d, t);
       }
       case SHORT:
-      case SHORT_WITH_YEAR:
       case SHORT_DATE_TIME: {
+        if (!localeInfo.shortDate || !localeInfo.shortTime) {
+          throw new Error(
+            `localeInfo.shortDate or localeInfo.shortTime was not provided!`
+          );
+        }
+
+        const d = this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.shortDate, loc, omitYear)
+        );
+        const t = this.formatter.timeToString(date, localeInfo.shortTime);
+        return this.combineDateAndTime(d, t);
+      }
+      case SHORT_WITH_YEAR: {
         if (!localeInfo.shortDate || !localeInfo.shortTime) {
           throw new Error(
             `localeInfo.shortDate or localeInfo.shortTime was not provided!`
@@ -186,7 +228,20 @@ export class DateTimeFormatter {
             )
           : time;
       }
-      case MEDIUM:
+      case MEDIUM: {
+        if (!localeInfo.longDate || !localeInfo.longTime) {
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
+        }
+
+        const d = this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.longDate, loc, omitYear)
+        );
+        const t = this.formatter.timeToString(date, localeInfo.longTime);
+        return this.combineDateAndTime(d, t);
+      }
       case MEDIUM_WITH_YEAR: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
           throw new Error(
@@ -226,7 +281,32 @@ export class DateTimeFormatter {
 
         return `${weekday}, ${d}, ${timeWithTimeZone}`;
       }
-      case FULL:
+      case FULL: {
+        let dateFormat = localeInfo.longDate;
+        if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
+          dateFormat = localeInfo.fullDate;
+        }
+
+        if (!dateFormat || !localeInfo.longTime) {
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
+        }
+
+        const d = this.formatter.dateToString(
+          date,
+          this.getDateMask(dateFormat, loc, omitYear)
+        );
+        const t = this.formatter.timeToString(date, localeInfo.longTime);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.longTime,
+          format,
+          localeInfo
+        );
+        return this.combineDateAndTime(d, timeWithTimeZone);
+      }
       case FULL_WITH_YEAR: {
         let dateFormat = localeInfo.longDate;
         if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
@@ -289,7 +369,16 @@ export class DateTimeFormatter {
         )}`;
       }
       case MEDIUM_DATE:
-      case LONG_DATE:
+      case LONG_DATE: {
+        if (!localeInfo.longDate) {
+          throw new Error(`localeInfo.longDate was not provided!`);
+        }
+
+        return this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.longDate, loc, omitYear)
+        );
+      }
       case MEDIUM_DATE_WITH_YEAR:
       case LONG_DATE_WITH_YEAR: {
         if (!localeInfo.longDate) {
@@ -299,7 +388,23 @@ export class DateTimeFormatter {
         return this.formatter.dateToString(date, localeInfo.longDate);
       }
 
-      case FULL_DATE:
+      case FULL_DATE: {
+        if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
+          return this.formatter.dateToString(
+            date,
+            this.getDateMask(localeInfo.fullDate, loc, omitYear)
+          );
+        }
+
+        if (!localeInfo.longDate) {
+          throw new Error(`localeInfo.longDate was not provided!`);
+        }
+
+        return this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.longDate, loc, omitYear)
+        );
+      }
       case FULL_DATE_WITH_YEAR: {
         if (localeInfo.fullDate && localeInfo.fullDate !== "UNKNOWN") {
           return this.formatter.dateToString(date, localeInfo.fullDate);
@@ -312,7 +417,27 @@ export class DateTimeFormatter {
         return this.formatter.dateToString(date, localeInfo.longDate);
       }
 
-      case LONG_WITH_TIMEZONE:
+      case LONG_WITH_TIMEZONE: {
+        if (!localeInfo.longDate || !localeInfo.longTime) {
+          throw new Error(
+            `localeInfo.longDate or localeInfo.longTime was not provided!`
+          );
+        }
+
+        const d = this.formatter.dateToString(
+          date,
+          this.getDateMask(localeInfo.longDate, loc, omitYear)
+        );
+        const t = this.formatter.timeToString(date, localeInfo.longTime);
+        const timeWithTimeZone = this.ensureTimeZone(
+          t,
+          date,
+          localeInfo.longTime,
+          format,
+          localeInfo
+        );
+        return this.combineDateAndTime(d, timeWithTimeZone);
+      }
       case LONG_WITH_YEAR_TIMEZONE: {
         if (!localeInfo.longDate || !localeInfo.longTime) {
           throw new Error(
@@ -347,6 +472,23 @@ export class DateTimeFormatter {
 
   private combineDateAndTime(date: string, time: string) {
     return `${date} ${time}`;
+  }
+
+  private getDateMask(mask: string, localeCode: string, omitYear: boolean): string {
+    return omitYear ? removeYearFromMask(mask, localeCode) : mask;
+  }
+
+  private getFormatOptions(
+    format: DateTimeFormatOptions,
+    omitYear: boolean
+  ): Intl.DateTimeFormatOptions {
+    if (!omitYear || !Object.prototype.hasOwnProperty.call(format, "year")) {
+      return format;
+    }
+
+    const formatWithoutYear: Intl.DateTimeFormatOptions = { ...format };
+    delete formatWithoutYear.year;
+    return formatWithoutYear;
   }
 
   private ensureTimeZone(

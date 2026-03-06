@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Tue, 02 Dec 2025 18:44:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 06 Mar 2026 10:25:10 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.6.0
+
+Fri, 06 Mar 2026 10:25:10 GMT
+
+### Minor changes
+
+- Add omitYear year-removal support (ligia.e.popescu@gmail.com)
 
 ## 4.5.0
 
