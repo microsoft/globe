@@ -25,7 +25,9 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = vi.fn().mockReturnValue(0);
             spy = vi.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as Date);
+                function () {
+                    return mockDate as unknown as Date;
+                } as any);
 
             const tz = getVdiTimeZoneFix();
             expect(tz).toEqual('Etc/GMT');
@@ -39,7 +41,9 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = vi.fn().mockReturnValue(13);
             spy = vi.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as Date);
+                function () {
+                    return mockDate as unknown as Date;
+                } as any);
 
             const tz = getVdiTimeZoneFix();
             expect(tz).toEqual('UTC');
@@ -53,7 +57,9 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = vi.fn().mockReturnValue(-120);
             spy = vi.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as Date);
+                function () {
+                    return mockDate as unknown as Date;
+                } as any);
 
             const tz = getVdiTimeZoneFix();
             expect(tz).toEqual('Etc/GMT-2');
@@ -68,7 +74,9 @@ describe('safe-datetimeformat', () => {
             const mockDate = new Date();
             mockDate.getTimezoneOffset = vi.fn().mockReturnValue(360);
             spy = vi.spyOn(global, 'Date').mockImplementation(
-                () => (mockDate as unknown) as Date);
+                function () {
+                    return mockDate as unknown as Date;
+                } as any);
 
             const tz = getVdiTimeZoneFix();
             expect(tz).toEqual('Etc/GMT+6');
