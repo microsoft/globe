@@ -10,7 +10,7 @@
           {
             "author": "ligia.e.popescu@gmail.com",
             "package": "@microsoft/globe",
-            "commit": "not available",
+            "commit": "1ef28da886861f618b4aef487d451f63446c9bdc",
             "comment": "Update dev dependencies (vitest 4, rollup, vite, lodash, flatted) and fix Vitest 4.x Date mocks"
           }
         ]
