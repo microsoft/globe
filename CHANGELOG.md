@@ -1,8 +1,16 @@
 # Change Log - @microsoft/globe
 
-<!-- This log was last generated on Tue, 02 Dec 2025 18:44:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 01 Jul 2026 08:06:39 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.5.1
+
+Wed, 01 Jul 2026 08:06:39 GMT
+
+### Patches
+
+- Update dev dependencies (vitest 4, rollup, vite, lodash, flatted) and fix Vitest 4.x Date mocks (ligia.e.popescu@gmail.com)
 
 ## 4.5.0
 
