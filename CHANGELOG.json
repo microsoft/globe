@@ -2,6 +2,21 @@
   "name": "@microsoft/globe",
   "entries": [
     {
+      "date": "Wed, 01 Jul 2026 08:06:39 GMT",
+      "version": "4.5.1",
+      "tag": "@microsoft/globe_v4.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "ligia.e.popescu@gmail.com",
+            "package": "@microsoft/globe",
+            "commit": "not available",
+            "comment": "Update dev dependencies (vitest 4, rollup, vite, lodash, flatted) and fix Vitest 4.x Date mocks"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 02 Dec 2025 18:44:44 GMT",
       "version": "4.5.0",
       "tag": "@microsoft/globe_v4.5.0",
