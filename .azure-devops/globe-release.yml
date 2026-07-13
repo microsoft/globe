@@ -77,11 +77,21 @@ extends:
                   EOF
 
                   # Yarn v1 fetches the exact `resolved` URLs from yarn.lock regardless of registry
-                  # config, so rewrite the locked public URLs to the feed (build copy only).
-                  sed -i 's#https://registry.yarnpkg.com/#'"${FEED}"'#g' yarn.lock
+                  # config, so rewrite every locked public URL to the feed (build copy only).
+                  sed -i \
+                    -e 's#https://registry.yarnpkg.com/#'"${FEED}"'#g' \
+                    -e 's#https://registry.npmjs.org/#'"${FEED}"'#g' \
+                    yarn.lock
 
-                  echo "Remaining public registry refs in yarn.lock (expect 0):"
-                  grep -c 'registry.yarnpkg.com\|registry.npmjs.org' yarn.lock || true
+                  # Fail the build if any public registry reference survives, so we never
+                  # proceed to install against a public feed.
+                  REMAINING=$(grep -Ec 'registry\.yarnpkg\.com|registry\.npmjs\.org' yarn.lock || true)
+                  echo "Remaining public registry refs in yarn.lock: ${REMAINING}"
+                  if [ "${REMAINING}" -ne 0 ]; then
+                    echo "##vso[task.logissue type=error]yarn.lock still references public registries after rewrite."
+                    grep -En 'registry\.yarnpkg\.com|registry\.npmjs\.org' yarn.lock
+                    exit 1
+                  fi
                 displayName: "Redirect Yarn to Azure Artifacts feed (build-time only)"
 
               # 1b. Inject feed credentials into the build-time .npmrc.
