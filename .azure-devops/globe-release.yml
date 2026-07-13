@@ -54,7 +54,43 @@ extends:
               # 1. Setup and build
               - checkout: self
                 persistCredentials: true # fix for beachball: https://github.com/microsoft/beachball/issues/674
-              - script: yarn
+
+              # 1a. Redirect package resolution to the Azure Artifacts feed for the BUILD ONLY.
+              #     globe is open-source: the committed .npmrc / yarn.lock intentionally stay on
+              #     the public registry so external `yarn install` keeps working. These files are
+              #     rewritten in the pipeline working copy only (never committed) so the build makes
+              #     zero connections to public package feeds
+              - script: |
+                  set -euo pipefail
+                  FEED="https://pkgs.dev.azure.com/DomoreexpGithub/Github_Pipelines/_packaging/github-npm-mirror/npm/registry/"
+
+                  # Build-time .npmrc pointing at the private feed (auth injected by npmAuthenticate below).
+                  cat > .npmrc <<EOF
+                  registry=${FEED}
+                  always-auth=true
+                  package-lock=false
+                  EOF
+
+                  # Build-time .yarnrc (Yarn Classic v1) pinning the same feed registry.
+                  cat > .yarnrc <<EOF
+                  registry "${FEED}"
+                  EOF
+
+                  # Yarn v1 fetches the exact `resolved` URLs from yarn.lock regardless of registry
+                  # config, so rewrite the locked public URLs to the feed (build copy only).
+                  sed -i 's#https://registry.yarnpkg.com/#'"${FEED}"'#g' yarn.lock
+
+                  echo "Remaining public registry refs in yarn.lock (expect 0):"
+                  grep -c 'registry.yarnpkg.com\|registry.npmjs.org' yarn.lock || true
+                displayName: "Redirect Yarn to Azure Artifacts feed (build-time only)"
+
+              # 1b. Inject feed credentials into the build-time .npmrc.
+              - task: npmAuthenticate@0
+                displayName: "Authenticate to Azure Artifacts feed"
+                inputs:
+                  workingFile: .npmrc
+
+              - script: yarn install --frozen-lockfile
                 displayName: "yarn"
               - script: |
                   yarn ci
