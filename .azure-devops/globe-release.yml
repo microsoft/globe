@@ -20,6 +20,9 @@ extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
 
   parameters:
+    # Keep existing policies (a CFSClean* policy alone blocks all traffic); CFSClean blocks public Yarn/npm endpoints.
+    settings:
+      networkIsolationPolicy: Permissive,CFSClean2,CFSClean
     sdl:
       sourceAnalysisPool:
         name: Azure-Pipelines-1ESPT-ExDShared
