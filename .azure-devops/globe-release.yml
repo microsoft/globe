@@ -20,11 +20,7 @@ extends:
   template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
 
   parameters:
-    # Network isolation: block connections to public package endpoints so the build
-    # resolves only from the internal Azure Artifacts feed. CFSClean blocks the public
-    # Yarn/npm endpoints (registry.yarnpkg.com, registry.npmjs.org). Permissive and
-    # CFSClean2 are the policies already applied to this pipeline and MUST be kept —
-    # specifying a CFSClean* policy alone would block ALL connections.
+    # Keep existing policies (a CFSClean* policy alone blocks all traffic); CFSClean blocks public Yarn/npm endpoints.
     settings:
       networkIsolationPolicy: Permissive,CFSClean2,CFSClean
     sdl:
